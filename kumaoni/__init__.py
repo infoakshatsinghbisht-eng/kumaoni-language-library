@@ -132,6 +132,15 @@ from kumaoni.culture import (
 )
 
 
+# Voice & Speech Synthesis
+from kumaoni.voice import (
+    KumaoniVoiceSynthesizer,
+    VoiceTranslator,
+    VoiceTranslationResult,
+    voice_translate,
+)
+
+
 def transliterate(text: str, to_script: str = "devanagari") -> str:
     """
     Universal transliterator between Latin and Devanagari scripts for Kumaoni.
@@ -211,15 +220,29 @@ class _LiteratureFacade:
         return LiteratureTreasury.get_author(author_id)
 
 
+class _VoiceFacade:
+    def translate(self, text: str, source_lang: str = "auto", method: str = "auto", generate_audio: bool = False):
+        return voice_translate(text, source_lang=source_lang, method=method, generate_audio=generate_audio)
+
+    def synthesize_wav(self, duration_seconds: float = 1.0, freq: float = 440.0):
+        return KumaoniVoiceSynthesizer.generate_pcm_wav(duration_seconds=duration_seconds, freq=freq)
+
+    def phrases(self, category=None):
+        from kumaoni.voice.engine import _voice_translator
+        return _voice_translator.get_voice_phrases(category=category)
+
+
 proverbs = _ProverbsFacade()
 riddles = _RiddlesFacade()
 phrases = _PhrasesFacade()
 festivals = _FestivalsFacade()
 literature = _LiteratureFacade()
+voice = _VoiceFacade()
 
 __all__ = [
     # Top-level functions
     "translate",
+    "voice_translate",
     "lookup",
     "search",
     "lemmatize",
@@ -268,6 +291,10 @@ __all__ = [
     "attach_case",
     "get_marker",
     "get_pronoun",
+    # Voice classes
+    "KumaoniVoiceSynthesizer",
+    "VoiceTranslator",
+    "VoiceTranslationResult",
     # Constants
     "ISO_639_3",
     "ISO_639_NAME",
@@ -290,6 +317,7 @@ __all__ = [
     "phrases",
     "festivals",
     "literature",
+    "voice",
 ]
 
 

@@ -61,6 +61,11 @@ def main():
     # riddle
     subparsers.add_parser("riddle", help="Display a traditional Kumaoni riddle (Aana)")
 
+    # voice
+    voice_parser = subparsers.add_parser("voice", help="Voice translation with phonetics, syllables, and SSML")
+    voice_parser.add_argument("text", type=str, help="Text or transcript to translate for voice")
+    voice_parser.add_argument("--source", "-s", default="auto", help="Source language (default: auto)")
+
     # transliterate
     translit_parser = subparsers.add_parser("transliterate", help="Transliterate between Devanagari and Latin")
     translit_parser.add_argument("text", type=str, help="Text to transliterate")
@@ -71,6 +76,15 @@ def main():
     if not args.command:
         parser.print_help()
         sys.exit(0)
+
+    if args.command == "voice":
+        res = kumaoni.voice.translate(args.text, source_lang=args.source, generate_audio=False)
+        print(f"\n[Voice Input ({res.source_lang})]: {res.source_text}")
+        print(f"[Kumaoni Spoken]:   {res.translated_text}")
+        print(f"[Phonetic Cadence]: {res.romanized}")
+        print(f"[Syllable Stress]:  {' · '.join(res.syllables)}")
+        print(f"[SSML Markup]:      {res.ssml}")
+        print(f"[Intent Category]:  {res.category}\n")
 
     if args.command == "translate":
         res = kumaoni.translate(args.text, source=args.source, method=args.method, api_key=args.api_key)

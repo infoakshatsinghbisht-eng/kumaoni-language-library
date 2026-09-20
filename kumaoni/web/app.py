@@ -11,6 +11,7 @@ from pathlib import Path
 
 import kumaoni
 from kumaoni.constants import Tense, Gender
+from kumaoni.voice import KumaoniVoiceSynthesizer, voice_translate
 
 STATIC_DIR = Path(__file__).parent / "static"
 
@@ -88,19 +89,37 @@ class KumaoniApiHandler(SimpleHTTPRequestHandler):
             self._send_json({"festivals": fests})
             return
 
+        elif path == "/api/voice/phrases":
+            cat = params.get("category", ["all"])[0]
+            phrases = kumaoni.voice.phrases(category=cat)
+            self._send_json({"phrases": phrases})
+            return
+
+        elif path == "/api/voice/wav":
+            dur = float(params.get("duration", ["0.8"])[0])
+            freq = float(params.get("freq", ["440.0"])[0])
+            wav_data = KumaoniVoiceSynthesizer.generate_pcm_wav(duration_seconds=dur, freq=freq)
+            self.send_response(200)
+            self.send_header("Content-Type", "audio/wav")
+            self.send_header("Content-Length", str(len(wav_data)))
+            self.send_header("Access-Control-Allow-Origin", "*")
+            self.end_headers()
+            self.wfile.write(wav_data)
+            return
+
         # Serve static HTML/JS/CSS
         super().do_GET()
 
     def do_POST(self):
         parsed = urllib.parse.urlparse(self.path)
-        if parsed.path == "/api/translate":
-            content_length = int(self.headers.get("Content-Length", 0))
-            body = self.rfile.read(content_length).decode("utf-8")
-            try:
-                data = json.loads(body)
-            except Exception:
-                data = {}
+        content_length = int(self.headers.get("Content-Length", 0))
+        body = self.rfile.read(content_length).decode("utf-8") if content_length > 0 else "{}"
+        try:
+            data = json.loads(body)
+        except Exception:
+            data = {}
 
+        if parsed.path == "/api/translate":
             text = data.get("text", "")
             source = data.get("source", "auto")
             method = data.get("method", "auto")
@@ -115,6 +134,23 @@ class KumaoniApiHandler(SimpleHTTPRequestHandler):
                 "method": res.method,
                 "confidence": res.confidence
             })
+            return
+
+        elif parsed.path == "/api/voice/translate":
+            text = data.get("text", "")
+            source = data.get("source", "auto")
+            method = data.get("method", "auto")
+            generate_audio = bool(data.get("generate_audio", False))
+            api_key = data.get("apiKey") or None
+
+            res = voice_translate(
+                text=text,
+                source_lang=source,
+                method=method,
+                generate_audio=generate_audio,
+                api_key=api_key
+            )
+            self._send_json(res.to_dict())
             return
 
         super().do_POST()
