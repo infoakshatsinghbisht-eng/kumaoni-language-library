@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kumaoni Language Library (कुमाऊँनी) | Developer Playground & Universal Translator</title>
+  <meta name="description" content="Official developer playground for the Kumaoni Python language library. Universal translation from any world language to Kumaoni, grammar conjugator, dictionary, and cultural heritage.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Noto+Sans+Devanagari:wght@400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app-background">
+    <div class="gradient-glow top-left"></div>
+    <div class="gradient-glow bottom-right"></div>
+  </div>
+
+  <header class="app-header">
+    <div class="container header-content">
+      <div class="brand">
+        <div class="brand-logo">
+          <span class="logo-symbol">🏔️</span>
+        </div>
+        <div class="brand-text">
+          <h1>Kumaoni Language Library</h1>
+          <p class="brand-tagline">कुमाऊँनी भाषा &bull; Standard Python Library for NLP, Apps &amp; Universal Translation</p>
+        </div>
+      </div>
+      <div class="header-badges">
+        <span class="badge badge-version">v1.0.0</span>
+        <span class="badge badge-standard">Python 3.8+</span>
+        <a href="#quickstart" class="btn btn-outline btn-sm">pip install kumaoni</a>
+      </div>
+    </div>
+  </header>
+
+  <nav class="app-nav">
+    <div class="container nav-tabs" role="tablist">
+      <button class="nav-tab active" id="tab-btn-translate" data-tab="translate">
+        <span class="tab-icon">🌐</span> Universal Translator
+      </button>
+      <button class="nav-tab" id="tab-btn-dictionary" data-tab="dictionary">
+        <span class="tab-icon">📖</span> Lexicon &amp; Dictionary
+      </button>
+      <button class="nav-tab" id="tab-btn-conjugator" data-tab="conjugator">
+        <span class="tab-icon">⚡</span> Verb Conjugator
+      </button>
+      <button class="nav-tab" id="tab-btn-numbers" data-tab="numbers">
+        <span class="tab-icon">🔢</span> Numbers &amp; Numerals
+      </button>
+      <button class="nav-tab" id="tab-btn-culture" data-tab="culture">
+        <span class="tab-icon">🪕</span> Culture &amp; Akhaan
+      </button>
+      <button class="nav-tab" id="tab-btn-sdk" data-tab="sdk">
+        <span class="tab-icon">💻</span> App Dev SDK
+      </button>
+    </div>
+  </nav>
+
+  <main class="container app-main">
+
+    <!-- 1. UNIVERSAL TRANSLATOR TAB -->
+    <section id="tab-translate" class="tab-pane active">
+      <div class="card glass-card">
+        <div class="card-header">
+          <div>
+            <h2>Universal Translation Engine</h2>
+            <p class="section-desc">Translate from <strong>any language in the world</strong> (French, Spanish, German, Japanese, Russian, Hindi, English, etc.) into authentic Kumaoni (कुमाऊँनी).</p>
+          </div>
+          <div class="translation-mode-selector">
+            <label for="select-method">Engine:</label>
+            <select id="select-method" class="styled-select">
+              <option value="auto">Auto (Hybrid / Rule + Pivot)</option>
+              <option value="rule_based">Rule-Based / Offline Lexicon</option>
+              <option value="pivot">Universal World Bridge (Online)</option>
+              <option value="llm">Neural AI (Gemini / OpenAI)</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="card-body translator-grid">
+          <!-- Input Box -->
+          <div class="trans-box input-box">
+            <div class="trans-box-header">
+              <label for="source-lang-select" class="box-label">Source Language:</label>
+              <select id="source-lang-select" class="lang-dropdown">
+                <option value="auto">Detect Language</option>
+                <option value="en" selected>English</option>
+                <option value="hi">Hindi (हिन्दी)</option>
+                <option value="fr">French (Français)</option>
+                <option value="es">Spanish (Español)</option>
+                <option value="de">German (Deutsch)</option>
+                <option value="ja">Japanese (日本語)</option>
+                <option value="ru">Russian (Русский)</option>
+                <option value="ar">Arabic (العربية)</option>
+                <option value="bn">Bengali (বাংলা)</option>
+                <option value="pa">Punjabi (ਪੰਜਾਬੀ)</option>
+                <option value="zh">Chinese (中文)</option>
+              </select>
+            </div>
+            <textarea id="translate-input" class="trans-textarea" placeholder="Type or paste text in any language... (e.g. 'How are you?', 'Where is the hospital?', 'Did you eat food?')" rows="5">How are you?</textarea>
+            <div class="trans-quick-pills">
+              <span class="pill-label">Try:</span>
+              <button class="pill-sample" data-text="How are you?" data-lang="en">How are you?</button>
+              <button class="pill-sample" data-text="What is your name?" data-lang="en">What is your name?</button>
+              <button class="pill-sample" data-text="आप कहाँ रहते हैं?" data-lang="hi">आप कहाँ रहते हैं?</button>
+              <button class="pill-sample" data-text="Comment allez-vous?" data-lang="fr">Comment allez-vous? (FR)</button>
+              <button class="pill-sample" data-text="¿Dónde está el agua?" data-lang="es">¿Dónde está el agua? (ES)</button>
+            </div>
+          </div>
+
+          <!-- Output Box -->
+          <div class="trans-box output-box">
+            <div class="trans-box-header">
+              <span class="box-label">Kumaoni Translation (कुमाऊँनी):</span>
+              <div class="box-actions">
+                <button id="btn-copy-kmy" class="btn-icon" title="Copy to clipboard">📋</button>
+              </div>
+            </div>
+            <div class="output-content">
+              <div id="translate-output-dev" class="kumaoni-devanagari-output">कस छू तुम?</div>
+              <div id="translate-output-roman" class="kumaoni-roman-output">Kas chou tum?</div>
+            </div>
+            <div class="output-meta">
+              <span id="output-meta-method" class="meta-tag">Method: Rule-Based</span>
+              <span id="output-meta-conf" class="meta-tag">Confidence: 95%</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-footer">
+          <button id="btn-translate" class="btn btn-primary btn-lg">
+            <span>✨ Translate to Kumaoni</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. LEXICON & DICTIONARY TAB -->
+    <section id="tab-dictionary" class="tab-pane">
+      <div class="card glass-card">
+        <div class="card-header">
+          <div>
+            <h2>Kumaoni Lexicon &amp; Dictionary</h2>
+            <p class="section-desc">Search words across Kumaoni (Devanagari / Romanized), English, and Hindi.</p>
+          </div>
+          <div class="search-bar-wrapper">
+            <input type="text" id="dict-search-input" class="styled-input" placeholder="Search word (e.g. ईजा, water, brother, घाम, horse)...">
+            <button id="btn-dict-search" class="btn btn-secondary">Search</button>
+          </div>
+        </div>
+        <div class="card-body">
+          <div class="category-filters" id="category-filters">
+            <button class="cat-chip active" data-cat="all">All</button>
+            <button class="cat-chip" data-cat="kinship">Kinship (रिश्ते)</button>
+            <button class="cat-chip" data-cat="food">Food (खान-पान)</button>
+            <button class="cat-chip" data-cat="nature">Nature (प्रकृति)</button>
+            <button class="cat-chip" data-cat="animals">Animals (जीव-जंतु)</button>
+            <button class="cat-chip" data-cat="verbs">Verbs (क्रियाएं)</button>
+            <button class="cat-chip" data-cat="time">Time &amp; Seasons</button>
+          </div>
+
+          <div id="dict-results-container" class="dictionary-grid">
+            <!-- Dynamically populated -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. VERB CONJUGATOR TAB -->
+    <section id="tab-conjugator" class="tab-pane">
+      <div class="card glass-card">
+        <div class="card-header">
+          <div>
+            <h2>Morphological Verb Conjugator</h2>
+            <p class="section-desc">Conjugates Kumaoni action verbs and the substantive auxiliary verb (छ-) across tenses, person, and gender.</p>
+          </div>
+        </div>
+        <div class="card-body conjugator-layout">
+          <div class="conj-controls">
+            <div class="form-group">
+              <label for="conj-verb-select">Select or Enter Verb:</label>
+              <select id="conj-verb-select" class="styled-select">
+                <option value="खाण">खाण (To eat)</option>
+                <option value="जाण">जाण (To go)</option>
+                <option value="औण">औण (To come)</option>
+                <option value="करन">करन (To do)</option>
+                <option value="बोलण">बोलण (To speak)</option>
+                <option value="सुणण">सुणण (To listen)</option>
+                <option value="छ-">छ- (To be - auxiliary)</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="conj-tense-select">Tense:</label>
+              <select id="conj-tense-select" class="styled-select">
+                <option value="present">Simple Present (वर्तमान)</option>
+                <option value="past">Simple Past (भूतकाल)</option>
+                <option value="future">Simple Future (भविष्यकाल)</option>
+                <option value="present_continuous">Present Continuous (अपूर्ण वर्तमान)</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="conj-person-select">Person:</label>
+              <select id="conj-person-select" class="styled-select">
+                <option value="1">1st Person (मैं / हम)</option>
+                <option value="2">2nd Person (तू / तुम)</option>
+                <option value="3" selected>3rd Person (ऊ / वो)</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="conj-gender-select">Gender:</label>
+              <select id="conj-gender-select" class="styled-select">
+                <option value="m">Masculine (पुल्लिंग)</option>
+                <option value="f">Feminine (स्त्रीलिंग)</option>
+              </select>
+            </div>
+            <button id="btn-conjugate" class="btn btn-primary">Conjugate Verb</button>
+          </div>
+
+          <div class="conj-display-card">
+            <div class="conj-result-badge">Conjugated Form</div>
+            <div id="conj-output-text" class="conj-highlight">खान्छ</div>
+            <div id="conj-example-sentence" class="conj-example">Example: ऊ भात खान्छ। (He eats food.)</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. NUMBERS & NUMERALS TAB -->
+    <section id="tab-numbers" class="tab-pane">
+      <div class="card glass-card">
+        <div class="card-header">
+          <div>
+            <h2>Kumaoni Numbers &amp; Devanagari Numerals</h2>
+            <p class="section-desc">Instantly convert integers up to billions into Kumaoni words, ordinals, and Devanagari script.</p>
+          </div>
+        </div>
+        <div class="card-body">
+          <div class="number-input-row">
+            <label for="num-input">Enter Integer:</label>
+            <input type="number" id="num-input" class="styled-input num-field" value="42" min="0" max="999999999">
+            <button id="btn-convert-num" class="btn btn-secondary">Convert</button>
+          </div>
+
+          <div class="number-results-grid">
+            <div class="stat-card">
+              <span class="stat-title">Devanagari Numerals</span>
+              <span id="num-res-dev-digits" class="stat-value">४२</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-title">Kumaoni Words (कुमाऊँनी)</span>
+              <span id="num-res-words" class="stat-value text-accent">बयालीस</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-title">Phonetic Romanized</span>
+              <span id="num-res-roman" class="stat-value">bayalees</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-title">Ordinal Form (क्रमवाचक)</span>
+              <span id="num-res-ordinal" class="stat-value">बयालीसवां</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. CULTURE & AKHAAN TAB -->
+    <section id="tab-culture" class="tab-pane">
+      <div class="culture-grid">
+        <!-- Akhaan (Proverbs) -->
+        <div class="card glass-card">
+          <div class="card-header">
+            <h3>अखाण (Traditional Kumaoni Proverbs)</h3>
+            <button id="btn-next-proverb" class="btn btn-sm btn-outline">🎲 Random Akhaan</button>
+          </div>
+          <div class="card-body">
+            <div class="proverb-box">
+              <div id="proverb-text" class="proverb-dev">गौंक जोगी जोगना, आन गौंक सिद्ध।</div>
+              <div id="proverb-roman" class="proverb-rom">Gaunk jogi jogana, aan gaunk siddh.</div>
+              <div class="proverb-details">
+                <p><strong>Meaning:</strong> <span id="proverb-meaning">Familiarity breeds contempt; people rarely honor local talent.</span></p>
+                <p><strong>Hindi Parallel:</strong> <span id="proverb-hindi">घर की मुर्गी दाल बराबर।</span></p>
+                <p><strong>English Parallel:</strong> <span id="proverb-english">A prophet is never honored in his own country.</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Aana (Riddles) -->
+        <div class="card glass-card">
+          <div class="card-header">
+            <h3>आणा (Kumaoni Riddles)</h3>
+            <button id="btn-next-riddle" class="btn btn-sm btn-outline">🎲 Next Riddle</button>
+          </div>
+          <div class="card-body">
+            <div class="riddle-box">
+              <div id="riddle-text" class="riddle-dev">लाल गाय पाथर खाए, पाणि पिबे तो मरी जाए।</div>
+              <div id="riddle-translation" class="riddle-trans">A red cow that eats wood/stones, but dies if it drinks water. What is it?</div>
+              <button id="btn-reveal-riddle" class="btn btn-sm btn-secondary mt-3">Reveal Answer</button>
+              <div id="riddle-answer-box" class="riddle-answer hidden">
+                <strong>उत्तर:</strong> <span id="riddle-answer">आग (Fire)</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. APP DEV SDK & CODE EXAMPLES -->
+    <section id="tab-sdk" class="tab-pane" id="quickstart">
+      <div class="card glass-card">
+        <div class="card-header">
+          <div>
+            <h2>Developer SDK &amp; Code Recipes</h2>
+            <p class="section-desc">Designed to be as intuitive as Python's built-in <code>math</code> library for your apps, APIs, and NLP pipelines.</p>
+          </div>
+        </div>
+        <div class="card-body">
+          <div class="code-block-wrapper">
+            <div class="code-header">
+              <span>Python 3 &bull; kumaoni_app_example.py</span>
+              <button class="btn-copy-code" data-target="code-snippet">Copy</button>
+            </div>
+            <pre><code id="code-snippet" class="code-content"><span class="code-keyword">import</span> kumaoni
+
+<span class="code-comment"># 1. Translate from any world language directly to Kumaoni</span>
+res = kumaoni.<span class="code-func">translate</span>(<span class="code-str">"Where is the hospital?"</span>, source=<span class="code-str">"en"</span>)
+<span class="code-keyword">print</span>(res)           <span class="code-comment"># Output: 'अस्पताल कतुक दूर छ?'</span>
+<span class="code-keyword">print</span>(res.romanized) <span class="code-comment"># Output: 'Aspataal katuk door chha?'</span>
+
+<span class="code-comment"># 2. Universal pivot translation from French, Spanish, Japanese, etc.</span>
+res_fr = kumaoni.<span class="code-func">translate</span>(<span class="code-str">"Comment allez-vous?"</span>, source=<span class="code-str">"fr"</span>)
+<span class="code-keyword">print</span>(res_fr)        <span class="code-comment"># Output: 'कस छू तुम?'</span>
+
+<span class="code-comment"># 3. Morphological verb conjugation</span>
+past_verb = kumaoni.<span class="code-func">conjugate</span>(<span class="code-str">"जाण"</span>, tense=<span class="code-str">"past"</span>, person=<span class="code-num">1</span>)
+<span class="code-keyword">print</span>(past_verb)     <span class="code-comment"># Output: 'ग्यूँ' (I went)</span>
+
+<span class="code-comment"># 4. Numbers to words &amp; Devanagari numerals</span>
+words = kumaoni.<span class="code-func">num_to_words</span>(<span class="code-num">108</span>)
+<span class="code-keyword">print</span>(words)         <span class="code-comment"># Output: 'एक सौ आठ'</span>
+
+<span class="code-comment"># 5. Fast dictionary search</span>
+word = kumaoni.<span class="code-func">lookup</span>(<span class="code-str">"ईजा"</span>)
+<span class="code-keyword">print</span>(f<span class="code-str">"{word.kumaoni} means {word.english} ({word.hindi})"</span>)
+<span class="code-comment"># Output: 'ईजा means mother (माँ)'</span>
+</code></pre>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="app-footer">
+    <div class="container footer-content">
+      <p>Kumaoni Language Standard Library &bull; Dedicated to the linguistic preservation and digital empowerment of Central Pahari culture.</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

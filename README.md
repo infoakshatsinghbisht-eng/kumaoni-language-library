@@ -1,0 +1,340 @@
+# Kumaoni (कुमाऊँनी) Language Library for Python
+
+[![Python Version](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://python.org)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Kumaoni Language](https://img.shields.io/badge/Language-Kumaoni%20(kfy)-emerald.svg)]()
+
+A standard-library-style Python package for the **Kumaoni language** (कुमाऊँनी / Central Pahari). Designed to be as simple, fast, and comprehensive for Kumaoni as Python's built-in `math` library is for mathematics.
+
+This library empowers developers to build **web applications, mobile apps, educational tools, chatbots**, and perform **universal translation from any language of the world into Kumaoni**.
+
+> 📖 **Full Reference Manual**: Check out [DOCUMENTATION.md](file:///c:/Users/digit_lgfi273/OneDrive/Desktop/kumaoni%20language%20library/DOCUMENTATION.md) for the exhaustive guide, complete API references, grammatical rules, and application recipes.
+
+---
+
+## 🌟 Key Features
+
+1. **Universal Multi-Language Translator**
+   - Translate from **any world language** (English, French, Spanish, German, Japanese, Russian, Arabic, Hindi, Bengali, etc.) into Kumaoni.
+   - Multi-tiered architecture: Offline rule-based engine + Zero-key universal world language bridge + Neural AI adapter (Gemini / OpenAI).
+
+2. **Morphological Verb Conjugation Engine**
+   - Automatically conjugates regular and irregular Kumaoni verbs (e.g., `खाण` to eat, `जाण` to go, `करन` to do).
+   - Handles tenses (Present, Past, Future, Continuous), person (1st, 2nd, 3rd), gender (Masculine/Feminine), and honorific forms.
+   - Auxiliary substantive verb (`छ-` / to be) conjugation.
+
+3. **Kumaoni Numbers & Numerals**
+   - Converts any integer (0 to 1,000,000,000+) to Kumaoni words in Devanagari or Romanized script.
+   - Converts Kumaoni words back to numbers.
+   - Supports ordinals (1st `पैलो`, 2nd `दुसर`, 3rd `तेसर`...), customary fractions (`आधो`, `पाव`, `पौण`, `सवा`, `डेढ़`), and Devanagari numerals (`०१२३४५६७८९`).
+
+4. **100,000+ Words Morphological Paradigm Engine & Lemmatizer**
+   - Synthesizes and indexes **300,000+ unique authenticated Kumaoni word forms** across verbal paradigms (Present, Past, Future, Continuous, Imperatives, Causatives, Participles, Agentives), nominal declensions (Direct, Plural, Oblique, Case postpositions bound/spaced, Diminutives, Echo words), and adjectival agreements.
+   - Sub-millisecond `kumaoni.lemmatize()` and `kumaoni.analyze()` for inflected surface forms.
+   - Seamless dictionary lookups: querying inflected forms like `खान्छू`, `ग्यूँ`, `ईजा कणी`, or `घरबटि` resolves directly to their base lemmas and definitions.
+
+5. **Rich Lexicon & Dictionary (1,355+ Authenticated Base Lemmas)**
+   - Search across Kumaoni, English, and Hindi.
+   - Comprehensive vocabulary sourced from Grierson's *Linguistic Survey of India (Vol. IX, Part IV)*, Badri Datt Pande's *Kumaun ka Itihas (1937)*, Edwin T. Atkinson's *Himalayan Gazetteer*, Pt. Ganga Datt Upreti's *Hill Dialects of the Kumaun Division (1900)* & *Proverbs & Folklore of Kumaun (1894)*, Dr. Trilochan Pandey's *Kumaoni Bhasha Aur Sahitya (1977)* & *Kumaoni Lok-Sahitya ki Prushthbhoomi*, Dr. Gunanand Juyal's *Madhya Pahadi Bhasha (1967)*, and Hem Pant's *Ghughuti Basuti (2022)*.
+   - Categorized by historical governance & land tenure (`बूढ़ा`, `स्याणा`, `कामीन`, `थोकदार`, `थातवान`, `खायकर`, `सिरतान`, `गूठ`, `रौत`, `सिरती`, `बैकर`, `कटक`), shamanic & sacred rituals (`जागरिया`, `डांगरिया`, `थात`, `डौँर`, `हुड़का`, `आंछरी`, `मसाण`), alpine pastoralism & high valleys (`छानि`, `खर्क`, `बुग्याल`, `शौका`, `रंग-भंग`, `झूलाघाट`, `लाप्चा`, `हुणिया`, `पिरुल`, `लिसो`), seasonal dynamics & climate (`ह्यूंद`, `रूड़ि`, `चौमास`, `बशगाल`, `शरद`, `ब्वार`, `तुसार`, `कुइड़ो`), traditional cuisine, handicrafts & textiles (`थुलमा`, `चुटका`, `पंखी`, `दन`), and traditional measurements.
+   - Phonetic Latin transliteration and Devanagari script normalization.
+
+6. **Cultural Treasury (अखाण, आणा, लोकगीत, महागाथा & साहित्य)**
+   - **45+ Authentic Proverbs (*Akhaan*)**: Sourced from Pt. Ganga Datt Upreti's foundational compilation, Badri Datt Pande, Dr. Trilochan Pandey, and living hill tradition with literal, figurative, and parallel interpretations.
+   - **75+ Authentic Conversational & Folk Phrases**: Traditional greetings, blessings (`जीरये जागि रये`), lullabies, travel advice, and everyday idioms.
+   - **20+ Traditional Riddles (*Aan / Aana*)**: Engaging folk puzzles with hints and cultural context.
+   - **6 Monumental Folk Epics & Ballads**: *Malushahi-Rajula*, *Ajuva Bafaul ki Bhad*, *Golu Devta Jagar*, *Jiya Rani ki Gatha* (The Warrior Queen of Katyur), *Veer Balak Haru Singh Heet*, and *Amar Gopichand Yogi*.
+   - **6 Canonical Folk Poems & Songs**: *Bedu Pako Baro Masa*, *Malushahi Geet*, *Nyoli Lokgeet*, *Kalyug Varnan*, *Bajyaani Ka Dhur*, and *Ghughuti Basuti* (Traditional Lullaby & Nursery Rhymes).
+   - **15+ Canonical Authors & Scholars**: Profiles and canonical works for Badri Datt Pande (*Kumaun ka Itihas*), Gumani Pant, Gaurda, Krishna Pandey (*Kalyug Varnan*), Pt. Ganga Datt Upreti (*Proverbs & Folklore*, *Hill Dialects*), Dr. Trilochan Pandey (*Kumaoni Bhasha aur Uska Sahitya*), Dr. Gunanand Juyal (*Madhya Pahadi Bhasha*), Thakur Dewan Singh Bisht (*Deewani Vinod*), Chintamani Paliwal (*Kumaun ke Samrat*), Dr. Pramila Joshi (*Bajyaani Ka Dhur*), Girish Tiwari 'Girda', Heera Singh Rana, Kabootari Devi, Mohan Upreti, and Dr. Charu Chandra Pande.
+   - **Festivals & Almanac**: Traditional festivals (*Harela*, *Phool Dei*, *Ghughutiya*, *Olgia*, *Nanda Devi*, *Saatu-Aathu*, *Bhitauli*, *Khataduva*, *Bagwal*) and Kumaoni solar calendar months and seasons.
+
+7. **Interactive Developer Playground & CLI**
+   - Built-in command line interface (`kumaoni translate`, `kumaoni lookup`, `kumaoni number`).
+   - Modern glassmorphism web playground running locally with zero dependencies.
+
+---
+
+## 🚀 Installation
+
+Install locally in development mode:
+
+```bash
+git clone https://github.com/your-username/kumaoni-language-library.git
+cd "kumaoni language library"
+pip install -e .
+```
+
+---
+
+## 📖 Quickstart Guide
+
+### 1. Universal Translation
+
+```python
+import kumaoni
+
+# Translate from English to Kumaoni
+result = kumaoni.translate("Where is the hospital?", source="en")
+print(result)            # Output: अस्पताल कतुक दूर छ?
+print(result.romanized)  # Output: Aspataal katuk door chha?
+
+# Translate from any world language (e.g., French, Spanish, Hindi)
+fr_result = kumaoni.translate("Comment allez-vous?", source="fr")
+print(fr_result)         # Output: कस छू तुम?
+
+hi_result = kumaoni.translate("मुझे पानी चाहिए।", source="hi")
+print(hi_result)         # Output: मैंकणी पाणि चाही।
+```
+
+### 2. Verb Conjugator
+
+```python
+import kumaoni
+from kumaoni.constants import Tense, Gender
+
+# Conjugate 'जाण' (to go) in the past tense for 1st person
+past_form = kumaoni.conjugate("जाण", tense=Tense.PAST, person=1, gender=Gender.MASCULINE)
+print(past_form)  # Output: 'ग्यूँ' (I went)
+
+# Conjugate 'खाण' (to eat) in the future tense
+future_form = kumaoni.conjugate("खाण", tense=Tense.FUTURE, person=1)
+print(future_form)  # Output: 'खालूँ' (I will eat)
+
+# Auxiliary verb 'to be' (छ-)
+is_form = kumaoni.conjugate_to_be(tense=Tense.PRESENT, person=3)
+print(is_form)  # Output: 'छ' (is)
+
+# Morphological Participles & Agent Nouns
+print(kumaoni.conjunctive_participle("खाण"))  # 'खाईबेर' (having eaten)
+print(kumaoni.agent_noun("गाण"))              # 'गाण्या' (singer)
+print(kumaoni.imperative("औण", polite=True))  # 'आया' (please come)
+
+# Causatives & Compound Verbs
+print(kumaoni.causative("करण", degree=1))     # 'करौण' (to make someone do)
+print(kumaoni.causative("खाण", degree=1))     # 'खिलाण' (to feed)
+print(kumaoni.compound_verb("खाण", "हाल्ण"))  # 'खाईहाल्ण' (to eat up completely)
+
+# Passive & Medio-Passive (Inability with -बटि)
+print(kumaoni.passive("करण"))                 # 'कर्यो जान्छ' (is done)
+print(kumaoni.medio_passive_inability("मैं", "हिंण")) # 'मैंबटि हिंड्यो नी जाँछ।'
+
+# SOV Sentence Builder & Conditionals
+sent = kumaoni.build_sentence(subject="राम", direct_object="भात", verb="खाण")
+print(sent)  # 'राम भात खान्छ।'
+
+cond = kumaoni.conditional("बरखा होली", "हम घर म रौला")
+print(cond)  # 'जै बरखा होली, त हम घर म रौला।'
+
+# Relative-Correlative Clauses (सम्बन्धवाचक रचना)
+print(kumaoni.relative_correlative("मेहनत करलो", "फल पालो", marker_type="who"))
+# Output: 'जो मेहनत करलो, सो फल पालो।'
+
+# Prohibitive Commands (निषेधात्मक आज्ञा - झनि)
+print(kumaoni.prohibitive("जाण", polite=True))  # 'झनि जाया' (Please do not go)
+print(kumaoni.prohibitive("रोण", polite=True))  # 'झनि रोया' (Please don't cry)
+
+# Modals: Ability, Obligation, and Desideratives
+print(kumaoni.modal_ability("मैं", "हिंण"))           # 'मैं हिंडि सकन्छू।' (I can walk)
+print(kumaoni.modal_obligation("तुम", "काम करण"))     # 'तुमकणी काम करण चाही।' (You should work)
+print(kumaoni.modal_obligation("मैं", "जाण", strong=True)) # 'मैंकणी जाण पडलो।' (I will have to go)
+print(kumaoni.modal_desiderative("मैं", "भात खाण"))  # 'मैं भात खाण चान्छू।' (I want to eat food)
+
+# Interrogative Questions (प्रश्नवाचक रचना)
+print(kumaoni.interrogative_sentence("कहाँ", subject="अस्पताल"))  # 'अस्पताल कहाँ छ?'
+print(kumaoni.interrogative_sentence("क्या", subject="तुमार नाम")) # 'तुमार नाम क्या छ?'
+```
+
+
+### 3. Numbers & Devanagari Numerals
+
+```python
+import kumaoni
+
+# Integer to Kumaoni words
+print(kumaoni.num_to_words(42))                     # 'बयालीस'
+print(kumaoni.num_to_words(108, script="latin"))     # 'ek sau aath'
+
+# Ordinals & fractions
+print(kumaoni.ordinal(1))                           # 'पैलो' (1st)
+print(kumaoni.ordinal(2))                           # 'दुसर' (2nd)
+print(kumaoni.fraction(1, 2))                       # 'आधो' (half)
+
+# Devanagari numerals
+print(kumaoni.to_devanagari_numerals(2026))         # '२०२६'
+print(kumaoni.from_devanagari_numerals("२०२६"))       # 2026
+
+# Words back to numbers
+print(kumaoni.words_to_num("बयालीस"))                 # 42
+```
+
+### 4. Dictionary & Lexicon Search
+
+```python
+import kumaoni
+
+# Exact lookup
+word = kumaoni.lookup("ईजा")
+print(f"{word.kumaoni} -> {word.english} ({word.hindi})")
+# Output: 'ईजा -> mother (माँ)'
+
+# Cross-language search
+results = kumaoni.search("water")
+for w in results:
+    print(f"{w.kumaoni} ({w.roman}): {w.english}")
+# Output: 'पाणि (paani): water'
+```
+
+### 5. Morphological Lemmatizer & Analyzer (200,000+ Words)
+
+```python
+import kumaoni
+
+# Check total synthesized and indexed full-form vocabulary
+print(kumaoni.total_word_forms())  # Output: 300,516+ words
+
+# Lemmatize inflected verb forms, case-marked nouns, or postpositions
+print(kumaoni.lemmatize("खान्छू"))    # 'खाण' (to eat)
+print(kumaoni.lemmatize("जाँला"))     # 'जाण' (to go)
+print(kumaoni.lemmatize("घरबटि"))     # 'घर' (house)
+print(kumaoni.lemmatize("ईजा कणी"))   # 'ईजा' (mother)
+
+# Deep morphological analysis (extracts tense, person, case, number, lemma)
+analyses = kumaoni.analyze("खान्छू")
+for a in analyses:
+    print(f"Lemma: {a.lemma}, POS: {a.pos}, Tense: {a.tense}, Person: {a.person}, Number: {a.number}")
+# Output: Lemma: खाण, POS: verb_finite, Tense: present, Person: 1, Number: sg
+
+# Seamless dictionary lookup on inflected words
+w = kumaoni.lookup("खान्छू")
+print(f"Resolved to: {w.kumaoni} -> {w.english}")  # Resolved to: खाण -> to eat
+```
+
+### 6. Script & Phonetics
+
+```python
+import kumaoni
+
+# Transliterate English phonetics to Devanagari
+print(kumaoni.transliterate("Jai Dev, dajyu kas chou?", to_script="devanagari"))
+# Output: 'जय देव, दाज्यू कस छौ?'
+
+# Transliterate Devanagari to Romanized
+print(kumaoni.transliterate("पैलाग भुली", to_script="latin"))
+# Output: 'pailag bhuli'
+```
+
+### 7. Cultural Heritage, Literature & Folklore
+
+```python
+import kumaoni
+
+# Access Folk Epics (Pauwada / Bhad)
+malushahi = kumaoni.literature.get_epic("malushahi")
+print(malushahi.title_kumaoni)        # 'राजुला मालूशाही'
+print(malushahi.synopsis)
+
+# Explore Traditional Valley Poetry (Nyoli / Jhora)
+bedu_pako = kumaoni.literature.poems()[0]
+print(bedu_pako.title_kumaoni)        # 'बेड़ू पाको बारह मासा'
+print(bedu_pako.verses_kumaoni[0])    # 'बेड़ू पाको बारह मासा, ओ नरण काफल पाको चैत, मेरी छैला!'
+
+# Canonical Kumaoni Authors & Poets (Gumani Pant, Gaurda, Dr. Charu Chandra Pande)
+gumani = kumaoni.literature.get_author("gumani_pant")
+print(f"{gumani.name_kumaoni} ({gumani.era}): {gumani.significance}")
+
+# Random proverb (Akhaan) & riddle (Aana)
+proverb = kumaoni.proverbs.random()
+print("Akhaan:", proverb["kumaoni"], "->", proverb["figurative_meaning"])
+
+riddle = kumaoni.riddles.random()
+print("Aana:", riddle["riddle"], "-> Answer:", riddle["answer_kumaoni"])
+
+# Traditional Kumaoni festival information
+harela = kumaoni.festivals.get("harela")
+print(harela.description)
+```
+
+---
+
+## 💻 Command-Line Interface (CLI)
+
+The library provides a CLI tool `kumaoni`:
+
+```bash
+# Translate text
+kumaoni translate "Where does this road go?" --source en
+
+# Dictionary lookup
+kumaoni lookup "काफल"
+kumaoni lookup "पिछौड़ा"
+
+# Number to words
+kumaoni number 108
+
+# Verb conjugation
+kumaoni conjugate "जाण" --tense past --person 1
+
+# Random proverb / riddle
+kumaoni proverb
+kumaoni riddle
+```
+
+---
+
+## 🖥️ Interactive Web Playground
+
+Launch the interactive local web playground to test translation and explore the language in a browser:
+
+```bash
+python -m kumaoni.web.app 8080
+```
+Open [http://localhost:8080](http://localhost:8080) in your browser.
+
+---
+
+## 📂 Project Architecture
+
+```
+kumaoni/
+├── __init__.py           # Unified top-level namespace (kumaoni.translate, literature, etc.)
+├── constants.py          # Dialects, grammatical constants, solar calendar
+├── phonetics.py          # Script transliteration, Devanagari normalizer
+├── grammar/
+│   ├── verbs.py          # Verb root extraction & conjugation engine
+│   ├── nouns.py          # Noun morphology, pluralization, case declensions
+│   ├── pronouns.py       # Pronoun tables across person, number, and case
+│   └── postpositions.py  # Karaka markers (-ले, -कणी, -बटि, -म, etc.)
+├── numbers/
+│   └── converter.py      # Integer to words, ordinals, fractions, numerals
+├── lexicon/
+│   ├── dictionary.py     # Fast search across Devanagari, English, and Hindi
+│   └── data/             # Curated JSON datasets (370+ words, phrases, Akhaan, Aana)
+├── translator/
+│   ├── engine.py         # Unified translation orchestrator
+│   ├── rule_based.py     # Rule-based linguistic transfer & dialogue patterns
+│   ├── pivot.py          # Universal multi-language bridge (Any Language -> Kumaoni)
+│   └── llm_adapter.py    # Native Gemini/OpenAI neural integration
+├── culture/
+│   ├── festivals.py      # Cultural documentation (Harela, Phooldei, etc.)
+│   ├── calendar.py       # Kumaoni solar months & seasons
+│   └── literature.py     # Folk Epics (Malushahi, Bafaul), Nyoli, Jhora, Authors
+├── cli.py                # Command-line interface
+└── web/                  # Interactive developer playground
+```
+
+---
+
+## 📚 Data Sources & Acknowledgments
+
+This library synthesizes datasets and oral cultural heritage from:
+- **eUttaranchal** (*Learn Kumaoni* linguistic lessons 1–3)
+- **SpeakKumaoni** & **PahadiLingo** (Himalayan vocabulary & phonetic guides)
+- **Kumauni Archives** & **Kumauni Culture** (Oral literature, e-books, e-magazines)
+- **Linguistic Research**: Works of Dr. D.D. Sharma (*Linguistic Geography of Kumaun Himalayas*), Dr. Charu Chandra Pande, G.A. Grierson (*LSI*), Saraswati Kohli (*Kumaoni Kahavatein*), Gumani Pant, and Gaurda.
+
+---
+
+## 📜 License
+
+MIT License &copy; 2026 Kumaoni Language Initiative. Open-source and free for all developers, linguists, and researchers.
+

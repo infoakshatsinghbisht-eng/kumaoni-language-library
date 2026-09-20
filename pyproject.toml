@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kumaoni"
+version = "1.0.0"
+authors = [
+  { name="Kumaoni Language Initiative", email="contact@kumaoni-language.org" },
+]
+description = "A standard-library-style Python package for Kumaoni language processing, linguistics, and universal translation."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Text Processing :: Linguistic",
+    "Natural Language :: Indic",
+]
+dependencies = []
+
+[project.scripts]
+kumaoni = "kumaoni.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["kumaoni", "kumaoni.*"]
+
+[tool.setuptools.package-data]
+"kumaoni.lexicon" = ["data/*.json"]
+"kumaoni.web" = ["static/*"]

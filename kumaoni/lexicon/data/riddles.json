@@ -1,0 +1,222 @@
+[
+  {
+    "id": 1,
+    "riddle": "लाल गाय पाथर खाए, पाणि पिबे तो मरी जाए।",
+    "roman": "Laal gaay paathar khaaye, paani pibe to mari jaaye.",
+    "english_translation": "A red cow that eats stones (wood), but if it drinks water, it dies. What is it?",
+    "answer_kumaoni": "आग",
+    "answer_english": "Fire (Aag)",
+    "answer_hindi": "आग",
+    "hint": "",
+    "cultural_context": "Traditional Kumaoni folk riddle (Aan/Aana)"
+  },
+  {
+    "id": 2,
+    "riddle": "एक थान म बत्तीस भाइ, एकै सँग रैन, झगड़ो नी करन।",
+    "roman": "Ek thaan ma battees bhaai, ekai sang rain, jhagado nee karan.",
+    "english_translation": "In one place thirty-two brothers live together without ever fighting. What are they?",
+    "answer_kumaoni": "दाँत",
+    "answer_english": "Teeth (Daant)",
+    "answer_hindi": "दाँत",
+    "hint": "",
+    "cultural_context": "Traditional Kumaoni folk riddle (Aan/Aana)"
+  },
+  {
+    "id": 3,
+    "riddle": "कटोरिया म कटोरा, बेटा बाप है लै गोरा।",
+    "roman": "Katoriya ma katora, beta baap hai lai gora.",
+    "english_translation": "Bowl within a bowl, the son is even fairer than the father. What is it?",
+    "answer_kumaoni": "नारियल",
+    "answer_english": "Coconut (Naariyal)",
+    "answer_hindi": "नारियल",
+    "hint": "",
+    "cultural_context": "Traditional Kumaoni folk riddle (Aan/Aana)"
+  },
+  {
+    "id": 4,
+    "riddle": "काली गैया बन मा चरै, दिन भर चरै, रात भर बंधै।",
+    "roman": "Kaali gaiya ban ma charai, din bhar charai, raat bhar bandhai.",
+    "english_translation": "A black cow grazes in the jungle; it grazes all day and is tied up all night. What is it?",
+    "answer_kumaoni": "कुल्हाड़ी",
+    "answer_english": "Axe (Kulhaadi)",
+    "answer_hindi": "कुल्हाड़ी",
+    "hint": "",
+    "cultural_context": "Traditional Kumaoni folk riddle (Aan/Aana)"
+  },
+  {
+    "id": 5,
+    "riddle": "उँच डांडा म सुक्यो रूख, न पाती न डाल।",
+    "roman": "Unch daanda ma sukyo rookh, na paati na daal.",
+    "english_translation": "On a high mountain peak stands a dry tree, having neither leaves nor branches. What is it?",
+    "answer_kumaoni": "सींग (भैंस वा हरिनक)",
+    "answer_english": "Horns of an animal",
+    "answer_hindi": "पशु के सींग",
+    "hint": "",
+    "cultural_context": "Traditional Kumaoni folk riddle (Aan/Aana)"
+  },
+  {
+    "id": 6,
+    "riddle": "बिना पाँवक हिंडै, बिना मुखक खाए, घोर अँध्यार म लै उज्याव करे।",
+    "roman": "Bina paanvak hindai, bina mukhak khaaye, ghor andhyaar ma lai ujyaav kare.",
+    "english_translation": "Walks without feet, consumes oil without a mouth, and brings light even into pitch darkness. What is it?",
+    "answer_kumaoni": "दीयो",
+    "answer_english": "Earthen oil lamp (Diya)",
+    "answer_hindi": "दीया / दीपक",
+    "hint": "",
+    "cultural_context": "Traditional Kumaoni folk riddle (Aan/Aana)"
+  },
+  {
+    "id": 7,
+    "riddle": "हरियो घाघर लाल पटुका, भीतर बैठी काली काकी।",
+    "roman": "Hariyo ghaaghar laal patuka, bheetar baithee kaalee kaakee.",
+    "english_translation": "Green skirt with a red shawl, inside sits an aunt with dark seeds. What is it?",
+    "answer_kumaoni": "मर्चि / मिर्च",
+    "answer_english": "Chili pepper (Mirchi)",
+    "answer_hindi": "मिर्च",
+    "hint": "",
+    "cultural_context": "Traditional Kumaoni folk riddle (Aan/Aana)"
+  },
+  {
+    "id": 8,
+    "riddle": "एक नानतिन बटि सब डरान, घर म आवै त सब भागान।",
+    "roman": "Ek naantin bati sab daraan, ghar ma aavai ta sab bhaagaan.",
+    "english_translation": "Everyone fears this tiny creature, and whenever it enters the house, people rush to chase it out. What is it?",
+    "answer_kumaoni": "मूस / बिच्छू",
+    "answer_english": "Mouse / Scorpion",
+    "answer_hindi": "चूहा / बिच्छू",
+    "hint": "",
+    "cultural_context": "Traditional Kumaoni folk riddle (Aan/Aana)"
+  },
+  {
+    "id": 9,
+    "riddle": "तीन आँखि छन पर शिव नी, पानी भर्यो छ पर घड़ो नी।",
+    "roman": "Teen aankhi chhan par Shiv nee, paani bharyo chha par ghado nee.",
+    "english_translation": "Has three eyes but is not Lord Shiva; contains water inside but is not an earthen pitcher. What is it?",
+    "answer_kumaoni": "नारियल",
+    "answer_english": "Coconut (Naariyal)",
+    "answer_hindi": "नारियल",
+    "hint": "",
+    "cultural_context": "Traditional Kumaoni folk riddle (Aan/Aana)"
+  },
+  {
+    "id": 10,
+    "riddle": "एक रूख म बारहा डाली, हर डाली म तीस पाती।",
+    "roman": "Ek rookh ma baaraha daali, har daali ma tees paati.",
+    "english_translation": "One tree has twelve branches, and each branch bears thirty leaves. What is it?",
+    "answer_kumaoni": "साल और मैना (दिन)",
+    "answer_english": "Year, Months and Days",
+    "answer_hindi": "वर्ष, १२ महीने और ३० दिन",
+    "hint": "",
+    "cultural_context": "Traditional Kumaoni folk riddle (Aan/Aana)"
+  },
+  {
+    "id": 11,
+    "riddle": "बिन पाँवक धावै, बिन पंखक उडै, अगास म नाचै।",
+    "roman": "Bin paanvak dhaavai, bin pankhak udai, agaas ma naachai.",
+    "english_translation": "Runs without feet, flies without feathers, and dances across the high sky. What is it?",
+    "answer_kumaoni": "पतंग वा बादल",
+    "answer_english": "Kite or Cloud",
+    "answer_hindi": "पतंग / बादल",
+    "hint": "",
+    "cultural_context": "Traditional Kumaoni folk riddle (Aan/Aana)"
+  },
+  {
+    "id": 12,
+    "riddle": "काळी गैया बन मा चरै, दिन भर चरै, रात भर बंधै।",
+    "roman": "Kaali gaiya ban ma charai, din bhar charai, raat bhar bandhai.",
+    "english_translation": "A dark beast grazes the forest all day and remains tied in the home at night. What is it?",
+    "answer_kumaoni": "कुल्हाड़ी / दातुली",
+    "answer_english": "Axe or Sickle",
+    "answer_hindi": "कुल्हाड़ी / दरांती",
+    "hint": "",
+    "cultural_context": "Traditional Kumaoni folk riddle (Aan/Aana)"
+  },
+  {
+    "id": 13,
+    "riddle": "दिनक सित रातक बिज।",
+    "roman": "Dinak sit raatak bij.",
+    "english_translation": "Sleeps through the daylight, awakens during the dark night.",
+    "answer_kumaoni": "गल्यूँ (चमगादड़)",
+    "answer_english": "Bat (Mammal)",
+    "answer_hindi": "गल्यूँ (चमगादड़)",
+    "hint": "A flying nocturnal creature of the Himalayan caves",
+    "cultural_context": "Found hanging in traditional stone eaves and hollow trees across Kumaon villages."
+  },
+  {
+    "id": 14,
+    "riddle": "ऊँन हूँ ऊँनी छू ऊँनि लै नै देखि, जानि लै नै देखि।",
+    "roman": "Oon hoon ooni chhoo ooni lai nai dekhi, jaani lai nai dekhi.",
+    "english_translation": "It constantly arrives and departs, yet no one has ever seen it come or go.",
+    "answer_kumaoni": "नींद",
+    "answer_english": "Sleep",
+    "answer_hindi": "नींद",
+    "hint": "Universal human physical state of rest",
+    "cultural_context": "Classic philosophical riddle told to children around the winter hearth (Angithi)."
+  },
+  {
+    "id": 15,
+    "riddle": "सिमारक हड़ सुक न सड़।",
+    "roman": "Simaarak had suk na sad.",
+    "english_translation": "A bodily organ that never dries up and never rots while alive.",
+    "answer_kumaoni": "जिबड़ (जीभ)",
+    "answer_english": "Tongue",
+    "answer_hindi": "जिबड़ (जीभ)",
+    "hint": "An organ in your mouth used for speaking and tasting",
+    "cultural_context": "Celebrates the perpetual vitality and moistness of speech."
+  },
+  {
+    "id": 16,
+    "riddle": "अखौलूनी का कीड़ खाछै कि, जाल मनि कीड़ा।",
+    "roman": "Akhaulooni ka keed khaachhai ki, jaal mani keeda.",
+    "english_translation": "Will you eat the creature in the mortar, or the insect beneath the comb net?",
+    "answer_kumaoni": "मह / शहद (मधुमक्खी का छत्ता)",
+    "answer_english": "Honey / Honeycomb",
+    "answer_hindi": "मह / शहद (मधुमक्खी का छत्ता)",
+    "hint": "Sweet golden nectar harvested from high mountain rock hives",
+    "cultural_context": "Refers to traditional Himalayan Apis cerana beekeeping built into house walls (Jala)."
+  },
+  {
+    "id": 17,
+    "riddle": "अट्-पट् सट् सौ, तीनमुना दस पौ।",
+    "roman": "At-pat sat sau, teenmuna das pau.",
+    "english_translation": "Together they move: three heads and ten feet.",
+    "answer_kumaoni": "बल्द और हलिया (दो बैल और हल चलाने वाला किसान)",
+    "answer_english": "A team of two oxen and the ploughman (2 oxen + 1 farmer = 3 heads, 4+4+2 = 10 feet)",
+    "answer_hindi": "बल्द और हलिया (दो बैल और हल चलाने वाला किसान)",
+    "hint": "The essential agricultural scene on mountain terrace fields",
+    "cultural_context": "Iconic terrace agriculture riddle celebrating the mountain ploughing season (Ropaai)."
+  },
+  {
+    "id": 18,
+    "riddle": "काव् भूतौक को सफेद गिच्च।",
+    "roman": "Kaav bhootaunk ko safed gicch.",
+    "english_translation": "A black ghost with a spotless white mouth.",
+    "answer_kumaoni": "माँस को दाणो (उरद की दाल का दाना)",
+    "answer_english": "Black gram seed (Black exterior with a white germ/scar)",
+    "answer_hindi": "माँस को दाणो (उरद की दाल का दाना)",
+    "hint": "A staple hill pulse grain used for making Dubke and Chainsu",
+    "cultural_context": "Refers to local black gram (Urad / Maash) which is the cornerstone of Kumaoni winter nutrition."
+  },
+  {
+    "id": 19,
+    "riddle": "एक बोट में बारै डाल, हर डाल में तीस-तीस पात।",
+    "roman": "Ek bot mein baarai daal, har daal mein tees-tees paat.",
+    "english_translation": "One tree has twelve branches, and each branch holds thirty leaves.",
+    "answer_kumaoni": "साल, बारहो मैना और तीस दिन",
+    "answer_english": "A year (1 tree), 12 months (12 branches), and 30 days (30 leaves)",
+    "answer_hindi": "साल, बारहो मैना और तीस दिन",
+    "hint": "How we measure the passing of time",
+    "cultural_context": "Traditional calendar riddle taught to mountain children."
+  },
+  {
+    "id": 20,
+    "riddle": "हरि-हरि बाखली, लाल-लाल द्वार, भीतर बैठी सुंदरी रानी।",
+    "roman": "Hari-hari baakhli, laal-laal dwaar, bheetar baithi sundari raani.",
+    "english_translation": "A green courtyard, bright red doorway, and a beautiful queen resting inside.",
+    "answer_kumaoni": "दाड़िम / अनार",
+    "answer_english": "Pomegranate (Wild Darim)",
+    "answer_hindi": "दाड़िम / अनार",
+    "hint": "A ruby-jewelled fruit of the Himalayan valleys",
+    "cultural_context": "Wild Darim (Dadim) grows plentifully in Kumaon ravines and is prized for its tart seeds (Anardana)."
+  }
+]

@@ -1,0 +1,534 @@
+[
+  {
+    "kumaoni": "पैलाग दाज्यू!",
+    "roman": "Pailag dajyu!",
+    "english": "Greetings elder brother! (respectful foot touch)",
+    "hindi": "प्रणाम बड़े भाई!",
+    "category": "greetings"
+  },
+  {
+    "kumaoni": "कस छू तुम?",
+    "roman": "Kas chou tum?",
+    "english": "How are you? (formal)",
+    "hindi": "आप कैसे हैं?",
+    "category": "conversation"
+  },
+  {
+    "kumaoni": "कस छे तू?",
+    "roman": "Kas chhe tu?",
+    "english": "How are you? (informal/younger)",
+    "hindi": "तू कैसा है?",
+    "category": "conversation"
+  },
+  {
+    "kumaoni": "मैं ठीक छूँ।",
+    "roman": "Main theek choon.",
+    "english": "I am fine.",
+    "hindi": "मैं ठीक हूँ।",
+    "category": "conversation"
+  },
+  {
+    "kumaoni": "तुमार नाम क्या छ?",
+    "roman": "Tumaar naam kya chha?",
+    "english": "What is your name?",
+    "hindi": "आपका नाम क्या है?",
+    "category": "conversation"
+  },
+  {
+    "kumaoni": "मेरो नाम... छ।",
+    "roman": "Mero naam... chha.",
+    "english": "My name is...",
+    "hindi": "मेरा नाम... है।",
+    "category": "conversation"
+  },
+  {
+    "kumaoni": "तुम कहाँ रैंछा?",
+    "roman": "Tum kahan rainchha?",
+    "english": "Where do you live?",
+    "hindi": "आप कहाँ रहते हैं?",
+    "category": "conversation"
+  },
+  {
+    "kumaoni": "भात खायो?",
+    "roman": "Bhaat khaayo?",
+    "english": "Did you eat food / rice?",
+    "hindi": "खाना खा लिया?",
+    "category": "conversation"
+  },
+  {
+    "kumaoni": "पाणि पिओ।",
+    "roman": "Paani peeo.",
+    "english": "Please drink water.",
+    "hindi": "पानी पीजिये।",
+    "category": "hospitality"
+  },
+  {
+    "kumaoni": "भितर आ जाओ।",
+    "roman": "Bhitar aa jaao.",
+    "english": "Please come inside.",
+    "hindi": "अंदर आ जाइये।",
+    "category": "hospitality"
+  },
+  {
+    "kumaoni": "बैठो!",
+    "roman": "Baitho!",
+    "english": "Please sit down.",
+    "hindi": "बैठिये!",
+    "category": "hospitality"
+  },
+  {
+    "kumaoni": "यो बाटो कहाँ जाँछ?",
+    "roman": "Yo baato kahan jaanchha?",
+    "english": "Where does this road go?",
+    "hindi": "यह रास्ता कहाँ जाता है?",
+    "category": "directions"
+  },
+  {
+    "kumaoni": "अस्पताल कतुक दूर छ?",
+    "roman": "Aspataal katuk door chha?",
+    "english": "How far is the hospital?",
+    "hindi": "अस्पताल कितनी दूर है?",
+    "category": "directions"
+  },
+  {
+    "kumaoni": "यिको कतुक पैसा छ?",
+    "roman": "Yiko katuk paisa chha?",
+    "english": "How much does this cost?",
+    "hindi": "इसका कितना रुपया हुआ?",
+    "category": "shopping"
+  },
+  {
+    "kumaoni": "मैंकणी मदद चाही।",
+    "roman": "Mainkani madad chaahi.",
+    "english": "I need help.",
+    "hindi": "मुझे मदद चाहिए।",
+    "category": "emergency"
+  },
+  {
+    "kumaoni": "घाम लागूँ छ।",
+    "roman": "Ghaam laagoon chha.",
+    "english": "The sun is shining bright / It is sunny.",
+    "hindi": "धूप खिली है।",
+    "category": "weather"
+  },
+  {
+    "kumaoni": "आज भौत जाड़ छ।",
+    "roman": "Aaj bhaut jaad chha.",
+    "english": "Today is very cold.",
+    "hindi": "आज बहुत सर्दी है।",
+    "category": "weather"
+  },
+  {
+    "kumaoni": "बरखा लागूँ छे।",
+    "roman": "Barkha laagoon chhe.",
+    "english": "It is raining.",
+    "hindi": "बारिश हो रही है।",
+    "category": "weather"
+  },
+  {
+    "kumaoni": "शुभ बिहान!",
+    "roman": "Shubh bihaan!",
+    "english": "Good morning!",
+    "hindi": "शुभ प्रभात!",
+    "category": "greetings"
+  },
+  {
+    "kumaoni": "शुभ राति!",
+    "roman": "Shubh raati!",
+    "english": "Good night!",
+    "hindi": "शुभ रात्रि!",
+    "category": "greetings"
+  },
+  {
+    "kumaoni": "फिर मिलुला!",
+    "roman": "Phir milula!",
+    "english": "See you again! / Goodbye!",
+    "hindi": "फिर मिलेंगे!",
+    "category": "farewell"
+  },
+  {
+    "kumaoni": "आपणी खैरियत रख्या।",
+    "roman": "Aapni khairiyat rakhya.",
+    "english": "Take care of yourself.",
+    "hindi": "अपना ख्याल रखिएगा।",
+    "category": "farewell"
+  },
+  {
+    "kumaoni": "कि हाल हरियान?",
+    "roman": "Ki haal hariyaan?",
+    "english": "How are you doing? / What is the news?",
+    "hindi": "क्या हालचाल हैं?",
+    "category": "greetings"
+  },
+  {
+    "kumaoni": "घर पं सब कस छन?",
+    "roman": "Ghar pan sab kas chhan?",
+    "english": "How is everyone at home?",
+    "hindi": "घर पर सब कैसे हैं?",
+    "category": "conversation"
+  },
+  {
+    "kumaoni": "सब ठीक छन।",
+    "roman": "Sab theek chhan.",
+    "english": "Everyone is fine.",
+    "hindi": "सब ठीक हैं।",
+    "category": "conversation"
+  },
+  {
+    "kumaoni": "तुम अच्याल कि करनो छा?",
+    "roman": "Tum achyaal ki karno chha?",
+    "english": "What are you doing these days?",
+    "hindi": "आप आजकल क्या कर रहे हैं?",
+    "category": "conversation"
+  },
+  {
+    "kumaoni": "मैं स्कूल म पडूँ छूँ।",
+    "roman": "Main school ma padoon chhoon.",
+    "english": "I am studying in a school.",
+    "hindi": "मैं स्कूल में पढ़ता हूँ।",
+    "category": "conversation"
+  },
+  {
+    "kumaoni": "तुमार स्कूलक नाम क्या छ?",
+    "roman": "Tumaar schoolak naam kya chha?",
+    "english": "What is the name of your school?",
+    "hindi": "आपके स्कूल का नाम क्या है?",
+    "category": "conversation"
+  },
+  {
+    "kumaoni": "तुमार गाँव कहाँ छ?",
+    "roman": "Tumaar gaanv kahan chha?",
+    "english": "Where is your village?",
+    "hindi": "आपका गाँव कहाँ है?",
+    "category": "conversation"
+  },
+  {
+    "kumaoni": "मेरो गाँव पहाड़ म छ।",
+    "roman": "Mero gaanv pahaad ma chha.",
+    "english": "My village is in the mountains.",
+    "hindi": "मेरा गाँव पहाड़ में है।",
+    "category": "conversation"
+  },
+  {
+    "kumaoni": "तुम कतुक भाई-बैणी छा?",
+    "roman": "Tum katuk bhai-baini chha?",
+    "english": "How many brothers and sisters do you have?",
+    "hindi": "आप कितने भाई-बहन हैं?",
+    "category": "conversation"
+  },
+  {
+    "kumaoni": "मेरो एक नान भाई और एक ठूली दीदी छन।",
+    "roman": "Mero ek naan bhai aur ek thooli didi chhan.",
+    "english": "I have one younger brother and one elder sister.",
+    "hindi": "मेरा एक छोटा भाई और एक बड़ी बहन हैं।",
+    "category": "conversation"
+  },
+  {
+    "kumaoni": "तुमार बाबु क्या करैनी?",
+    "roman": "Tumaar baabu kya karaini?",
+    "english": "What does your father do?",
+    "hindi": "आपके पिताजी क्या करते हैं?",
+    "category": "conversation"
+  },
+  {
+    "kumaoni": "मेर बाबु फौज म नौकरी करैनी।",
+    "roman": "Mera baabu fauj ma naukari karaini.",
+    "english": "My father serves in the army.",
+    "hindi": "मेरे पिताजी सेना (फौज) में नौकरी करते हैं।",
+    "category": "conversation"
+  },
+  {
+    "kumaoni": "तुमार बूबू आब कस छन?",
+    "roman": "Tumaar booboo aab kas chhan?",
+    "english": "How is your grandfather feeling now?",
+    "hindi": "आपके दादाजी अब कैसे हैं?",
+    "category": "conversation"
+  },
+  {
+    "kumaoni": "तुम कभै नैनीताल गया छा?",
+    "roman": "Tum kabhai Nainital gaya chha?",
+    "english": "Have you ever been to Nainital?",
+    "hindi": "क्या आप कभी नैनीताल गए हैं?",
+    "category": "travel"
+  },
+  {
+    "kumaoni": "होय, भौत बार ग्यूँ।",
+    "roman": "Hoye, bhaut baar gyoon.",
+    "english": "Yes, I have been there many times.",
+    "hindi": "हाँ, बहुत बार गया हूँ।",
+    "category": "travel"
+  },
+  {
+    "kumaoni": "तुमार गाँव म बिजली छ?",
+    "roman": "Tumaar gaanv ma bijali chha?",
+    "english": "Is there electricity in your village?",
+    "hindi": "क्या आपके गाँव में बिजली है?",
+    "category": "society"
+  },
+  {
+    "kumaoni": "तुमार पास कतुक गोरू-बाखर छन?",
+    "roman": "Tumaar paas katuk goru-baakhar chhan?",
+    "english": "How many cattle and goats do you have?",
+    "hindi": "आपके पास कितने मवेशी और बकरियां हैं?",
+    "category": "agriculture"
+  },
+  {
+    "kumaoni": "हमैरो पास द्वि गोरू और पाँच बाखर छन।",
+    "roman": "Hamairo paas dwi goru aur paanch baakhar chhan.",
+    "english": "We have two cows and five goats.",
+    "hindi": "हमारे पास दो गाय/बैल और पाँच बकरियाँ हैं।",
+    "category": "agriculture"
+  },
+  {
+    "kumaoni": "पोरो साल धानक फसल कसि भई?",
+    "roman": "Poro saal dhaanak fasal kasi bhai?",
+    "english": "How was the paddy crop last year?",
+    "hindi": "पिछले साल धान की फसल कैसी हुई?",
+    "category": "agriculture"
+  },
+  {
+    "kumaoni": "बरखा भौत भली भई।",
+    "roman": "Barkha bhaut bhali bhai.",
+    "english": "The rains were very good.",
+    "hindi": "बारिश बहुत अच्छी हुई।",
+    "category": "weather"
+  },
+  {
+    "kumaoni": "आज भौत घाम लागूँ छ।",
+    "roman": "Aaj bhaut ghaam laagoon chha.",
+    "english": "Today the sun is shining very bright.",
+    "hindi": "आज बहुत तेज धूप खिली है।",
+    "category": "weather"
+  },
+  {
+    "kumaoni": "ह्यूँद म पहाड़न म ह्यूँ पडूँ छ।",
+    "roman": "Hyoond ma pahaadan ma hyoon padoon chha.",
+    "english": "In winter, snow falls on the mountains.",
+    "hindi": "सर्दियों में पहाड़ों पर बर्फ गिरती है।",
+    "category": "weather"
+  },
+  {
+    "kumaoni": "आपण हाथ जगन्नाथ।",
+    "roman": "Aapan haath Jagannath.",
+    "english": "Self-reliance is the greatest strength.",
+    "hindi": "अपना हाथ जगन्नाथ / आत्मनिर्भरता सबसे बड़ा बल है।",
+    "category": "wisdom"
+  },
+  {
+    "kumaoni": "जी रया, जागि रया, तिष्ठि रया!",
+    "roman": "Jee raya, jaagi raya, tishti raya!",
+    "english": "May you live long, stay enlightened, and prosper! (Traditional Kumaoni blessings during Harela/festivals)",
+    "hindi": "दीर्घायु हो, जागृत रहो, समृद्ध बनो! (हरेला का पारंपरिक आशीर्वाद)",
+    "category": "culture"
+  },
+  {
+    "kumaoni": "लागू हरेला, लागूँ मास, जी रये जागि रये!",
+    "roman": "Laagoo Harela, laagoon maas, jee raye jaagi raye!",
+    "english": "May the blessings of Harela be upon you; live long and stay healthy!",
+    "hindi": "हरेला का शुभ आगमन हो, दीर्घायु और स्वस्थ रहो!",
+    "category": "culture"
+  },
+  {
+    "kumaoni": "फूल देई, छम्मा देई, दैणी द्वार, भर भकार!",
+    "roman": "Phool dei, chhamma dei, daini dwaar, bhar bhakaar!",
+    "english": "May flowers bring prosperity, blessings at your doorstep, and granaries full of grain! (Phool Dei spring festival chant)",
+    "hindi": "फूल देई, सुख-समृद्धि आए, देहरी पर ईश्वर का वास हो, अन्न के भंडार भरें!",
+    "category": "culture"
+  },
+  {
+    "kumaoni": "काले कौवा काले, घुघुती माला खाले!",
+    "roman": "Kaale kauwa kaale, ghughuti maala khaale!",
+    "english": "O black crow, come and eat the garland of sweet Ghughuti snacks! (Ghughutiya / Uttarayani traditional chant)",
+    "hindi": "काले कौवे आओ, घुघुती की मीठी माला खाओ!",
+    "category": "culture"
+  },
+  {
+    "kumaoni": "सांचो मन्खि रुणि छै",
+    "roman": "Saancho mankhi runi chhai",
+    "english": "The truthful person is left to weep in despair",
+    "hindi": "सच्चा इंसान रोता रहता है",
+    "category": "literature",
+    "context": "Krishna Pandey's iconic satirical line on moral and administrative decline in Kalyug."
+  },
+  {
+    "kumaoni": "धरम करम सब छूटि गो",
+    "roman": "Dharam karam sab chhooti go",
+    "english": "Righteous duty and spiritual deeds have been neglected",
+    "hindi": "धर्म-कर्म सब छूट गया",
+    "category": "literature",
+    "context": "Classical Kumaoni expression lamenting neglect of tradition."
+  },
+  {
+    "kumaoni": "मुकदमा लड़न म घर-बार बिकि जाँ",
+    "roman": "Mukadama ladan ma ghar-baar biki jaan",
+    "english": "Fighting court litigations bankrupts hearth and home",
+    "hindi": "कचहरी के मुकदमों में घर-बार बिक जाता है",
+    "category": "idiom",
+    "context": "From Thakur Dewan Singh Bisht's Deewani Vinod warning against frivolous litigation."
+  },
+  {
+    "kumaoni": "बाँझ-बुराँश हमैरि जीवनरेखा छन",
+    "roman": "Baanjh-buraansh hamairi jeevanrekha chhan",
+    "english": "Oak and rhododendron are the very lifeblood of the Himalayas",
+    "hindi": "बांज और बुरांश हमारी जीवनरेखा हैं",
+    "category": "ecology",
+    "context": "Traditional mountain environmental conservation principle."
+  },
+  {
+    "kumaoni": "नौला-धारा सूखि जाला",
+    "roman": "Naula-dhaara sookhi jaala",
+    "english": "The stepwells and natural springs will dry up",
+    "hindi": "नौले और प्राकृतिक जलस्रोत सूख जाएंगे",
+    "category": "nature",
+    "context": "Village warning regarding deforestation and preserving hill water aquifers."
+  },
+  {
+    "kumaoni": "अनाल कि चोट कनाल पड़न",
+    "roman": "Anaal ki chot kanaal padan",
+    "english": "Missing the lower mark and hitting the top ridge unexpectedly",
+    "hindi": "निशाना कहीं और लगना और असर कहीं और होना",
+    "category": "idiom",
+    "context": "Traditional agricultural idiom from Pt. Ganga Dutt Upreti."
+  },
+  {
+    "kumaoni": "काकड़ मारन कुकुर, जस खान भड़भड़",
+    "roman": "Kaakad maaran kukur, jas khaan bhadbhad",
+    "english": "The dogs hunt down the deer, but the cooking pot takes the credit",
+    "hindi": "मेहनत कोई करे और यश किसी और को मिले",
+    "category": "idiom",
+    "context": "Popular folk idiom on uncredited labor."
+  },
+  {
+    "kumaoni": "फुलि जाए फलि जाए, जीरये जागि रये",
+    "roman": "Phuli jaae phali jaae, jeeraye jaagi raye",
+    "english": "May you blossom and bear fruit, live long and stay awake and alert!",
+    "hindi": "फलो और फूलो, दीर्घायु हो और सदा सजग रहो।",
+    "category": "blessings"
+  },
+  {
+    "kumaoni": "नौला को पानि पिले, गुदड़ी में पड़ि रौले",
+    "roman": "Naula ko paani pile, gudadi mein padi roule",
+    "english": "Drink sweet water from the natural spring and rest comfortably in your quilt.",
+    "hindi": "नौले का मीठा पानी पी लो और गुदड़ी में आराम से सो जाओ।",
+    "category": "lullaby"
+  },
+  {
+    "kumaoni": "अज्याल का दिन भौत सुखद छन",
+    "roman": "Ajyaal ka din bhaut sukhad chhan",
+    "english": "Nowadays the days are very pleasant.",
+    "hindi": "आजकल के दिन बहुत सुखद हैं।",
+    "category": "daily_conversation"
+  },
+  {
+    "kumaoni": "पोरिबेर हमार गांव में भौत हिउँ पडो",
+    "roman": "Poriber hamaar gaanw mein bhaut hiun pado",
+    "english": "Last year it snowed heavily in our village.",
+    "hindi": "पिछले साल हमारे गाँव में बहुत बर्फ पड़ी थी।",
+    "category": "weather"
+  },
+  {
+    "kumaoni": "तुमि कबार घौर औला?",
+    "roman": "Tumi kabaar ghaur aula?",
+    "english": "When will you come home?",
+    "hindi": "आप कब घर आएंगे?",
+    "category": "daily_conversation"
+  },
+  {
+    "kumaoni": "अस्टे-अस्टे हिटा, बाटो बिगल छ",
+    "roman": "Aste-aste hita, baato bigal chha",
+    "english": "Walk slowly and carefully, the path is slippery and treacherous.",
+    "hindi": "धीरे-धीरे चलो, रास्ता फिसलन भरा है।",
+    "category": "travel"
+  },
+  {
+    "kumaoni": "बौज्युक आशीर्वाद लैबे सब काम भल हुंला",
+    "roman": "Boujyuk aasheervaad laibe sab kaam bhal hunla",
+    "english": "With the blessings of elders/father, all endeavors will succeed.",
+    "hindi": "पिताजी का आशीर्वाद लेकर सब काम अच्छे होंगे।",
+    "category": "culture"
+  },
+  {
+    "kumaoni": "तुम कसिक छा? सब कुशल-मंगल छ?",
+    "roman": "Tum kasik chha? Sab kushal-mangal chha?",
+    "english": "How are you? Is everything well and peaceful with you?",
+    "hindi": "आप कैसे हैं? सब कुशल-मंगल है?",
+    "category": "greetings"
+  },
+  {
+    "kumaoni": "मेरि इजा-बौज्युक पाँव लागूँ।",
+    "roman": "Meri ija-boujyuk paanw laagoon.",
+    "english": "I touch the feet of my mother and father in reverence.",
+    "hindi": "माता-पिता के चरण स्पर्श करता हूँ।",
+    "category": "respect"
+  },
+  {
+    "kumaoni": "पहाड़क नौला को पानि अमृत बरोबर छ।",
+    "roman": "Pahaadak naula ko paani amrit barobar chha.",
+    "english": "The water from mountain natural springs is as pure as nectar.",
+    "hindi": "पहाड़ के नौले का पानी अमृत के समान है।",
+    "category": "nature"
+  },
+  {
+    "kumaoni": "आज घाम भौत तेज लागूँ छ।",
+    "roman": "Aaj ghaam bhaut tej laagoon chha.",
+    "english": "The sun is shining very intensely today.",
+    "hindi": "आज धूप बहुत तेज है।",
+    "category": "weather"
+  },
+  {
+    "kumaoni": "हाँसी-खुशी म जिनगि बिताओ, क्तुक झगड़ो नि करो।",
+    "roman": "Haansi-khushi ma jinagi bitaao, katuk jhagdo ni karo.",
+    "english": "Spend your days in joy and laughter; do not engage in quarrels.",
+    "hindi": "हंसी-खुशी में जीवन बिताओ, झगड़ा मत करो।",
+    "category": "wisdom"
+  },
+  {
+    "kumaoni": "हमार कुमाऊँ म नन्दा देवी को मैलो भौत धूम-धाम से हुंण छ।",
+    "roman": "Hamaar Kumaun ma Nanda Devi ko mailo bhaut dhoom-dhaam se hunn chha.",
+    "english": "In our Kumaon, the grand festival of Goddess Nanda Devi is celebrated with great devotion.",
+    "hindi": "हमारे कुमाऊँ में नंदा देवी का मेला बड़ी धूमधाम से मनाया जाता है।",
+    "category": "festivals"
+  },
+  {
+    "kumaoni": "सबेरे-सबेरे उठिबेर सैर म जाण स्वास्थ्यक हुणि भल छ।",
+    "roman": "Sabere-sabere uthibaer sair ma jaan swaasthyak huni bhal chha.",
+    "english": "Waking up early and walking in the morning is great for one's health.",
+    "hindi": "सुबह जल्दी उठकर टहलना स्वास्थ्य के लिए उत्तम है।",
+    "category": "health"
+  },
+  {
+    "kumaoni": "देवभूमि कुमाऊँ म सब द्यूतों की कृपा बणि रौ।",
+    "roman": "Devbhoomi Kumaun ma sab dyooton ki kripa bani rou.",
+    "english": "May the divine grace of all deities always shower upon sacred Devbhoomi Kumaon.",
+    "hindi": "देवभूमि कुमाऊँ में सभी देवी-देवताओं की कृपा बनी रहे।",
+    "category": "blessings"
+  },
+  {
+    "kumaoni": "बुग्यालों म हिउँ पगलिगे, ब्वार ऐगे।",
+    "roman": "Bugyaalon ma hiun pagalige, bwaar aige.",
+    "english": "The snow has melted in the high alpine meadows; spring has arrived.",
+    "hindi": "बुग्यालों में बर्फ पिघल गई है, वसंत आ गया है।",
+    "category": "seasons"
+  },
+  {
+    "kumaoni": "हमार पूर्वजों को अमर इतिहास हमरो गौरव छ।",
+    "roman": "Hamaar poorvajon ko amar itihaas hamro gaurav chha.",
+    "english": "The immortal history of our ancestors is our supreme pride.",
+    "hindi": "हमारे पूर्वजों का अमर इतिहास हमारा गौरव है।",
+    "category": "culture"
+  },
+  {
+    "kumaoni": "कुमाऊँनी बोलि हमैरि मां जसि मीठ छ।",
+    "roman": "Kumaoni boli hamairi maan jasi meeth chha.",
+    "english": "The Kumaoni language is as sweet and nurturing as a mother's embrace.",
+    "hindi": "कुमाऊँनी बोली हमारी माँ के समान मधुर है।",
+    "category": "language"
+  },
+  {
+    "kumaoni": "कौतिक म जाईबेर झोड़ा-चाँचरी नाचणो भौत आनंददायक हुंण छ।",
+    "roman": "Kautik ma jaaibaer jhora-chaanchari naachano bhaut aananddaayak hunn chha.",
+    "english": "Going to the hill fair and dancing the Jhora-Chanchari brings boundless joy.",
+    "hindi": "मेले में जाकर झोड़ा-चाँचरी नाचना अत्यंत आनंददायक होता है।",
+    "category": "culture"
+  }
+]
