@@ -12,6 +12,18 @@ from dataclasses import dataclass, asdict
 DATA_DIR = Path(__file__).parent / "data"
 
 
+import re
+
+STOPWORDS_EN = {
+    "a", "an", "the", "and", "or", "of", "in", "on", "at", "to", "for", "with", "by", "from",
+    "is", "are", "was", "were", "be", "being", "been", "have", "has", "had", "do", "does", "did",
+    "it", "its", "this", "that", "these", "those", "like", "such", "as", "about", "into", "through",
+    "after", "before", "between", "under", "over", "above", "below", "some", "any", "which", "who",
+    "whom", "whose", "where", "when", "why", "how", "all", "both", "each", "few", "more", "most",
+    "other", "same", "so", "than", "too", "very", "can", "will", "just", "should", "now"
+}
+
+
 @dataclass
 class Word:
     kumaoni: str
@@ -32,7 +44,9 @@ class Lexicon:
         self._words: List[Word] = []
         self._kumaoni_map: Dict[str, Word] = {}
         self._roman_map: Dict[str, Word] = {}
+        self._english_exact_map: Dict[str, Word] = {}
         self._english_map: Dict[str, List[Word]] = {}
+        self._hindi_exact_map: Dict[str, Word] = {}
         self._hindi_map: Dict[str, List[Word]] = {}
         self._phrases: List[Dict[str, Any]] = []
         self._proverbs: List[Dict[str, Any]] = []
@@ -62,16 +76,54 @@ class Lexicon:
                         category=item.get("category", "general"),
                     )
                     self._words.append(word)
-                    self._kumaoni_map[word.kumaoni] = word
-                    self._roman_map[word.roman.lower()] = word
 
-                    # Map english tokens
-                    for en_token in word.english.lower().replace("/", " ").replace("(", "").replace(")", "").split():
-                        self._english_map.setdefault(en_token, []).append(word)
+                    # Preserve primary canonical entry if already exists
+                    if word.kumaoni not in self._kumaoni_map:
+                        self._kumaoni_map[word.kumaoni] = word
 
-                    # Map hindi tokens
-                    for hi_token in word.hindi.replace("/", " ").replace("(", "").replace(")", "").split():
-                        self._hindi_map.setdefault(hi_token, []).append(word)
+                    rom_key = word.roman.lower().strip()
+                    if rom_key and rom_key not in self._roman_map:
+                        self._roman_map[rom_key] = word
+
+                    # Parse English synonyms and phrases
+                    clean_en_raw = re.sub(r'[\(\)\[\]\{\}]', ' ', word.english.lower())
+                    en_parts = [p.strip() for p in re.split(r'[,/;|\n]+', clean_en_raw) if p.strip()]
+                    
+                    for part in en_parts:
+                        clean_part = re.sub(r'^[a-z]+\.\s*', '', part).strip() # e.g. "e.g."
+                        if clean_part:
+                            if clean_part not in self._english_exact_map:
+                                self._english_exact_map[clean_part] = word
+                            # Also index space-separated and hyphen-separated variants
+                            spaced_part = re.sub(r'[-_]', ' ', clean_part).strip()
+                            if spaced_part not in self._english_exact_map:
+                                self._english_exact_map[spaced_part] = word
+                            hyphen_part = spaced_part.replace(' ', '-')
+                            if hyphen_part not in self._english_exact_map:
+                                self._english_exact_map[hyphen_part] = word
+
+                            self._english_map.setdefault(clean_part, []).append(word)
+                            if spaced_part != clean_part:
+                                self._english_map.setdefault(spaced_part, []).append(word)
+
+                            # If it's a short multi-word term (e.g. "touching feet"), index sub-tokens only if non-stopword
+                            for token in spaced_part.split():
+                                if token not in STOPWORDS_EN and len(token) > 1:
+                                    if token not in self._english_exact_map and len(en_parts) == 1 and len(spaced_part.split()) == 1:
+                                        self._english_exact_map[token] = word
+                                    self._english_map.setdefault(token, []).append(word)
+
+                    # Parse Hindi synonyms and phrases
+                    clean_hi_raw = re.sub(r'[\(\)\[\]\{\}]', ' ', word.hindi)
+                    hi_parts = [p.strip() for p in re.split(r'[,/;|\n]+', clean_hi_raw) if p.strip()]
+                    for part in hi_parts:
+                        if part:
+                            if part not in self._hindi_exact_map:
+                                self._hindi_exact_map[part] = word
+                            self._hindi_map.setdefault(part, []).append(word)
+                            for token in part.split():
+                                if len(token) > 1:
+                                    self._hindi_map.setdefault(token, []).append(word)
 
         # Load phrases
         phrases_path = DATA_DIR / "phrases.json"
@@ -118,15 +170,23 @@ class Lexicon:
         if lemma != q and lemma in self._kumaoni_map:
             return self._kumaoni_map[lemma]
 
-        # 3. Exact Romanized phonetic
+        # 3. Exact match in English (e.g. "water", "moon", "sun", "mother")
+        if q_lower in self._english_exact_map:
+            return self._english_exact_map[q_lower]
+
+        # 4. Exact Romanized phonetic (e.g. "dajyu", "pailag", "bhuli")
         if q_lower in self._roman_map:
             return self._roman_map[q_lower]
 
-        # 4. Direct match in English
+        # 5. Direct token match in English
         if q_lower in self._english_map and self._english_map[q_lower]:
             return self._english_map[q_lower][0]
 
-        # 5. Direct match in Hindi
+        # 6. Exact match in Hindi
+        if q in self._hindi_exact_map:
+            return self._hindi_exact_map[q]
+
+        # 7. Direct token match in Hindi
         if q in self._hindi_map and self._hindi_map[q]:
             return self._hindi_map[q][0]
 

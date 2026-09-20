@@ -754,7 +754,7 @@
   {
     "kumaoni": "न्योलि",
     "roman": "nyoli",
-    "english": "Kumaoni folk song of longing / love",
+    "english": "Kumaoni folk song of longing and romance",
     "hindi": "न्योली (एकल लोकगीत)",
     "pos": "noun",
     "category": "culture"
@@ -10838,5 +10838,605 @@
     "hindi": "रात-बिरात",
     "pos": "noun",
     "category": "time"
+  },
+  {
+    "kumaoni": "ईजा",
+    "roman": "eja",
+    "english": "mom",
+    "hindi": "माँ",
+    "pos": "noun",
+    "category": "kinship"
+  },
+  {
+    "kumaoni": "ईजा",
+    "roman": "eja",
+    "english": "mommy",
+    "hindi": "मम्मी",
+    "pos": "noun",
+    "category": "kinship"
+  },
+  {
+    "kumaoni": "ईजा",
+    "roman": "eja",
+    "english": "mum",
+    "hindi": "माँ",
+    "pos": "noun",
+    "category": "kinship"
+  },
+  {
+    "kumaoni": "ईजा",
+    "roman": "eja",
+    "english": "mummy",
+    "hindi": "मम्मी",
+    "pos": "noun",
+    "category": "kinship"
+  },
+  {
+    "kumaoni": "ईजा",
+    "roman": "eja",
+    "english": "mama",
+    "hindi": "माँ",
+    "pos": "noun",
+    "category": "kinship"
+  },
+  {
+    "kumaoni": "ईजा",
+    "roman": "eja",
+    "english": "eja",
+    "hindi": "माँ",
+    "pos": "noun",
+    "category": "kinship"
+  },
+  {
+    "kumaoni": "ईजा",
+    "roman": "ija",
+    "english": "ija",
+    "hindi": "माँ",
+    "pos": "noun",
+    "category": "kinship"
+  },
+  {
+    "kumaoni": "बाबु",
+    "roman": "babu",
+    "english": "dad",
+    "hindi": "पापा",
+    "pos": "noun",
+    "category": "kinship"
+  },
+  {
+    "kumaoni": "बाबु",
+    "roman": "babu",
+    "english": "daddy",
+    "hindi": "पापा",
+    "pos": "noun",
+    "category": "kinship"
+  },
+  {
+    "kumaoni": "बाबु",
+    "roman": "babu",
+    "english": "papa",
+    "hindi": "पापा",
+    "pos": "noun",
+    "category": "kinship"
+  },
+  {
+    "kumaoni": "बाबु",
+    "roman": "babu",
+    "english": "pop",
+    "hindi": "पापा",
+    "pos": "noun",
+    "category": "kinship"
+  },
+  {
+    "kumaoni": "दाज्यू",
+    "roman": "dajyu",
+    "english": "bro",
+    "hindi": "भैया",
+    "pos": "noun",
+    "category": "kinship"
+  },
+  {
+    "kumaoni": "दाज्यू",
+    "roman": "dajyu",
+    "english": "bhaiya",
+    "hindi": "भैया",
+    "pos": "noun",
+    "category": "kinship"
+  },
+  {
+    "kumaoni": "दीदी",
+    "roman": "didi",
+    "english": "didi",
+    "hindi": "दीदी",
+    "pos": "noun",
+    "category": "kinship"
+  },
+  {
+    "kumaoni": "भुली",
+    "roman": "bhuli",
+    "english": "sis",
+    "hindi": "छोटी बहन",
+    "pos": "noun",
+    "category": "kinship"
+  },
+  {
+    "kumaoni": "चीनी",
+    "roman": "chini",
+    "english": "sugar / white sugar",
+    "hindi": "चीनी / शक्कर",
+    "pos": "noun",
+    "category": "food"
+  },
+  {
+    "kumaoni": "खाँड",
+    "roman": "khaand",
+    "english": "sugar / unrefined sugar / cane sugar",
+    "hindi": "खांड / शक्कर",
+    "pos": "noun",
+    "category": "food"
+  },
+  {
+    "kumaoni": "घाम",
+    "roman": "ghaam",
+    "english": "sun / sunshine / sunlight",
+    "hindi": "धूप / सूरज / सूर्य",
+    "pos": "noun",
+    "category": "nature"
+  },
+  {
+    "kumaoni": "सुरुज",
+    "roman": "suruj",
+    "english": "sun / solar deity",
+    "hindi": "सूर्य / सूरज",
+    "pos": "noun",
+    "category": "nature"
+  },
+  {
+    "kumaoni": "ज्यून्या",
+    "roman": "jyoona",
+    "english": "moon / moonlight",
+    "hindi": "चाँद / चन्द्रमा",
+    "pos": "noun",
+    "category": "nature"
+  },
+  {
+    "kumaoni": "तारा",
+    "roman": "tara",
+    "english": "star / stars",
+    "hindi": "तारा / सितारा",
+    "pos": "noun",
+    "category": "nature"
+  },
+  {
+    "kumaoni": "केला",
+    "roman": "kela",
+    "english": "banana",
+    "hindi": "केला",
+    "pos": "noun",
+    "category": "food"
+  },
+  {
+    "kumaoni": "सेब",
+    "roman": "seb",
+    "english": "apple",
+    "hindi": "सेब",
+    "pos": "noun",
+    "category": "food"
+  },
+  {
+    "kumaoni": "फूल",
+    "roman": "phool",
+    "english": "flower / blossom",
+    "hindi": "फूल / पुष्प",
+    "pos": "noun",
+    "category": "nature"
+  },
+  {
+    "kumaoni": "पात",
+    "roman": "paat",
+    "english": "leaf / foliage",
+    "hindi": "पत्ता / पात",
+    "pos": "noun",
+    "category": "nature"
+  },
+  {
+    "kumaoni": "पाती",
+    "roman": "paati",
+    "english": "leaf / small leaf",
+    "hindi": "पत्ती",
+    "pos": "noun",
+    "category": "nature"
+  },
+  {
+    "kumaoni": "जड़",
+    "roman": "jar",
+    "english": "root / tree root",
+    "hindi": "जड़",
+    "pos": "noun",
+    "category": "nature"
+  },
+  {
+    "kumaoni": "आग",
+    "roman": "aag",
+    "english": "fire / flame",
+    "hindi": "आग / अग्नि",
+    "pos": "noun",
+    "category": "nature"
+  },
+  {
+    "kumaoni": "आगि",
+    "roman": "aagi",
+    "english": "fire",
+    "hindi": "आग",
+    "pos": "noun",
+    "category": "nature"
+  },
+  {
+    "kumaoni": "चड़ि",
+    "roman": "chadi",
+    "english": "bird / small bird",
+    "hindi": "चिड़िया / पक्षी",
+    "pos": "noun",
+    "category": "animals"
+  },
+  {
+    "kumaoni": "पंखी",
+    "roman": "pankhi",
+    "english": "bird / winged bird",
+    "hindi": "पक्षी",
+    "pos": "noun",
+    "category": "animals"
+  },
+  {
+    "kumaoni": "हाथी",
+    "roman": "haathi",
+    "english": "elephant",
+    "hindi": "हाथी",
+    "pos": "noun",
+    "category": "animals"
+  },
+  {
+    "kumaoni": "सहर",
+    "roman": "sahar",
+    "english": "city / town",
+    "hindi": "शहर / नगर",
+    "pos": "noun",
+    "category": "society"
+  },
+  {
+    "kumaoni": "मुलुक",
+    "roman": "muluk",
+    "english": "country / region / nation",
+    "hindi": "देश / मुल्क",
+    "pos": "noun",
+    "category": "society"
+  },
+  {
+    "kumaoni": "देश",
+    "roman": "desh",
+    "english": "country / nation",
+    "hindi": "देश",
+    "pos": "noun",
+    "category": "society"
+  },
+  {
+    "kumaoni": "जूतो",
+    "roman": "jooto",
+    "english": "shoe / shoes / footwear",
+    "hindi": "जूता",
+    "pos": "noun",
+    "category": "attire"
+  },
+  {
+    "kumaoni": "कवाड़",
+    "roman": "kavaad",
+    "english": "door / doorway",
+    "hindi": "दरवाजा / कपाट",
+    "pos": "noun",
+    "category": "household"
+  },
+  {
+    "kumaoni": "द्वार",
+    "roman": "dwaar",
+    "english": "door / gate",
+    "hindi": "द्वार / दरवाजा",
+    "pos": "noun",
+    "category": "household"
+  },
+  {
+    "kumaoni": "गाभा",
+    "roman": "gaabha",
+    "english": "clothes / clothing / garment",
+    "hindi": "कपड़े / वस्त्र",
+    "pos": "noun",
+    "category": "attire"
+  },
+  {
+    "kumaoni": "कपड़ा",
+    "roman": "kapda",
+    "english": "clothes / cloth",
+    "hindi": "कपड़ा",
+    "pos": "noun",
+    "category": "attire"
+  },
+  {
+    "kumaoni": "माया",
+    "roman": "maya",
+    "english": "love / affection",
+    "hindi": "प्यार / प्रेम",
+    "pos": "noun",
+    "category": "emotions"
+  },
+  {
+    "kumaoni": "मदद",
+    "roman": "madad",
+    "english": "help / aid / assistance",
+    "hindi": "मदद / सहायता",
+    "pos": "noun",
+    "category": "society"
+  },
+  {
+    "kumaoni": "किलैकि",
+    "roman": "kilaiki",
+    "english": "because / since",
+    "hindi": "क्योंकि",
+    "pos": "conjunction",
+    "category": "basics"
+  },
+  {
+    "kumaoni": "र",
+    "roman": "ra",
+    "english": "and",
+    "hindi": "और",
+    "pos": "conjunction",
+    "category": "basics"
+  },
+  {
+    "kumaoni": "अर",
+    "roman": "ar",
+    "english": "and",
+    "hindi": "और",
+    "pos": "conjunction",
+    "category": "basics"
+  },
+  {
+    "kumaoni": "या",
+    "roman": "ya",
+    "english": "or / either",
+    "hindi": "या / अथवा",
+    "pos": "conjunction",
+    "category": "basics"
+  },
+  {
+    "kumaoni": "पर",
+    "roman": "par",
+    "english": "but / however",
+    "hindi": "पर / लेकिन",
+    "pos": "conjunction",
+    "category": "basics"
+  },
+  {
+    "kumaoni": "जिंदगी",
+    "roman": "jindagi",
+    "english": "life / lifetime",
+    "hindi": "जिंदगी / जीवन",
+    "pos": "noun",
+    "category": "basics"
+  },
+  {
+    "kumaoni": "मरण",
+    "roman": "maran",
+    "english": "death / demise",
+    "hindi": "मृत्यु / मौत",
+    "pos": "noun",
+    "category": "basics"
+  },
+  {
+    "kumaoni": "अँधार",
+    "roman": "andhaar",
+    "english": "darkness / dark",
+    "hindi": "अंधेरा / अंधकार",
+    "pos": "noun",
+    "category": "nature"
+  },
+  {
+    "kumaoni": "उज्याव",
+    "roman": "ujyaav",
+    "english": "light / brightness / illumination",
+    "hindi": "उजाला / प्रकाश",
+    "pos": "noun",
+    "category": "nature"
+  },
+  {
+    "kumaoni": "दिन",
+    "roman": "din",
+    "english": "day / daytime",
+    "hindi": "दिन / दिवस",
+    "pos": "noun",
+    "category": "time"
+  },
+  {
+    "kumaoni": "झटपट",
+    "roman": "jhatpat",
+    "english": "fast / quickly / rapid",
+    "hindi": "जल्दी / झटपट",
+    "pos": "adverb",
+    "category": "basics"
+  },
+  {
+    "kumaoni": "हलुक",
+    "roman": "haluk",
+    "english": "slow / slow-paced",
+    "hindi": "धीमा / धीरे",
+    "pos": "adverb",
+    "category": "basics"
+  },
+  {
+    "kumaoni": "भूखो",
+    "roman": "bhookho",
+    "english": "hungry",
+    "hindi": "भूखा",
+    "pos": "adjective",
+    "category": "emotions"
+  },
+  {
+    "kumaoni": "तिसासो",
+    "roman": "tisaaso",
+    "english": "thirsty",
+    "hindi": "प्यासा",
+    "pos": "adjective",
+    "category": "emotions"
+  },
+  {
+    "kumaoni": "डाकदर",
+    "roman": "dakdar",
+    "english": "doctor / physician",
+    "hindi": "डॉक्टर / चिकित्सक",
+    "pos": "noun",
+    "category": "professions"
+  },
+  {
+    "kumaoni": "मास्साब",
+    "roman": "maassaab",
+    "english": "teacher / schoolmaster",
+    "hindi": "शिक्षक / अध्यापक",
+    "pos": "noun",
+    "category": "professions"
+  },
+  {
+    "kumaoni": "चेला",
+    "roman": "chela",
+    "english": "student / pupil / disciple",
+    "hindi": "छात्र / शिष्य",
+    "pos": "noun",
+    "category": "professions"
+  },
+  {
+    "kumaoni": "बरबाज्यू",
+    "roman": "barbajyu",
+    "english": "paternal grandfather",
+    "hindi": "दादाजी",
+    "pos": "noun",
+    "category": "kinship"
+  },
+  {
+    "kumaoni": "भुला",
+    "roman": "bhula",
+    "english": "younger brother",
+    "hindi": "छोटा भाई",
+    "pos": "noun",
+    "category": "kinship"
+  },
+  {
+    "kumaoni": "बुआरी",
+    "roman": "buari",
+    "english": "daughter-in-law",
+    "hindi": "बहू / पुत्रवधू",
+    "pos": "noun",
+    "category": "kinship"
+  },
+  {
+    "kumaoni": "जवाइन",
+    "roman": "jawaain",
+    "english": "son-in-law",
+    "hindi": "दामाद / जंवाई",
+    "pos": "noun",
+    "category": "kinship"
+  },
+  {
+    "kumaoni": "काखी",
+    "roman": "kakhi",
+    "english": "paternal aunt / uncle wife",
+    "hindi": "चाची",
+    "pos": "noun",
+    "category": "kinship"
+  },
+  {
+    "kumaoni": "ठुल बाजू",
+    "roman": "thul baju",
+    "english": "elder paternal uncle / tauji",
+    "hindi": "ताऊजी",
+    "pos": "noun",
+    "category": "kinship"
+  },
+  {
+    "kumaoni": "ठुल इजा",
+    "roman": "thul ija",
+    "english": "elder paternal aunt / taiji",
+    "hindi": "ताईजी",
+    "pos": "noun",
+    "category": "kinship"
+  },
+  {
+    "kumaoni": "बोजू",
+    "roman": "boju",
+    "english": "sister-in-law / elder brother wife",
+    "hindi": "भाभी",
+    "pos": "noun",
+    "category": "kinship"
+  },
+  {
+    "kumaoni": "घरवाला",
+    "roman": "gharwala",
+    "english": "husband",
+    "hindi": "पति / घरवाला",
+    "pos": "noun",
+    "category": "kinship"
+  },
+  {
+    "kumaoni": "घरवाली",
+    "roman": "gharwali",
+    "english": "wife",
+    "hindi": "पत्नी / घरवाली",
+    "pos": "noun",
+    "category": "kinship"
+  },
+  {
+    "kumaoni": "दगड़्या",
+    "roman": "dagdya",
+    "english": "friend / companion / pal",
+    "hindi": "दोस्त / साथी",
+    "pos": "noun",
+    "category": "kinship"
+  },
+  {
+    "kumaoni": "संगी",
+    "roman": "sangi",
+    "english": "friend / partner / comrade",
+    "hindi": "दोस्त / संगी / साथी",
+    "pos": "noun",
+    "category": "kinship"
+  },
+  {
+    "kumaoni": "भौ",
+    "roman": "bhau",
+    "english": "little kid / small brother",
+    "hindi": "छोटा बच्चा / छोटा भाई",
+    "pos": "noun",
+    "category": "kinship"
+  },
+  {
+    "kumaoni": "ठाऊँ",
+    "roman": "thaun",
+    "english": "place / spot / location",
+    "hindi": "जगह / स्थान / ठौर",
+    "pos": "noun",
+    "category": "travel"
+  },
+  {
+    "kumaoni": "एथर",
+    "roman": "ethar",
+    "english": "here / hither / this way",
+    "hindi": "यहाँ / इधर",
+    "pos": "adverb",
+    "category": "basics"
+  },
+  {
+    "kumaoni": "उथर",
+    "roman": "uthar",
+    "english": "there / thither / that way",
+    "hindi": "वहाँ / उधर",
+    "pos": "adverb",
+    "category": "basics"
   }
 ]

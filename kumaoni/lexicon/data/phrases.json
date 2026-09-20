@@ -530,5 +530,222 @@
     "english": "Going to the hill fair and dancing the Jhora-Chanchari brings boundless joy.",
     "hindi": "मेले में जाकर झोड़ा-चाँचरी नाचना अत्यंत आनंददायक होता है।",
     "category": "culture"
+  },
+  {
+    "kumaoni": "तुज भेटक बढ़िया लागो।",
+    "roman": "Tuj bhetak badhiya lago.",
+    "english": "Nice to meet you.",
+    "hindi": "आपसे मिलकर बहुत अच्छा लगा।",
+    "category": "conversation"
+  },
+  {
+    "kumaoni": "एथर आ।",
+    "roman": "Ethar aa.",
+    "english": "Come here.",
+    "hindi": "यहाँ आओ / इधर आओ।",
+    "category": "daily_conversation"
+  },
+  {
+    "kumaoni": "उथर जा।",
+    "roman": "Uthar ja.",
+    "english": "Go there.",
+    "hindi": "वहाँ जाओ / उधर जाओ।",
+    "category": "daily_conversation"
+  },
+  {
+    "kumaoni": "उठ जा।",
+    "roman": "Uth ja.",
+    "english": "Stand up / Get up.",
+    "hindi": "उठ जाओ / खड़े हो जाओ।",
+    "category": "daily_conversation"
+  },
+  {
+    "kumaoni": "धीरे बोल।",
+    "roman": "Dheere bol.",
+    "english": "Speak slowly.",
+    "hindi": "धीरे बोलो / आहिस्ता बोलो।",
+    "category": "daily_conversation"
+  },
+  {
+    "kumaoni": "थोड़ी देर रूकी।",
+    "roman": "Thodi der ruki.",
+    "english": "Wait for a while.",
+    "hindi": "थोड़ी देर रुको / प्रतीक्षा करो।",
+    "category": "daily_conversation"
+  },
+  {
+    "kumaoni": "चाल, जालुं।",
+    "roman": "Chal, jalun.",
+    "english": "Let's go.",
+    "hindi": "चलो, चलते हैं।",
+    "category": "daily_conversation"
+  },
+  {
+    "kumaoni": "यो ठाऊँ कहाँ छे?",
+    "roman": "Yo thaun kahan che?",
+    "english": "Where is this place?",
+    "hindi": "यह जगह कहाँ है?",
+    "category": "travel"
+  },
+  {
+    "kumaoni": "यो ठाऊँ कति दूर छे?",
+    "roman": "Yo thaun kati door che?",
+    "english": "How far is this place?",
+    "hindi": "यह जगह कितनी दूर है?",
+    "category": "travel"
+  },
+  {
+    "kumaoni": "मैं कुन बाट जालुं?",
+    "roman": "Main kun baat jalun?",
+    "english": "Which way should I go?",
+    "hindi": "मुझे किस रास्ते से जाना चाहिए?",
+    "category": "travel"
+  },
+  {
+    "kumaoni": "आगै जा।",
+    "roman": "Aage ja.",
+    "english": "Move forward / Go ahead.",
+    "hindi": "आगे बढ़ो / आगे जाओ।",
+    "category": "travel"
+  },
+  {
+    "kumaoni": "मणि खानो दे।",
+    "roman": "Mani khano de.",
+    "english": "Give me food.",
+    "hindi": "मुझे खाना दो।",
+    "category": "conversation"
+  },
+  {
+    "kumaoni": "खानो मिठो छु।",
+    "roman": "Khano mitho chu.",
+    "english": "The food is tasty / delicious.",
+    "hindi": "खाना बहुत स्वादिष्ट है।",
+    "category": "conversation"
+  },
+  {
+    "kumaoni": "मैं ब्यस्त छुं।",
+    "roman": "Main byast chun.",
+    "english": "I am busy.",
+    "hindi": "मैं व्यस्त हूँ।",
+    "category": "conversation"
+  },
+  {
+    "kumaoni": "मैं बुझ ना।",
+    "roman": "Main bujh na.",
+    "english": "I do not understand.",
+    "hindi": "मेरी समझ में नहीं आया।",
+    "category": "conversation"
+  },
+  {
+    "kumaoni": "मैं खुश छुं।",
+    "roman": "Main khush chun.",
+    "english": "I am happy.",
+    "hindi": "मैं बहुत खुश हूँ।",
+    "category": "conversation"
+  },
+  {
+    "kumaoni": "मैं दुखी छुं।",
+    "roman": "Main dukhi chun.",
+    "english": "I am sad.",
+    "hindi": "मैं दुखी / उदास हूँ।",
+    "category": "conversation"
+  },
+  {
+    "kumaoni": "मैं थक ग्ये छुं।",
+    "roman": "Main thak gye chun.",
+    "english": "I am tired.",
+    "hindi": "मैं थक गया हूँ।",
+    "category": "conversation"
+  },
+  {
+    "kumaoni": "मैं डर ग्ये छुं।",
+    "roman": "Main dar gye chun.",
+    "english": "I am scared / frightened.",
+    "hindi": "मुझे डर लग गया है।",
+    "category": "conversation"
+  },
+  {
+    "kumaoni": "मैं तुझै प्रेम करनु छुं।",
+    "roman": "Main tujai prem karanu chun.",
+    "english": "I love you.",
+    "hindi": "मैं तुमसे प्रेम / प्यार करता हूँ।",
+    "category": "conversation"
+  },
+  {
+    "kumaoni": "मैं तुझै बहुत याद करनु छुं।",
+    "roman": "Main tujai bahut yaad karanu chun.",
+    "english": "I miss you a lot.",
+    "hindi": "मुझे तुम्हारी बहुत याद आती है।",
+    "category": "conversation"
+  },
+  {
+    "kumaoni": "तू मेरु सब कुछ छुं।",
+    "roman": "Tu meru sab kucch chun.",
+    "english": "You are my everything.",
+    "hindi": "तुम मेरा सब कुछ हो।",
+    "category": "conversation"
+  },
+  {
+    "kumaoni": "तू मेरु सबसे बढ़िया संगि छुं।",
+    "roman": "Tu meru sabse badhiya sangi chu.",
+    "english": "You are my best friend.",
+    "hindi": "तुम मेरे सबसे अच्छे दोस्त हो।",
+    "category": "conversation"
+  },
+  {
+    "kumaoni": "हमारो दोस्ती हमेसा रैछ।",
+    "roman": "Hamaro dosti hamesa raich.",
+    "english": "Our friendship is forever.",
+    "hindi": "हमारी दोस्ती हमेशा बनी रहेगी।",
+    "category": "conversation"
+  },
+  {
+    "kumaoni": "जन्मदिन को बहुत-बहुत शुभकामना!",
+    "roman": "Janmadin ko bahut-bahut shubhkamna!",
+    "english": "Happy Birthday!",
+    "hindi": "जन्मदिन की बहुत-बहुत शुभकामनाएँ!",
+    "category": "festivals"
+  },
+  {
+    "kumaoni": "नव बर्स की बधाइ छे!",
+    "roman": "Nav bars ki badhai che!",
+    "english": "Happy New Year!",
+    "hindi": "नव वर्ष की हार्दिक शुभकामनाएँ / बधाई!",
+    "category": "festivals"
+  },
+  {
+    "kumaoni": "दीपावली की बधाइ छे!",
+    "roman": "Deepawali ki badhai che!",
+    "english": "Happy Diwali!",
+    "hindi": "दीपावली की हार्दिक बधाई!",
+    "category": "festivals"
+  },
+  {
+    "kumaoni": "होली की शुभकामना!",
+    "roman": "Holi ki shubhkamna!",
+    "english": "Happy Holi!",
+    "hindi": "होली की हार्दिक शुभकामनाएँ!",
+    "category": "festivals"
+  },
+  {
+    "kumaoni": "तेरु जिंदगि रोशनी और खुशियों सौं भरि जै।",
+    "roman": "Tero jindagi roshni aur khushiyon saun bhari jai.",
+    "english": "May your life be filled with light and prosperity.",
+    "hindi": "आपका जीवन प्रकाश और खुशियों से भर जाए।",
+    "category": "blessings"
+  },
+  {
+    "kumaoni": "तेरि उम्र लम्बी और खुशी रहै।",
+    "roman": "Teri umar lambi aur khushi rahai.",
+    "english": "May you have a long and happy life.",
+    "hindi": "आपकी उम्र लम्बी हो और जीवन में खुशी रहे।",
+    "category": "blessings"
+  },
+  {
+    "kumaoni": "तेरि सब सपना साचि हों।",
+    "roman": "Teri sab sapna sachi hon.",
+    "english": "May all your dreams come true.",
+    "hindi": "आपके सारे सपने सच हों।",
+    "category": "blessings"
   }
 ]
