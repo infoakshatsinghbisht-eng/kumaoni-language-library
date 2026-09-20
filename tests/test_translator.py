@@ -29,6 +29,36 @@ class TestTranslator(unittest.TestCase):
         self.assertEqual(str(kumaoni.translate("help")), "मदद")
         self.assertEqual(str(kumaoni.translate("because")), "किलैकि")
 
+    def test_english_synonyms_and_colloquials(self):
+        # Mother synonyms
+        for m in ("mom", "mum", "mommy", "mummy", "mama", "maa", "ma"):
+            self.assertEqual(str(kumaoni.translate(m)), "ईजा", f"Failed for {m}")
+            self.assertEqual(kumaoni.lookup(m).kumaoni, "ईजा", f"Lookup failed for {m}")
+
+        # Father synonyms
+        for f in ("dad", "daddy", "papa", "pop", "pa", "pitaji"):
+            self.assertEqual(str(kumaoni.translate(f)), "बाबु", f"Failed for {f}")
+            self.assertEqual(kumaoni.lookup(f).kumaoni, "बाबु", f"Lookup failed for {f}")
+
+        # Grandparent synonyms
+        for gp in ("grandpa", "granddad", "dada", "nana"):
+            self.assertEqual(str(kumaoni.translate(gp)), "बूबू", f"Failed for {gp}")
+            self.assertEqual(kumaoni.lookup(gp).kumaoni, "बूबू", f"Lookup failed for {gp}")
+
+        for gm in ("grandma", "granny", "dadi", "nani"):
+            self.assertEqual(str(kumaoni.translate(gm)), "आमा", f"Failed for {gm}")
+            self.assertEqual(kumaoni.lookup(gm).kumaoni, "आमा", f"Lookup failed for {gm}")
+
+        # Sibling synonyms
+        self.assertEqual(str(kumaoni.translate("bro")), "दाज्यू")
+        self.assertEqual(str(kumaoni.translate("sis")), "दीदी")
+
+        # Children & youth synonyms
+        for c in ("kid", "child", "baby", "infant"):
+            self.assertEqual(str(kumaoni.translate(c)), "नातिन", f"Failed for {c}")
+        for cs in ("kids", "children"):
+            self.assertEqual(str(kumaoni.translate(cs)), "नान्तिन", f"Failed for {cs}")
+
     def test_english_sentences_grammar(self):
         # Progressive aspect
         res_prog = kumaoni.translate("She is eating food")

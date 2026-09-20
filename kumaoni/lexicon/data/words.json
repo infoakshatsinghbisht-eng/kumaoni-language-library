@@ -258,23 +258,23 @@
   {
     "kumaoni": "ईजा",
     "roman": "ija",
-    "english": "mother",
-    "hindi": "माँ",
+    "english": "mother / mom / mum / mommy / mummy / mama / maa / ma",
+    "hindi": "माँ / माताजी / अम्मा",
     "pos": "noun",
     "category": "kinship"
   },
   {
     "kumaoni": "बाबु",
     "roman": "babu",
-    "english": "father",
-    "hindi": "पिताजी",
+    "english": "father / dad / daddy / papa / pop / pa / pitaji",
+    "hindi": "पिताजी / बापू / पिता",
     "pos": "noun",
     "category": "kinship"
   },
   {
     "kumaoni": "बौजी",
     "roman": "bauji",
-    "english": "father (respectful) / elder male",
+    "english": "father / elder male / respected elder",
     "hindi": "पिताजी / बुजुर्ग",
     "pos": "noun",
     "category": "kinship"
@@ -282,31 +282,31 @@
   {
     "kumaoni": "दाज्यू",
     "roman": "dajyu",
-    "english": "elder brother",
-    "hindi": "बड़ा भाई",
+    "english": "elder brother / brother / bro / big brother / older brother / bhaiya / bhai",
+    "hindi": "बड़ा भाई / भाई",
     "pos": "noun",
     "category": "kinship"
   },
   {
     "kumaoni": "भै",
     "roman": "bhai",
-    "english": "younger brother",
-    "hindi": "छोटा भाई",
+    "english": "younger brother / brother / bro / little brother / small brother",
+    "hindi": "छोटा भाई / भाई",
     "pos": "noun",
     "category": "kinship"
   },
   {
     "kumaoni": "दीदी",
     "roman": "didi",
-    "english": "elder sister",
-    "hindi": "बड़ी बहन",
+    "english": "elder sister / sister / sis / big sister / older sister",
+    "hindi": "बड़ी बहन / दीदी",
     "pos": "noun",
     "category": "kinship"
   },
   {
     "kumaoni": "भुली",
     "roman": "bhuli",
-    "english": "younger sister",
+    "english": "younger sister / sister / sis / little sister / small sister",
     "hindi": "छोटी बहन",
     "pos": "noun",
     "category": "kinship"
@@ -314,7 +314,7 @@
   {
     "kumaoni": "बैणी",
     "roman": "baini",
-    "english": "younger sister / girl",
+    "english": "younger sister / sister / sis / girl",
     "hindi": "छोटी बहन / लड़की",
     "pos": "noun",
     "category": "kinship"
@@ -322,23 +322,23 @@
   {
     "kumaoni": "बूबू",
     "roman": "bubu",
-    "english": "grandfather",
-    "hindi": "दादाजी",
+    "english": "grandfather / grandpa / granddad / grand-dad / grandpapa / dada / dadaji / nana / nanaji",
+    "hindi": "दादाजी / नानाजी",
     "pos": "noun",
     "category": "kinship"
   },
   {
     "kumaoni": "आमा",
     "roman": "aama",
-    "english": "grandmother",
-    "hindi": "दादीजी",
+    "english": "grandmother / grandma / granny / grand-ma / grandmama / dadi / dadiji / nani / naniji",
+    "hindi": "दादीजी / नानीजी",
     "pos": "noun",
     "category": "kinship"
   },
   {
     "kumaoni": "च्याल",
     "roman": "chyal",
-    "english": "son / boy",
+    "english": "son / boy / lad / male child",
     "hindi": "बेटा / पुत्र / लड़का",
     "pos": "noun",
     "category": "kinship"
@@ -346,32 +346,48 @@
   {
     "kumaoni": "चेलि",
     "roman": "cheli",
-    "english": "daughter / girl",
+    "english": "daughter / girl / lass / female child",
     "hindi": "बेटी / पुत्री / लड़की",
+    "pos": "noun",
+    "category": "kinship"
+  },
+  {
+    "kumaoni": "नातिन",
+    "roman": "naatin",
+    "english": "child / kid / infant / baby / toddler",
+    "hindi": "बच्चा / बालक / शिशु",
+    "pos": "noun",
+    "category": "kinship"
+  },
+  {
+    "kumaoni": "नौनी",
+    "roman": "nauni",
+    "english": "baby / infant / newborn / little child",
+    "hindi": "नन्हा बच्चा / शिशु",
     "pos": "noun",
     "category": "kinship"
   },
   {
     "kumaoni": "नान्तिन",
     "roman": "naantin",
-    "english": "children / kids",
-    "hindi": "बच्चे",
+    "english": "children / kids / young ones",
+    "hindi": "बच्चे / बालक",
     "pos": "noun",
     "category": "kinship"
   },
   {
     "kumaoni": "काका",
     "roman": "kaka",
-    "english": "paternal uncle",
-    "hindi": "चाचा",
+    "english": "uncle / paternal uncle / chacha / chachaji",
+    "hindi": "चाचा / काका",
     "pos": "noun",
     "category": "kinship"
   },
   {
     "kumaoni": "काकी",
     "roman": "kaki",
-    "english": "paternal aunt (uncle's wife)",
-    "hindi": "चाची",
+    "english": "aunt / aunty / auntee / paternal aunt / chachi / chachiji",
+    "hindi": "चाची / काकी",
     "pos": "noun",
     "category": "kinship"
   },

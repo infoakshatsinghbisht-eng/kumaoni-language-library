@@ -6,8 +6,8 @@ class TestLexicon(unittest.TestCase):
     def test_lookup_exact(self):
         w = kumaoni.lookup("ईजा")
         self.assertIsNotNone(w)
-        self.assertEqual(w.english, "mother")
-        self.assertEqual(w.hindi, "माँ")
+        self.assertIn("mother", w.english)
+        self.assertIn("माँ", w.hindi)
 
         # By Romanized
         w_rom = kumaoni.lookup("dajyu")

@@ -23,6 +23,86 @@ STOPWORDS_EN = {
     "other", "same", "so", "than", "too", "very", "can", "will", "just", "should", "now"
 }
 
+ENGLISH_SYNONYM_FALLBACKS: Dict[str, str] = {
+    # Mother variants
+    "mom": "mother", "mum": "mother", "mommy": "mother", "mummy": "mother",
+    "mama": "mother", "mamma": "mother", "maa": "mother", "ma": "mother",
+    "mata": "mother", "matri": "mother",
+
+    # Father variants
+    "dad": "father", "daddy": "father", "papa": "father", "pop": "father",
+    "pops": "father", "pa": "father", "pitaji": "father", "pita": "father",
+
+    # Grandfather variants
+    "grandpa": "grandfather", "granddad": "grandfather", "grand-dad": "grandfather",
+    "grandpapa": "grandfather", "dada": "grandfather", "dadaji": "grandfather",
+    "nana": "grandfather", "nanaji": "grandfather",
+
+    # Grandmother variants
+    "grandma": "grandmother", "granny": "grandmother", "grand-ma": "grandmother",
+    "grandmama": "grandmother", "dadi": "grandmother", "dadiji": "grandmother",
+    "nani": "grandmother", "naniji": "grandmother",
+
+    # Brother variants
+    "bro": "brother", "bhai": "brother", "bhaiya": "brother", "bhaiji": "brother",
+    "big brother": "elder brother", "older brother": "elder brother",
+    "little brother": "younger brother", "small brother": "younger brother",
+
+    # Sister variants
+    "sis": "sister", "sissy": "sister", "behen": "sister", "didi": "elder sister",
+    "big sister": "elder sister", "older sister": "elder sister",
+    "little sister": "younger sister", "small sister": "younger sister",
+
+    # Uncle & Aunt variants
+    "aunty": "aunt", "auntee": "aunt", "chachi": "aunt", "chachiji": "aunt",
+    "chacha": "uncle", "chachaji": "uncle", "kaka": "uncle", "kaki": "aunt",
+    "tau": "elder uncle", "taiji": "elder aunt", "mami": "maternal aunt",
+    "mamiji": "maternal aunt", "bua": "paternal aunt", "phuphi": "paternal aunt",
+    "mausi": "maternal aunt", "masi": "maternal aunt",
+
+    # Children & Youth
+    "kid": "child", "kids": "children", "toddler": "child",
+    "baby": "baby", "babe": "baby", "infant": "baby", "newborn": "baby",
+    "boy": "boy", "lad": "boy", "girl": "girl", "lass": "girl",
+
+    # Spouses & Partners
+    "hubby": "husband", "wifey": "wife", "spouse": "husband",
+
+    # Friends & Companions
+    "pal": "friend", "buddy": "friend", "mate": "friend", "bestie": "friend",
+    "best friend": "friend", "dost": "friend", "yaar": "friend", "mitra": "friend",
+
+    # Food & Drink
+    "veggie": "vegetable", "veggies": "vegetable", "greens": "vegetable",
+    "chapati": "bread", "chapatti": "bread", "roti": "bread", "chai": "tea",
+    "doodh": "milk", "dahi": "curd", "yogurt": "curd", "yoghurt": "curd",
+    "makhan": "butter", "ghee": "clarified butter", "daal": "lentil", "dal": "lentil",
+    "sabzi": "vegetable", "sabji": "vegetable", "paani": "water", "pani": "water",
+    "khana": "food", "bhaat": "food",
+
+    # Animals & Nature
+    "doggy": "dog", "doggie": "dog", "puppy": "dog", "pup": "dog",
+    "kitty": "cat", "kitten": "cat", "pussy": "cat", "chidiya": "bird",
+    "birdie": "bird", "birds": "bird", "sunshine": "sun", "sunlight": "sun",
+    "moonlight": "moon", "rainfall": "rain", "snowfall": "snow", "barf": "snow",
+    "hill": "mountain", "peak": "mountain", "stream": "river", "brook": "river",
+    "woods": "forest", "jungle": "forest",
+
+    # Household & Everyday
+    "home": "house", "residence": "house", "gate": "door", "doorway": "door",
+    "street": "road", "path": "road", "pathway": "road", "town": "city",
+    "cash": "money", "bucks": "money", "rupees": "money", "footwear": "shoe",
+    "shoes": "shoe", "boots": "shoe", "clothing": "clothes", "garments": "clothes",
+    "dress": "clothes", "tummy": "stomach", "belly": "stomach",
+
+    # Greetings
+    "hi": "hello", "hey": "hello", "howdy": "hello", "namaste": "hello",
+    "bye": "goodbye", "bye-bye": "goodbye", "byebye": "goodbye",
+    "thanks": "thank you", "ty": "thank you", "thx": "thank you",
+    "yeah": "yes", "yep": "yes", "yup": "yes", "aye": "yes",
+    "nope": "no", "nah": "no"
+}
+
 
 @dataclass
 class Word:
@@ -173,6 +253,12 @@ class Lexicon:
         # 3. Exact match in English (e.g. "water", "moon", "sun", "mother")
         if q_lower in self._english_exact_map:
             return self._english_exact_map[q_lower]
+
+        # 3b. English colloquial synonyms (e.g. "mom", "mum", "grandpa", "dad", "bro", "kids", "veggie")
+        if q_lower in ENGLISH_SYNONYM_FALLBACKS:
+            canonical_en = ENGLISH_SYNONYM_FALLBACKS[q_lower]
+            if canonical_en in self._english_exact_map:
+                return self._english_exact_map[canonical_en]
 
         # 4. Exact Romanized phonetic (e.g. "dajyu", "pailag", "bhuli")
         if q_lower in self._roman_map:
