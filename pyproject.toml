@@ -20,6 +20,11 @@ classifiers = [
 ]
 dependencies = []
 
+[project.urls]
+Homepage = "https://github.com/infoakshatsinghbisht-eng/kumaoni-language-library"
+Repository = "https://github.com/infoakshatsinghbisht-eng/kumaoni-language-library"
+Issues = "https://github.com/infoakshatsinghbisht-eng/kumaoni-language-library/issues"
+
 [project.scripts]
 kumaoni = "kumaoni.cli:main"
 
