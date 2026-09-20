@@ -72,11 +72,16 @@ kumaoni/
 ### Requirements
 - Python 3.8 or higher.
 
-### Development Installation
+### Installation from PyPI
+```bash
+pip install kumaoni
+```
+
+### Development Installation from Source
 Clone the repository and install in editable mode:
 ```bash
-git clone https://github.com/your-username/kumaoni-language-library.git
-cd "kumaoni language library"
+git clone https://github.com/infoakshatsinghbisht-eng/kumaoni-language-library.git
+cd kumaoni-language-library
 pip install -e .
 ```
 

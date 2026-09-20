@@ -56,11 +56,17 @@ This library empowers developers to build **web applications, mobile apps, educa
 
 ## 🚀 Installation
 
-Install locally in development mode:
+Install via pip directly from PyPI:
 
 ```bash
-git clone https://github.com/your-username/kumaoni-language-library.git
-cd "kumaoni language library"
+pip install kumaoni
+```
+
+Or install from GitHub source in development mode:
+
+```bash
+git clone https://github.com/infoakshatsinghbisht-eng/kumaoni-language-library.git
+cd kumaoni-language-library
 pip install -e .
 ```
 
