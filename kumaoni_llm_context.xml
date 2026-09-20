@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library id="kumaoni" version="1.0.0">
+    <metadata>
+        <name>kumaoni</name>
+        <alternate_names>
+            <name>kumauni</name>
+            <name>कुमाऊँनी</name>
+            <name>Central Pahari</name>
+        </alternate_names>
+        <iso_639_3>kfy</iso_639_3>
+        <description>Standard Python library for Kumaoni language processing, morphology, universal translation, linguistics, and Himalayan oral culture.</description>
+        <license>MIT</license>
+        <pypi_package>kumaoni</pypi_package>
+        <install_command>pip install kumaoni</install_command>
+        <repository>https://github.com/infoakshatsinghbisht-eng/kumaoni-language-library</repository>
+        <python_requires>&gt;=3.8</python_requires>
+        <zero_dependencies_core>true</zero_dependencies_core>
+    </metadata>
+
+    <quickstart>
+        <code><![CDATA[
+import kumaoni
+
+# 1. Translation
+result = kumaoni.translate("Where are you going?", source="en", target="kumaoni")
+print(result.text)       # Devanagari output
+print(result.romanized)  # Romanized phonetic output
+
+# 2. Dictionary & 300k+ Morphology Lemmatizer
+word = kumaoni.lookup("काफल")
+lemma = kumaoni.lemmatize("खान्छू")  # -> 'खाण'
+analysis = kumaoni.analyze("घरबटि")  # -> Lemma: घर, POS: noun, Case: ablative
+
+# 3. Verb Conjugation
+verb = kumaoni.conjugate("जाण", tense="past", person=1)  # -> 'ग्यूँ'
+
+# 4. Numbers & Fractions
+words = kumaoni.num_to_words(108)  # -> 'एक सौ आठ'
+frac = kumaoni.fraction(0.5)        # -> 'आधो'
+
+# 5. Culture & Folklore
+proverb = kumaoni.proverbs.random()
+epic = kumaoni.literature.get_epic("malushahi")
+        ]]></code>
+    </quickstart>
+
+    <modules>
+        <module name="kumaoni.translator">
+            <description>Multi-engine translation system for English, Hindi, and 100+ world languages to/from Kumaoni.</description>
+            <functions>
+                <function name="kumaoni.translate">
+                    <signature>(text: str, source: str = "en", target: str = "kumaoni", method: str = "auto") -&gt; TranslationResult</signature>
+                    <description>Translates text into Kumaoni with .text (Devanagari) and .romanized attributes.</description>
+                </function>
+                <function name="kumaoni.voice_translate">
+                    <signature>(text: str, source_lang: str = "auto", method: str = "auto", generate_audio: bool = False) -&gt; VoiceTranslationResult</signature>
+                    <description>Translates text and provides IPA phonetics and optional synthetic WAV audio.</description>
+                </function>
+            </functions>
+        </module>
+
+        <module name="kumaoni.lexicon">
+            <description>1,355+ authenticated lemmas and 300,000+ indexed inflected morphological forms.</description>
+            <functions>
+                <function name="kumaoni.lookup">
+                    <signature>(query: str, search_in: str = "all") -&gt; Optional[Word]</signature>
+                    <description>Searches base dictionary definitions across Kumaoni, English, and Hindi.</description>
+                </function>
+                <function name="kumaoni.search">
+                    <signature>(query: str) -&gt; List[Word]</signature>
+                    <description>Multi-result substring and fuzzy search in vocabulary database.</description>
+                </function>
+                <function name="kumaoni.lemmatize">
+                    <signature>(word: str) -&gt; str</signature>
+                    <description>Reduces inflected surface forms (e.g. खान्छू, घरबटि) to base dictionary lemma (खाण, घर).</description>
+                </function>
+                <function name="kumaoni.analyze">
+                    <signature>(word: str) -&gt; MorphAnalysis</signature>
+                    <description>Provides full grammatical tag breakdown (POS, Tense, Person, Number, Gender, Case).</description>
+                </function>
+                <function name="kumaoni.total_word_forms">
+                    <signature>() -&gt; int</signature>
+                    <description>Returns total count of generated and indexed full-form morphological paradigms (300,000+).</description>
+                </function>
+            </functions>
+        </module>
+
+        <module name="kumaoni.grammar">
+            <description>Linguistic rules for SOV sentence structure, verb conjugations, modals, and noun declensions.</description>
+            <functions>
+                <function name="kumaoni.conjugate">
+                    <signature>(verb: str, tense: str = "present", person: int = 1, number: str = "sg", gender: str = "m", honorific: bool = False) -&gt; str</signature>
+                    <description>Conjugates regular and irregular verbs (जाण, खाण, करन, इत्यादी) across tenses.</description>
+                </function>
+                <function name="kumaoni.conjugate_to_be">
+                    <signature>(tense: str = "present", person: int = 1, number: str = "sg", gender: str = "m") -&gt; str</signature>
+                    <description>Conjugates substantive auxiliary verb (छ- / to be).</description>
+                </function>
+                <function name="kumaoni.build_sentence">
+                    <signature>(subject: str, verb: str, obj: str = "", tense: str = "present", ...) -&gt; str</signature>
+                    <description>Constructs full grammatically aligned Kumaoni SOV sentences.</description>
+                </function>
+                <function name="kumaoni.imperative">
+                    <signature>(verb: str, person: int = 2, honorific: bool = False, plural: bool = False) -&gt; str</signature>
+                    <description>Generates imperative command forms.</description>
+                </function>
+                <function name="kumaoni.causative">
+                    <signature>(verb: str, degree: int = 1) -&gt; str</signature>
+                    <description>Generates 1st (खवाण) and 2nd degree (खववाण) causative verbs.</description>
+                </function>
+                <function name="kumaoni.passive">
+                    <signature>(verb: str, tense: str = "present") -&gt; str</signature>
+                    <description>Generates passive voice forms.</description>
+                </function>
+                <function name="kumaoni.decline_noun">
+                    <signature>(noun: str, case: str, number: str = "sg", gender: str = "m") -&gt; str</signature>
+                    <description>Declines nouns into cases: nominative, accusative, ergative, instrumental, dative, ablative, genitive, locative.</description>
+                </function>
+                <function name="kumaoni.get_marker">
+                    <signature>(case: str) -&gt; str</signature>
+                    <description>Returns authentic Kumaoni case postpositions (-ले, -कणी, -बटि, -म, -क/कि/का).</description>
+                </function>
+                <function name="kumaoni.get_pronoun">
+                    <signature>(person: int, number: str = "sg", case: str = "direct", gender: str = "m", honorific: bool = False) -&gt; str</signature>
+                    <description>Returns personal and demonstrative pronouns (मैं, तू, तम/तुम, ऊ, हम, ऊँ).</description>
+                </function>
+                <function name="kumaoni.echo_word">
+                    <signature>(word: str) -&gt; str</signature>
+                    <description>Generates authentic hill reduplicative echo words (e.g. भात-व़ात, किताब-सिताब).</description>
+                </function>
+            </functions>
+        </module>
+
+        <module name="kumaoni.numbers">
+            <description>Number to words converter, Devanagari numerals, customary fractions, and ordinals.</description>
+            <functions>
+                <function name="kumaoni.num_to_words">
+                    <signature>(number: int, script: str = "devanagari") -&gt; str</signature>
+                    <description>Converts integers (0 to 1,000,000,000+) to Kumaoni words.</description>
+                </function>
+                <function name="kumaoni.words_to_num">
+                    <signature>(text: str) -&gt; int</signature>
+                    <description>Parses Kumaoni written number words back to integer.</description>
+                </function>
+                <function name="kumaoni.to_devanagari_numerals">
+                    <signature>(number: int) -&gt; str</signature>
+                    <description>Converts number into Devanagari digits (०१२३४५६७८९).</description>
+                </function>
+                <function name="kumaoni.fraction">
+                    <signature>(val: float, script: str = "devanagari") -&gt; str</signature>
+                    <description>Returns traditional fractions: आधो (0.5), पाव (0.25), पौण (0.75), सवा (1.25), डेढ़ (1.5), ढाई (2.5).</description>
+                </function>
+                <function name="kumaoni.ordinal">
+                    <signature>(number: int, gender: str = "m") -&gt; str</signature>
+                    <description>Returns ordinal words: पैलो (1st), दुसर (2nd), तेसर (3rd), चौथ (4th).</description>
+                </function>
+            </functions>
+        </module>
+
+        <module name="kumaoni.phonetics">
+            <description>Devanagari to Latin phonetic transliteration and script normalizer.</description>
+            <functions>
+                <function name="kumaoni.transliterate">
+                    <signature>(text: str, to_script: str = "devanagari") -&gt; str</signature>
+                    <description>Two-way transliteration between Devanagari and Latin Romanized scripts.</description>
+                </function>
+                <function name="kumaoni.normalize">
+                    <signature>(text: str) -&gt; str</signature>
+                    <description>Normalizes Devanagari Unicode characters, halants, and nuktas.</description>
+                </function>
+                <function name="kumaoni.detect_script">
+                    <signature>(text: str) -&gt; str</signature>
+                    <description>Detects if string is 'devanagari', 'latin', or 'mixed'.</description>
+                </function>
+            </functions>
+        </module>
+
+        <module name="kumaoni.culture">
+            <description>Oral literature, epics, folklore, canonical poetry, scholars, solar calendar, and festivals.</description>
+            <facades>
+                <facade name="kumaoni.proverbs">
+                    <methods>all(), random()</methods>
+                    <description>45+ authentic proverbs (Akhaan) with literal and figurative meanings.</description>
+                </facade>
+                <facade name="kumaoni.riddles">
+                    <methods>all(), random()</methods>
+                    <description>20+ traditional riddles (Aana) with answers and hints.</description>
+                </facade>
+                <facade name="kumaoni.phrases">
+                    <methods>all(category=None), random()</methods>
+                    <description>75+ everyday conversational idioms, blessings, and idioms.</description>
+                </facade>
+                <facade name="kumaoni.festivals">
+                    <methods>list(), get(name)</methods>
+                    <description>Harela, Phool Dei, Ghughutiya, Olgia, Nanda Devi, Bagwal.</description>
+                </facade>
+                <facade name="kumaoni.literature">
+                    <methods>epics(), get_epic(id), poems(), authors(), get_author(id)</methods>
+                    <description>Epics (Malushahi-Rajula, Jiya Rani, Golu Devta, Haru Singh Heet), 15+ Scholars (Badri Datt Pande, Gumani, Gaurda).</description>
+                </facade>
+            </facades>
+        </module>
+    </modules>
+
+    <cli>
+        <command>kumaoni translate "Hello friend" --target kumaoni</command>
+        <command>kumaoni lookup "काफल"</command>
+        <command>kumaoni number 108</command>
+        <command>kumaoni conjugate "जाण" --tense past --person 1</command>
+        <command>kumaoni proverb</command>
+        <command>kumaoni info</command>
+    </cli>
+</library>
