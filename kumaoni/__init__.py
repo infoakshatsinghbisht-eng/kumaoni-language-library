@@ -20,7 +20,12 @@ Word(kumaoni='ईजा', roman='ija', english='mother', hindi='माँ', pos=
 """
 
 __version__ = "1.0.0"
-__author__ = "Kumaoni Language Initiative"
+__author__ = "Akshat Singh Bisht"
+__email__ = "infoakshatsinghbisht@gmail.com"
+__maintainer__ = "Akshat Singh Bisht"
+__website__ = "https://akshatsinghbisht.com/"
+__copyright__ = "Copyright (c) 2026 Akshat Singh Bisht"
+__license__ = "MIT"
 
 # Constants
 from kumaoni.constants import (

@@ -6,31 +6,25 @@ build-backend = "setuptools.build_meta"
 name = "kumaoni"
 version = "1.0.0"
 authors = [
-  { name="Kumaoni Language Initiative", email="contact@kumaoni-language.org" },
+    { name = "Akshat Singh Bisht", email = "infoakshatsinghbisht@gmail.com" }
 ]
-description = "A standard-library-style Python package for Kumaoni language processing, linguistics, and universal translation."
+maintainers = [
+    { name = "Akshat Singh Bisht", email = "infoakshatsinghbisht@gmail.com" }
+]
+description = "Kumaoni (कुमाऊँनी) Language Standard Library: 300,516+ Inflections, Voice AI, Speech Translation, and Himalayan Culture"
 readme = "README.md"
 requires-python = ">=3.8"
 classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
-    "Topic :: Text Processing :: Linguistic",
-    "Natural Language :: Indic",
+    "Topic :: Text Processing :: Linguistic"
 ]
-dependencies = []
 
 [project.urls]
-Homepage = "https://github.com/infoakshatsinghbisht-eng/kumaoni-language-library"
-Repository = "https://github.com/infoakshatsinghbisht-eng/kumaoni-language-library"
-Issues = "https://github.com/infoakshatsinghbisht-eng/kumaoni-language-library/issues"
-
-[project.scripts]
-kumaoni = "kumaoni.cli:main"
-
-[tool.setuptools.packages.find]
-include = ["kumaoni", "kumaoni.*"]
-
-[tool.setuptools.package-data]
-"kumaoni.lexicon" = ["data/*.json"]
-"kumaoni.web" = ["static/*"]
+"Homepage" = "https://akshatsinghbisht.com/"
+"GitHub" = "https://github.com/infoakshatsinghbisht-eng/kumaoni-language-library"
+"LinkedIn" = "https://www.linkedin.com/in/akshat-singh-bisht-digital-performance-marketing-specialist/"
+"Amazon Author" = "https://www.amazon.com/stores/Akshat-Singh-Bisht/author/B0D5TYDT28"
+"ResearchGate" = "https://www.researchgate.net/profile/Akshat-Bisht-8"
+"Bug Tracker" = "https://github.com/infoakshatsinghbisht-eng/kumaoni-language-library/issues"

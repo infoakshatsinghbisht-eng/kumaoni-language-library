@@ -1,8 +1,13 @@
 # Kumaoni (कुमाऊँनी) Language Library for Python
 
-[![Python Version](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://python.org)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Kumaoni Language](https://img.shields.io/badge/Language-Kumaoni%20(kfy)-emerald.svg)]()
+[![Author & Creator](https://img.shields.io/badge/Author%20%26%20Creator-Akshat%20Singh%20Bisht-orange.svg?style=for-the-badge&logo=person)](https://akshatsinghbisht.com/)
+[![Website](https://img.shields.io/badge/Official%20Website-akshatsinghbisht.com-blue?style=for-the-badge&logo=googlechrome&logoColor=white)](https://akshatsinghbisht.com/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/akshat-singh-bisht-digital-performance-marketing-specialist/)
+[![ResearchGate](https://img.shields.io/badge/ResearchGate-Publications-00CCBB?style=for-the-badge&logo=researchgate&logoColor=white)](https://www.researchgate.net/profile/Akshat-Bisht-8)
+[![Amazon Author](https://img.shields.io/badge/Amazon-Author%20Page-FF9900?style=for-the-badge&logo=amazon&logoColor=white)](https://www.amazon.com/stores/Akshat-Singh-Bisht/author/B0D5TYDT28?ref=sr_ntt_srch_lnk_1&qid=1789906571&sr=8-1&shoppingPortalEnabled=true)
+[![GitHub](https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/infoakshatsinghbisht-eng)
+[![Lexicon Forms](https://img.shields.io/badge/Lexicon%20Forms-300%2C516%2B-success.svg?style=for-the-badge)](https://github.com/infoakshatsinghbisht-eng/kumaoni-language-library)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
 
 A standard-library-style Python package for the **Kumaoni language** (कुमाऊँनी / Central Pahari). Designed to be as simple, fast, and comprehensive for Kumaoni as Python's built-in `math` library is for mathematics.
 
@@ -409,3 +414,22 @@ This library synthesizes datasets and oral cultural heritage from:
 
 MIT License &copy; 2026 Kumaoni Language Initiative. Open-source and free for all developers, linguists, and researchers.
 
+---
+
+## 👤 Author & Creator Profile
+
+* **Creator & Author**: **Akshat Singh Bisht**
+* **Official Website**: [https://akshatsinghbisht.com/](https://akshatsinghbisht.com/)
+* **Email**: [infoakshatsinghbisht@gmail.com](mailto:infoakshatsinghbisht@gmail.com)
+* **LinkedIn**: [Akshat Singh Bisht on LinkedIn](https://www.linkedin.com/in/akshat-singh-bisht-digital-performance-marketing-specialist/)
+* **Amazon Author Profile**: [Akshat Singh Bisht on Amazon](https://www.amazon.com/stores/Akshat-Singh-Bisht/author/B0D5TYDT28?ref=sr_ntt_srch_lnk_1&qid=1789906571&sr=8-1&shoppingPortalEnabled=true)
+* **ResearchGate**: [Akshat Bisht on ResearchGate](https://www.researchgate.net/profile/Akshat-Bisht-8)
+* **GitHub**: [@infoakshatsinghbisht-eng](https://github.com/infoakshatsinghbisht-eng)
+* **Kumaoni Repository**: [https://github.com/infoakshatsinghbisht-eng/kumaoni-language-library](https://github.com/infoakshatsinghbisht-eng/kumaoni-language-library)
+* **Garhwali Repository**: [https://github.com/infoakshatsinghbisht-eng/garhwali-language-library](https://github.com/infoakshatsinghbisht-eng/garhwali-language-library)
+* **Garhwali PyPI**: [https://pypi.org/project/garhwali/](https://pypi.org/project/garhwali/)
+
+---
+
+## 📄 License
+This project is licensed under the **MIT License** — dedicated to the computational preservation, linguistic research, and cultural advancement of the Himalayan languages of Uttarakhand.
