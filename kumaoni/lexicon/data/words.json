@@ -11454,5 +11454,1349 @@
     "hindi": "वहाँ / उधर",
     "pos": "adverb",
     "category": "basics"
+  },
+  {
+    "kumaoni": "डाँड़ो",
+    "roman": "daando",
+    "english": "mountain ridge / hill summit",
+    "hindi": "पहाड़ की चोटी / डांडा",
+    "pos": "noun",
+    "category": "geography"
+  },
+  {
+    "kumaoni": "काँठो",
+    "roman": "kaantho",
+    "english": "high forested mountain ridge",
+    "hindi": "घना पहाड़ी जंगल / काँठा",
+    "pos": "noun",
+    "category": "geography"
+  },
+  {
+    "kumaoni": "नौलो",
+    "roman": "naulo",
+    "english": "traditional subterranean step-spring / aquifer water shrine",
+    "hindi": "नौला (पारंपरिक जल स्रोत)",
+    "pos": "noun",
+    "category": "geography"
+  },
+  {
+    "kumaoni": "छड़ा",
+    "roman": "chhada",
+    "english": "waterfall",
+    "hindi": "झरना",
+    "pos": "noun",
+    "category": "geography"
+  },
+  {
+    "kumaoni": "ओड़ार",
+    "roman": "odaar",
+    "english": "cave / rock shelter used by shepherds",
+    "hindi": "गुफा / चट्टानी शरण",
+    "pos": "noun",
+    "category": "geography"
+  },
+  {
+    "kumaoni": "ढुंगो",
+    "roman": "dhungo",
+    "english": "stone / rock",
+    "hindi": "पत्थर / चट्टान",
+    "pos": "noun",
+    "category": "nature"
+  },
+  {
+    "kumaoni": "कुहो",
+    "roman": "kuho",
+    "english": "fog / mist in mountain valley",
+    "hindi": "कोहरा / कुहासा",
+    "pos": "noun",
+    "category": "weather"
+  },
+  {
+    "kumaoni": "ह्यूं",
+    "roman": "hyun",
+    "english": "snow / snowfall",
+    "hindi": "बर्फ / हिम",
+    "pos": "noun",
+    "category": "weather"
+  },
+  {
+    "kumaoni": "आनी",
+    "roman": "aani",
+    "english": "hailstone / hailstorm",
+    "hindi": "ओले / ओलावृष्टि",
+    "pos": "noun",
+    "category": "weather"
+  },
+  {
+    "kumaoni": "बतास",
+    "roman": "bataas",
+    "english": "wind / breeze",
+    "hindi": "हवा / वायु",
+    "pos": "noun",
+    "category": "weather"
+  },
+  {
+    "kumaoni": "घुर्रा",
+    "roman": "ghurra",
+    "english": "thunder / rumble of clouds",
+    "hindi": "बादलों की गड़गड़ाहट",
+    "pos": "noun",
+    "category": "weather"
+  },
+  {
+    "kumaoni": "बज्र",
+    "roman": "bajra",
+    "english": "lightning bolt",
+    "hindi": "बिजली गिरना / वज्रपात",
+    "pos": "noun",
+    "category": "weather"
+  },
+  {
+    "kumaoni": "रौंत",
+    "roman": "raunt",
+    "english": "drizzle / light shower",
+    "hindi": "बूंदाबांदी",
+    "pos": "noun",
+    "category": "weather"
+  },
+  {
+    "kumaoni": "अंध्याव",
+    "roman": "andhyaav",
+    "english": "darkness / nightfall",
+    "hindi": "अंधेरा",
+    "pos": "noun",
+    "category": "nature"
+  },
+  {
+    "kumaoni": "बाँज",
+    "roman": "baanj",
+    "english": "oak tree (Quercus leucotrichophora)",
+    "hindi": "बाँज का पेड़ (ओक)",
+    "pos": "noun",
+    "category": "flora"
+  },
+  {
+    "kumaoni": "तिमूर",
+    "roman": "timur",
+    "english": "prickly ash / Sichuan pepper (Zanthoxylum armatum)",
+    "hindi": "तिमूर (तेजबल)",
+    "pos": "noun",
+    "category": "flora"
+  },
+  {
+    "kumaoni": "हिसोलू",
+    "roman": "hisolu",
+    "english": "yellow Himalayan raspberry (Rubus ellipticus)",
+    "hindi": "हिंसार / पीली रसभरी",
+    "pos": "noun",
+    "category": "flora"
+  },
+  {
+    "kumaoni": "मेहल",
+    "roman": "mehal",
+    "english": "wild Himalayan pear (Pyrus pashia)",
+    "hindi": "मेहल (जंगली नाशपाती)",
+    "pos": "noun",
+    "category": "flora"
+  },
+  {
+    "kumaoni": "भिलंग",
+    "roman": "bhilang",
+    "english": "wild nettle / stinging nettle (Girardinia diversifolia)",
+    "hindi": "कंडाली / बिच्छू घास",
+    "pos": "noun",
+    "category": "flora"
+  },
+  {
+    "kumaoni": "पिरूल",
+    "roman": "pirul",
+    "english": "dry pine needles on forest floor",
+    "hindi": "चीड़ की सूखी पत्तियां (पिरुल)",
+    "pos": "noun",
+    "category": "flora"
+  },
+  {
+    "kumaoni": "पैयां",
+    "roman": "paiyan",
+    "english": "Himalayan wild cherry blossom (Prunus cerasoides)",
+    "hindi": "पद्मकाष्ठ / जंगली चेरी",
+    "pos": "noun",
+    "category": "flora"
+  },
+  {
+    "kumaoni": "कुंज",
+    "roman": "kunj",
+    "english": "wild rose bush (Rosa brunonii)",
+    "hindi": "जंगली गुलाब / कुंज",
+    "pos": "noun",
+    "category": "flora"
+  },
+  {
+    "kumaoni": "घोरल",
+    "roman": "ghoral",
+    "english": "Himalayan goral (Naemorhedus goral)",
+    "hindi": "घोरल (पहाड़ी हिरण/बकरा)",
+    "pos": "noun",
+    "category": "fauna"
+  },
+  {
+    "kumaoni": "भरल",
+    "roman": "bharal",
+    "english": "blue sheep / bharal (Pseudois nayaur)",
+    "hindi": "नीली भेड़ / भरल",
+    "pos": "noun",
+    "category": "fauna"
+  },
+  {
+    "kumaoni": "कफू",
+    "roman": "kafu",
+    "english": "Himalayan cuckoo bird / Asian koel",
+    "hindi": "कफू / कोयल / चातक",
+    "pos": "noun",
+    "category": "fauna"
+  },
+  {
+    "kumaoni": "न्यौली",
+    "roman": "nyauli",
+    "english": "songbird of Kumaon / musical hill bird",
+    "hindi": "न्यौली पक्षी",
+    "pos": "noun",
+    "category": "fauna"
+  },
+  {
+    "kumaoni": "घुघुती",
+    "roman": "ghughuti",
+    "english": "spotted dove / Eurasian collared dove",
+    "hindi": "घुघुती / पंडुक / फाख्ता",
+    "pos": "noun",
+    "category": "fauna"
+  },
+  {
+    "kumaoni": "कौव",
+    "roman": "kauva",
+    "english": "crow / raven",
+    "hindi": "कौआ",
+    "pos": "noun",
+    "category": "fauna"
+  },
+  {
+    "kumaoni": "लंगूर",
+    "roman": "langoor",
+    "english": "gray langur monkey",
+    "hindi": "लंगूर",
+    "pos": "noun",
+    "category": "fauna"
+  },
+  {
+    "kumaoni": "चौंरी",
+    "roman": "chauri",
+    "english": "yak / hybrid cow-yak",
+    "hindi": "याक / चौंरी गाय",
+    "pos": "noun",
+    "category": "fauna"
+  },
+  {
+    "kumaoni": "डाँफर",
+    "roman": "daanphar",
+    "english": "crimson horned pheasant / satyr tragopan",
+    "hindi": "डांफर (तीतर जाति का पक्षी)",
+    "pos": "noun",
+    "category": "fauna"
+  },
+  {
+    "kumaoni": "बकुलो",
+    "roman": "bakulo",
+    "english": "heron / egret",
+    "hindi": "बगुला",
+    "pos": "noun",
+    "category": "fauna"
+  },
+  {
+    "kumaoni": "मछो",
+    "roman": "machho",
+    "english": "fish",
+    "hindi": "मछली",
+    "pos": "noun",
+    "category": "fauna"
+  },
+  {
+    "kumaoni": "मैंस",
+    "roman": "mains",
+    "english": "buffalo",
+    "hindi": "भैंस",
+    "pos": "noun",
+    "category": "fauna"
+  },
+  {
+    "kumaoni": "झोट",
+    "roman": "jhot",
+    "english": "buffalo calf",
+    "hindi": "कटड़ा / भैंस का बछड़ा",
+    "pos": "noun",
+    "category": "fauna"
+  },
+  {
+    "kumaoni": "बाछो",
+    "roman": "baachho",
+    "english": "cow calf",
+    "hindi": "बछड़ा",
+    "pos": "noun",
+    "category": "fauna"
+  },
+  {
+    "kumaoni": "बाछी",
+    "roman": "baachhi",
+    "english": "female cow calf / heifer",
+    "hindi": "बछिया",
+    "pos": "noun",
+    "category": "fauna"
+  },
+  {
+    "kumaoni": "बकरो",
+    "roman": "bakro",
+    "english": "he-goat",
+    "hindi": "बकरा",
+    "pos": "noun",
+    "category": "fauna"
+  },
+  {
+    "kumaoni": "बकरी",
+    "roman": "bakri",
+    "english": "she-goat",
+    "hindi": "बकरी",
+    "pos": "noun",
+    "category": "fauna"
+  },
+  {
+    "kumaoni": "मेढ़ो",
+    "roman": "medho",
+    "english": "ram / male sheep",
+    "hindi": "मेंढा",
+    "pos": "noun",
+    "category": "fauna"
+  },
+  {
+    "kumaoni": "भेड़",
+    "roman": "bhed",
+    "english": "sheep",
+    "hindi": "भेड़",
+    "pos": "noun",
+    "category": "fauna"
+  },
+  {
+    "kumaoni": "बिरालो",
+    "roman": "biraalo",
+    "english": "cat",
+    "hindi": "बिल्ला / बिल्ली",
+    "pos": "noun",
+    "category": "fauna"
+  },
+  {
+    "kumaoni": "मूष",
+    "roman": "moosh",
+    "english": "mouse / rat",
+    "hindi": "चूहा",
+    "pos": "noun",
+    "category": "fauna"
+  },
+  {
+    "kumaoni": "माखि",
+    "roman": "maakhi",
+    "english": "housefly",
+    "hindi": "मक्खी",
+    "pos": "noun",
+    "category": "fauna"
+  },
+  {
+    "kumaoni": "मौ",
+    "roman": "mau",
+    "english": "honeybee",
+    "hindi": "मधुमक्खी",
+    "pos": "noun",
+    "category": "fauna"
+  },
+  {
+    "kumaoni": "मच्छर",
+    "roman": "machhar",
+    "english": "mosquito",
+    "hindi": "मच्छर",
+    "pos": "noun",
+    "category": "fauna"
+  },
+  {
+    "kumaoni": "बुबा",
+    "roman": "buba",
+    "english": "father",
+    "hindi": "पिता जी / बापू",
+    "pos": "noun",
+    "category": "kinship"
+  },
+  {
+    "kumaoni": "भुल्ला",
+    "roman": "bhulla",
+    "english": "younger brother",
+    "hindi": "छोटा भाई",
+    "pos": "noun",
+    "category": "kinship"
+  },
+  {
+    "kumaoni": "भुल्ली",
+    "roman": "bhulli",
+    "english": "younger sister",
+    "hindi": "छोटी बहन",
+    "pos": "noun",
+    "category": "kinship"
+  },
+  {
+    "kumaoni": "मामा",
+    "roman": "maama",
+    "english": "maternal uncle",
+    "hindi": "मामा",
+    "pos": "noun",
+    "category": "kinship"
+  },
+  {
+    "kumaoni": "मौसा",
+    "roman": "mausa",
+    "english": "maternal aunt's husband",
+    "hindi": "मौसा",
+    "pos": "noun",
+    "category": "kinship"
+  },
+  {
+    "kumaoni": "जिठानी",
+    "roman": "jithaani",
+    "english": "husband's elder brother's wife",
+    "hindi": "जेठानी",
+    "pos": "noun",
+    "category": "kinship"
+  },
+  {
+    "kumaoni": "ननद",
+    "roman": "nanad",
+    "english": "husband's sister",
+    "hindi": "ननद",
+    "pos": "noun",
+    "category": "kinship"
+  },
+  {
+    "kumaoni": "नंदोई",
+    "roman": "nandoi",
+    "english": "husband's sister's husband",
+    "hindi": "नंदोई",
+    "pos": "noun",
+    "category": "kinship"
+  },
+  {
+    "kumaoni": "स्याली",
+    "roman": "syaali",
+    "english": "wife's sister",
+    "hindi": "साली",
+    "pos": "noun",
+    "category": "kinship"
+  },
+  {
+    "kumaoni": "सौरा",
+    "roman": "saura",
+    "english": "father-in-law",
+    "hindi": "ससुर",
+    "pos": "noun",
+    "category": "kinship"
+  },
+  {
+    "kumaoni": "जँवाई",
+    "roman": "janwaai",
+    "english": "son-in-law",
+    "hindi": "दामाद / जंवाई",
+    "pos": "noun",
+    "category": "kinship"
+  },
+  {
+    "kumaoni": "चेलो",
+    "roman": "chelo",
+    "english": "son / boy",
+    "hindi": "बेटा / लड़का",
+    "pos": "noun",
+    "category": "kinship"
+  },
+  {
+    "kumaoni": "चेली",
+    "roman": "cheli",
+    "english": "daughter / girl",
+    "hindi": "बेटी / लड़की",
+    "pos": "noun",
+    "category": "kinship"
+  },
+  {
+    "kumaoni": "नाती",
+    "roman": "naati",
+    "english": "grandson",
+    "hindi": "पोता / नाती",
+    "pos": "noun",
+    "category": "kinship"
+  },
+  {
+    "kumaoni": "सङ्गाती",
+    "roman": "sangaati",
+    "english": "companion / friend",
+    "hindi": "संगी-साथी / मित्र",
+    "pos": "noun",
+    "category": "kinship"
+  },
+  {
+    "kumaoni": "मिस्तर",
+    "roman": "mistar",
+    "english": "friend / partner",
+    "hindi": "दोस्त / मित्र",
+    "pos": "noun",
+    "category": "kinship"
+  },
+  {
+    "kumaoni": "चुड़काणी",
+    "roman": "chudkani",
+    "english": "black soybean soupy curry",
+    "hindi": "चुड़कानी (काले भट्ट की दाल)",
+    "pos": "noun",
+    "category": "food"
+  },
+  {
+    "kumaoni": "काफा",
+    "roman": "kafa",
+    "english": "green leafy vegetable curry (spinach/lai)",
+    "hindi": "काफली / काफा (हरी पत्तियों का साग)",
+    "pos": "noun",
+    "category": "food"
+  },
+  {
+    "kumaoni": "झोली",
+    "roman": "jholi",
+    "english": "buttermilk and gram flour curry (Pahadi kadhi)",
+    "hindi": "झोली (छांछ की कढ़ी)",
+    "pos": "noun",
+    "category": "food"
+  },
+  {
+    "kumaoni": "सानी",
+    "roman": "saani",
+    "english": "mashed radish, hemp seed, and citrus winter salad",
+    "hindi": "साना हुआ नींबू-मूली",
+    "pos": "noun",
+    "category": "food"
+  },
+  {
+    "kumaoni": "सिंगोड़ी",
+    "roman": "singori",
+    "english": "Kumaoni sweet wrapped in Malu leaf cone",
+    "hindi": "सिंगोड़ी (मालू के पत्ते में लिपटी मिठाई)",
+    "pos": "noun",
+    "category": "food"
+  },
+  {
+    "kumaoni": "गूगुते",
+    "roman": "ghooghute",
+    "english": "festive deep fried sweetened flour shapes for Kale Kauva festival",
+    "hindi": "घुघुते (उत्तरायणी के मीठे पकवान)",
+    "pos": "noun",
+    "category": "food"
+  },
+  {
+    "kumaoni": "अरसा",
+    "roman": "arsa",
+    "english": "rice flour and jaggery festive sweet delicacy",
+    "hindi": "अरसा (पारंपरिक मीठा पकवान)",
+    "pos": "noun",
+    "category": "food"
+  },
+  {
+    "kumaoni": "दई",
+    "roman": "dai",
+    "english": "curd / yogurt",
+    "hindi": "दही",
+    "pos": "noun",
+    "category": "food"
+  },
+  {
+    "kumaoni": "छांछ",
+    "roman": "chhaanchh",
+    "english": "buttermilk",
+    "hindi": "मट्ठा / छाछ",
+    "pos": "noun",
+    "category": "food"
+  },
+  {
+    "kumaoni": "लूंण",
+    "roman": "loon",
+    "english": "salt",
+    "hindi": "नमक",
+    "pos": "noun",
+    "category": "food"
+  },
+  {
+    "kumaoni": "मर्च",
+    "roman": "march",
+    "english": "chili / pepper",
+    "hindi": "मिर्च",
+    "pos": "noun",
+    "category": "food"
+  },
+  {
+    "kumaoni": "हरद",
+    "roman": "harad",
+    "english": "turmeric",
+    "hindi": "हल्दी",
+    "pos": "noun",
+    "category": "food"
+  },
+  {
+    "kumaoni": "जीर",
+    "roman": "jeer",
+    "english": "cumin",
+    "hindi": "जीरा",
+    "pos": "noun",
+    "category": "food"
+  },
+  {
+    "kumaoni": "धनिया",
+    "roman": "dhaniya",
+    "english": "coriander",
+    "hindi": "धनिया",
+    "pos": "noun",
+    "category": "food"
+  },
+  {
+    "kumaoni": "खांड",
+    "roman": "khaand",
+    "english": "raw sugar",
+    "hindi": "खांड / शक्कर",
+    "pos": "noun",
+    "category": "food"
+  },
+  {
+    "kumaoni": "चाय",
+    "roman": "chaay",
+    "english": "tea",
+    "hindi": "चाय",
+    "pos": "noun",
+    "category": "food"
+  },
+  {
+    "kumaoni": "उगल",
+    "roman": "ugal",
+    "english": "buckwheat",
+    "hindi": "कुट्टू / ओगल",
+    "pos": "noun",
+    "category": "food"
+  },
+  {
+    "kumaoni": "फापर",
+    "roman": "faapar",
+    "english": "tartary buckwheat",
+    "hindi": "फाफर / काला कुट्टू",
+    "pos": "noun",
+    "category": "food"
+  },
+  {
+    "kumaoni": "बाखल",
+    "roman": "baakhal",
+    "english": "courtyard / village street",
+    "hindi": "आँगन / मुहल्ला / बाखली",
+    "pos": "noun",
+    "category": "house"
+  },
+  {
+    "kumaoni": "टिबरी",
+    "roman": "tibari",
+    "english": "upper floor carved wooden verandah",
+    "hindi": "टिबरी (नक्काशीदार बालकनी)",
+    "pos": "noun",
+    "category": "house"
+  },
+  {
+    "kumaoni": "पौली",
+    "roman": "pauli",
+    "english": "ground floor hallway threshold",
+    "hindi": "देहरी / पौली",
+    "pos": "noun",
+    "category": "house"
+  },
+  {
+    "kumaoni": "चाख",
+    "roman": "chaakh",
+    "english": "middle living floor",
+    "hindi": "रहने का कमरा / चाख",
+    "pos": "noun",
+    "category": "house"
+  },
+  {
+    "kumaoni": "पांख",
+    "roman": "paankh",
+    "english": "slate roof",
+    "hindi": "पठाल की छत",
+    "pos": "noun",
+    "category": "house"
+  },
+  {
+    "kumaoni": "पठाल",
+    "roman": "pathaal",
+    "english": "flat stone slate for roofing",
+    "hindi": "पठाल (छत की स्लेट)",
+    "pos": "noun",
+    "category": "house"
+  },
+  {
+    "kumaoni": "चुल्हो",
+    "roman": "chulho",
+    "english": "clay hearth / cooking stove",
+    "hindi": "चूल्हा",
+    "pos": "noun",
+    "category": "house"
+  },
+  {
+    "kumaoni": "ओखल",
+    "roman": "okhal",
+    "english": "stone mortar for grain pounding",
+    "hindi": "ओखली",
+    "pos": "noun",
+    "category": "household"
+  },
+  {
+    "kumaoni": "जांतो",
+    "roman": "jaanto",
+    "english": "hand flour grinding mill",
+    "hindi": "जांत / हाथ की चक्की",
+    "pos": "noun",
+    "category": "household"
+  },
+  {
+    "kumaoni": "सिलौटो",
+    "roman": "silauto",
+    "english": "grinding stone and pestle",
+    "hindi": "सिल-बट्टा",
+    "pos": "noun",
+    "category": "household"
+  },
+  {
+    "kumaoni": "पाथो",
+    "roman": "paatho",
+    "english": "traditional grain measure (~2 kg)",
+    "hindi": "पाथा (अनाज नापने का बर्तन)",
+    "pos": "noun",
+    "category": "measurement"
+  },
+  {
+    "kumaoni": "ताँबट",
+    "roman": "taanbat",
+    "english": "copper vessel",
+    "hindi": "तांबे का बर्तन",
+    "pos": "noun",
+    "category": "household"
+  },
+  {
+    "kumaoni": "भांड",
+    "roman": "bhaand",
+    "english": "vessel / utensil",
+    "hindi": "बर्तन / भांडा",
+    "pos": "noun",
+    "category": "household"
+  },
+  {
+    "kumaoni": "डंड्याव",
+    "roman": "dandyaav",
+    "english": "wooden stairs",
+    "hindi": "सीढ़ी",
+    "pos": "noun",
+    "category": "house"
+  },
+  {
+    "kumaoni": "खटोलो",
+    "roman": "khatolo",
+    "english": "wooden cot",
+    "hindi": "खाट / चारपाई",
+    "pos": "noun",
+    "category": "household"
+  },
+  {
+    "kumaoni": "बिछौण",
+    "roman": "bichhaun",
+    "english": "bedding",
+    "hindi": "बिस्तर / बिछौना",
+    "pos": "noun",
+    "category": "household"
+  },
+  {
+    "kumaoni": "सौं",
+    "roman": "saun",
+    "english": "wool blanket / thulma",
+    "hindi": "कंबल / थुलमा",
+    "pos": "noun",
+    "category": "household"
+  },
+  {
+    "kumaoni": "गागो",
+    "roman": "gaago",
+    "english": "traditional flared skirt / lehenga",
+    "hindi": "घाघरा / गागा",
+    "pos": "noun",
+    "category": "attire"
+  },
+  {
+    "kumaoni": "नथ",
+    "roman": "nath",
+    "english": "iconic gold nose ring",
+    "hindi": "नथुली (बड़ी सोने की नथ)",
+    "pos": "noun",
+    "category": "ornament"
+  },
+  {
+    "kumaoni": "बुलाक",
+    "roman": "bulaak",
+    "english": "gold septum nose ring",
+    "hindi": "बुलाक (नाक का आभूषण)",
+    "pos": "noun",
+    "category": "ornament"
+  },
+  {
+    "kumaoni": "गुलूबन्द",
+    "roman": "gulooband",
+    "english": "gold choker necklace",
+    "hindi": "गुलूबंद (गले का हार)",
+    "pos": "noun",
+    "category": "ornament"
+  },
+  {
+    "kumaoni": "हंसुली",
+    "roman": "hansuli",
+    "english": "solid silver collar necklace",
+    "hindi": "हँसुली (चांदी का कंठा)",
+    "pos": "noun",
+    "category": "ornament"
+  },
+  {
+    "kumaoni": "मूर्खली",
+    "roman": "moorkhali",
+    "english": "men's gold ear stud",
+    "hindi": "मूर्खली (कानों की बाली)",
+    "pos": "noun",
+    "category": "ornament"
+  },
+  {
+    "kumaoni": "बिसवार",
+    "roman": "biswaar",
+    "english": "soaked rice paste for drawing Aipan",
+    "hindi": "चावल का घोल (बिसवार)",
+    "pos": "noun",
+    "category": "culture"
+  },
+  {
+    "kumaoni": "मशकबीन",
+    "roman": "mashakbeen",
+    "english": "Himalayan bagpipe",
+    "hindi": "मशकबीन (पहाड़ी बैगपाइप)",
+    "pos": "noun",
+    "category": "music"
+  },
+  {
+    "kumaoni": "चांचरी",
+    "roman": "chaanchari",
+    "english": "devotional circular dance",
+    "hindi": "चांचरी लोकनृत्य",
+    "pos": "noun",
+    "category": "music"
+  },
+  {
+    "kumaoni": "डांगर",
+    "roman": "daangar",
+    "english": "oracle spirit medium",
+    "hindi": "डंगरिया (देवता का पश्वा/माध्यम)",
+    "pos": "noun",
+    "category": "culture"
+  },
+  {
+    "kumaoni": "हरेला",
+    "roman": "harela",
+    "english": "monsoon greenery festival",
+    "hindi": "हरेला पर्व",
+    "pos": "noun",
+    "category": "culture"
+  },
+  {
+    "kumaoni": "स्यूसौ",
+    "roman": "syusau",
+    "english": "community feast",
+    "hindi": "दावत / भोज",
+    "pos": "noun",
+    "category": "culture"
+  },
+  {
+    "kumaoni": "भल",
+    "roman": "bhal",
+    "english": "tomorrow",
+    "hindi": "आने वाला कल",
+    "pos": "adverb",
+    "category": "time"
+  },
+  {
+    "kumaoni": "नरसों",
+    "roman": "narson",
+    "english": "two days from tomorrow/yesterday",
+    "hindi": "नरसों (तीन दिन बाद या पहले)",
+    "pos": "adverb",
+    "category": "time"
+  },
+  {
+    "kumaoni": "दनवार",
+    "roman": "danwaar",
+    "english": "daytime",
+    "hindi": "दिन का समय / दिन",
+    "pos": "noun",
+    "category": "time"
+  },
+  {
+    "kumaoni": "ब्याव",
+    "roman": "byaav",
+    "english": "early morning / dawn",
+    "hindi": "सुबह / प्रातःकाल",
+    "pos": "noun",
+    "category": "time"
+  },
+  {
+    "kumaoni": "दुफर्या",
+    "roman": "dupharya",
+    "english": "noon / midday",
+    "hindi": "दोपहर",
+    "pos": "noun",
+    "category": "time"
+  },
+  {
+    "kumaoni": "सांझ",
+    "roman": "saanjh",
+    "english": "evening / twilight",
+    "hindi": "शाम / संध्याकाल",
+    "pos": "noun",
+    "category": "time"
+  },
+  {
+    "kumaoni": "रात",
+    "roman": "raat",
+    "english": "night",
+    "hindi": "रात",
+    "pos": "noun",
+    "category": "time"
+  },
+  {
+    "kumaoni": "म्यान",
+    "roman": "myaan",
+    "english": "midnight",
+    "hindi": "आधी रात / मध्यरात्रि",
+    "pos": "noun",
+    "category": "time"
+  },
+  {
+    "kumaoni": "अजकल",
+    "roman": "ajkal",
+    "english": "nowadays / these days",
+    "hindi": "आजकल",
+    "pos": "adverb",
+    "category": "time"
+  },
+  {
+    "kumaoni": "कबे",
+    "roman": "kabe",
+    "english": "when (interrogative time)",
+    "hindi": "कब",
+    "pos": "adverb",
+    "category": "questions"
+  },
+  {
+    "kumaoni": "जबे",
+    "roman": "jabe",
+    "english": "when (relative time)",
+    "hindi": "जब",
+    "pos": "adverb",
+    "category": "time"
+  },
+  {
+    "kumaoni": "तबे",
+    "roman": "tabe",
+    "english": "then / at that time",
+    "hindi": "तब",
+    "pos": "adverb",
+    "category": "time"
+  },
+  {
+    "kumaoni": "एबे",
+    "roman": "ebe",
+    "english": "now / at this moment",
+    "hindi": "अब / अभी",
+    "pos": "adverb",
+    "category": "time"
+  },
+  {
+    "kumaoni": "कतिबेर",
+    "roman": "katiber",
+    "english": "what time / how long",
+    "hindi": "कितने समय / किस वक्त",
+    "pos": "adverb",
+    "category": "questions"
+  },
+  {
+    "kumaoni": "मठ-मठ",
+    "roman": "math-math",
+    "english": "slowly / gently",
+    "hindi": "धीरे-धीरे / हौले-हौले",
+    "pos": "adverb",
+    "category": "manner"
+  },
+  {
+    "kumaoni": "काँ",
+    "roman": "kaan",
+    "english": "where (interrogative)",
+    "hindi": "कहाँ",
+    "pos": "adverb",
+    "category": "questions"
+  },
+  {
+    "kumaoni": "जाँ",
+    "roman": "jaan",
+    "english": "where (relative)",
+    "hindi": "जहाँ",
+    "pos": "adverb",
+    "category": "spatial"
+  },
+  {
+    "kumaoni": "ताँ",
+    "roman": "taan",
+    "english": "there (correlative)",
+    "hindi": "तहाँ / वहाँ",
+    "pos": "adverb",
+    "category": "spatial"
+  },
+  {
+    "kumaoni": "अगाड़",
+    "roman": "agaad",
+    "english": "in front / ahead",
+    "hindi": "आगे / सामने",
+    "pos": "adverb",
+    "category": "spatial"
+  },
+  {
+    "kumaoni": "पछाड़",
+    "roman": "pachhaad",
+    "english": "behind / at the back",
+    "hindi": "पीछे",
+    "pos": "adverb",
+    "category": "spatial"
+  },
+  {
+    "kumaoni": "माथि",
+    "roman": "maathi",
+    "english": "above / upstairs / up",
+    "hindi": "ऊपर",
+    "pos": "adverb",
+    "category": "spatial"
+  },
+  {
+    "kumaoni": "बाहिर",
+    "roman": "baahir",
+    "english": "outside",
+    "hindi": "बाहर",
+    "pos": "adverb",
+    "category": "spatial"
+  },
+  {
+    "kumaoni": "कानि",
+    "roman": "kaani",
+    "english": "towards / in direction of",
+    "hindi": "तरफ / ओर",
+    "pos": "postposition",
+    "category": "spatial"
+  },
+  {
+    "kumaoni": "बटी",
+    "roman": "bati",
+    "english": "from (ablative source)",
+    "hindi": "से (स्थान या स्रोत से)",
+    "pos": "postposition",
+    "category": "spatial"
+  },
+  {
+    "kumaoni": "लिजी",
+    "roman": "liji",
+    "english": "for / for the sake of",
+    "hindi": "के लिए",
+    "pos": "postposition",
+    "category": "grammar"
+  },
+  {
+    "kumaoni": "खातिर",
+    "roman": "khaatir",
+    "english": "for / in consideration of",
+    "hindi": "के वास्ते / के लिए",
+    "pos": "postposition",
+    "category": "grammar"
+  },
+  {
+    "kumaoni": "मूंड",
+    "roman": "moond",
+    "english": "head",
+    "hindi": "सिर / मस्तक",
+    "pos": "noun",
+    "category": "anatomy"
+  },
+  {
+    "kumaoni": "गाला",
+    "roman": "gaala",
+    "english": "cheek",
+    "hindi": "गाल",
+    "pos": "noun",
+    "category": "anatomy"
+  },
+  {
+    "kumaoni": "घांट",
+    "roman": "ghaant",
+    "english": "throat / neck",
+    "hindi": "गला / कंठ",
+    "pos": "noun",
+    "category": "anatomy"
+  },
+  {
+    "kumaoni": "पीठ",
+    "roman": "peeth",
+    "english": "back",
+    "hindi": "पीठ",
+    "pos": "noun",
+    "category": "anatomy"
+  },
+  {
+    "kumaoni": "आंग",
+    "roman": "aang",
+    "english": "body / torso",
+    "hindi": "शरीर / देह",
+    "pos": "noun",
+    "category": "anatomy"
+  },
+  {
+    "kumaoni": "मास",
+    "roman": "maas",
+    "english": "flesh / muscle",
+    "hindi": "मांस",
+    "pos": "noun",
+    "category": "anatomy"
+  },
+  {
+    "kumaoni": "नख",
+    "roman": "nakh",
+    "english": "fingernail / toenail",
+    "hindi": "नाखून",
+    "pos": "noun",
+    "category": "anatomy"
+  },
+  {
+    "kumaoni": "बाव",
+    "roman": "baav",
+    "english": "hair of the head",
+    "hindi": "बाल / केश",
+    "pos": "noun",
+    "category": "anatomy"
+  },
+  {
+    "kumaoni": "मया",
+    "roman": "maya",
+    "english": "love / affection / maternal compassion",
+    "hindi": "स्नेह / ममता / प्यार",
+    "pos": "noun",
+    "category": "emotions"
+  },
+  {
+    "kumaoni": "पिरम",
+    "roman": "piram",
+    "english": "romantic love / deep devotion",
+    "hindi": "प्रेम / प्रीति",
+    "pos": "noun",
+    "category": "emotions"
+  },
+  {
+    "kumaoni": "रीस",
+    "roman": "rees",
+    "english": "anger / irritation",
+    "hindi": "क्रोध / गुस्सा / रीस",
+    "pos": "noun",
+    "category": "emotions"
+  },
+  {
+    "kumaoni": "अचम्म",
+    "roman": "achamm",
+    "english": "wonder / astonishment",
+    "hindi": "अचरज / आश्चर्य",
+    "pos": "noun",
+    "category": "emotions"
+  },
+  {
+    "kumaoni": "पीर",
+    "roman": "peer",
+    "english": "pain / ache / physical affliction",
+    "hindi": "दर्द / पीड़ा / कसक",
+    "pos": "noun",
+    "category": "health"
+  },
+  {
+    "kumaoni": "ज्वर",
+    "roman": "jwar",
+    "english": "fever",
+    "hindi": "बुखार / ज्वर",
+    "pos": "noun",
+    "category": "health"
+  },
+  {
+    "kumaoni": "खोखी",
+    "roman": "khokhi",
+    "english": "cough",
+    "hindi": "खाँसी",
+    "pos": "noun",
+    "category": "health"
+  },
+  {
+    "kumaoni": "सारा",
+    "roman": "saara",
+    "english": "fertile terraced field",
+    "hindi": "खेत / सिंचित खेत",
+    "pos": "noun",
+    "category": "agriculture"
+  },
+  {
+    "kumaoni": "क्यारी",
+    "roman": "kyaari",
+    "english": "cultivated garden bed",
+    "hindi": "क्यारी",
+    "pos": "noun",
+    "category": "agriculture"
+  },
+  {
+    "kumaoni": "तळाऊँ",
+    "roman": "talaun",
+    "english": "irrigated lowland valley fields",
+    "hindi": "तलाऊँ (सिंचित निचली भूमि)",
+    "pos": "noun",
+    "category": "agriculture"
+  },
+  {
+    "kumaoni": "जूवा",
+    "roman": "joowa",
+    "english": "wooden yoke for bullocks",
+    "hindi": "जुआ / जूआठ",
+    "pos": "noun",
+    "category": "tools"
+  },
+  {
+    "kumaoni": "बिया",
+    "roman": "biya",
+    "english": "seed for sowing",
+    "hindi": "बीज / बिजाई",
+    "pos": "noun",
+    "category": "agriculture"
+  },
+  {
+    "kumaoni": "रोपाई",
+    "roman": "ropaai",
+    "english": "paddy transplantation in monsoon",
+    "hindi": "धान की रोपाई",
+    "pos": "noun",
+    "category": "agriculture"
+  },
+  {
+    "kumaoni": "मड़ाई",
+    "roman": "madaai",
+    "english": "threshing of harvested grain",
+    "hindi": "अनाज की मड़ाई",
+    "pos": "noun",
+    "category": "agriculture"
+  },
+  {
+    "kumaoni": "गुल",
+    "roman": "gul",
+    "english": "traditional mountain irrigation water channel",
+    "hindi": "गूल (सिंचाई की नाली)",
+    "pos": "noun",
+    "category": "agriculture"
+  },
+  {
+    "kumaoni": "लहर",
+    "roman": "lahar",
+    "english": "Inherited from Sauraseni Prakrit 𑀮𑀳𑀭𑀻 , from Sanskrit लहरी , लहरि .",
+    "hindi": "लहर",
+    "pos": "noun",
+    "category": "lexicon"
+  },
+  {
+    "kumaoni": "पीठो",
+    "roman": "peetho",
+    "english": "Inherited from Sanskrit पिष्ट . Doublet of पिठि",
+    "hindi": "पीठो",
+    "pos": "verb",
+    "category": "lexicon"
+  },
+  {
+    "kumaoni": "पान",
+    "roman": "paan",
+    "english": "traditional term",
+    "hindi": "पान",
+    "pos": "noun",
+    "category": "lexicon"
+  },
+  {
+    "kumaoni": "माँण",
+    "roman": "maann",
+    "english": "traditional term",
+    "hindi": "माँण",
+    "pos": "noun",
+    "category": "lexicon"
+  },
+  {
+    "kumaoni": "उठूणो",
+    "roman": "uthoono",
+    "english": "traditional term",
+    "hindi": "उठूणो",
+    "pos": "noun",
+    "category": "lexicon"
+  },
+  {
+    "kumaoni": "थाणो",
+    "roman": "thaano",
+    "english": "traditional term",
+    "hindi": "थाणो",
+    "pos": "noun",
+    "category": "lexicon"
+  },
+  {
+    "kumaoni": "फिरणो",
+    "roman": "phirano",
+    "english": "traditional term",
+    "hindi": "फिरणो",
+    "pos": "noun",
+    "category": "lexicon"
+  },
+  {
+    "kumaoni": "माना",
+    "roman": "maanaa",
+    "english": "traditional term",
+    "hindi": "माना",
+    "pos": "noun",
+    "category": "lexicon"
+  },
+  {
+    "kumaoni": "माँड़ी",
+    "roman": "maanda़ee",
+    "english": "traditional term",
+    "hindi": "माँड़ी",
+    "pos": "noun",
+    "category": "lexicon"
+  },
+  {
+    "kumaoni": "छ्यून",
+    "roman": "chhyoon",
+    "english": "traditional term",
+    "hindi": "छ्यून",
+    "pos": "noun",
+    "category": "lexicon"
   }
 ]

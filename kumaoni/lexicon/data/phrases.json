@@ -747,5 +747,61 @@
     "english": "May all your dreams come true.",
     "hindi": "आपके सारे सपने सच हों।",
     "category": "blessings"
+  },
+  {
+    "kumaoni": "पैलाग दाज्यू, कसिक छा तुम?",
+    "roman": "Pailag daajyu, kasik chha tum?",
+    "hindi": "प्रणाम बड़े भाई साहब, आप कैसे हैं?",
+    "english": "Greetings elder brother, how are you?",
+    "category": "greetings"
+  },
+  {
+    "kumaoni": "मैं बिल्कुल ठीक छूँ, त्यार के हाल छन?",
+    "roman": "Main bilkul theek chhoon, tyar ke haal chhan?",
+    "hindi": "मैं बिल्कुल ठीक हूँ, आपका क्या हाल है?",
+    "english": "I am completely fine, how are things with you?",
+    "category": "conversation"
+  },
+  {
+    "kumaoni": "भल हम सब अल्मोड़ कौतिक जाण रौ छां।",
+    "roman": "Bhal ham sab Almora kautik jaan rau chhaan.",
+    "hindi": "कल हम सब अल्मोड़ा मेले में जा रहे हैं।",
+    "english": "Tomorrow we are all going to the Almora fair.",
+    "category": "travel"
+  },
+  {
+    "kumaoni": "ईजाले आज भट्ट की चुड़काणी बणै छ।",
+    "roman": "Eejale aaj bhatt ki chudkani banai chha.",
+    "hindi": "माँ ने आज काले भट्ट की चुड़कानी बनाई है।",
+    "english": "Mother has cooked black soybean curry today.",
+    "category": "food"
+  },
+  {
+    "kumaoni": "घाम तापा और चाय पिया।",
+    "roman": "Ghaam taapa aur chaay piya.",
+    "hindi": "धूप सेकिए और चाय पीजिए।",
+    "english": "Bask in the winter sun and drink tea.",
+    "category": "hospitality"
+  },
+  {
+    "kumaoni": "पहाड़ म जाड़ बहुत बढ़ि गै।",
+    "roman": "Pahaad ma jaad bahut badhi gai.",
+    "hindi": "पहाड़ों में ठंड बहुत बढ़ गई है।",
+    "english": "The cold has increased a lot in the mountains.",
+    "category": "weather"
+  },
+  {
+    "kumaoni": "बोट बटी पाणि लाओ।",
+    "roman": "Bot bati paani laao.",
+    "hindi": "पेड़ के पास से पानी लाओ।",
+    "english": "Bring water from near the tree.",
+    "category": "daily"
+  },
+  {
+    "kumaoni": "हम आपणी भाषा कणि संजोइबेर राखल।",
+    "roman": "Ham aapni bhasha kani sanjoiber raakhal.",
+    "hindi": "हम अपनी भाषा को सहेजकर रखेंगे।",
+    "english": "We will preserve and cherish our language.",
+    "category": "culture"
   }
 ]

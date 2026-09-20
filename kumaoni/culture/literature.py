@@ -461,6 +461,30 @@ AUTHORS: Dict[str, KumaoniAuthor] = {
             "roman": "Lok sangeet hamairi maati ki sugandh chha.",
             "meaning": "Folk music is the very fragrance of our mother soil."
         }
+    ),
+    "sher_singh_pangti": KumaoniAuthor(
+        name_kumaoni="डॉ. शेर सिंह पांगती",
+        name_english="Dr. Sher Singh Pangti",
+        era="1937 – 2020",
+        significance="Eminent ethnographer, historian, and folklorist of Johar Valley who founded the Tribal Heritage Museum in Munsyari and authored authoritative treatises on Himalayan cultural heritage.",
+        famous_works=["Shauka: Seemavarti Janjaati", "Johar ka Itihaas va Sanskriti", "Kumaun Himalayan Heritage"],
+        sample_quote={
+            "kumaoni": "हिमालयक उच्च घाटियों की संस्कृति मानव और प्रकृतिक सामंजस्य की अद्भुत गाथा छ।",
+            "roman": "Himaalayak uchha ghaatiyon ki sanskriti maanav aur prakritik saamanjasya ki adbhut gaatha chha.",
+            "meaning": "The culture of high Himalayan valleys is a magnificent saga of harmony between human and nature."
+        }
+    ),
+    "shivani_pant": KumaoniAuthor(
+        name_kumaoni="गौरा पन्त 'शिवानी'",
+        name_english="Gaura Pant 'Shivani'",
+        era="1923 – 2003",
+        significance="Renowned novelist and litterateur from Kumaon whose writings richly captured Kumaoni domestic life, folklore, dialects, customs, and women's inner worlds.",
+        famous_works=["Chaudah Phere", "Krishnakali", "Kunti", "Bhairavi", "Aparadhini"],
+        sample_quote={
+            "kumaoni": "कुमाऊँ की घाटियों म रची-बसी संवेदना संसार भर कणि अनूठी छ।",
+            "roman": "Kumaun ki ghaatiyon ma rachi-basi samvedana sansaar bhar kani anuthi chha.",
+            "meaning": "The deep sensibilities nurtured in the valleys of Kumaon are unique to the entire world."
+        }
     )
 }
 

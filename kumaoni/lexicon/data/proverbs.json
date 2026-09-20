@@ -407,7 +407,7 @@
     "source": "Pt. Ganga Datt Upreti (1894)"
   },
   {
-    "id": "proverb_038",
+    "id": 38,
     "kumaoni": "धार मलि घाम, तलि मलि ब्याव।",
     "roman": "Dhaar mali ghaam, tali mali byaav.",
     "literal_translation": "Sun on the mountain crest, wedding festivity echoing across the valley.",
@@ -418,7 +418,7 @@
     "source": "Dr. Trilochan Pandey (Kumaoni Bhasha Aur Sahitya, 1977)"
   },
   {
-    "id": "proverb_039",
+    "id": 39,
     "kumaoni": "आफू मरे बिना सरग नी देखिंछ।",
     "roman": "Aaphoo mare bina sarag nee dekhinchh.",
     "literal_translation": "Without dying oneself, heaven cannot be seen.",
@@ -429,7 +429,7 @@
     "source": "Pt. Ganga Datt Upreti (Proverbs & Folklore, 1894)"
   },
   {
-    "id": "proverb_040",
+    "id": 40,
     "kumaoni": "काकड़ाक मुंड नि, भुंगड़ाक पूंछ नि।",
     "roman": "Kaakdaak mund ni, bhungdaak poonch ni.",
     "literal_translation": "The cucumber has no distinct head, the roasted grain has no tail.",
@@ -440,7 +440,7 @@
     "source": "Gunanand Juyal (Madhya Pahadi Bhasha, 1967)"
   },
   {
-    "id": "proverb_041",
+    "id": 41,
     "kumaoni": "गौं म घट्ट, बन म लाकड़, पेट म भूख।",
     "roman": "Gaun ma ghatt, ban ma laakad, pet ma bhookh.",
     "literal_translation": "The watermill in the village, firewood in the forest, and hunger in the stomach.",
@@ -451,7 +451,7 @@
     "source": "Dr. Trilochan Pandey (Kumaoni Lok-Sahitya, 1962)"
   },
   {
-    "id": "proverb_042",
+    "id": 42,
     "kumaoni": "डाली म काफल, मन म लालच।",
     "roman": "Daali ma kaaphal, man ma laalach.",
     "literal_translation": "Wild berries on high branches, longing in the human heart.",
@@ -462,7 +462,7 @@
     "source": "Hem Pant (Ghughuti Basuti, 2022)"
   },
   {
-    "id": "proverb_043",
+    "id": 43,
     "kumaoni": "घाम तापा, पाणि पिवा, निरोगी रया।",
     "roman": "Ghaam taapa, paani piwa, nirogi raya.",
     "literal_translation": "Bask in the mountain sun, drink pure spring water, and stay healthy.",
@@ -473,7 +473,7 @@
     "source": "Pt. Ganga Datt Upreti (Proverbs & Folklore, 1894)"
   },
   {
-    "id": "proverb_044",
+    "id": 44,
     "kumaoni": "आपण हाथ जगन्नाथ, आपण गोठ अन्नदाता।",
     "roman": "Aapan haath Jagannaath, aapan goth annadaata.",
     "literal_translation": "One's own hands are Lord Jagannath, one's own cattle barn provides food.",
@@ -484,7 +484,7 @@
     "source": "Badri Datt Pande (Kumaun ka Itihas, 1937)"
   },
   {
-    "id": "proverb_045",
+    "id": 45,
     "kumaoni": "हिमालयक पाथर मजबूत, कुमाऊँनी की बात पक्की।",
     "roman": "Himaalayak paathar majboot, Kumaoni ki baat pakki.",
     "literal_translation": "As solid as the slate of the Himalayas, so is the pledged word of a Kumaoni.",
@@ -493,5 +493,145 @@
     "english_equivalent": "A person's word is their bond.",
     "theme": "honor",
     "source": "Pt. Ganga Datt Upreti (Proverbs & Folklore, 1894)"
+  },
+  {
+    "kumaoni": "आपू मरे बिना सुरग नी देखिण।",
+    "roman": "Aapu mare bina surag ni dekhin.",
+    "hindi": "स्वयं मरे बिना स्वर्ग नहीं दिखता (काम स्वयं करने पर ही फल मिलता है)।",
+    "english": "One cannot see heaven without dying oneself (You must do the hard work yourself to achieve success).",
+    "category": "wisdom",
+    "id": 46,
+    "figurative_meaning": "स्वयं मरे बिना स्वर्ग नहीं दिखता (काम स्वयं करने पर ही फल मिलता है)।",
+    "literal_translation": "One cannot see heaven without dying oneself (You must do the hard work yourself to achieve success).",
+    "hindi_equivalent": "स्वयं मरे बिना स्वर्ग नहीं दिखता (काम स्वयं करने पर ही फल मिलता है)।",
+    "english_equivalent": "One cannot see heaven without dying oneself (You must do the hard work yourself to achieve success).",
+    "theme": "Wisdom",
+    "source": "Traditional Kumaoni Akhaan (Pt. Ganga Datt Upreti / Dr. Trilochan Pande)"
+  },
+  {
+    "kumaoni": "जाँ घाम ताँ छाम।",
+    "roman": "Jaan ghaam taan chhaam.",
+    "hindi": "जहाँ धूप है, वहीं छाया भी है (सुख और दुःख साथ-साथ चलते हैं)।",
+    "english": "Where there is sunshine, there is also shade (Joy and sorrow go hand in hand).",
+    "category": "life",
+    "id": 47,
+    "figurative_meaning": "जहाँ धूप है, वहीं छाया भी है (सुख और दुःख साथ-साथ चलते हैं)।",
+    "literal_translation": "Where there is sunshine, there is also shade (Joy and sorrow go hand in hand).",
+    "hindi_equivalent": "जहाँ धूप है, वहीं छाया भी है (सुख और दुःख साथ-साथ चलते हैं)।",
+    "english_equivalent": "Where there is sunshine, there is also shade (Joy and sorrow go hand in hand).",
+    "theme": "Life",
+    "source": "Traditional Kumaoni Akhaan (Pt. Ganga Datt Upreti / Dr. Trilochan Pande)"
+  },
+  {
+    "kumaoni": "डाना का बासा, घाम का भरोसा।",
+    "roman": "Daana ka baasa, ghaam ka bharosa.",
+    "hindi": "पहाड़ की चोटी पर बसेरा धूप के भरोसे होता है (कठिन परिस्थिति में प्राकृतिक साधनों पर निर्भरता)।",
+    "english": "Living on a mountain peak relies on sunlight (In tough terrains, one depends on nature's mercy).",
+    "category": "nature",
+    "id": 48,
+    "figurative_meaning": "पहाड़ की चोटी पर बसेरा धूप के भरोसे होता है (कठिन परिस्थिति में प्राकृतिक साधनों पर निर्भरता)।",
+    "literal_translation": "Living on a mountain peak relies on sunlight (In tough terrains, one depends on nature's mercy).",
+    "hindi_equivalent": "पहाड़ की चोटी पर बसेरा धूप के भरोसे होता है (कठिन परिस्थिति में प्राकृतिक साधनों पर निर्भरता)।",
+    "english_equivalent": "Living on a mountain peak relies on sunlight (In tough terrains, one depends on nature's mercy).",
+    "theme": "Nature",
+    "source": "Traditional Kumaoni Akhaan (Pt. Ganga Datt Upreti / Dr. Trilochan Pande)"
+  },
+  {
+    "kumaoni": "अंग्वाव का घाव, पछाड़ को ताव।",
+    "roman": "Angwaav ka ghaav, pachhaad ko taav.",
+    "hindi": "आगे का घाव वीरता है, पीछे का घाव कायरता।",
+    "english": "Wounds in front signify courage, wounds on the back reveal cowardice.",
+    "category": "bravery",
+    "id": 49,
+    "figurative_meaning": "आगे का घाव वीरता है, पीछे का घाव कायरता।",
+    "literal_translation": "Wounds in front signify courage, wounds on the back reveal cowardice.",
+    "hindi_equivalent": "आगे का घाव वीरता है, पीछे का घाव कायरता।",
+    "english_equivalent": "Wounds in front signify courage, wounds on the back reveal cowardice.",
+    "theme": "Bravery",
+    "source": "Traditional Kumaoni Akhaan (Pt. Ganga Datt Upreti / Dr. Trilochan Pande)"
+  },
+  {
+    "kumaoni": "काकड़ का सींग नी हुना।",
+    "roman": "Kakad ka seeng ni huna.",
+    "hindi": "काकड़ हिरण के सींग नहीं होते (असंभव बात की आशा करना व्यर्थ है)।",
+    "english": "A barking deer has no horns (Do not expect impossible things).",
+    "category": "wisdom",
+    "id": 50,
+    "figurative_meaning": "काकड़ हिरण के सींग नहीं होते (असंभव बात की आशा करना व्यर्थ है)।",
+    "literal_translation": "A barking deer has no horns (Do not expect impossible things).",
+    "hindi_equivalent": "काकड़ हिरण के सींग नहीं होते (असंभव बात की आशा करना व्यर्थ है)।",
+    "english_equivalent": "A barking deer has no horns (Do not expect impossible things).",
+    "theme": "Wisdom",
+    "source": "Traditional Kumaoni Akhaan (Pt. Ganga Datt Upreti / Dr. Trilochan Pande)"
+  },
+  {
+    "kumaoni": "काफल पाक्यो मैल नी चाख्यो।",
+    "roman": "Kafal pakyo mail ni chaakhyo.",
+    "hindi": "काफल पक गए पर मैंने चखे नहीं (सुअवसर हाथ से निकल जाने का विलाप - कफू पक्षी की लोककथा)।",
+    "english": "The bayberries ripened but I did not taste them (A lament of missed opportunity from the Kafu bird folklore).",
+    "category": "folklore",
+    "id": 51,
+    "figurative_meaning": "काफल पक गए पर मैंने चखे नहीं (सुअवसर हाथ से निकल जाने का विलाप - कफू पक्षी की लोककथा)।",
+    "literal_translation": "The bayberries ripened but I did not taste them (A lament of missed opportunity from the Kafu bird folklore).",
+    "hindi_equivalent": "काफल पक गए पर मैंने चखे नहीं (सुअवसर हाथ से निकल जाने का विलाप - कफू पक्षी की लोककथा)।",
+    "english_equivalent": "The bayberries ripened but I did not taste them (A lament of missed opportunity from the Kafu bird folklore).",
+    "theme": "Folklore",
+    "source": "Traditional Kumaoni Akhaan (Pt. Ganga Datt Upreti / Dr. Trilochan Pande)"
+  },
+  {
+    "kumaoni": "दुधैं को जळ्यो छांछ फूँकिबेर पीन्छ।",
+    "roman": "Dudhai ko jalyo chhaanchh foonkiber peench.",
+    "hindi": "दूध का जला छाछ भी फूँक-फूँक कर पीता है।",
+    "english": "Once bitten by hot milk, one blows even on cold buttermilk before drinking.",
+    "category": "caution",
+    "id": 52,
+    "figurative_meaning": "दूध का जला छाछ भी फूँक-फूँक कर पीता है।",
+    "literal_translation": "Once bitten by hot milk, one blows even on cold buttermilk before drinking.",
+    "hindi_equivalent": "दूध का जला छाछ भी फूँक-फूँक कर पीता है।",
+    "english_equivalent": "Once bitten by hot milk, one blows even on cold buttermilk before drinking.",
+    "theme": "Caution",
+    "source": "Traditional Kumaoni Akhaan (Pt. Ganga Datt Upreti / Dr. Trilochan Pande)"
+  },
+  {
+    "kumaoni": "जिले खाणो भात, उल नी देखणी रात।",
+    "roman": "Jile khaano bhaat, ul ni dekhni raat.",
+    "hindi": "जिसने मेहनत से भात खाना है, वह रात-दिन की परवाह नहीं करता।",
+    "english": "He who desires a good meal does not count the dark hours of toil.",
+    "category": "work",
+    "id": 53,
+    "figurative_meaning": "जिसने मेहनत से भात खाना है, वह रात-दिन की परवाह नहीं करता।",
+    "literal_translation": "He who desires a good meal does not count the dark hours of toil.",
+    "hindi_equivalent": "जिसने मेहनत से भात खाना है, वह रात-दिन की परवाह नहीं करता।",
+    "english_equivalent": "He who desires a good meal does not count the dark hours of toil.",
+    "theme": "Work",
+    "source": "Traditional Kumaoni Akhaan (Pt. Ganga Datt Upreti / Dr. Trilochan Pande)"
+  },
+  {
+    "kumaoni": "घरैं को जोगी जोगड़ा, आन गाँव को सिद्ध।",
+    "roman": "Gharai ko jogi jogada, aan gaanv ko siddh.",
+    "hindi": "घर का जोगी जोगड़ा, आन गाँव का सिद्ध (घर की प्रतिभा का आदर नहीं होता)।",
+    "english": "A local hermit is dismissed, while a stranger from another village is revered as a sage.",
+    "category": "society",
+    "id": 54,
+    "figurative_meaning": "घर का जोगी जोगड़ा, आन गाँव का सिद्ध (घर की प्रतिभा का आदर नहीं होता)।",
+    "literal_translation": "A local hermit is dismissed, while a stranger from another village is revered as a sage.",
+    "hindi_equivalent": "घर का जोगी जोगड़ा, आन गाँव का सिद्ध (घर की प्रतिभा का आदर नहीं होता)।",
+    "english_equivalent": "A local hermit is dismissed, while a stranger from another village is revered as a sage.",
+    "theme": "Society",
+    "source": "Traditional Kumaoni Akhaan (Pt. Ganga Datt Upreti / Dr. Trilochan Pande)"
+  },
+  {
+    "kumaoni": "नाच नी जाणो आँगण तेड़ो।",
+    "roman": "Naach ni jaano aangan tedo.",
+    "hindi": "नाचना नहीं आता तो आँगन को टेढ़ा बताना (अपनी अक्षमता का दोष दूसरों पर मढ़ना)।",
+    "english": "A poor dancer blames the crooked courtyard.",
+    "category": "humor",
+    "id": 55,
+    "figurative_meaning": "नाचना नहीं आता तो आँगन को टेढ़ा बताना (अपनी अक्षमता का दोष दूसरों पर मढ़ना)।",
+    "literal_translation": "A poor dancer blames the crooked courtyard.",
+    "hindi_equivalent": "नाचना नहीं आता तो आँगन को टेढ़ा बताना (अपनी अक्षमता का दोष दूसरों पर मढ़ना)।",
+    "english_equivalent": "A poor dancer blames the crooked courtyard.",
+    "theme": "Humor",
+    "source": "Traditional Kumaoni Akhaan (Pt. Ganga Datt Upreti / Dr. Trilochan Pande)"
   }
 ]
