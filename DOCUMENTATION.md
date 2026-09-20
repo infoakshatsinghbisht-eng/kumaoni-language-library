@@ -496,6 +496,112 @@ Run the complete test suite:
 ```bash
 python -m unittest discover tests
 ```
+
+---
+
+## 11. Complete Master API Function Reference (Every Exported Function)
+
+Below is the exhaustive, copy-pasteable reference guide of every function and class exported at the top-level `import kumaoni`.
+
+### 🔤 1. Translation & Speech
+| Function / Method | Signature | Description | Example |
+|---|---|---|---|
+| `kumaoni.translate` | `(text: str, source='en', target='kumaoni', method='auto')` | Universal translator across world languages into Kumaoni. | `kumaoni.translate("How are you?")` |
+| `kumaoni.voice_translate` | `(text: str, source_lang='auto', method='auto', generate_audio=False)` | Voice translation pipeline returning text, IPA & synthetic audio. | `kumaoni.voice_translate("Hello")` |
+| `kumaoni.voice.translate` | `(text: str, source_lang='auto', generate_audio=False)` | Facade for voice translation. | `kumaoni.voice.translate("Good morning")` |
+| `kumaoni.voice.phrases` | `(category=None)` | Get speech-ready conversational phrases. | `kumaoni.voice.phrases(category="greetings")` |
+| `kumaoni.voice.synthesize_wav`| `(duration_seconds=1.0, freq=440.0)` | Generate raw PCM WAV audio bytes. | `kumaoni.voice.synthesize_wav(0.5, 440)` |
+
+### 📖 2. Lexicon & 300,000+ Morphological Corpus
+| Function / Method | Signature | Description | Example |
+|---|---|---|---|
+| `kumaoni.lookup` | `(query: str, search_in='all')` | Search base dictionary lemmas across Kumaoni, English, Hindi. | `kumaoni.lookup("काफल")` |
+| `kumaoni.search` | `(query: str)` | Multi-result substring & fuzzy search in lexicon. | `kumaoni.search("water")` |
+| `kumaoni.lemmatize` | `(word: str)` | Reduces inflected forms (`खान्छू`, `घरबटि`) to base dictionary lemma (`खाण`, `घर`). | `kumaoni.lemmatize("खान्छू")` |
+| `kumaoni.analyze` | `(word: str)` | Full grammatical breakdown (Lemma, POS, Tense, Person, Case). | `kumaoni.analyze("घरबटि")` |
+| `kumaoni.total_word_forms` | `()` | Returns total count of indexed morphological surface forms (300,000+). | `kumaoni.total_word_forms()` |
+| `kumaoni.get_lexicon` | `()` | Returns singleton `Lexicon` instance with loaded words and datasets. | `kumaoni.get_lexicon()` |
+
+### ⚡ 3. Verb Conjugation & Verbal Syntax
+| Function / Method | Signature | Description | Example |
+|---|---|---|---|
+| `kumaoni.conjugate` | `(verb, tense="present", person=1, number="sg", gender="m", honorific=False)` | Automatically conjugate regular and irregular Kumaoni verbs. | `kumaoni.conjugate("जाण", tense="past", person=1)` |
+| `kumaoni.conjugate_to_be`| `(tense="present", person=1, number="sg", gender="m")` | Conjugates auxiliary substantive verb (`छ-` / to be). | `kumaoni.conjugate_to_be(person=2)` |
+| `kumaoni.extract_root` | `(verb: str)` | Extracts root stem from infinitive (`खाण` ➔ `खा`). | `kumaoni.extract_root("खाण")` |
+| `kumaoni.conjunctive_participle` | `(verb: str)` | Forms conjunctive participle 'having done' (`खाईकन`, `जाईकन`). | `kumaoni.conjunctive_participle("खाण")` |
+| `kumaoni.agent_noun` | `(verb: str, gender="m")` | Forms agentive noun 'the one who does' (`खन्या`, `जन्या`). | `kumaoni.agent_noun("खाण")` |
+| `kumaoni.imperative` | `(verb: str, person=2, honorific=False, plural=False)` | Forms imperative commands (`खा`, `खाओ`, `खाइये`). | `kumaoni.imperative("खाण", honorific=True)` |
+| `kumaoni.causative` | `(verb: str, degree=1)` | Forms 1st and 2nd degree causative verbs (`खवाण`, `खववाण`). | `kumaoni.causative("खाण", degree=1)` |
+| `kumaoni.passive` | `(verb: str, tense="present")` | Forms passive voice constructions. | `kumaoni.passive("लिखण")` |
+| `kumaoni.compound_verb` | `(main_verb, vector_verb, tense="past", ...)` | Constructs compound verbs with vector aspectual modifiers (`खा ल्हियो`). | `kumaoni.compound_verb("खाण", "लेण")` |
+| `kumaoni.prohibitive` | `(verb: str, honorific=False)` | Generates negative imperative / prohibitive commands (`झन् खा`). | `kumaoni.prohibitive("खाण")` |
+| `kumaoni.modal_ability` | `(verb, subject="मैं", tense="present")` | Forms 'can do' modal expressions (`सकण`). | `kumaoni.modal_ability("पढ़ण", subject="मैं")` |
+| `kumaoni.modal_obligation`| `(verb, subject="मैं", tense="present")` | Forms 'must / should do' obligation modal (`पड़ण`). | `kumaoni.modal_obligation("जाण")` |
+| `kumaoni.modal_desiderative`| `(verb, subject="मैं")` | Forms 'wants to do' desiderative expressions (`चाण`). | `kumaoni.modal_desiderative("खाण")` |
+
+### 🏛️ 4. Sentence Construction & Grammar Engine
+| Function / Method | Signature | Description | Example |
+|---|---|---|---|
+| `kumaoni.build_sentence` | `(subject, verb, obj="", tense="present", ...)` | Generates full grammatically aligned SOV Kumaoni sentences. | `kumaoni.build_sentence("मैं", "जाण", "घर")` |
+| `kumaoni.conditional` | `(condition, consequence)` | Constructs conditional 'If... then...' sentences (`अगर... तब...`). | `kumaoni.conditional("पानी पडलो", "घर रूँलो")` |
+| `kumaoni.relative_correlative` | `(rel_clause, corr_clause)` | Generates relative-correlative clauses (`जो... सो...`). | `kumaoni.relative_correlative("मेहनत करल", "फल पाल")` |
+| `kumaoni.interrogative_sentence` | `(subject, question_type="where", ...)` | Generates question sentences (`कहाँ`, `कबे`, `क्योँ`, `को`). | `kumaoni.interrogative_sentence("तुम", "where")` |
+| `kumaoni.echo_word` | `(word: str)` | Generates authentic hill reduplicative echo words (`भात-व़ात`, `किताब-सिताब`). | `kumaoni.echo_word("भात")` |
+
+### 🏷️ 5. Nouns, Pronouns & Declensions
+| Function / Method | Signature | Description | Example |
+|---|---|---|---|
+| `kumaoni.pluralize` | `(noun: str, gender="m")` | Pluralizes nouns based on declension class (`घोड़ो` ➔ `घोड़ा`). | `kumaoni.pluralize("घोड़ो")` |
+| `kumaoni.decline_noun` | `(noun, case, number="sg", gender="m")` | Inflects nouns into specific grammatical cases. | `kumaoni.decline_noun("घर", "ablative")` |
+| `kumaoni.to_oblique` | `(noun: str, gender="m", number="sg")` | Converts noun to oblique stem before case markers. | `kumaoni.to_oblique("घोड़ो")` |
+| `kumaoni.attach_case` | `(noun, case, number="sg", gender="m")` | Attaches postpositional vibhakti markers to noun. | `kumaoni.attach_case("हाथ", "instrumental")` |
+| `kumaoni.get_marker` | `(case: str)` | Returns authentic Kumaoni postposition marker for case. | `kumaoni.get_marker("dative")` # 'कणी' |
+| `kumaoni.get_pronoun` | `(person, number="sg", case="direct", gender="m", honorific=False)` | Resolves personal & demonstrative pronouns across cases. | `kumaoni.get_pronoun(1, case="ergative")` # 'मैले' |
+| `kumaoni.to_feminine` | `(word: str)` | Converts masculine nouns/adjectives to feminine (`बड़ो` ➔ `बड़ि`). | `kumaoni.to_feminine("भलो")` |
+| `kumaoni.to_masculine` | `(word: str)` | Converts feminine nouns/adjectives to masculine (`बड़ि` ➔ `बड़ो`). | `kumaoni.to_masculine("भलि")` |
+| `kumaoni.make_diminutive`| `(noun: str)` | Forms diminutive affection forms (`इ` / `उली` / `युल`). | `kumaoni.make_diminutive("गाड़")` # 'गड्यूल' |
+| `kumaoni.make_augmentative`| `(noun: str)` | Forms augmentative / large forms (`डो` / `ड़`). | `kumaoni.make_augmentative("लट्ठ")` |
+
+### 🔢 6. Numbers, Numerals & Fractions
+| Function / Method | Signature | Description | Example |
+|---|---|---|---|
+| `kumaoni.num_to_words` | `(number: int, script="devanagari")` | Converts any number (0 to 1,000,000,000+) to Kumaoni words. | `kumaoni.num_to_words(108)` |
+| `kumaoni.words_to_num` | `(text: str)` | Converts Kumaoni written number words back to integer. | `kumaoni.words_to_num("एक सौ आठ")` |
+| `kumaoni.to_devanagari_numerals` | `(number: int)` | Converts integer to Devanagari numerals (`०१२३४५६७८९`). | `kumaoni.to_devanagari_numerals(2026)` # '२०२६' |
+| `kumaoni.from_devanagari_numerals` | `(devanagari_str: str)` | Converts Devanagari numerals string back to integer. | `kumaoni.from_devanagari_numerals("२०२६")` |
+| `kumaoni.ordinal` | `(number: int, gender="m")` | Returns ordinal number (`पैलो`, `दुसर`, `तेसर`, `चौथ`). | `kumaoni.ordinal(1)` |
+| `kumaoni.fraction` | `(val: float, script="devanagari")` | Returns customary traditional fractions (`आधो`, `पाव`, `सवा`, `डेढ़`, `ढाई`). | `kumaoni.fraction(0.5)` |
+
+### 🔤 7. Phonetics & Transliteration
+| Function / Method | Signature | Description | Example |
+|---|---|---|---|
+| `kumaoni.transliterate`| `(text: str, to_script="devanagari")` | Universal two-way transliteration (Devanagari ↔ Latin/Roman). | `kumaoni.transliterate("dagadya", to_script="devanagari")` |
+| `kumaoni.devanagari_to_latin`| `(text: str)` | Transliterates Devanagari into phonetically accurate Romanized script. | `kumaoni.devanagari_to_latin("कुमाऊँनी")` |
+| `kumaoni.latin_to_devanagari`| `(text: str)` | Converts Romanized Kumaoni input to Devanagari. | `kumaoni.latin_to_devanagari("kumaoni")` |
+| `kumaoni.normalize` | `(text: str)` | Cleans and normalizes Devanagari diacritics and nuktas. | `kumaoni.normalize("कुमाऊँ")` |
+| `kumaoni.detect_script`| `(text: str)` | Detects whether text is `'devanagari'`, `'latin'`, or `'mixed'`. | `kumaoni.detect_script("dagadya")` |
+| `kumaoni.tokenize` | `(text: str)` | Tokenizes Kumaoni text into linguistic words and punctuation. | `kumaoni.tokenize("घर जा!")` |
+| `kumaoni.syllables` | `(text: str)` | Breaks word into phonetic syllables. | `kumaoni.syllables("कुमाऊँनी")` |
+
+### 🏔️ 8. Culture, Folklore & Literature Facades
+| Facade Property / Method | Description | Example |
+|---|---|---|
+| `kumaoni.proverbs.all()` | Returns all 45+ authentic proverbs with literal and cultural meanings. | `kumaoni.proverbs.all()` |
+| `kumaoni.proverbs.random()` | Returns a random traditional proverb (*Akhaan*). | `kumaoni.proverbs.random()` |
+| `kumaoni.riddles.all()` | Returns all traditional riddles (*Aana / Aan*) with answers and hints. | `kumaoni.riddles.all()` |
+| `kumaoni.riddles.random()` | Returns a random folk riddle. | `kumaoni.riddles.random()` |
+| `kumaoni.phrases.all(category=None)` | Returns conversational idioms & blessings (`जीरये जागि रये`). | `kumaoni.phrases.all(category="blessings")` |
+| `kumaoni.phrases.random()` | Returns a random authentic conversational phrase. | `kumaoni.phrases.random()` |
+| `kumaoni.festivals.list()` | Returns all major Kumaoni festivals (*Harela*, *Phool Dei*, *Ghughutiya*...). | `kumaoni.festivals.list()` |
+| `kumaoni.festivals.get(name)` | Looks up specific festival with rituals and folklore. | `kumaoni.festivals.get("harela")` |
+| `kumaoni.literature.epics()` | Returns list of 6 monumental folk epics (*Malushahi-Rajula*, *Jiya Rani*...). | `kumaoni.literature.epics()` |
+| `kumaoni.literature.get_epic(id)` | Returns full metadata, synopsis, and verses for an epic. | `kumaoni.literature.get_epic("malushahi")` |
+| `kumaoni.literature.poems()` | Returns collection of canonical Kumaoni poems and folk songs. | `kumaoni.literature.poems()` |
+| `kumaoni.literature.authors()`| Returns biographies & bibliographies of 15+ canonical scholars & poets. | `kumaoni.literature.authors()` |
+| `kumaoni.literature.get_author(id)` | Returns complete profile of a scholar (e.g., Badri Datt Pande, Gumani). | `kumaoni.literature.get_author("badri_datt_pande")` |
+| `kumaoni.get_months()` | Returns all 12 Kumaoni solar calendar months (*Baisakh*, *Jeth*...). | `kumaoni.get_months()` |
+| `kumaoni.get_seasons()` | Returns the 6 traditional Himalayan seasons (*Rudi*, *Choumas*, *Hyund*...). | `kumaoni.get_seasons()` |
+| `kumaoni.get_current_season()` | Calculates current active season based on today's date. | `kumaoni.get_current_season()` |
 **Results**:
 - 37 unit tests covering phonetics, morphology, dictionary lookups, verb conjugation, complex syntax, numerals, translation, and culture modules.
 - **Pass rate**: 100% OK.
