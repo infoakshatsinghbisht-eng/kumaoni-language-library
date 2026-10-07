@@ -91,6 +91,59 @@ class TestLexicon(unittest.TestCase):
         self.assertIsNotNone(idiom)
         self.assertEqual(idiom.get("category"), "idioms")
 
+    def test_cultural_and_surname_words(self):
+        # Instruments
+        w_damuwa = kumaoni.lookup("दमुवां")
+        self.assertIsNotNone(w_damuwa)
+        self.assertIn("drum", w_damuwa.english.lower())
+
+        w_masak = kumaoni.lookup("मसकबीन")
+        self.assertIsNotNone(w_masak)
+        self.assertIn("bagpipe", w_masak.english.lower())
+
+        w_ransingha = kumaoni.lookup("रणसिंगा")
+        self.assertIsNotNone(w_ransingha)
+        self.assertIn("horn", w_ransingha.english.lower())
+
+        # Marriage
+        w_byo = kumaoni.lookup("ब्यो")
+        self.assertIsNotNone(w_byo)
+        self.assertIn("marriage", w_byo.english.lower())
+
+        w_pithyaan = kumaoni.lookup("पिथ्याँ")
+        self.assertIsNotNone(w_pithyaan)
+        self.assertIn("mark", w_pithyaan.english.lower())
+
+        w_pichhauda = kumaoni.lookup("रंग्वाली पिछौड़ा")
+        self.assertIsNotNone(w_pichhauda)
+        self.assertIn("dupatta", w_pichhauda.english.lower())
+
+        # Kinship
+        w_kaaka = kumaoni.lookup("काका")
+        self.assertIsNotNone(w_kaaka)
+        self.assertIn("uncle", w_kaaka.english.lower())
+
+        w_maama = kumaoni.lookup("मामा")
+        self.assertIsNotNone(w_maama)
+        self.assertIn("uncle", w_maama.english.lower())
+
+        w_gauntyar = kumaoni.lookup("गौंत्यार")
+        self.assertIsNotNone(w_gauntyar)
+        self.assertIn("villager", w_gauntyar.english.lower())
+
+        # Surnames & Social
+        w_bisht = kumaoni.lookup("बिष्ट")
+        self.assertIsNotNone(w_bisht)
+        self.assertIn("surname", w_bisht.english.lower())
+
+        w_pant = kumaoni.lookup("पंत")
+        self.assertIsNotNone(w_pant)
+        self.assertIn("surname", w_pant.english.lower())
+
+        w_that = kumaoni.lookup("थात")
+        self.assertIsNotNone(w_that)
+        self.assertIn("ancestral", w_that.english.lower())
+
 
 if __name__ == "__main__":
     unittest.main()

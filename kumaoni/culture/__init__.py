@@ -27,6 +27,14 @@ from kumaoni.culture.deities import (
     KumaoniDeity,
     DeitiesTreasury,
 )
+from kumaoni.culture.places import (
+    KumaoniPlace,
+    PlacesTreasury,
+)
+from kumaoni.culture.surnames import (
+    KumaoniSurname,
+    SurnamesTreasury,
+)
 
 __all__ = [
     "Festival",
@@ -52,6 +60,10 @@ __all__ = [
     "FolkloreTreasury",
     "KumaoniDeity",
     "DeitiesTreasury",
+    "KumaoniPlace",
+    "PlacesTreasury",
+    "KumaoniSurname",
+    "SurnamesTreasury",
 ]
 
 

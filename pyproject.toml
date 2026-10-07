@@ -11,7 +11,7 @@ authors = [
 maintainers = [
     { name = "Akshat Singh Bisht", email = "infoakshatsinghbisht@gmail.com" }
 ]
-description = "Kumaoni (कुमाऊँनी) Language Standard Library: 300,516+ Inflections, Voice AI, Speech Translation, and Himalayan Culture"
+description = "Kumaoni (कुमाऊँनी) Language Standard Library: 440,000+ Inflections, Cultural Heritage, Temples, Surnames, and Universal Translation"
 readme = "README.md"
 requires-python = ">=3.8"
 classifiers = [

@@ -152,9 +152,9 @@ print(kumaoni.translate("Don't go!").text)
 
 ---
 
-### 5.2 Lexicon, Dictionary & 400k+ Morphological Analyzer
+### 5.2 Lexicon, Dictionary & 440k+ Morphological Analyzer
 
-The lexicon module provides instant lookup across **2,004+ authenticated base lemmas** and synthesizes **423,279+ unique inflected forms**.
+The lexicon module provides instant lookup across **2,086+ authenticated base lemmas** and synthesizes **443,356+ unique inflected forms**.
 
 #### Functions:
 - `kumaoni.lookup(query)`: Exact lookup across Kumaoni (Devanagari), Romanized Latin, English, or Hindi. Resolves both base lemmas and inflected forms.
@@ -168,7 +168,7 @@ The lexicon module provides instant lookup across **2,004+ authenticated base le
 import kumaoni
 
 # Total indexed vocabulary
-print(kumaoni.total_word_forms())  # 423,279+ words
+print(kumaoni.total_word_forms())  # 443,356+ words
 
 # Lookup base word
 w = kumaoni.lookup("ईजा")
@@ -426,6 +426,66 @@ for d in shakti_deities:
 # 4. Registry statistics
 print(kumaoni.deities.stats())
 # {'total_deities': 40, 'categories': {'Nyaya Devta': 2, 'Kuldevi / Shakti': 9, 'Gram Devta': 10, 'Jagar Deity': 10, 'Kshetrapal': 9}}
+```
+
+#### 5c. Sacred Geography, Temples & Holy Places (`kumaoni.places`)
+```python
+import kumaoni
+
+# 1. Fetch details of an ancient temple or sacred site
+jageshwar = kumaoni.places.get("jageshwar_dham")
+print(f"{jageshwar.name_kumaoni} ({jageshwar.district})")
+print(f"Altitude/Location: {jageshwar.altitude_or_location}")
+print(f"Significance: {jageshwar.spiritual_or_historical_significance}")
+
+# 2. Filter sacred sites by category ('Temple & Sacred Dham', 'River & Confluence', 'Alpine Peak & Glacier', 'Valley, Pass & Town')
+temples = kumaoni.places.list(category="Temple")
+print(f"Total Temples Catalogued: {len(temples)}")
+
+# 3. Filter by district (e.g. Pithoragarh, Almora, Bageshwar)
+pithoragarh_sites = kumaoni.places.list(district="Pithoragarh")
+for site in pithoragarh_sites:
+    print(f"[{site.category}] {site.name_kumaoni} ({site.name_roman})")
+
+# 4. Search across spiritual legends, associated deities, and landmarks
+shiva_shrines = kumaoni.places.search("Shiva")
+print(f"Shiva Shrines & Peaks: {len(shiva_shrines)}")
+
+# 5. Registry statistics
+print(kumaoni.places.stats())
+# {'total_places': 47, 'categories': {...}, 'districts': {...}}
+```
+
+#### 5d. Kumaoni Surnames, Clans & Social Concepts (`kumaoni.surnames`)
+```python
+import kumaoni
+
+# 1. Look up clan lineage, historical title, and gotra
+pant = kumaoni.surnames.get("pant")
+print(f"{pant.surname_kumaoni} ({pant.community}): {pant.title}")
+print(f"Gotras: {', '.join(pant.gotras)}")
+print(f"Notable Figures: {', '.join(pant.notable_historical_figures)}")
+
+# 2. Filter by community ('Brahmin', 'Kshatriya / Rajput', 'Shauka / Alpine Bhotia', 'Shilpkar / Artisan')
+rajput_clans = kumaoni.surnames.list(community="Kshatriya")
+for clan in rajput_clans:
+    print(f"{clan.surname_kumaoni} ({clan.surname_roman}): {clan.traditional_title_or_role}")
+
+# 3. Search by gotra, ancestral origin, or surname
+shandilya_clans = kumaoni.surnames.search("Shandilya")
+for c in shandilya_clans:
+    print(f"{c.surname_kumaoni} -> {c.ancestral_villages_or_origin}")
+
+# 4. Fundamental Kumaoni social concepts and institutions
+concepts = kumaoni.surnames.social_concepts()
+print("Thaat (थात):", concepts["that"]["meaning"])
+print("Thaatwaan (थातवान):", concepts["thatwan"]["meaning"])
+print("Dhadha (धड़ा):", concepts["dhada"]["meaning"])
+print("Gauntyaar (गौंत्यार):", concepts["gauntyar"]["meaning"])
+
+# 5. Surnames statistics
+print(kumaoni.surnames.stats())
+# {'total_surnames': 33, 'communities': {'Brahmin': 10, 'Kshatriya / Rajput': 15, ...}, 'total_social_concepts': 8}
 ```
 
 #### 6. Traditional Folk Songs, Kumaoni Holi Music & Digital Archives (`kumaoni.folklore`)

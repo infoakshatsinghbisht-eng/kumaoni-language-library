@@ -6,7 +6,7 @@
 [![ResearchGate](https://img.shields.io/badge/ResearchGate-Publications-00CCBB?style=for-the-badge&logo=researchgate&logoColor=white)](https://www.researchgate.net/profile/Akshat-Bisht-8)
 [![Amazon Author](https://img.shields.io/badge/Amazon-Author%20Page-FF9900?style=for-the-badge&logo=amazon&logoColor=white)](https://www.amazon.com/stores/Akshat-Singh-Bisht/author/B0D5TYDT28?ref=sr_ntt_srch_lnk_1&qid=1789906571&sr=8-1&shoppingPortalEnabled=true)
 [![GitHub](https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/infoakshatsinghbisht-eng)
-[![Lexicon Forms](https://img.shields.io/badge/Lexicon%20Forms-423%2C279%2B-success.svg?style=for-the-badge)](https://github.com/infoakshatsinghbisht-eng/kumaoni-language-library)
+[![Lexicon Forms](https://img.shields.io/badge/Lexicon%20Forms-443%2C356%2B-success.svg?style=for-the-badge)](https://github.com/infoakshatsinghbisht-eng/kumaoni-language-library)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
 
 A standard-library-style Python package for the **Kumaoni language** (कुमाऊँनी / Central Pahari). Designed to be as simple, fast, and comprehensive for Kumaoni as Python's built-in `math` library is for mathematics.
@@ -34,11 +34,11 @@ This library empowers developers to build **web applications, mobile apps, educa
    - Supports ordinals (1st `पैलो`, 2nd `दुसर`, 3rd `तेसर`...), customary fractions (`आधो`, `पाव`, `पौण`, `सवा`, `डेढ़`), and Devanagari numerals (`०१२३४५६७८९`).
 
 4. **100,000+ Words Morphological Paradigm Engine & Lemmatizer**
-   - Synthesizes and indexes **423,000+ unique authenticated Kumaoni word forms** across verbal paradigms (Present, Past, Future, Continuous, Imperatives, Causatives, Participles, Agentives), nominal declensions (Direct, Plural, Oblique, Case postpositions bound/spaced, Diminutives, Echo words), and adjectival agreements.
+   - Synthesizes and indexes **443,000+ unique authenticated Kumaoni word forms** across verbal paradigms (Present, Past, Future, Continuous, Imperatives, Causatives, Participles, Agentives), nominal declensions (Direct, Plural, Oblique, Case postpositions bound/spaced, Diminutives, Echo words), and adjectival agreements.
    - Sub-millisecond `kumaoni.lemmatize()` and `kumaoni.analyze()` for inflected surface forms.
    - Seamless dictionary lookups: querying inflected forms like `खान्छू`, `ग्यूँ`, `ईजा कणी`, or `घरबटि` resolves directly to their base lemmas and definitions.
 
-5. **Rich Lexicon & Dictionary (2,004+ Authenticated Base Lemmas)**
+5. **Rich Lexicon & Dictionary (2,086+ Authenticated Base Lemmas)**
    - Search across Kumaoni, English, and Hindi.
    - Sourced from Grierson's *Linguistic Survey of India (Vol. IX, Part IV)*, Pt. Ganga Datt Upreti's *Proverbs & Folklore of Kumaun (1894)*, Badri Datt Pande's *Kumaun ka Itihas (1937)*, Dr. Trilochan Pandey's *Kumaoni Bhasha Aur Sahitya (1977 Appendix ग)*, Rev. E. S. Oakley & Tara Dutt Gairola's *Himalayan Folklore (1935)*, Hem Pant's *Ghughuti Basuti (2022)*, and Uttarakhand Open University's *Kumaoni Bhasha Sahitya (AECC-K-101)* textbook.
    - Categorized by mountain hydrology & terrain (`उकालो`, `ओड्यार`, `करांइ`, `सिमार`, `बगड़`, `गधेरा`, `रोड`, `खाल`, `काँठ`), hill architecture & implements (`चाख`, `जांतर`, `उखल`, `मुसळ`, `पाथर`, `दथुड़ो`, `गागर`, `फुंगइ`, `छयो`, `लुकुड़`, `चुकती`), agriculture & flora (`पुंगरण`, `बाखड़`, `जुनाल`, `ध्वाघ`, `काकुनि`, `बकौल`, `कणिक`, `फिण`, `मौहट`, `चूक`, `किलमोड़ा`, `हिसोलू`, `अखोइ`, `आडू`, `तिमुल`, `दाड्मि`, `कुसम्यारु`, `गलगल`, `जमीर`, `मेहल`, `कौल कप्फू`, `बाँझ`, `देवदार`, `उतीस`, `चीड़`, `सुरई`, `खर्सू`, `पांगुर`, `भट्ट`, `गहत`, `राजमा`, `झंगोरा`, `मडुवा`, `भांग`, `जख्या`, `गन्द्रायणी`, `जम्बू`), sensation, anatomy & states (`खाप`, `रीस`, `कलिजो`, `खाज`, `कन्या`, `चिले`, `कीक`, `खुजे`, `बादुइ`, `पलो`, `घाम`), historical governance & land tenure (`बूढ़ा`, `स्याणा`, `कामीन`, `थोकदार`, `थातवान`, `खायकर`, `सिरतान`, `गूठ`, `रौत`), shamanic & sacred rituals (`जागरिया`, `डांगरिया`, `हुड़किया`, `हुड़का`, `बगंबर`, `थात`, `डौँर`, `आंछरी`, `मसाण`), and alpine pastoralism (`छानि`, `खर्क`, `बुग्याल`, `शौका`, `रंग-भंग`, `लाप्चा`, `हुणिया`).
@@ -61,7 +61,22 @@ This library empowers developers to build **web applications, mobile apps, educa
    - Full calendar details, rituals, regional significance, and search via `kumaoni.festivals.search(q)`:
      - *Harela*, *Phool Dei*, *Ghughutiya / Uttarayani Mela*, *Olgia / Ghee Sankranti*, *Nanda Devi Mela*, *Khatarwa*, *Saatu-Aathu (Gaura-Mahesh)*, *Bagwal of Devidhura*, *Syalde-Bikhoti (Dwarahat)*, *Jageshwar Shravani Mela*, *Purnagiri Mela*, *Kainchi Dham Mela (15 June)*, *Kumaoni Baithaki & Khadi Holi*, *Hillyatra (Pithoragarh)*, *Chaitol*, *Somnath Mela (Masi)*, *Chhipla Jaat*, *Bagnath Shivratri Mela*, *Kailpal Mela*, *Nanda Raj Jaat*, *Kandali Festival (Chaudas 12-yr bloom)*, *Jauljibi Mela (Indo-Tibetan-Nepali confluence)*, *Thal Mela (Baisakhi)*, *Gananath Mela (Kartik Purnima fertility vigils)*, *Chaiti Mela (Kashipur)*, *Mostamanu Mela (Pithoragarh rain god)*, *Bhitauli (Chaitra sisters gift)*, *Janopunyu (Raksha Bandhan)*, *Vat Savitri*, *Basant Panchami*, *Kot Bhramari Mela*, *Chitai Golu Mela*, *Ganga Dussehra*, *Kumaoni Diwali Bhelo*, *Dronagiri Mela*, *Devidhura Ashtami*, *Ghantakarna Mela*, *Malushahi Mela*, *Berinag Nagpanchami*, *Rung Kirji & Gabla Puja*.
 
-9. **Cultural Treasury & Master Bibliography (अखाण, आणा, लोकगीत, महागाथा & ग्रन्थ-सूची)**
+9. **Sacred Geography, Temples & Himalayan Landscape (47 Sacred Places)**
+   - Complete architectural, spiritual, and geographical registry via `kumaoni.places`:
+     - **Temples & Sacred Dhams (22 shrines)**: *Jageshwar Dham* (124 stone temples, 8th Jyotirlinga), *Baijnath*, *Bagnath* (Saryu-Gomti confluence), *Patal Bhuvaneshwar* (subterranean cave), *Chitai Golu Devta* (temple of bells and justice), *Katarmal Sun Temple* (Bara Aditya), *Kasar Devi* (Crank's Ridge geomagnetic belt), *Haat Kalika Gangolihat*, *Maa Barahi Devidhura*, *Maa Purnagiri*, *Kainchi Dham* (Neem Karoli Baba ashram), *Dunagiri*, *Binsar Mahadev*, *Mukteshwar*, *Naina Devi*, *Kot Bhramari*, *Mostamanu*, etc.
+     - **Rivers & Holy Sangams (10 waterways)**: *Saryu*, *Gomti*, *Kali / Sharda*, *Gori Ganga*, *Eastern Ramganga*, *Kosi*, *Gaula*, *Bageshwar Sangam*, *Jauljibi Sangam*, *Pancheshwar Sangam*.
+     - **Alpine Peaks & Glaciers (7 massifs)**: *Nanda Devi* (7,816m), *Trishul* (7,120m), *Panchachuli* (6,904m), *Om Parvat* (6,191m), *Adi Kailash* (5,945m), *Pindari Glacier*, *Milam Glacier*.
+     - **Historic Valleys & Towns (8 centers)**: *Johar Valley*, *Darma Valley*, *Vyas Valley*, *Almora*, *Nainital*, *Champawat*, *Munsyari*, *Dwarahat*.
+
+10. **Kumaoni Surnames, Clans, Lineages & Social Structure (33 Surnames & 8 Social Concepts)**
+   - Comprehensive sociological and genealogical registry via `kumaoni.surnames`:
+     - **Brahmin Clans**: *Pant* (Jaideo Pant lineage, Shandilya gotra, royal physicians and poets), *Joshi* (Garga/Kaushika gotra, Diwans and astrologers), *Pandey / Pande* (Bharadwaj gotra, preceptors and historians), *Upreti* (Uprara origin, authors and priests), *Tiwari / Tripathi*, *Pathak*, *Bhatt* (Jageshwar temple priests), *Upadhyay*, *Sanwal*, *Kholiya*.
+     - **Kshatriya / Rajput Clans**: *Bisht* (Vishisht title, feudal commanders), *Rawat* (feudal chiefs and explorers), *Negi* (military officers holding Neg perquisites), *Mehra / Mahara* (leaders of historic Mahara faction), *Fartyal* (leaders of Fartyal faction), *Bhandari* (treasury custodians, hero Kalu Bhandari), *Karki*, *Rautela* (Chand princes), *Chand* (sovereign dynasty), *Manral* (Katyuri princes), *Bora*, *Adhikari*, *Mehta*, *Danu*, *Koranga*.
+     - **Shauka / Alpine Bhotia Clans**: *Pangtey* (Milam/Johar scholars and merchants), *Martolia* (Martoli village beneath Nanda Devi), *Rawat (Johari)* (Pandit Nain Singh Rawat, Survey of India explorer), *Jangpangi*, *Garbiyal*.
+     - **Shilpkar & Artisan Clans**: *Tamta* (Almora master coppersmiths & social reform leaders), *Arya* (freedom movement pioneers), *Lohar* (agricultural ironsmiths).
+     - **Social Concepts**: *Thaat* (ancestral landed estate), *Thaatwaan* (original landholder), *Dhadha* (factional court alliances), *Gauntyaar* (fellow villagers), *Biraadari* (clan brotherhood), *Gotra*, *Neg-Jog*, *Jajmaani*.
+
+11. **Cultural Treasury & Master Bibliography (अखाण, आणा, लोकगीत, महागाथा & ग्रन्थ-सूची)**
    - **85+ Authentic Proverbs (*Akhaan*)**: From Pt. Ganga Datt Upreti (1894), UOU AECC-K-101 (2020), and living oral lore with literal, figurative, Hindi, and English equivalents.
    - **157+ Authentic Idioms & Folk Phrases (*Muhavare & Batkoli*)**: From oral conversations and UOU syllabus Unit 5.
    - **43+ Traditional Riddles (*Aan / Aana*)**: Folk puzzles with hints, cultural context, and solutions.
@@ -69,7 +84,7 @@ This library empowers developers to build **web applications, mobile apps, educa
    - **20+ Canonical Authors & Scholars**: Biographies and historical profiles.
    - **8 Monumental Folk Epics & Ballads**: *Malushahi-Rajula*, *Ajuva Bafaul*, *Golu Devta*, *Jiya Rani*, *Veer Balak Haru Singh Heet*, *Amar Gopichand Yogi*, *Kalu Bhandari*, and *Ganganath*.
 
-10. **Interactive Developer Playground & CLI**
+12. **Interactive Developer Playground & CLI**
    - Built-in command line interface (`kumaoni translate`, `kumaoni lookup`, `kumaoni number`, `kumaoni bibliography`).
    - Modern glassmorphism web playground running locally with zero dependencies.
 
@@ -365,6 +380,10 @@ All key functions are directly accessible via `import kumaoni`:
 | | `kumaoni.deities.search(q)` / `.stats()` | Search deities across 5 categories by shrine, title, legend. |
 | | `kumaoni.festivals.list()` / `.get(name)` | 40 Traditional Festivals & Melas (*Harela*, *Khatarwa*, *Bagwal*, *Hillyatra*...). |
 | | `kumaoni.festivals.search(q)` | Search festivals by district, lunar tithi, or keyword. |
+| | `kumaoni.places.list()` / `.get(id)` | 47 Sacred Temples, Rivers, Glaciers & Valleys (Jageshwar, Baijnath, Nanda Devi...). |
+| | `kumaoni.places.search(q)` / `.stats()` | Search holy geography by district, deity, or spiritual significance. |
+| | `kumaoni.surnames.list()` / `.get(id)` | 33 Lineage Surnames & Clans (Pant, Joshi, Bisht, Rawat, Negi, Pangtey, Tamta...). |
+| | `kumaoni.surnames.social_concepts()` | 8 Fundamental Kumaoni social concepts (*Thaat*, *Thaatwaan*, *Dhadha*, *Gauntyaar*...). |
 | | `kumaoni.literature.epics()` / `.get_epic(id)`| 8 Folk Epics (*Malushahi-Rajula*, *Jiya Rani*, *Kalu Bhandari*). |
 | | `kumaoni.literature.poems()` | Canonical Kumaoni poems & folk songs. |
 | | `kumaoni.literature.authors()` / `.get_author(id)` | Biographies of 20+ canonical scholars & poets. |

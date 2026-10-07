@@ -143,6 +143,10 @@ from kumaoni.culture import (
     FolkloreTreasury,
     KumaoniDeity,
     DeitiesTreasury,
+    KumaoniPlace,
+    PlacesTreasury,
+    KumaoniSurname,
+    SurnamesTreasury,
 )
 
 
@@ -364,6 +368,52 @@ class _DeitiesFacade:
         return DeitiesTreasury.stats()
 
 
+class _PlacesFacade:
+    def list(self, category=None, district=None):
+        from kumaoni.culture.places import PlacesTreasury
+        return PlacesTreasury.list(category=category, district=district)
+
+    def all(self, category=None, district=None):
+        return self.list(category=category, district=district)
+
+    def get(self, place_id):
+        from kumaoni.culture.places import PlacesTreasury
+        return PlacesTreasury.get(place_id)
+
+    def search(self, query):
+        from kumaoni.culture.places import PlacesTreasury
+        return PlacesTreasury.search(query)
+
+    def stats(self):
+        from kumaoni.culture.places import PlacesTreasury
+        return PlacesTreasury.stats()
+
+
+class _SurnamesFacade:
+    def list(self, community=None):
+        from kumaoni.culture.surnames import SurnamesTreasury
+        return SurnamesTreasury.list(community=community)
+
+    def all(self, community=None):
+        return self.list(community=community)
+
+    def get(self, surname_id):
+        from kumaoni.culture.surnames import SurnamesTreasury
+        return SurnamesTreasury.get(surname_id)
+
+    def search(self, query):
+        from kumaoni.culture.surnames import SurnamesTreasury
+        return SurnamesTreasury.search(query)
+
+    def social_concepts(self):
+        from kumaoni.culture.surnames import SurnamesTreasury
+        return SurnamesTreasury.social_concepts()
+
+    def stats(self):
+        from kumaoni.culture.surnames import SurnamesTreasury
+        return SurnamesTreasury.stats()
+
+
 class _VoiceFacade:
     def translate(self, text: str, source_lang: str = "auto", method: str = "auto", generate_audio: bool = False):
         return voice_translate(text, source_lang=source_lang, method=method, generate_audio=generate_audio)
@@ -384,6 +434,8 @@ literature = _LiteratureFacade()
 bibliography = _BibliographyFacade()
 folklore = _FolkloreFacade()
 deities = _DeitiesFacade()
+places = _PlacesFacade()
+surnames = _SurnamesFacade()
 voice = _VoiceFacade()
 
 __all__ = [
@@ -467,8 +519,10 @@ __all__ = [
     "bibliography",
     "folklore",
     "deities",
+    "places",
+    "surnames",
     "voice",
-    # Bibliography, Folklore & Deities
+    # Bibliography, Folklore, Deities, Places & Surnames
     "KumaoniBook",
     "BibliographyTreasury",
     "KumaoniSong",
@@ -477,6 +531,10 @@ __all__ = [
     "FolkloreTreasury",
     "KumaoniDeity",
     "DeitiesTreasury",
+    "KumaoniPlace",
+    "PlacesTreasury",
+    "KumaoniSurname",
+    "SurnamesTreasury",
     "search_festivals",
 ]
 

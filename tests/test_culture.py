@@ -109,6 +109,91 @@ class TestCulture(unittest.TestCase):
         self.assertEqual(stats["total_deities"], 40)
         self.assertGreaterEqual(len(stats["categories"]), 5)
 
+    def test_places(self):
+        """Test the sacred geography and temples module (47 places across Kumaon)."""
+        places = kumaoni.places.list()
+        self.assertEqual(len(places), 47)
+
+        # Jageshwar Dham
+        jageshwar = kumaoni.places.get("jageshwar_dham")
+        self.assertIsNotNone(jageshwar)
+        self.assertIn("जागेश्वर", jageshwar.name_kumaoni)
+        self.assertEqual(jageshwar.district, "Almora")
+        self.assertEqual(jageshwar.category, "Temple & Sacred Dham")
+
+        # Patal Bhuvaneshwar
+        patal = kumaoni.places.get("patal_bhuvaneshwar")
+        self.assertIsNotNone(patal)
+        self.assertIn("पाताल", patal.name_kumaoni)
+
+        # Nanda Devi Peak
+        nanda = kumaoni.places.get("nanda_devi_peak")
+        self.assertIsNotNone(nanda)
+        self.assertEqual(nanda.category, "Alpine Peak & Glacier")
+
+        # Saryu River & Bageshwar Sangam
+        saryu = kumaoni.places.get("saryu_river")
+        self.assertIsNotNone(saryu)
+        self.assertEqual(saryu.category, "River & Confluence")
+
+        # Filter by category and district
+        temples = kumaoni.places.list(category="Temple")
+        self.assertGreaterEqual(len(temples), 20)
+
+        pithoragarh_places = kumaoni.places.list(district="Pithoragarh")
+        self.assertGreaterEqual(len(pithoragarh_places), 10)
+
+        # Search
+        shiva_places = kumaoni.places.search("Shiva")
+        self.assertGreaterEqual(len(shiva_places), 5)
+
+        stats = kumaoni.places.stats()
+        self.assertEqual(stats["total_places"], 47)
+        self.assertGreaterEqual(len(stats["districts"]), 6)
+
+    def test_surnames(self):
+        """Test Kumaoni surnames, lineages, and social concepts module."""
+        surnames = kumaoni.surnames.list()
+        self.assertEqual(len(surnames), 33)
+
+        # Pant
+        pant = kumaoni.surnames.get("pant")
+        self.assertIsNotNone(pant)
+        self.assertEqual(pant.community, "Brahmin")
+        self.assertTrue(any("शांडिल्य" in g for g in pant.gotras))
+
+        # Bisht
+        bisht = kumaoni.surnames.get("bisht")
+        self.assertIsNotNone(bisht)
+        self.assertEqual(bisht.community, "Kshatriya / Rajput")
+
+        # Pangtey (Shauka)
+        pangtey = kumaoni.surnames.get("pangtey")
+        self.assertIsNotNone(pangtey)
+        self.assertEqual(pangtey.community, "Shauka / Alpine Bhotia")
+
+        # Tamta (Shilpkar / Artisan)
+        tamta = kumaoni.surnames.get("tamta")
+        self.assertIsNotNone(tamta)
+        self.assertEqual(tamta.community, "Shilpkar / Artisan")
+
+        # Community filtering
+        brahmins = kumaoni.surnames.list(community="Brahmin")
+        self.assertGreaterEqual(len(brahmins), 10)
+
+        rajputs = kumaoni.surnames.list(community="Kshatriya")
+        self.assertGreaterEqual(len(rajputs), 15)
+
+        # Social concepts (Thaat, Thaatwaan, Dhadha, Gauntyaar)
+        concepts = kumaoni.surnames.social_concepts()
+        self.assertIn("that", concepts)
+        self.assertIn("thatwan", concepts)
+        self.assertIn("dhada", concepts)
+        self.assertIn("gauntyar", concepts)
+
+        stats = kumaoni.surnames.stats()
+        self.assertEqual(stats["total_surnames"], 33)
+        self.assertEqual(len(stats["communities"]), 4)
 
     def test_calendar_and_seasons(self):
         months = kumaoni.get_months()
