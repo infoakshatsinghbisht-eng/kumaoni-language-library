@@ -6,7 +6,12 @@
 [![ResearchGate](https://img.shields.io/badge/ResearchGate-Publications-00CCBB?style=for-the-badge&logo=researchgate&logoColor=white)](https://www.researchgate.net/profile/Akshat-Bisht-8)
 [![Amazon Author](https://img.shields.io/badge/Amazon-Author%20Page-FF9900?style=for-the-badge&logo=amazon&logoColor=white)](https://www.amazon.com/stores/Akshat-Singh-Bisht/author/B0D5TYDT28?ref=sr_ntt_srch_lnk_1&qid=1789906571&sr=8-1&shoppingPortalEnabled=true)
 [![GitHub](https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/infoakshatsinghbisht-eng)
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![Tests](https://img.shields.io/badge/Tests-54%20Passing-brightgreen.svg?style=for-the-badge&logo=pytest&logoColor=white)](tests/)
 [![Lexicon Forms](https://img.shields.io/badge/Lexicon%20Forms-443%2C356%2B-success.svg?style=for-the-badge)](https://github.com/infoakshatsinghbisht-eng/kumaoni-language-library)
+[![Base Lemmas](https://img.shields.io/badge/Base%20Lemmas-2%2C086%2B-blueviolet.svg?style=for-the-badge)](kumaoni/lexicon/data/words.json)
+[![Sacred Geography](https://img.shields.io/badge/Sacred%20Geography-47%20Places-crimson.svg?style=for-the-badge)](kumaoni/culture/places.py)
+[![Surnames & Clans](https://img.shields.io/badge/Surnames%20%26%20Clans-33%20Lineages-indigo.svg?style=for-the-badge)](kumaoni/culture/surnames.py)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
 
 A standard-library-style Python package for the **Kumaoni language** (कुमाऊँनी / Central Pahari). Designed to be as simple, fast, and comprehensive for Kumaoni as Python's built-in `math` library is for mathematics.
@@ -43,6 +48,7 @@ This library empowers developers to build **web applications, mobile apps, educa
    - Sourced from Grierson's *Linguistic Survey of India (Vol. IX, Part IV)*, Pt. Ganga Datt Upreti's *Proverbs & Folklore of Kumaun (1894)*, Badri Datt Pande's *Kumaun ka Itihas (1937)*, Dr. Trilochan Pandey's *Kumaoni Bhasha Aur Sahitya (1977 Appendix ग)*, Rev. E. S. Oakley & Tara Dutt Gairola's *Himalayan Folklore (1935)*, Hem Pant's *Ghughuti Basuti (2022)*, and Uttarakhand Open University's *Kumaoni Bhasha Sahitya (AECC-K-101)* textbook.
    - Categorized by mountain hydrology & terrain (`उकालो`, `ओड्यार`, `करांइ`, `सिमार`, `बगड़`, `गधेरा`, `रोड`, `खाल`, `काँठ`), hill architecture & implements (`चाख`, `जांतर`, `उखल`, `मुसळ`, `पाथर`, `दथुड़ो`, `गागर`, `फुंगइ`, `छयो`, `लुकुड़`, `चुकती`), agriculture & flora (`पुंगरण`, `बाखड़`, `जुनाल`, `ध्वाघ`, `काकुनि`, `बकौल`, `कणिक`, `फिण`, `मौहट`, `चूक`, `किलमोड़ा`, `हिसोलू`, `अखोइ`, `आडू`, `तिमुल`, `दाड्मि`, `कुसम्यारु`, `गलगल`, `जमीर`, `मेहल`, `कौल कप्फू`, `बाँझ`, `देवदार`, `उतीस`, `चीड़`, `सुरई`, `खर्सू`, `पांगुर`, `भट्ट`, `गहत`, `राजमा`, `झंगोरा`, `मडुवा`, `भांग`, `जख्या`, `गन्द्रायणी`, `जम्बू`), sensation, anatomy & states (`खाप`, `रीस`, `कलिजो`, `खाज`, `कन्या`, `चिले`, `कीक`, `खुजे`, `बादुइ`, `पलो`, `घाम`), historical governance & land tenure (`बूढ़ा`, `स्याणा`, `कामीन`, `थोकदार`, `थातवान`, `खायकर`, `सिरतान`, `गूठ`, `रौत`), shamanic & sacred rituals (`जागरिया`, `डांगरिया`, `हुड़किया`, `हुड़का`, `बगंबर`, `थात`, `डौँर`, `आंछरी`, `मसाण`), and alpine pastoralism (`छानि`, `खर्क`, `बुग्याल`, `शौका`, `रंग-भंग`, `लाप्चा`, `हुणिया`).
    - Sourced and enriched with core poetic terms from the *Kumaoni Digital Heritage Corpus* and complete song verses (`मैता`, `हियो`, `नराई`, `जुन्याली`, `दगड़िया`, `बाना`, `जोबन`, `फाग`, `चीर`, `दमुवां`, `अबीर`, `चुनर`, `छैला`, `सिलिंग`, `लिबोंग`, `पाती`, `झुरण`, `पीर`, `सुरति`, `कजला`, `मुखड़ी`, `बैरी`, `बण`, `छ्वोरी`, `पधान`, `झुमुका`, `नथुली`, `पौंछी`, `हंसुली`, `घस्यारी`, `रोपाई`, `कौतुक`, `झोड़ा`, `चाँचरी`, `छपेली`, `न्योली`, `हुड़को`, `बाँसुरी`, `मुरुलि`, `ककड़ी`, `लौंग`, `पिछौड़ा`, `बुराँश`, `फ्यूँली`).
+    - Enriched with **traditional folk musical instruments & performance** (`हुड़का`, `दमुवां`, `रणसिंगा`, `तुरही`, `डौंर`, `कांसी की थाली`, `मसकबीन`, `मोचंग`, `हुड़किया`, `डांगरिया`, `जागरिया`), **marriage ceremonies & rituals** (`ब्यो` / `ब्याह`, `जन्यांत`, `जंत`, `जन्यांती`, `धुलिअर्घ`, `पिथ्याँ`, `रंग्वाली पिछौड़ा`, `अंचल`, `रतजगा`, `मातृका पूजा`, `शकुनाखर`, `भातखाई`, `गौना`, `सौरास`, `मैत`, `दामकाज`), **extended kinship, family & social relations** (`बड़ाबाबु`, `बड़ीईजा`, `काका`, `काकी`, `मामा`, `मामी`, `मौसा`, `मौसी`, `फुफा`, `फूफू`, `भाणज`, `भाणजी`, `सौर्या`, `सासू`, `जेठ`, `जेठानी`, `देवर`, `देवरानी`, `नणद`, `नंदोई`, `साला`, `साली`, `साढू`, `गौंत्यार`, `हितैषी`, `नातेदार`, `कुटुंब`, `खानदान`), **sacred Himalayan geography** (`धाम`, `देवाल`, `मन्दिरा`, `थान`, `द्युप्त`, `नौला`, `धारा`, `कुंड`, `संगम`, `प्रयाग`, `तीरथ`, `परिक्रमा`, `जात`, `डोलि`, `निशान`, `हिमनद`, `डांडा`, `धुरा`), and **historical Kumaoni surnames & clans** (`पंत`, `जोशी`, `पाण्डे`, `उप्रेती`, `तिवारी`, `पाठक`, `भट्ट`, `बिष्ट`, `रावत`, `नेगी`, `मेहरा`, `फर्त्याल`, `भंडारी`, `कार्की`, `रौतेला`, `मनराल`, `बोरा`, `अधिकारी`, `मेहता`, `दानू`, `कोरंगा`, `पांगती`, `मर्तोलिया`, `टम्टा`, `आर्य`).
    - Phonetic Latin transliteration and Devanagari script normalization.
 
 6. **Folklore, Folk Songs & Classical Holi Corpus (20 Songs, 20 Holi Songs & 7 Digital Archives)**
@@ -226,13 +232,13 @@ for w in results:
 # Output: 'पाणि (paani): water'
 ```
 
-### 5. Morphological Lemmatizer & Analyzer (200,000+ Words)
+### 5. Morphological Lemmatizer & Analyzer (400,000+ Words)
 
 ```python
 import kumaoni
 
 # Check total synthesized and indexed full-form vocabulary
-print(kumaoni.total_word_forms())  # Output: 300,516+ words
+print(kumaoni.total_word_forms())  # Output: 443,356+ words
 
 # Lemmatize inflected verb forms, case-marked nouns, or postpositions
 print(kumaoni.lemmatize("खान्छू"))    # 'खाण' (to eat)
@@ -313,6 +319,19 @@ golu = kumaoni.deities.get("golu_devta")
 print(f"{golu.name_kumaoni}: {golu.title}")
 print(f"Primary Shrines: {', '.join(golu.primary_shrines)}")
 print(f"Jagar Invocation: {golu.invocation_or_jagar}")
+
+# Sacred Geography & Himalayan Temples (47 Shrines & Landmarks)
+jageshwar = kumaoni.places.get("jageshwar_dham")
+print(f"{jageshwar.name_kumaoni} ({jageshwar.district}): {jageshwar.spiritual_significance}")
+nanda_peak = kumaoni.places.get("nanda_devi_peak")
+print(f"{nanda_peak.name_kumaoni} ({nanda_peak.altitude}): {nanda_peak.description}")
+
+# Kumaoni Surnames, Clans & Social Concepts (33 Surnames, 8 Social Concepts)
+pant = kumaoni.surnames.get("pant")
+print(f"{pant.surname_kumaoni}: {pant.title} | Gotras: {', '.join(pant.gotras)}")
+bisht = kumaoni.surnames.get("bisht")
+print(f"{bisht.surname_kumaoni}: {bisht.title} | Origin: {bisht.ancestral_villages_or_origin}")
+print("Thaatwan Institution:", kumaoni.surnames.social_concepts()["thatwan"]["meaning"])
 ```
 
 ---
@@ -446,14 +465,17 @@ kumaoni/
 │   └── converter.py      # Integer to words, ordinals, fractions, numerals
 ├── lexicon/
 │   ├── dictionary.py     # Fast search across Devanagari, English, and Hindi
-│   └── data/             # Curated JSON datasets (1,681+ base lemmas, 300,516+ word forms)
+│   └── data/             # Curated JSON datasets (2,086+ base lemmas, 443,356+ word forms)
 ├── translator/
 │   ├── engine.py         # Unified translation orchestrator
 │   ├── rule_based.py     # Rule-based linguistic transfer & dialogue patterns
 │   ├── pivot.py          # Universal multi-language bridge (Any Language -> Kumaoni)
 │   └── llm_adapter.py    # Native Gemini/OpenAI neural integration
 ├── culture/
-│   ├── festivals.py      # Cultural documentation (Harela, Phooldei, etc.)
+│   ├── deities.py        # 40 Local Deities & Shrines (Golu Devta, Nanda Devi, etc.)
+│   ├── places.py         # 47 Sacred Temples, Rivers, Glaciers & Valleys
+│   ├── surnames.py       # 33 Kumaoni Surnames, Clans & Social Concepts (Thaat, etc.)
+│   ├── festivals.py      # 40 Traditional Festivals & Historic Melas (Harela, etc.)
 │   ├── calendar.py       # Kumaoni solar months & seasons
 │   ├── literature.py     # Folk Epics (Malushahi, Bafaul), Nyoli, Jhora, Authors
 │   ├── bibliography.py   # 114+ Catalogued Works (in Kumaoni, grammar, linguistics)

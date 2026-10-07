@@ -176,27 +176,47 @@ epic = kumaoni.literature.get_epic("malushahi")
         </module>
 
         <module name="kumaoni.culture">
-            <description>Oral literature, epics, folklore, canonical poetry, scholars, solar calendar, and festivals.</description>
+            <description>Oral literature, epics, folklore, canonical poetry, scholars, solar calendar, festivals, sacred places, and surnames.</description>
             <facades>
                 <facade name="kumaoni.proverbs">
                     <methods>all(), random()</methods>
-                    <description>45+ authentic proverbs (Akhaan) with literal and figurative meanings.</description>
+                    <description>85+ authentic proverbs (Akhaan) with literal and figurative meanings.</description>
                 </facade>
                 <facade name="kumaoni.riddles">
                     <methods>all(), random()</methods>
-                    <description>20+ traditional riddles (Aana) with answers and hints.</description>
+                    <description>43+ traditional riddles (Aana) with answers and hints.</description>
                 </facade>
                 <facade name="kumaoni.phrases">
                     <methods>all(category=None), random()</methods>
-                    <description>75+ everyday conversational idioms, blessings, and idioms.</description>
+                    <description>157+ everyday conversational idioms, blessings, and idioms.</description>
                 </facade>
                 <facade name="kumaoni.festivals">
-                    <methods>list(), get(name)</methods>
-                    <description>Harela, Phool Dei, Ghughutiya, Olgia, Nanda Devi, Bagwal.</description>
+                    <methods>list(), get(name), search(query)</methods>
+                    <description>40 traditional festivals and melas (Harela, Phool Dei, Ghughutiya, Olgia, Nanda Devi, Bagwal).</description>
+                </facade>
+                <facade name="kumaoni.deities">
+                    <methods>list(category=None), get(id), search(query), stats()</methods>
+                    <description>40 supreme local deities (Golu Devta, Nanda Devi, Bholanath, Bhumia, Kalbisht, Kotgari Devi).</description>
+                </facade>
+                <facade name="kumaoni.places">
+                    <methods>list(category=None, district=None), get(id), search(query), stats()</methods>
+                    <description>47 sacred shrines, temples, holy rivers, confluences, glaciers, and valleys (Jageshwar, Baijnath, Nanda Devi, Pindari).</description>
+                </facade>
+                <facade name="kumaoni.surnames">
+                    <methods>list(community=None), get(id), search(query), social_concepts(), stats()</methods>
+                    <description>33 historic Kumaoni surnames &amp; lineages (Pant, Joshi, Bisht, Rawat, Negi, Pangtey, Tamta) and 8 social concepts (Thaat, Dhadha).</description>
+                </facade>
+                <facade name="kumaoni.folklore">
+                    <methods>songs(), song(id), holi_songs(), holi_song(id), sources(), stats()</methods>
+                    <description>20 traditional folk songs (Bedu Pako, Ghughuti Na Basa), 20 classical Holi songs + Raags, 7 digital archives.</description>
+                </facade>
+                <facade name="kumaoni.bibliography">
+                    <methods>list(category=None), search(query), stats()</methods>
+                    <description>114+ master catalogued works in Kumaoni literature, grammar, linguistic surveys, and cultural documentation.</description>
                 </facade>
                 <facade name="kumaoni.literature">
                     <methods>epics(), get_epic(id), poems(), authors(), get_author(id)</methods>
-                    <description>Epics (Malushahi-Rajula, Jiya Rani, Golu Devta, Haru Singh Heet), 15+ Scholars (Badri Datt Pande, Gumani, Gaurda).</description>
+                    <description>Epics (Malushahi-Rajula, Jiya Rani, Golu Devta, Haru Singh Heet), 20+ canonical scholars (Badri Datt Pande, Gumani, Gaurda).</description>
                 </facade>
             </facades>
         </module>
