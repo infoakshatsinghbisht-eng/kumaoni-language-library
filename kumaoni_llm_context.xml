@@ -206,6 +206,14 @@ epic = kumaoni.literature.get_epic("malushahi")
                     <methods>list(community=None), get(id), search(query), social_concepts(), stats()</methods>
                     <description>33 historic Kumaoni surnames &amp; lineages (Pant, Joshi, Bisht, Rawat, Negi, Pangtey, Tamta) and 8 social concepts (Thaat, Dhadha).</description>
                 </facade>
+                <facade name="kumaoni.flora">
+                    <methods>list(category=None), get(id), search(query), stats()</methods>
+                    <description>43 sacred Himalayan trees, oaks, alpine flowers, and medicinal herbs (Banjh, Buransh, Brahmakamal, Deodar, Panya, Jatamansi, Kafal).</description>
+                </facade>
+                <facade name="kumaoni.rituals">
+                    <methods>list(category=None), get(id), search(query), stats()</methods>
+                    <description>43 temple implements, sacred markings, hawan vessels, and votive items (Pithyan, Akshat, Rot, Ghant, Hawankund, Hurka, Naula).</description>
+                </facade>
                 <facade name="kumaoni.folklore">
                     <methods>songs(), song(id), holi_songs(), holi_song(id), sources(), stats()</methods>
                     <description>20 traditional folk songs (Bedu Pako, Ghughuti Na Basa), 20 classical Holi songs + Raags, 7 digital archives.</description>

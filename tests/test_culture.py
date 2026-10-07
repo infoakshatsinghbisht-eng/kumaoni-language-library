@@ -195,6 +195,92 @@ class TestCulture(unittest.TestCase):
         self.assertEqual(stats["total_surnames"], 33)
         self.assertEqual(len(stats["communities"]), 4)
 
+    def test_flora(self):
+        """Test Kumaoni ethnobotanical flora and sacred trees module."""
+        plants = kumaoni.flora.list()
+        self.assertGreaterEqual(len(plants), 40)
+
+        # Banjh (Oak)
+        banjh = kumaoni.flora.get("banjh")
+        self.assertIsNotNone(banjh)
+        self.assertIn("बाँझ", banjh.name_kumaoni)
+        self.assertEqual(banjh.scientific_name, "Quercus leucotrichophora")
+
+        # Buransh (Rhododendron)
+        buransh = kumaoni.flora.get("buransh")
+        self.assertIsNotNone(buransh)
+        self.assertIn("बुराँश", buransh.name_kumaoni)
+        self.assertEqual(buransh.scientific_name, "Rhododendron arboreum")
+
+        # Brahmakamal (Alpine lotus)
+        brahmakamal = kumaoni.flora.get("brahmakamal")
+        self.assertIsNotNone(brahmakamal)
+        self.assertIn("ब्रह्मकमल", brahmakamal.name_kumaoni)
+
+        # Deodar & Panya
+        deodar = kumaoni.flora.get("deodar")
+        self.assertIsNotNone(deodar)
+        panya = kumaoni.flora.get("panya")
+        self.assertIsNotNone(panya)
+
+        # Category filter
+        sacred_trees = kumaoni.flora.list(category="Sacred & Ritual Tree")
+        self.assertGreaterEqual(len(sacred_trees), 5)
+
+        # Search
+        oak_search = kumaoni.flora.search("Oak")
+        self.assertGreaterEqual(len(oak_search), 1)
+
+        stats = kumaoni.flora.stats()
+        self.assertGreaterEqual(stats["total_plants"], 40)
+        self.assertGreaterEqual(len(stats["categories"]), 5)
+
+    def test_rituals(self):
+        """Test Kumaoni temple implements, vessels, and ritual objects module."""
+        items = kumaoni.rituals.list()
+        self.assertGreaterEqual(len(items), 40)
+
+        # Pithyan (Sacred tilak)
+        pithyan = kumaoni.rituals.get("pithyan")
+        self.assertIsNotNone(pithyan)
+        self.assertIn("पिथ्याँ", pithyan.name_kumaoni)
+        self.assertEqual(pithyan.category, "Sacred Mark & Thread")
+
+        # Rot (Sweet wheat offering)
+        rot = kumaoni.rituals.get("rot")
+        self.assertIsNotNone(rot)
+        self.assertIn("रोट", rot.name_kumaoni)
+        self.assertIn("Bhumia Devta", rot.associated_deities_or_shrines)
+
+        # Ghant (Temple bells of Chitai)
+        ghant = kumaoni.rituals.get("ghant")
+        self.assertIsNotNone(ghant)
+        self.assertIn("Chitai Golu Devta", ghant.associated_deities_or_shrines)
+
+        # Hawankund & Samidha
+        hawankund = kumaoni.rituals.get("hawankund")
+        self.assertIsNotNone(hawankund)
+        samidha = kumaoni.rituals.get("samidha")
+        self.assertIsNotNone(samidha)
+
+        # Jagar implements: Hurka, Kansi ki Thali
+        hurka = kumaoni.rituals.get("hurka")
+        self.assertIsNotNone(hurka)
+        kansi = kumaoni.rituals.get("kansi_thali")
+        self.assertIsNotNone(kansi)
+
+        # Category filter
+        vessels = kumaoni.rituals.list(category="Vessel")
+        self.assertGreaterEqual(len(vessels), 5)
+
+        # Search
+        justice_search = kumaoni.rituals.search("Chitai")
+        self.assertGreaterEqual(len(justice_search), 2)
+
+        stats = kumaoni.rituals.stats()
+        self.assertGreaterEqual(stats["total_ritual_items"], 40)
+        self.assertGreaterEqual(len(stats["categories"]), 5)
+
     def test_calendar_and_seasons(self):
         months = kumaoni.get_months()
         self.assertEqual(len(months), 12)

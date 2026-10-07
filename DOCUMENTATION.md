@@ -488,6 +488,69 @@ print(kumaoni.surnames.stats())
 # {'total_surnames': 33, 'communities': {'Brahmin': 10, 'Kshatriya / Rajput': 15, ...}, 'total_social_concepts': 8}
 ```
 
+#### 5e. Himalayan Ethnobotany & Sacred Flora (`kumaoni.flora`)
+```python
+import kumaoni
+
+# 1. Look up sacred tree or alpine plant by ID or Kumaoni name
+buransh = kumaoni.flora.get("buransh")
+print(f"{buransh.name_kumaoni} ({buransh.name_roman})")
+print(f"Scientific Name: {buransh.scientific_name} [{buransh.botanical_family}]")
+print(f"Spiritual Role: {buransh.spiritual_and_temple_significance}")
+print(f"Traditional Uses: {buransh.traditional_uses}")
+
+# 2. Filter by ecological category
+sacred_trees = kumaoni.flora.list(category="Sacred & Ritual Tree")
+for tree in sacred_trees:
+    print(f"{tree.name_kumaoni} ({tree.name_roman}) -> {tree.scientific_name}")
+
+# 3. Alpine sacred herbs & medicinal flora
+brahmakamal = kumaoni.flora.get("brahmakamal")
+print(f"{brahmakamal.name_kumaoni} (Alt: {brahmakamal.habitat_altitude}): {brahmakamal.cultural_folklore}")
+
+# 4. Search across ethnobotanical database
+incense_flora = kumaoni.flora.search("incense")
+for f in incense_flora:
+    print(f"{f.name_kumaoni}: {f.traditional_uses}")
+
+# 5. Registry statistics
+print(kumaoni.flora.stats())
+# {'total_plants': 43, 'categories': {'Sacred & Ritual Tree': 11, 'Alpine Flower & Sacred Herb': 9, ...}}
+```
+
+#### 5f. Temple Implements & Sacred Ritual Objects (`kumaoni.rituals`)
+```python
+import kumaoni
+
+# 1. Look up sacred ritual item, mark, or vessel
+pithyan = kumaoni.rituals.get("pithyan")
+print(f"{pithyan.name_kumaoni} ({pithyan.category})")
+print(f"Material: {pithyan.traditional_material}")
+print(f"Sacred Purpose: {pithyan.sacred_purpose}")
+print(f"Cultural Context: {pithyan.cultural_context}")
+
+# 2. Filter by ritual category ('Sacred Mark & Thread', 'Vessel & Offering Implement', 'Hawan & Fire Sacrifice', 'Temple Insignia & Votive Offering', 'Jagar & Oracle Implement', 'Sacred Water & Sanctum Feature')
+hawan_items = kumaoni.rituals.list(category="Hawan")
+for item in hawan_items:
+    print(f"{item.name_kumaoni} ({item.name_roman}) -> {item.sacred_purpose}")
+
+# 3. Chitai Golu Devta justice implements & votives
+ghant = kumaoni.rituals.get("ghant")
+print(f"{ghant.name_kumaoni}: Associated Shrines -> {', '.join(ghant.associated_deities_or_shrines)}")
+
+paati = kumaoni.rituals.get("paati")
+print(f"{paati.name_kumaoni}: {paati.cultural_context}")
+
+# 4. Jagar & Shamanic séance implements
+hurka = kumaoni.rituals.get("hurka")
+kansi = kumaoni.rituals.get("kansi_thali")
+print(f"Jagar rhythm: {hurka.name_kumaoni} and {kansi.name_kumaoni}")
+
+# 5. Ritual registry statistics
+print(kumaoni.rituals.stats())
+# {'total_ritual_items': 43, 'categories': {'Sacred Mark & Thread': 7, 'Vessel & Offering Implement': 9, ...}}
+```
+
 #### 6. Traditional Folk Songs, Kumaoni Holi Music & Digital Archives (`kumaoni.folklore`)
 ```python
 import kumaoni

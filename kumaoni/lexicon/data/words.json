@@ -16686,5 +16686,421 @@
     "hindi": "कड़ाके की शीत ऋतु / जाड़ा",
     "pos": "noun",
     "category": "time"
+  },
+  {
+    "kumaoni": "पैंया",
+    "roman": "panya",
+    "english": "wild Himalayan cherry tree (Prunus cerasoides) used for hawan wood and sacred mandap",
+    "hindi": "पद्मकाष्ठ (पद्म/पैंया)",
+    "pos": "noun",
+    "category": "nature"
+  },
+  {
+    "kumaoni": "पदम",
+    "roman": "padam",
+    "english": "sacred Himalayan cherry wood (Prunus cerasoides)",
+    "hindi": "पद्मकाष्ठ",
+    "pos": "noun",
+    "category": "nature"
+  },
+  {
+    "kumaoni": "भीमल",
+    "roman": "bheemal",
+    "english": "multipurpose hill tree (Grewia optiva) providing winter fodder, bast fibre ropes, and torches",
+    "hindi": "भीमल का पेड़",
+    "pos": "noun",
+    "category": "nature"
+  },
+  {
+    "kumaoni": "भोजपत्र",
+    "roman": "bhojpatra",
+    "english": "Himalayan silver birch bark (Betula utilis) used for ancient mantras and sacred texts",
+    "hindi": "भोजपत्र",
+    "pos": "noun",
+    "category": "nature"
+  },
+  {
+    "kumaoni": "बिल्वपत्र",
+    "roman": "bilwapatra",
+    "english": "three-lobed sacred bael leaf (Aegle marmelos) offered to Lord Shiva",
+    "hindi": "बिल्वपत्र / बेलपत्री",
+    "pos": "noun",
+    "category": "religion"
+  },
+  {
+    "kumaoni": "शमीर",
+    "roman": "shami",
+    "english": "sacred Prosopis cineraria tree worshipped on Dussehra",
+    "hindi": "शमी वृक्ष",
+    "pos": "noun",
+    "category": "nature"
+  },
+  {
+    "kumaoni": "फेन कमल",
+    "roman": "phen kamal",
+    "english": "woolly high alpine snow lotus (Saussurea simpsoniana) growing above 4,200m",
+    "hindi": "फेन कमल",
+    "pos": "noun",
+    "category": "nature"
+  },
+  {
+    "kumaoni": "कस्तूरी कमल",
+    "roman": "kasturi kamal",
+    "english": "aromatic high alpine sacred lotus (Saussurea gossypiphora)",
+    "hindi": "कस्तूरी कमल",
+    "pos": "noun",
+    "category": "nature"
+  },
+  {
+    "kumaoni": "जटामांसी",
+    "roman": "jatamansi",
+    "english": "Himalayan spikenard root (Nardostachys jatamansi) used in hawan incense and Ayurvedic medicine",
+    "hindi": "जटामांसी (बालछड़)",
+    "pos": "noun",
+    "category": "nature"
+  },
+  {
+    "kumaoni": "बालबछ",
+    "roman": "balbachh",
+    "english": "indigenous Himalayan spikenard root",
+    "hindi": "जटामांसी",
+    "pos": "noun",
+    "category": "nature"
+  },
+  {
+    "kumaoni": "धूप-लकड़ी",
+    "roman": "dhoop-lakdi",
+    "english": "high alpine incense root (Jurinea macrocephala) burned in temple braziers and jagars",
+    "hindi": "धूप की जड़ (गुग्गल धूप)",
+    "pos": "noun",
+    "category": "religion"
+  },
+  {
+    "kumaoni": "गुग्गुल",
+    "roman": "guggul",
+    "english": "aromatic medicinal resin (Commiphora mukul) burned during temple aartis",
+    "hindi": "गुग्गुल",
+    "pos": "noun",
+    "category": "religion"
+  },
+  {
+    "kumaoni": "अतीश",
+    "roman": "ateesh",
+    "english": "subalpine medicinal tuber (Aconitum heterophyllum)",
+    "hindi": "अतीश (अतीस)",
+    "pos": "noun",
+    "category": "nature"
+  },
+  {
+    "kumaoni": "चिरैता",
+    "roman": "chirayata",
+    "english": "renowned forest bitter blood-purifying herb (Swertia chirayita)",
+    "hindi": "चिरायता",
+    "pos": "noun",
+    "category": "nature"
+  },
+  {
+    "kumaoni": "चूलू",
+    "roman": "choolu",
+    "english": "wild Himalayan apricot (Prunus armeniaca); oil used for temple lamps",
+    "hindi": "चूलू (जंगली खुबानी)",
+    "pos": "noun",
+    "category": "nature"
+  },
+  {
+    "kumaoni": "हिसाव",
+    "roman": "hisaw",
+    "english": "yellow Himalayan wild raspberry (Rubus ellipticus / Hisolu)",
+    "hindi": "हिसोलू (पीली रसभरी)",
+    "pos": "noun",
+    "category": "nature"
+  },
+  {
+    "kumaoni": "कुश",
+    "roman": "kush",
+    "english": "sacred sacrificial grass (Desmostachya bipinnata) worn as Pavitri ring during hawan and tarpan",
+    "hindi": "कुश (डाभ)",
+    "pos": "noun",
+    "category": "religion"
+  },
+  {
+    "kumaoni": "दूर्वा",
+    "roman": "durva",
+    "english": "sacred green Bermuda grass (Cynodon dactylon) offered to Ganesha and during Dhuli-argh",
+    "hindi": "दूर्वा (दूब)",
+    "pos": "noun",
+    "category": "religion"
+  },
+  {
+    "kumaoni": "दूब",
+    "roman": "doob",
+    "english": "green sacrificial grass shoots offered in temple rituals",
+    "hindi": "दूब घास",
+    "pos": "noun",
+    "category": "religion"
+  },
+  {
+    "kumaoni": "तुलसी",
+    "roman": "tulsi",
+    "english": "holy basil (Ocimum sanctum) worshipped in courtyard chauris and offered to Vishnu",
+    "hindi": "तुलसी",
+    "pos": "noun",
+    "category": "nature"
+  },
+  {
+    "kumaoni": "धतूरा",
+    "roman": "dhatura",
+    "english": "thorn apple (Datura stramonium) fruit and flower offered to Lord Shiva and Bhairav",
+    "hindi": "धतूरा",
+    "pos": "noun",
+    "category": "nature"
+  },
+  {
+    "kumaoni": "कुंजा",
+    "roman": "kunja",
+    "english": "fragrant wild Himalayan white climbing rose (Rosa brunonii)",
+    "hindi": "कुंजा (जंगली सफेद गुलाब)",
+    "pos": "noun",
+    "category": "nature"
+  },
+  {
+    "kumaoni": "गेंदा",
+    "roman": "genda",
+    "english": "marigold flower (Tagetes erecta) strung into deity garlands and temple torans",
+    "hindi": "गेंदा",
+    "pos": "noun",
+    "category": "nature"
+  },
+  {
+    "kumaoni": "पीपल",
+    "roman": "pipal",
+    "english": "sacred fig tree (Ficus religiosa) revered as the abode of Vishnu",
+    "hindi": "पीपल",
+    "pos": "noun",
+    "category": "nature"
+  },
+  {
+    "kumaoni": "बरगद",
+    "roman": "bargad",
+    "english": "sacred banyan tree (Ficus benghalensis) worshipped on Vat Savitri",
+    "hindi": "बरगद (वटवृक्ष)",
+    "pos": "noun",
+    "category": "nature"
+  },
+  {
+    "kumaoni": "पंचपात्र",
+    "roman": "panchapatra",
+    "english": "sacred hammered copper or brass tumbler holding consecrated water",
+    "hindi": "पंचपात्र",
+    "pos": "noun",
+    "category": "religion"
+  },
+  {
+    "kumaoni": "आचमनी",
+    "roman": "aachmani",
+    "english": "slender copper spoon used for sipping sanctified water (Aachaman)",
+    "hindi": "आचमनी",
+    "pos": "noun",
+    "category": "religion"
+  },
+  {
+    "kumaoni": "अरघा",
+    "roman": "argha",
+    "english": "copper boat-shaped vessel suspended over Shivalinga for jalabhishek",
+    "hindi": "अरघा",
+    "pos": "noun",
+    "category": "religion"
+  },
+  {
+    "kumaoni": "हवनकुंड",
+    "roman": "hawankund",
+    "english": "tiered sacrificial fire altar for hawan oblations",
+    "hindi": "हवनकुंड",
+    "pos": "noun",
+    "category": "religion"
+  },
+  {
+    "kumaoni": "समिधा",
+    "roman": "samidha",
+    "english": "dry sacred twigs of wild cherry, pipal, and oak offered into sacrificial fire",
+    "hindi": "समिधा (हवन काष्ठ)",
+    "pos": "noun",
+    "category": "religion"
+  },
+  {
+    "kumaoni": "स्रुवा",
+    "roman": "sruwa",
+    "english": "long-handled carved wooden ladle used to pour ghee into hawan fire",
+    "hindi": "स्रुवा (हवन चम्मच)",
+    "pos": "noun",
+    "category": "religion"
+  },
+  {
+    "kumaoni": "स्रुच",
+    "roman": "sruch",
+    "english": "flat carved wooden hawan spoon for holding herbal samagri",
+    "hindi": "स्रुच",
+    "pos": "noun",
+    "category": "religion"
+  },
+  {
+    "kumaoni": "कपूर",
+    "roman": "kapoor",
+    "english": "aromatic camphor burned during temple aartis",
+    "hindi": "कपूर",
+    "pos": "noun",
+    "category": "religion"
+  },
+  {
+    "kumaoni": "रोली",
+    "roman": "roli",
+    "english": "red ceremonial kumkum powder for consecration and tilak",
+    "hindi": "रोली (कुमकुम)",
+    "pos": "noun",
+    "category": "religion"
+  },
+  {
+    "kumaoni": "अष्टगंध",
+    "roman": "ashtagandha",
+    "english": "eight sacred Himalayan fragrant pastes used in high temple pujas",
+    "hindi": "अष्टगंध",
+    "pos": "noun",
+    "category": "religion"
+  },
+  {
+    "kumaoni": "यज्ञोपवीत",
+    "roman": "yajnopavita",
+    "english": "sacred sacrificial cotton thread",
+    "hindi": "यज्ञोपवीत",
+    "pos": "noun",
+    "category": "religion"
+  },
+  {
+    "kumaoni": "कलावा",
+    "roman": "kalawa",
+    "english": "consecrated red-and-yellow protective thread tied around the wrist (Raksha Sutra)",
+    "hindi": "कलावा (मौली)",
+    "pos": "noun",
+    "category": "religion"
+  },
+  {
+    "kumaoni": "मौली",
+    "roman": "mauli",
+    "english": "sacred protective wrist thread tied by temple priest",
+    "hindi": "मौली",
+    "pos": "noun",
+    "category": "religion"
+  },
+  {
+    "kumaoni": "रक्षासूत्र",
+    "roman": "rakshasutra",
+    "english": "protective sacred thread consecrated at temples",
+    "hindi": "रक्षासूत्र",
+    "pos": "noun",
+    "category": "religion"
+  },
+  {
+    "kumaoni": "चरणामृत",
+    "roman": "charanamrit",
+    "english": "nectar of the deity's bath water infused with tulsi leaves",
+    "hindi": "चरणामृत",
+    "pos": "noun",
+    "category": "religion"
+  },
+  {
+    "kumaoni": "पंचामृत",
+    "roman": "panchamrit",
+    "english": "five sacred nectarous elixirs: milk, yogurt, ghee, honey, and jaggery",
+    "hindi": "पंचामृत",
+    "pos": "noun",
+    "category": "religion"
+  },
+  {
+    "kumaoni": "बताशा",
+    "roman": "batasha",
+    "english": "crisp airy sugar droplets distributed as pure temple sweet offering",
+    "hindi": "बताशा",
+    "pos": "noun",
+    "category": "food"
+  },
+  {
+    "kumaoni": "त्रिशूल",
+    "roman": "trishul",
+    "english": "sacred three-pronged iron or brass trident planted in temple courtyards",
+    "hindi": "त्रिशूल",
+    "pos": "noun",
+    "category": "religion"
+  },
+  {
+    "kumaoni": "घंट",
+    "roman": "ghant",
+    "english": "heavy brass or bronze temple bell offered upon fulfillment of vows at Chitai",
+    "hindi": "मंदिर का बड़ा घंट",
+    "pos": "noun",
+    "category": "religion"
+  },
+  {
+    "kumaoni": "घंटी",
+    "roman": "ghanti",
+    "english": "sacred handheld bell rung during temple aarti",
+    "hindi": "घंटी",
+    "pos": "noun",
+    "category": "religion"
+  },
+  {
+    "kumaoni": "शंख",
+    "roman": "shankha",
+    "english": "sacred conch shell blown at dawn and dusk temple aartis",
+    "hindi": "शंख",
+    "pos": "noun",
+    "category": "religion"
+  },
+  {
+    "kumaoni": "चँवर",
+    "roman": "chanwar",
+    "english": "ceremonial yak-tail fly-whisk waved before deities in royal veneration",
+    "hindi": "चंवर",
+    "pos": "noun",
+    "category": "religion"
+  },
+  {
+    "kumaoni": "चामर",
+    "roman": "chamar",
+    "english": "yak-tail whisk with silver handle",
+    "hindi": "चामर",
+    "pos": "noun",
+    "category": "religion"
+  },
+  {
+    "kumaoni": "पिंडी",
+    "roman": "pindi",
+    "english": "natural stone representation (Svayambhu) worshipped in cave temples and open shrines",
+    "hindi": "पिंडी (शिला रूप)",
+    "pos": "noun",
+    "category": "religion"
+  },
+  {
+    "kumaoni": "भस्म",
+    "roman": "bhasma",
+    "english": "sacred consecrated ash smeared across forehead",
+    "hindi": "भस्म",
+    "pos": "noun",
+    "category": "religion"
+  },
+  {
+    "kumaoni": "सांगल",
+    "roman": "saangal",
+    "english": "heavy sacred forged iron chains kept at shrines of Bhairav and Golu Devta",
+    "hindi": "सांगल (लोहे की जंजीर)",
+    "pos": "noun",
+    "category": "religion"
+  },
+  {
+    "kumaoni": "धूपदानी",
+    "roman": "dhoopdani",
+    "english": "heavy brass burner with wooden handle for burning alpine herbal incense",
+    "hindi": "धूपदानी",
+    "pos": "noun",
+    "category": "religion"
   }
 ]

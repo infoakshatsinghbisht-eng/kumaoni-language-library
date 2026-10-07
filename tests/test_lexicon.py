@@ -144,6 +144,38 @@ class TestLexicon(unittest.TestCase):
         self.assertIsNotNone(w_that)
         self.assertIn("ancestral", w_that.english.lower())
 
+        # Trees & Plants
+        w_banjh = kumaoni.lookup("बाँझ")
+        self.assertIsNotNone(w_banjh)
+        w_buransh = kumaoni.lookup("बुराँश")
+        self.assertIsNotNone(w_buransh)
+        w_brahmakamal = kumaoni.lookup("ब्रह्मकमल")
+        self.assertIsNotNone(w_brahmakamal)
+        w_panya = kumaoni.lookup("पैंया")
+        self.assertIsNotNone(w_panya)
+        w_ringal = kumaoni.lookup("रिंगाल")
+        self.assertIsNotNone(w_ringal)
+        w_bheemal = kumaoni.lookup("भीमल")
+        self.assertIsNotNone(w_bheemal)
+
+        # Temple & Ritual items
+        w_hawankund = kumaoni.lookup("हवनकुंड")
+        self.assertIsNotNone(w_hawankund)
+        w_samidha = kumaoni.lookup("समिधा")
+        self.assertIsNotNone(w_samidha)
+        w_panchapatra = kumaoni.lookup("पंचपात्र")
+        self.assertIsNotNone(w_panchapatra)
+        w_ghant = kumaoni.lookup("घंट")
+        self.assertIsNotNone(w_ghant)
+        w_trishul = kumaoni.lookup("त्रिशूल")
+        self.assertIsNotNone(w_trishul)
+        w_paati = kumaoni.lookup("पाती")
+        self.assertIsNotNone(w_paati)
+        w_rot = kumaoni.lookup("रोट")
+        self.assertIsNotNone(w_rot)
+        w_dhooni = kumaoni.lookup("धूणी")
+        self.assertIsNotNone(w_dhooni)
+
 
 if __name__ == "__main__":
     unittest.main()

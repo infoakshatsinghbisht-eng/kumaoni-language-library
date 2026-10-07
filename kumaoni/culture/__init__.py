@@ -35,6 +35,14 @@ from kumaoni.culture.surnames import (
     KumaoniSurname,
     SurnamesTreasury,
 )
+from kumaoni.culture.flora import (
+    KumaoniPlant,
+    FloraTreasury,
+)
+from kumaoni.culture.rituals import (
+    KumaoniRitualItem,
+    RitualsTreasury,
+)
 
 __all__ = [
     "Festival",
@@ -64,6 +72,10 @@ __all__ = [
     "PlacesTreasury",
     "KumaoniSurname",
     "SurnamesTreasury",
+    "KumaoniPlant",
+    "FloraTreasury",
+    "KumaoniRitualItem",
+    "RitualsTreasury",
 ]
 
 

@@ -7,9 +7,11 @@
 [![Amazon Author](https://img.shields.io/badge/Amazon-Author%20Page-FF9900?style=for-the-badge&logo=amazon&logoColor=white)](https://www.amazon.com/stores/Akshat-Singh-Bisht/author/B0D5TYDT28?ref=sr_ntt_srch_lnk_1&qid=1789906571&sr=8-1&shoppingPortalEnabled=true)
 [![GitHub](https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/infoakshatsinghbisht-eng)
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
-[![Tests](https://img.shields.io/badge/Tests-54%20Passing-brightgreen.svg?style=for-the-badge&logo=pytest&logoColor=white)](tests/)
-[![Lexicon Forms](https://img.shields.io/badge/Lexicon%20Forms-443%2C356%2B-success.svg?style=for-the-badge)](https://github.com/infoakshatsinghbisht-eng/kumaoni-language-library)
-[![Base Lemmas](https://img.shields.io/badge/Base%20Lemmas-2%2C086%2B-blueviolet.svg?style=for-the-badge)](kumaoni/lexicon/data/words.json)
+[![Tests](https://img.shields.io/badge/Tests-56%20Passing-brightgreen.svg?style=for-the-badge&logo=pytest&logoColor=white)](tests/)
+[![Lexicon Forms](https://img.shields.io/badge/Lexicon%20Forms-455%2C530%2B-success.svg?style=for-the-badge)](https://github.com/infoakshatsinghbisht-eng/kumaoni-language-library)
+[![Base Lemmas](https://img.shields.io/badge/Base%20Lemmas-2%2C138%2B-blueviolet.svg?style=for-the-badge)](kumaoni/lexicon/data/words.json)
+[![Sacred Flora](https://img.shields.io/badge/Sacred%20Flora-43%20Species-forestgreen.svg?style=for-the-badge)](kumaoni/culture/flora.py)
+[![Temple Rituals](https://img.shields.io/badge/Temple%20%26%20Rituals-43%20Implements-darkorange.svg?style=for-the-badge)](kumaoni/culture/rituals.py)
 [![Sacred Geography](https://img.shields.io/badge/Sacred%20Geography-47%20Places-crimson.svg?style=for-the-badge)](kumaoni/culture/places.py)
 [![Surnames & Clans](https://img.shields.io/badge/Surnames%20%26%20Clans-33%20Lineages-indigo.svg?style=for-the-badge)](kumaoni/culture/surnames.py)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
@@ -39,11 +41,11 @@ This library empowers developers to build **web applications, mobile apps, educa
    - Supports ordinals (1st `पैलो`, 2nd `दुसर`, 3rd `तेसर`...), customary fractions (`आधो`, `पाव`, `पौण`, `सवा`, `डेढ़`), and Devanagari numerals (`०१२३४५६७८९`).
 
 4. **100,000+ Words Morphological Paradigm Engine & Lemmatizer**
-   - Synthesizes and indexes **443,000+ unique authenticated Kumaoni word forms** across verbal paradigms (Present, Past, Future, Continuous, Imperatives, Causatives, Participles, Agentives), nominal declensions (Direct, Plural, Oblique, Case postpositions bound/spaced, Diminutives, Echo words), and adjectival agreements.
+   - Synthesizes and indexes **455,530+ unique authenticated Kumaoni word forms** across verbal paradigms (Present, Past, Future, Continuous, Imperatives, Causatives, Participles, Agentives), nominal declensions (Direct, Plural, Oblique, Case postpositions bound/spaced, Diminutives, Echo words), and adjectival agreements.
    - Sub-millisecond `kumaoni.lemmatize()` and `kumaoni.analyze()` for inflected surface forms.
    - Seamless dictionary lookups: querying inflected forms like `खान्छू`, `ग्यूँ`, `ईजा कणी`, or `घरबटि` resolves directly to their base lemmas and definitions.
 
-5. **Rich Lexicon & Dictionary (2,086+ Authenticated Base Lemmas)**
+5. **Rich Lexicon & Dictionary (2,138+ Authenticated Base Lemmas)**
    - Search across Kumaoni, English, and Hindi.
    - Sourced from Grierson's *Linguistic Survey of India (Vol. IX, Part IV)*, Pt. Ganga Datt Upreti's *Proverbs & Folklore of Kumaun (1894)*, Badri Datt Pande's *Kumaun ka Itihas (1937)*, Dr. Trilochan Pandey's *Kumaoni Bhasha Aur Sahitya (1977 Appendix ग)*, Rev. E. S. Oakley & Tara Dutt Gairola's *Himalayan Folklore (1935)*, Hem Pant's *Ghughuti Basuti (2022)*, and Uttarakhand Open University's *Kumaoni Bhasha Sahitya (AECC-K-101)* textbook.
    - Categorized by mountain hydrology & terrain (`उकालो`, `ओड्यार`, `करांइ`, `सिमार`, `बगड़`, `गधेरा`, `रोड`, `खाल`, `काँठ`), hill architecture & implements (`चाख`, `जांतर`, `उखल`, `मुसळ`, `पाथर`, `दथुड़ो`, `गागर`, `फुंगइ`, `छयो`, `लुकुड़`, `चुकती`), agriculture & flora (`पुंगरण`, `बाखड़`, `जुनाल`, `ध्वाघ`, `काकुनि`, `बकौल`, `कणिक`, `फिण`, `मौहट`, `चूक`, `किलमोड़ा`, `हिसोलू`, `अखोइ`, `आडू`, `तिमुल`, `दाड्मि`, `कुसम्यारु`, `गलगल`, `जमीर`, `मेहल`, `कौल कप्फू`, `बाँझ`, `देवदार`, `उतीस`, `चीड़`, `सुरई`, `खर्सू`, `पांगुर`, `भट्ट`, `गहत`, `राजमा`, `झंगोरा`, `मडुवा`, `भांग`, `जख्या`, `गन्द्रायणी`, `जम्बू`), sensation, anatomy & states (`खाप`, `रीस`, `कलिजो`, `खाज`, `कन्या`, `चिले`, `कीक`, `खुजे`, `बादुइ`, `पलो`, `घाम`), historical governance & land tenure (`बूढ़ा`, `स्याणा`, `कामीन`, `थोकदार`, `थातवान`, `खायकर`, `सिरतान`, `गूठ`, `रौत`), shamanic & sacred rituals (`जागरिया`, `डांगरिया`, `हुड़किया`, `हुड़का`, `बगंबर`, `थात`, `डौँर`, `आंछरी`, `मसाण`), and alpine pastoralism (`छानि`, `खर्क`, `बुग्याल`, `शौका`, `रंग-भंग`, `लाप्चा`, `हुणिया`).
@@ -82,7 +84,25 @@ This library empowers developers to build **web applications, mobile apps, educa
      - **Shilpkar & Artisan Clans**: *Tamta* (Almora master coppersmiths & social reform leaders), *Arya* (freedom movement pioneers), *Lohar* (agricultural ironsmiths).
      - **Social Concepts**: *Thaat* (ancestral landed estate), *Thaatwaan* (original landholder), *Dhadha* (factional court alliances), *Gauntyaar* (fellow villagers), *Biraadari* (clan brotherhood), *Gotra*, *Neg-Jog*, *Jajmaani*.
 
-11. **Cultural Treasury & Master Bibliography (अखाण, आणा, लोकगीत, महागाथा & ग्रन्थ-सूची)**
+11. **Himalayan Ethnobotany & Sacred Flora (43 Species / हिमालयी वनस्पति व पादप)**
+    - Comprehensive botanical, ecological, and spiritual registry via `kumaoni.flora`:
+      - **Sacred & Ritual Trees (11 species)**: *Banjh* (Quercus leucotrichophora - mother oak of water aquifers), *Buransh* (Rhododendron arboreum - state tree), *Deodar* (Cedrus deodara - Jageshwar sacred grove), *Panya / Padam* (Prunus cerasoides - hawan samidha), *Surai* (Cupressus torulosa - temple spires), *Bhojpatra* (Betula utilis - sacred birch bark), *Ringal* (Thamnocalamus spathiflorus - Nanda Devi umbrella basketry), *Bheemal* (Grewia optiva - winter fodder & selu ropes), *Pipal*, *Bar / Bargad*, *Bel / Bilva*, *Shami*.
+      - **Sacred Alpine Flowers & Herbs (9 species)**: *Brahmakamal* (Saussurea obvallata - supreme offering to Nanda Devi & Shiva), *Phen Kamal*, *Kasturi Kamal*, *Phyunli* (Reinwardtia indica - spring flower of Phool Dei), *Tulsi* (courtyard chauris), *Dhatura*, *Bhang*, *Kunja* (Himalayan wild white rose), *Genda* (Marigold deity garlands).
+      - **Medicinal & High-Altitude Aromatics (8 species)**: *Jatamansi / Balbachh* (Himalayan spikenard incense), *Dhoop-lakdi* (Jurinea macrocephala), *Guggul*, *Gandrayani* (Angelica glauca), *Jambu / Faran* (Allium stracheyi), *Jakhya* (Cleome viscosa), *Kutki* (Picrorhiza kurroa), *Ateesh*, *Chirayata*.
+      - **Wild Mountain Fruits & Shrubs (9 species)**: *Kafal* (Myrica esculenta - iconic spring berry), *Bedu* (Ficus palmata - wild fig), *Timul* (Ficus auriculata - eco-friendly feast leaf plates), *Kilmoda* (Berberis asiatica), *Hisolu* (golden raspberry), *Akhod* (Walnut), *Choolu* (wild apricot temple lamp oil), *Galgal* (mountain lemon), *Darim* (pomegranate).
+      - **Sacred Grasses & Millets (6 species)**: *Kush* (Desmostachya bipinnata - sacrificial Pavitri ring), *Durva / Doob* (Ganesha green shoots), *Jhangora* (Barnyard fasting millet), *Maduwa / Koda* (Finger millet), *Bhatt* (Black soybean).
+
+12. **Temple Implements, Sacred Paraphernalia & Rituals (43 Sacred Items / मन्दिर व पूजा सामग्री)**
+    - Programmatic cataloguing of temple architecture, vessels, and sacred implements via `kumaoni.rituals`:
+      - **Sacred Marks & Consecrated Threads (7 items)**: *Pithyan* (sacred vermilion-turmeric forehead mark), *Akshat* (unbroken raw rice), *Kalawa / Mauli / Rakshasutra* (protective wrist thread), *Janeu / Yajnopavita* (initiatory three-strand thread), *Roli*, *Chandan*, *Bhabhoot / Bhasma* (holy ash from temple dhooni).
+      - **Vessels & Consecrated Offerings (9 items)**: *Panchapatra* (copper ritual tumbler), *Aachmani* (libation spoon), *Argha* (Shivalinga drip vessel), *Kalash* (Varuna cosmic pot), *Aarti ki Thali*, *Dhoopdani* (brass incense burner), *Rot* (thick wheat-jaggery bhog of Bhumia & Golu), *Panchamrit* (5 sacred elixirs), *Batasha*.
+      - **Hawan & Sacrificial Paraphernalia (5 items)**: *Hawankund* (pyramidal copper altar), *Samidha* (dried twigs of wild cherry, pipal, and oak), *Sruwa* (long carved wooden ghee ladle), *Sruch*, *Kapoor* (pure white camphor).
+      - **Temple Insignia & Votive Offerings (8 items)**: *Ghant / Ghanti* (temple brass bells, thousands offered at Chitai), *Shankha* (dawn/dusk aarti conch), *Trishul* (sacred iron trident), *Bana / Nishan* (temple processional flag), *Paati* (judicial prayer petitions pinned at Chitai Golu Devta), *Chanwar* (yak-tail whisk), *Chhatra* (silver deity canopy), *Doli* (sacred palanquin).
+      - **Jagar & Shamanic Implements (5 items)**: *Hurka* (hourglass drum played by Jagariya), *Daur* (rattle drum), *Kansi ki Thali* (bell-metal plate inducing trance in Dangariya), *Bagambar* (meditation seat), *Saangal* (sacred iron trance chains).
+      - **Sacred Water & Sanctum Features (7 items)**: *Naula* (sacred stone spring stepwell with serpent shrine), *Dhaara* (carved stone spout), *Dhooni* (perpetual ascetic ash fire), *Pindi* (natural stone idol), *Thaan* (open-air village hearth shrine), *Dewaal* (stone temple complex), *Gangajal*.
+      - **Sacred Attire & Knots (2 items)**: *Rangwali Pichhaura* (traditional dotted saffron stole), *Aanchal* (sacred nuptial knot cloth).
+
+13. **Cultural Treasury & Master Bibliography (अखाण, आणा, लोकगीत, महागाथा & ग्रन्थ-सूची)**
    - **85+ Authentic Proverbs (*Akhaan*)**: From Pt. Ganga Datt Upreti (1894), UOU AECC-K-101 (2020), and living oral lore with literal, figurative, Hindi, and English equivalents.
    - **157+ Authentic Idioms & Folk Phrases (*Muhavare & Batkoli*)**: From oral conversations and UOU syllabus Unit 5.
    - **43+ Traditional Riddles (*Aan / Aana*)**: Folk puzzles with hints, cultural context, and solutions.
@@ -90,7 +110,7 @@ This library empowers developers to build **web applications, mobile apps, educa
    - **20+ Canonical Authors & Scholars**: Biographies and historical profiles.
    - **8 Monumental Folk Epics & Ballads**: *Malushahi-Rajula*, *Ajuva Bafaul*, *Golu Devta*, *Jiya Rani*, *Veer Balak Haru Singh Heet*, *Amar Gopichand Yogi*, *Kalu Bhandari*, and *Ganganath*.
 
-12. **Interactive Developer Playground & CLI**
+14. **Interactive Developer Playground & CLI**
    - Built-in command line interface (`kumaoni translate`, `kumaoni lookup`, `kumaoni number`, `kumaoni bibliography`).
    - Modern glassmorphism web playground running locally with zero dependencies.
 
@@ -332,6 +352,18 @@ print(f"{pant.surname_kumaoni}: {pant.title} | Gotras: {', '.join(pant.gotras)}"
 bisht = kumaoni.surnames.get("bisht")
 print(f"{bisht.surname_kumaoni}: {bisht.title} | Origin: {bisht.ancestral_villages_or_origin}")
 print("Thaatwan Institution:", kumaoni.surnames.social_concepts()["thatwan"]["meaning"])
+
+# Himalayan Ethnobotany & Sacred Trees (43 Plants)
+buransh = kumaoni.flora.get("buransh")
+print(f"{buransh.name_kumaoni} ({buransh.scientific_name}): {buransh.spiritual_and_temple_significance}")
+brahmakamal = kumaoni.flora.get("brahmakamal")
+print(f"{brahmakamal.name_kumaoni} (Alt: {brahmakamal.habitat_altitude}): {brahmakamal.traditional_uses}")
+
+# Temple Implements & Sacred Ritual Objects (43 Items)
+pithyan = kumaoni.rituals.get("pithyan")
+print(f"{pithyan.name_kumaoni}: {pithyan.sacred_purpose} | Material: {pithyan.traditional_material}")
+rot = kumaoni.rituals.get("rot")
+print(f"{rot.name_kumaoni}: {rot.cultural_context}")
 ```
 
 ---
@@ -403,6 +435,10 @@ All key functions are directly accessible via `import kumaoni`:
 | | `kumaoni.places.search(q)` / `.stats()` | Search holy geography by district, deity, or spiritual significance. |
 | | `kumaoni.surnames.list()` / `.get(id)` | 33 Lineage Surnames & Clans (Pant, Joshi, Bisht, Rawat, Negi, Pangtey, Tamta...). |
 | | `kumaoni.surnames.social_concepts()` | 8 Fundamental Kumaoni social concepts (*Thaat*, *Thaatwaan*, *Dhadha*, *Gauntyaar*...). |
+| | `kumaoni.flora.list()` / `.get(id)` | 43 Sacred Trees, Alpine Flowers, & Medicinal Herbs (Banjh, Buransh, Brahmakamal...). |
+| | `kumaoni.flora.search(q)` / `.stats()` | Search ethnobotanical flora by traditional use, habitat altitude, or category. |
+| | `kumaoni.rituals.list()` / `.get(id)` | 43 Temple Implements, Hawan Vessels, & Paraphernalia (Pithyan, Rot, Ghant, Hurka...). |
+| | `kumaoni.rituals.search(q)` / `.stats()` | Search ritual objects by material, sacred purpose, or associated deity/temple. |
 | | `kumaoni.literature.epics()` / `.get_epic(id)`| 8 Folk Epics (*Malushahi-Rajula*, *Jiya Rani*, *Kalu Bhandari*). |
 | | `kumaoni.literature.poems()` | Canonical Kumaoni poems & folk songs. |
 | | `kumaoni.literature.authors()` / `.get_author(id)` | Biographies of 20+ canonical scholars & poets. |
@@ -465,7 +501,7 @@ kumaoni/
 │   └── converter.py      # Integer to words, ordinals, fractions, numerals
 ├── lexicon/
 │   ├── dictionary.py     # Fast search across Devanagari, English, and Hindi
-│   └── data/             # Curated JSON datasets (2,086+ base lemmas, 443,356+ word forms)
+│   └── data/             # Curated JSON datasets (2,138+ base lemmas, 455,530+ word forms)
 ├── translator/
 │   ├── engine.py         # Unified translation orchestrator
 │   ├── rule_based.py     # Rule-based linguistic transfer & dialogue patterns
@@ -475,6 +511,8 @@ kumaoni/
 │   ├── deities.py        # 40 Local Deities & Shrines (Golu Devta, Nanda Devi, etc.)
 │   ├── places.py         # 47 Sacred Temples, Rivers, Glaciers & Valleys
 │   ├── surnames.py       # 33 Kumaoni Surnames, Clans & Social Concepts (Thaat, etc.)
+│   ├── flora.py          # 43 Himalayan Sacred Trees, Alpine Flowers & Ethnobotany
+│   ├── rituals.py        # 43 Temple Implements, Hawan Vessels & Paraphernalia
 │   ├── festivals.py      # 40 Traditional Festivals & Historic Melas (Harela, etc.)
 │   ├── calendar.py       # Kumaoni solar months & seasons
 │   ├── literature.py     # Folk Epics (Malushahi, Bafaul), Nyoli, Jhora, Authors

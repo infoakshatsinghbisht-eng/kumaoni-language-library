@@ -147,6 +147,10 @@ from kumaoni.culture import (
     PlacesTreasury,
     KumaoniSurname,
     SurnamesTreasury,
+    KumaoniPlant,
+    FloraTreasury,
+    KumaoniRitualItem,
+    RitualsTreasury,
 )
 
 
@@ -414,6 +418,48 @@ class _SurnamesFacade:
         return SurnamesTreasury.stats()
 
 
+class _FloraFacade:
+    def list(self, category=None):
+        from kumaoni.culture.flora import FloraTreasury
+        return FloraTreasury.list(category=category)
+
+    def all(self, category=None):
+        return self.list(category=category)
+
+    def get(self, plant_id):
+        from kumaoni.culture.flora import FloraTreasury
+        return FloraTreasury.get(plant_id)
+
+    def search(self, query):
+        from kumaoni.culture.flora import FloraTreasury
+        return FloraTreasury.search(query)
+
+    def stats(self):
+        from kumaoni.culture.flora import FloraTreasury
+        return FloraTreasury.stats()
+
+
+class _RitualsFacade:
+    def list(self, category=None):
+        from kumaoni.culture.rituals import RitualsTreasury
+        return RitualsTreasury.list(category=category)
+
+    def all(self, category=None):
+        return self.list(category=category)
+
+    def get(self, item_id):
+        from kumaoni.culture.rituals import RitualsTreasury
+        return RitualsTreasury.get(item_id)
+
+    def search(self, query):
+        from kumaoni.culture.rituals import RitualsTreasury
+        return RitualsTreasury.search(query)
+
+    def stats(self):
+        from kumaoni.culture.rituals import RitualsTreasury
+        return RitualsTreasury.stats()
+
+
 class _VoiceFacade:
     def translate(self, text: str, source_lang: str = "auto", method: str = "auto", generate_audio: bool = False):
         return voice_translate(text, source_lang=source_lang, method=method, generate_audio=generate_audio)
@@ -436,6 +482,8 @@ folklore = _FolkloreFacade()
 deities = _DeitiesFacade()
 places = _PlacesFacade()
 surnames = _SurnamesFacade()
+flora = _FloraFacade()
+rituals = _RitualsFacade()
 voice = _VoiceFacade()
 
 __all__ = [
@@ -521,8 +569,10 @@ __all__ = [
     "deities",
     "places",
     "surnames",
+    "flora",
+    "rituals",
     "voice",
-    # Bibliography, Folklore, Deities, Places & Surnames
+    # Bibliography, Folklore, Deities, Places, Surnames, Flora & Rituals
     "KumaoniBook",
     "BibliographyTreasury",
     "KumaoniSong",
@@ -535,6 +585,10 @@ __all__ = [
     "PlacesTreasury",
     "KumaoniSurname",
     "SurnamesTreasury",
+    "KumaoniPlant",
+    "FloraTreasury",
+    "KumaoniRitualItem",
+    "RitualsTreasury",
     "search_festivals",
 ]
 
