@@ -513,7 +513,7 @@ class FullFormCorpus:
                 continue
 
             analyses: List[MorphAnalysis] = []
-            if "verb" in pos or "verb" in cat:
+            if "adverb" not in pos and ("verb" in pos or "verb" in cat):
                 analyses = KumaoniMorphology.generate_verb_paradigms(k, en, hi)
             elif "adj" in pos or "adj" in cat or pos in ("quality", "taste") or cat in ("quality", "taste"):
                 analyses = KumaoniMorphology.generate_adjective_paradigms(k, en, hi)

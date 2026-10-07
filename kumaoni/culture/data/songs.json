@@ -1,0 +1,417 @@
+[
+  {
+    "id": "KSN-0001",
+    "title": "बेडु पाको बारो मासा",
+    "roman": "Bedu Pako Baro Masa",
+    "artist": "Traditional / Mohan Upreti arrangement",
+    "genre": "Folk Song / Valley Lyrical",
+    "corpus": "Traditional corpus",
+    "theme": "Mountain seasons, flora, and eternal Pahari longing",
+    "lyrics_sample": "बेड़ू पाको बारह मासा, ओ नरण काफल पाको चैत, मेरी छैला!\nरुपै की सिलिंग, टका की लिबोंग, मेरी छैला!\nअल्मोड़ा की नंदा देवी, ओ नरण फूल चढ़ूँलो पाती, मेरी छैला!",
+    "verses": [
+      "बेड़ू पाको बारह मासा, ओ नरण काफल पाको चैत, मेरी छैला!",
+      "रुपै की सिलिंग, टका की लिबोंग, मेरी छैला!",
+      "अल्मोड़ा की नंदा देवी, ओ नरण फूल चढ़ूँलो पाती, मेरी छैला!",
+      "भुटी-भुटी भुटणा, ओ नरण काफल पाको चैत, मेरी छैला!",
+      "आपू खाणो रुखा-सुखा, बाबाजी कणी मिठा, मेरी छैला!",
+      "नैनीताल की मालरोड, ओ नरण मोटर चली गे, मेरी छैला!",
+      "काफल पाको चैत, मेरी छैला, बेड़ू पाको बारह मासा!"
+    ],
+    "english_translation": "Wild figs ripen throughout the twelve months, oh Naran; wild bayberries ripen in the spring month of Chait, my love!",
+    "cultural_context": "The international anthem of Kumaon, made famous worldwide by Mohan Upreti and Parvatiya Kala Kendra.",
+    "source_url": "https://www.kumauni.in/"
+  },
+  {
+    "id": "KSN-0002",
+    "title": "घुघुती ना बासा",
+    "roman": "Ghughuti Na Basa",
+    "artist": "Traditional / Folk Ballad",
+    "genre": "Folk Song / Separation (Viraha)",
+    "corpus": "Traditional corpus",
+    "theme": "Homesickness (Naraai) and dove's melancholic cooing",
+    "lyrics_sample": "घुघुती ना बासा, न बस घुघुती बासा,\nतू बासि-बासि हिया म आगि न लगा!\nमैता की नराई लागी, छाती म झुरण,",
+    "verses": [
+      "घुघुती ना बासा, न बस घुघुती बासा,",
+      "तू बासि-बासि हिया म आगि न लगा!",
+      "मैता की नराई लागी, छाती म झुरण,",
+      "परदेस म छन दाज्यू, कख जाणू मैं!",
+      "बण-बण घुघुती बासि रई, हिया म पीर उठी रई,",
+      "सासु की गालि-गलौज, ननद की ताना,",
+      "बाबू को घर मेरो कतुक दूर छ,",
+      "ईजा की सुरति म रोई रई भुली!"
+    ],
+    "english_translation": "Do not coo, O mountain dove, do not coo! Your plaintive call kindles the fire of yearning for my mother's home in my heart.",
+    "cultural_context": "Sung by married women experiencing intense homesickness (naraai) for their maternal village (maita).",
+    "source_url": "https://www.kumauni.in/"
+  },
+  {
+    "id": "KSN-0003",
+    "title": "काफल पाको चैत",
+    "roman": "Kafal Pako Chait",
+    "artist": "Traditional / Ritu-Geet",
+    "genre": "Seasonal Folk Song",
+    "corpus": "Traditional corpus",
+    "theme": "Spring berry ripening and the cuckoo's tragic forest call",
+    "lyrics_sample": "काफल पाको मिल नी चाखो, पुरपुड़ा पाको चार,\nचैत का मैना म काफल पाकि रैन!\nडाल्यूँ-डाल्यूँ म बोलूँ काफल पक्वा पंछी,",
+    "verses": [
+      "काफल पाको मिल नी चाखो, पुरपुड़ा पाको चार,",
+      "चैत का मैना म काफल पाकि रैन!",
+      "डाल्यूँ-डाल्यूँ म बोलूँ काफल पक्वा पंछी,",
+      "याद करूँ अपनी ईजा-बाबू कणि!",
+      "बैनि रोणी बन म सुवा, कख ग्या म्यर दाज्यू,",
+      "भुक लागिरै दिन-रात, डाली-डालि खोजूँ काफल!",
+      "झुरि-झुरि मरि ग्यो नानो पंछी, बोलूँ चैत म काफल पाको!"
+    ],
+    "english_translation": "The kafal berries have ripened, yet I tasted none! In the spring month of Chait, the cuckoo cries through the forest branches.",
+    "cultural_context": "Legend of the innocent hill sister who starved while guarding wild bayberries for her brother.",
+    "source_url": "https://www.kumauni.in/"
+  },
+  {
+    "id": "KSN-0004",
+    "title": "म्यर शोभनी होस्यारा",
+    "roman": "Myar Shobhani Hosyaara",
+    "artist": "Traditional / Satirical Folk",
+    "genre": "Humorous Folk Song",
+    "corpus": "Traditional corpus",
+    "theme": "Witty village satire on a lazy yet boastful son",
+    "lyrics_sample": "म्यर शोभनी होश्यारा, तू काँहा जाँछी बजार?\nहात म थैलू, ख्वार म छातू, गोजी म रुपिया चार!\nअल्मोड़ा बजार जाँछू, नथुली घड़ूँलो,",
+    "verses": [
+      "म्यर शोभनी होश्यारा, तू काँहा जाँछी बजार?",
+      "हात म थैलू, ख्वार म छातू, गोजी म रुपिया चार!",
+      "अल्मोड़ा बजार जाँछू, नथुली घड़ूँलो,",
+      "लाल पिछौड़ा लैके घर कणी औँलो!",
+      "सुण ले ओ शोभनी, बाटो छ कतुक डाँण,",
+      "माथू-माथू हिटी जा, झन् कर तैं मान!"
+    ],
+    "english_translation": "Of all sons my Shobhan is the sharpest! Everyone buys on cash, but my Shobhan gets everything on credit!",
+    "cultural_context": "Celebrated comic folk song poking fun at indulgent village parents and roguish sons.",
+    "source_url": "https://devbhoomidarshan.in/old-kumauni-song-lyrics/"
+  },
+  {
+    "id": "KSN-0005",
+    "title": "तेरी खुटी मेरी सलाम",
+    "roman": "Teri Khuti Meri Salaam",
+    "artist": "Traditional Dialogue Song",
+    "genre": "Folk Dialogue / Romantic Debate",
+    "corpus": "Traditional corpus",
+    "theme": "Husband-wife banter regarding visiting maternal home in the monsoon",
+    "lyrics_sample": "तेरी खुटी मेरी सलाम, सुवा मेरी छैला!\nकाँहा बाटी आछै तुम, काँहा जाणौ काम?\nधार-काँठ हिटी आछूँ, गौं मेरो गधेरा पार,",
+    "verses": [
+      "तेरी खुटी मेरी सलाम, सुवा मेरी छैला!",
+      "काँहा बाटी आछै तुम, काँहा जाणौ काम?",
+      "धार-काँठ हिटी आछूँ, गौं मेरो गधेरा पार,",
+      "घास-पात काटी-काटी, थाकि गै बाना!",
+      "बैठ जा बंज्याण म, पि ले थोड़ा पानी,",
+      "तेरी मिठी बातुलि म भूलि ग्यूँ मैता की नराई!"
+    ],
+    "english_translation": "I bow down to your feet, pray let me visit my mother's home! But slippery are the stones in the monsoon; if your foot slips, my heart will pine away!",
+    "cultural_context": "Traditional humorous domestic dialogue capturing the risks of Himalayan monsoon trails.",
+    "source_url": "https://devbhoomidarshan.in/old-kumauni-song-lyrics/"
+  },
+  {
+    "id": "KSN-0006",
+    "title": "सुपारि खई खई सुण माया",
+    "roman": "Supari Khai Khai Sun Maya",
+    "artist": "Traditional Folk Song",
+    "genre": "Lyrical Romance",
+    "corpus": "Traditional corpus",
+    "theme": "Hill harvest, bright winter sun, and romance",
+    "lyrics_sample": "सुपारी खाई खाई, सुण माया, मुख लाल भ्यौ रे!\nकौतुक जाँछू मैं आज, तू लै चल दगड़्या!\nडाँडा-काँठा घूमी-घूमी, कौतुक देखूँलो,",
+    "verses": [
+      "सुपारी खाई खाई, सुण माया, मुख लाल भ्यौ रे!",
+      "कौतुक जाँछू मैं आज, तू लै चल दगड़्या!",
+      "डाँडा-काँठा घूमी-घूमी, कौतुक देखूँलो,",
+      "चाँचरी म झोड़ा लगै, हिया जुड़ूँलो!",
+      "पौंछी म्यर हात म, नथुली नाक म सोवै,",
+      "जोबन को रँग सुवा, कबे नी खोवै!"
+    ],
+    "english_translation": "Chewing betelnut listen, my beloved, what delightful sunshine warms our hills! In the bamboo grove you are my Radha, and I am your Krishna.",
+    "cultural_context": "Harvest love song sung in terrace fields during grain threshing.",
+    "source_url": "https://devbhoomidarshan.in/old-kumauni-song-lyrics/"
+  },
+  {
+    "id": "KSN-0007",
+    "title": "माठु माठु हिटैली मेरी बाना",
+    "roman": "Maathu Maathu Hitaili Meri Baana",
+    "artist": "Traditional Pastoral Lyric",
+    "genre": "Forest Romantic Song",
+    "corpus": "Traditional corpus",
+    "theme": "Gentle footsteps on rugged mountain slopes",
+    "lyrics_sample": "माथू माथू हितैली मेरी बाना, बाटो छ चिप्लो!\nपाथर को बाटो, डाँण म गधेरा,\nकाफल का डाली म बोलूँ चकोर!",
+    "verses": [
+      "माथू माथू हितैली मेरी बाना, बाटो छ चिप्लो!",
+      "पाथर को बाटो, डाँण म गधेरा,",
+      "काफल का डाली म बोलूँ चकोर!",
+      "हँसिया धरि दे, घास को भोरु भारी छ,",
+      "आँखा म कजला, मुख म पसीना झलकै,",
+      "माथू-माथू हिटी जा, सुवा मेरी प्यारी बाना!"
+    ],
+    "english_translation": "High and steep are the mountain ridges; walk softly, gently, my graceful maiden! Life is brief as a handful of millet, dance and laugh while youth blooms.",
+    "cultural_context": "Philosophical Pahari romance celebrating youth while urging caution on dangerous mountain paths.",
+    "source_url": "https://devbhoomidarshan.in/old-kumauni-song-lyrics/"
+  },
+  {
+    "id": "KSN-0008",
+    "title": "यो बाटो का जान्या",
+    "roman": "Yo Baato Ka Jaanya",
+    "artist": "Traditional Pilgrim / Trail Song",
+    "genre": "Folk Ballad",
+    "corpus": "Traditional corpus",
+    "theme": "Winding Himalayan trails leading to mountain shrines",
+    "lyrics_sample": "यो बाटो का जाँया, ओ बटोही दाज्यू?\nयो बाटो जाँदो बद्री-केदार, नंदा देवी का थान!\nपहाड़ा का डाँणा-काँठा, सरग जसि सुंदर,",
+    "verses": [
+      "यो बाटो का जाँया, ओ बटोही दाज्यू?",
+      "यो बाटो जाँदो बद्री-केदार, नंदा देवी का थान!",
+      "पहाड़ा का डाँणा-काँठा, सरग जसि सुंदर,",
+      "गधेरा म बासि रई घुघुती अभागिन!",
+      "हिटी जा हिटी जा, साँझ पड़ि गै,",
+      "देवभूमि की माटी म नमन कर दाज्यू!"
+    ],
+    "english_translation": "Where does this mountain path lead? Step by step to the shrine of the goddess! The world is envious of our love, as I spend my youth watching for your return.",
+    "cultural_context": "Iconic trail song blending sacred shrine pilgrimage with eternal romantic devotion.",
+    "source_url": "https://devbhoomidarshan.in/old-kumauni-song-lyrics/"
+  },
+  {
+    "id": "KSN-0009",
+    "title": "ओ परूवा बौज्यूँ",
+    "roman": "O Paruwa Bojyoon",
+    "artist": "Traditional Folk Song",
+    "genre": "Domestic Folk Ballad",
+    "corpus": "Traditional corpus",
+    "theme": "Daughter-in-law demanding fair clothing from parents-in-law",
+    "lyrics_sample": "ओ परुवा बोज्यूँ, म्यर मैता कबे लै जाँला?\nसौण-भादव बीती ग्या, कतुक दिन रूँलो सास घर म!\nईजा की सुरति औँछी, आँखि म आँसू छन,",
+    "verses": [
+      "ओ परुवा बोज्यूँ, म्यर मैता कबे लै जाँला?",
+      "सौण-भादव बीती ग्या, कतुक दिन रूँलो सास घर म!",
+      "ईजा की सुरति औँछी, आँखि म आँसू छन,",
+      "दाज्यू लै नी आया बोज्यूँ, लैजा म्यर मैता!",
+      "चैत का मैना म लैजाँलो भुली तैंकणी,",
+      "फूलदेई का दिन म, घर औँलो म्यर छैला!"
+    ],
+    "english_translation": "O elder father-in-law, what kind of traditional dress have you brought? And mother-in-law, why do you scrutinize all that I request?",
+    "cultural_context": "Traditional domestic teasing song performed during mountain wedding feasts and fair trips.",
+    "source_url": "https://devbhoomidarshan.in/old-kumauni-song-lyrics/"
+  },
+  {
+    "id": "KSN-0010",
+    "title": "झन दिया बौज्यूँ छाना बिलोरी",
+    "roman": "Jhan Diya Bojyoon Chhaana Bilori",
+    "artist": "Traditional Folk Ballad",
+    "genre": "Social Folk Song",
+    "corpus": "Traditional corpus",
+    "theme": "A daughter's plea against marriage into a harsh, water-scarce village",
+    "lyrics_sample": "झन् दिया बोज्यूँ छाना बिलोरी, कतुक दुख छ!\nपानी को गधेरो दूर, डाँण म छानि,\nसासु म्यर डाकिनी, ससुर म्यर कसाई!",
+    "verses": [
+      "झन् दिया बोज्यूँ छाना बिलोरी, कतुक दुख छ!",
+      "पानी को गधेरो दूर, डाँण म छानि,",
+      "सासु म्यर डाकिनी, ससुर म्यर कसाई!",
+      "घास को भोरु लैके, खुटी म छाल पड़ि ग्या,",
+      "बोज्यूँ म्यर दया करा, म्यर ब्याव कर मैता का तीर!"
+    ],
+    "english_translation": "O father, do not marry me into Chhana Bilori! The mother-in-law there is stern and cruel, and the water spring is far up the ridge!",
+    "cultural_context": "Expresses the realistic hardships of mountain women fetching water and grass in steep villages.",
+    "source_url": "https://devbhoomidarshan.in/old-kumauni-song-lyrics/"
+  },
+  {
+    "id": "KSN-0011",
+    "title": "जय जय हो बदरी नाथ के",
+    "roman": "Jai Jai Ho Badri Nath Ke",
+    "artist": "Traditional Devotional Bard",
+    "genre": "Devotional Folk Song (Bhajan)",
+    "corpus": "Traditional corpus",
+    "theme": "Praise of Badrinath, Kedarnath, and sacred land of Kumaon-Garhwal",
+    "lyrics_sample": "जय जय हो बद्री नाथ के, जय केदार बाबा!\nअलकनंदा की धारा, मन्दाकिनी की गंगा,\nहिमवंत की चोटी म सोवै बद्री विशाल!",
+    "verses": [
+      "जय जय हो बद्री नाथ के, जय केदार बाबा!",
+      "अलकनंदा की धारा, मन्दाकिनी की गंगा,",
+      "हिमवंत की चोटी म सोवै बद्री विशाल!",
+      "घंट-घड़ियाल बाजि रैन, धूप-दीप जलै रैन,",
+      "चारि धाम की जातरा म, सब पाप धुलि जाँला!"
+    ],
+    "english_translation": "Victory to Lord Badrinath and Kedarnath! The penance grounds of Shiva, the sacred birthplace of gods—my beloved Kumaon and Garhwal!",
+    "cultural_context": "Sung by pilgrims on mountain trails leading across Himalayan shrines.",
+    "source_url": "https://devbhoomidarshan.in/old-kumauni-song-lyrics/"
+  },
+  {
+    "id": "KSN-0012",
+    "title": "रंगीली धाना",
+    "roman": "Rangili Dhana",
+    "artist": "Traditional Folk / Popular Recorded",
+    "genre": "Folk Dance Song (Jhora)",
+    "corpus": "Traditional corpus",
+    "theme": "The vibrant charm of mountain damsel Dhana of Almora",
+    "lyrics_sample": "रंगीली धना, तू कौतुक काँहा जाँछी?\nअल्मोड़ा का बजार म, कौतुक लगि रौ!\nपिछौड़ा पेरी-पेरी, नथुली सोवै नाक म,",
+    "verses": [
+      "रंगीली धना, तू कौतुक काँहा जाँछी?",
+      "अल्मोड़ा का बजार म, कौतुक लगि रौ!",
+      "पिछौड़ा पेरी-पेरी, नथुली सोवै नाक म,",
+      "झोड़ा म नाचि-नाचि, सब मैस हँसि रैन!",
+      "धना मेरी प्यारी, म्यर दगड़ै हिटी जा!"
+    ],
+    "english_translation": "Vibrant Dhana, charming belle of Almora, wearing earrings in ears and bindi on forehead! Our colorful Devbhoomi hills echo with dance and song.",
+    "cultural_context": "Energetic Jhora dance song performed at fairs and community festivals.",
+    "source_url": "https://lyricstranslate.com/en/language/kumaoni-lyrics"
+  },
+  {
+    "id": "KSN-0013",
+    "title": "सुण ले दगड़िया",
+    "roman": "Sun Le Dagadya",
+    "artist": "Traditional / Hill Movement Song",
+    "genre": "Folk Song / Social Consciousness",
+    "corpus": "Traditional corpus",
+    "theme": "Solidarity and hill hardships among comrades",
+    "lyrics_sample": "सुण ले दगड़िया, म्यर पहाड़ा की पुकार!\nबाँझ-बुराँश काटी न दिया, सुखी ग्या गधेरा,\nमाटी लै बगि गै, उजाड़ भे पहाड़!",
+    "verses": [
+      "सुण ले दगड़िया, म्यर पहाड़ा की पुकार!",
+      "बाँझ-बुराँश काटी न दिया, सुखी ग्या गधेरा,",
+      "माटी लै बगि गै, उजाड़ भे पहाड़!",
+      "रुख-डाल बचाओ दगड़िया, पाणी बचाओ,",
+      "आवण वालि पीढ़ी कणी, स्वर्ग बणो पहाड़!"
+    ],
+    "english_translation": "Listen, my companion, hear my words! Understand the deep yearning of our hills, and repay the debt we owe to our mother soil.",
+    "cultural_context": "Anthem of regional solidarity and ecological preservation.",
+    "source_url": "https://lyricstranslate.com/en/language/kumaoni-lyrics"
+  },
+  {
+    "id": "KSN-0014",
+    "title": "बलमा घर आयो फागुन में",
+    "roman": "Balma Ghar Aayo Phaagun Mein",
+    "artist": "Traditional / Seasonal Holi",
+    "genre": "Holi / Seasonal Folk",
+    "corpus": "Traditional corpus",
+    "theme": "Spring arrival of soldier spouse for Phalguna festival",
+    "lyrics_sample": "बलमा घर आयो फागुन में, खेलूँलो अबीर-गुलाल!\nपरदेस बाटी आया छैला, हिया जुड़ि ग्यो आज,\nचीर बन्धी गै थान म, ढोल-दमुवां बाजि रैन!",
+    "verses": [
+      "बलमा घर आयो फागुन में, खेलूँलो अबीर-गुलाल!",
+      "परदेस बाटी आया छैला, हिया जुड़ि ग्यो आज,",
+      "चीर बन्धी गै थान म, ढोल-दमुवां बाजि रैन!",
+      "बैठकी होली म गावौ राग काफी,",
+      "चुनर रंगी दे मेरी, बलमा घर आयो!"
+    ],
+    "english_translation": "My beloved spouse has returned home in the spring month of Phalguna; I shall play Holi with saffron water and fragrant abeer powder!",
+    "cultural_context": "Traditional seasonal Holi celebration song honoring returning hill soldiers.",
+    "source_url": "https://www.ekumaon.com/2024/03/10-famous-holi-songs-of-kumaon-uttarakhand.html"
+  },
+  {
+    "id": "KSN-0015",
+    "title": "जोगी आयो शहर में व्योपारी",
+    "roman": "Jogi Aayo Shahar Mein Vyopaari",
+    "artist": "Traditional / Ascetic Ballad",
+    "genre": "Folk Ballad / Mystical",
+    "corpus": "Traditional corpus",
+    "theme": "The wandering ascetic sage arriving in the mountain bazaar",
+    "lyrics_sample": "जोगी आयो शहर में व्योपारी, हाथ म खप्पर, काँध म झोली!\nअलख निरंजन बोलूँ जोगी, माया तजि गै संसार की,\nकौतुक देखि-देखि, मैस अचंभित भैन!",
+    "verses": [
+      "जोगी आयो शहर में व्योपारी, हाथ म खप्पर, काँध म झोली!",
+      "अलख निरंजन बोलूँ जोगी, माया तजि गै संसार की,",
+      "कौतुक देखि-देखि, मैस अचंभित भैन!",
+      "गोपीचन्द जोगी भे, भरथरी राजा जोगी भे,",
+      "हरि नाम जपि ले रे मनवा, यो जग छ पाणि को बुलबुला!"
+    ],
+    "english_translation": "A mystic ascetic has arrived in the hill bazaar, ashes smeared upon his limbs and deer-pelt over his shoulder, dispensing the nectar of devotion.",
+    "cultural_context": "Nath yogi tradition deeply interwoven with Kumaon's Gopichand and Gorakhnath folklore.",
+    "source_url": "https://kavitahindikavita.wordpress.com/"
+  },
+  {
+    "id": "KSN-0016",
+    "title": "निमंत्रण",
+    "roman": "Nimantran",
+    "artist": "Traditional Ritu-Geet",
+    "genre": "Seasonal Folk Song",
+    "corpus": "Traditional corpus",
+    "theme": "Invitation to celebrate spring blossoms in Kumaon",
+    "lyrics_sample": "निमंत्रण द्यूँलो बसंत ऋतु कणी, फूल खिलि गया डाँण-काँठ म!\nफ्यूँली खिली गै, बुराँश लाल भे,\nफूलदेई छम्मा देई, देहरी म फूल धरि गया नानतिन!",
+    "verses": [
+      "निमंत्रण द्यूँलो बसंत ऋतु कणी, फूल खिलि गया डाँण-काँठ म!",
+      "फ्यूँली खिली गै, बुराँश लाल भे,",
+      "फूलदेई छम्मा देई, देहरी म फूल धरि गया नानतिन!",
+      "घोघा देवता की पूजा करी, सब कणी आशीष दिया,",
+      "म्यर पहाड़ा म आयो रे बसंत!"
+    ],
+    "english_translation": "The joyful days of spring have arrived; come, beloved, let us play with flowers! Rhododendrons bloom on ridges, and springtime fills our village.",
+    "cultural_context": "Celebration of Chait and Phalguna blossoming across oak forests.",
+    "source_url": "https://kavitahindikavita.wordpress.com/"
+  },
+  {
+    "id": "KSN-0017",
+    "title": "कैले बाजी मुरुली",
+    "roman": "Kaile Baaji Muruli",
+    "artist": "Gopal Babu Goswami",
+    "genre": "Recorded Folk Legend",
+    "corpus": "Modern/recorded corpus",
+    "theme": "Haunting pastoral flute melodies across Kumaoni ridges",
+    "lyrics_sample": "कैले बाजी मुरुलि बैणा, बैरी बण म?\nकाँहा बाजी मुरुलि बैणा? मोहन की मुरुलि बैणा बैरी बण म!\nगौँ का पधान की छ्वोरी, पानी भरूँण जाँछी,",
+    "verses": [
+      "कैले बाजी मुरुलि बैणा, बैरी बण म?",
+      "काँहा बाजी मुरुलि बैणा? मोहन की मुरुलि बैणा बैरी बण म!",
+      "गौँ का पधान की छ्वोरी, पानी भरूँण जाँछी,",
+      "घड़े म पानी न्है, हिया म आगि लागी!",
+      "सुरति म्यर बिसरी गै, बाँसुरी की धुन म,",
+      "बैरी बण म बाजि रई कान्हा की मुरुलि!"
+    ],
+    "english_translation": "Who played the melodious flute, O sister, where did that flute sound? Resounding across peaks and valleys, its music enchanted my soul!",
+    "cultural_context": "Landmark recording by Gopal Babu Goswami, the immortal Voice of Kumaon.",
+    "source_url": "https://www.youtube.com/"
+  },
+  {
+    "id": "KSN-0018",
+    "title": "हाय तेरी रुमाला",
+    "roman": "Haay Teri Rumaala",
+    "artist": "Gopal Babu Goswami",
+    "genre": "Recorded Modern Folk",
+    "corpus": "Modern/recorded corpus",
+    "theme": "Silk kerchief and mountain courtship",
+    "lyrics_sample": "हाय तेरी रुमाला, गुलाबी मुखड़ी!\nगुलाबी मुखड़ी तेरी, हिरू की टुकड़ी!\nपहाड़ा की हवा म, उड़ी ग्यो रुमाला,",
+    "verses": [
+      "हाय तेरी रुमाला, गुलाबी मुखड़ी!",
+      "गुलाबी मुखड़ी तेरी, हिरू की टुकड़ी!",
+      "पहाड़ा की हवा म, उड़ी ग्यो रुमाला,",
+      "काँहा जाँछी भुली तू, आंखा म कजला!",
+      "झुमुका कानों म, नथुली नाक म सोवै,",
+      "हाय तेरी रुमाला, मन मोह लीन्हो रे!"
+    ],
+    "english_translation": "Ah, your silk kerchief and rosy countenance, your curled locks and radiant face! We met in Almora bazaar, and your glance pierced my heart.",
+    "cultural_context": "One of the most famous Pahari love songs in Himalayan music history.",
+    "source_url": "https://www.youtube.com/"
+  },
+  {
+    "id": "KSN-0019",
+    "title": "छूटी गे नैनीताल",
+    "roman": "Chhooti Ge Nainitaal",
+    "artist": "Gopal Babu Goswami",
+    "genre": "Migration Folk Song",
+    "corpus": "Modern/recorded corpus",
+    "theme": "Rural migration and painful departure from hill lakes and valleys",
+    "lyrics_sample": "छूटी गे नैनीताल, ओ भुली छूटी गे अल्मोड़ा!\nपहाड़ा की ठंडी हवा, गधेरा को पाणि छूटी ग्यो!\nरोटी-कमै खातिर, परदेस जाण पड़ि ग्यो,",
+    "verses": [
+      "छूटी गे नैनीताल, ओ भुली छूटी गे अल्मोड़ा!",
+      "पहाड़ा की ठंडी हवा, गधेरा को पाणि छूटी ग्यो!",
+      "रोटी-कमै खातिर, परदेस जाण पड़ि ग्यो,",
+      "ईजा म्यर रोणी छ, म्यर बाबु रोणा छन,",
+      "कबे औँलो घर म्यर, छूटी गे नैनीताल!"
+    ],
+    "english_translation": "Left behind is my Nainital, the railway departs from Kathgodam! Left behind are the ridges and my homestead; I journey to distant lands, leaving my hills behind.",
+    "cultural_context": "Heart-wrenching classic on Pahari out-migration (*Palaayan*) to lowland cities.",
+    "source_url": "https://www.youtube.com/"
+  },
+  {
+    "id": "KSN-0020",
+    "title": "ओ भिना कसक",
+    "roman": "O Bhina Kasak",
+    "artist": "Gopal Babu Goswami",
+    "genre": "Humorous Kinship Song",
+    "corpus": "Modern/recorded corpus",
+    "theme": "Witty kinship banter between sister-in-law (Saali) and brother-in-law (Bhina)",
+    "lyrics_sample": "ओ भीना कसक, ककड़ी झोल म लूण कसक!\nसालिका दगड़ै भीना, हास्य-मजाक करूँछन,\nअल्मोड़ा की बजार बाटी, के ल्याया भीना?",
+    "verses": [
+      "ओ भीना कसक, ककड़ी झोल म लूण कसक!",
+      "सालिका दगड़ै भीना, हास्य-मजाक करूँछन,",
+      "अल्मोड़ा की बजार बाटी, के ल्याया भीना?",
+      "लौंग ल्याया, नथुली ल्याया, साटिन को लहँगा ल्याया!",
+      "भीना-साली को नेह, पहाड़ा की रीति!"
+    ],
+    "english_translation": "O brother-in-law, where are you bound? Riding the bus to Almora, what famous Baal-Mithai sweet will you bring back for me?",
+    "cultural_context": "Playful Kumaoni kinship humor (*Bhina-Saali*) typical of hill family gatherings.",
+    "source_url": "https://www.youtube.com/"
+  }
+]

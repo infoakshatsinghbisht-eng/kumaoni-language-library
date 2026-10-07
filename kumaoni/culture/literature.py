@@ -147,6 +147,50 @@ EPICS: Dict[str, FolkEpic] = {
             "and Guru Gorakhnath to attain spiritual enlightenment and immortality in the Himalayas."
         ),
         cultural_significance="Sung by traditional Nath Jogi bards playing the Sarangi across Kumaon villages during winter nights."
+    ),
+    "kalu_bhandari": FolkEpic(
+        id="kalu_bhandari",
+        title_kumaoni="कालू भण्डारी की भड़",
+        title_english="Ballad of Kalu Bhandari (The Champion of Kali Kumaon)",
+        genre="Bhad / Pauwada (Martial Heroic Epic)",
+        region="Champawat / Kali Kumaon / Sor Valley",
+        synopsis=(
+            "The stirring heroic saga of warrior champion Kalu Bhandari, celebrated across Kumaon ballads as "
+            "the fearless commander who defended the Chand kingdom and the people against overwhelming enemy incursions. "
+            "Renowned for chivalry, unyielding loyalty, and peerless swordsmanship."
+        ),
+        cultural_significance=(
+            "Preserved in Oakley & Gairola's 'Himalayan Folklore' (1935) and sung by hurkiya bards during winter gatherings."
+        ),
+        sample_verses=[
+            {
+                "kumaoni": "काली कुमाऊँ को शूरवीर कालू भण्डारी गरज उठो, चंपावत की माटी म देशक मान बचायो।",
+                "roman": "Kaali Kumaun ko shoorveer Kaalu Bhandaari garaj utho, Champaavat ki maati ma deshak maan bachaayo.",
+                "english": "The champion warrior Kalu Bhandari of Kali Kumaon roared in battle, preserving the honor of his mountain homeland in Champawat's sacred soil."
+            }
+        ]
+    ),
+    "ganganath": FolkEpic(
+        id="ganganath",
+        title_kumaoni="गंगनाथ जागर",
+        title_english="Jagar of Prince Ganganath (The Royal Ascetic Deity)",
+        genre="Jagar / Sacred Ballad",
+        region="Doti to Almora / Dwarahat / Katarmal",
+        synopsis=(
+            "The sacred narrative of Prince Ganganath of Doti who renounced royal wealth and crown to become a wandering Nath ascetic. "
+            "Journeying across the Kali river to Almora, he became the protector of the oppressed and is venerated across Kumaon "
+            "as a powerful guardian deity who dispenses swift justice."
+        ),
+        cultural_significance=(
+            "Documented in Oakley-Gairola (1935) and Dr. Trilochan Pandey (1977); invoked in midnight jagar seances accompanied by daunr and thali drums."
+        ),
+        sample_verses=[
+            {
+                "kumaoni": "डोटी छाड़ी बेर गंगनाथ अल्मोड़ा म आया, दीन-दुखियों का रखवाला बणि बेर अमर पद पाया।",
+                "roman": "Doti chhaadi ber Ganganath Aalmoda ma aaya, deen-dukhiyon ka rakhwaala bani ber amar pad paaya.",
+                "english": "Leaving Doti behind Prince Ganganath arrived in Almora, becoming the savior of the afflicted and achieving immortal divinity."
+            }
+        ]
     )
 }
 
@@ -278,6 +322,29 @@ POEMS: List[FolkPoem] = [
             "and forgot to bake bread over the hearth!"
         ),
         cultural_context="Celebrated traditional Kumaoni nursery song and lullaby sung by mothers and grandmothers across generations in every hill hamlet, compiled in Hem Pant's 'Ghughuti Basuti' (2022)."
+    ),
+    FolkPoem(
+        id="kafal_pako_geet",
+        title_kumaoni="काफल पाको मिल नी चाखो",
+        title_english="Kafal Pako Mil Ni Chaakho (The Cuckoo and the Wild Berry)",
+        form="Ritu-Geet / Lokgeet",
+        theme="Himalayan Spring, Wild Berries, Nature, and Mountain Longing",
+        verses_kumaoni=[
+            "काफल पाको, काफल पाको, मिल नी चाखो, मिल नी चाखो!",
+            "पुरब बटि पछिम तणि, डांडी-काँठी बासूँ छै।",
+            "काफल पाको चैत बैसाख, सब जंगल लाल छै।"
+        ],
+        verses_roman=[
+            "Kaaphal paako, kaaphal paako, mil nee chaakho, mil nee chaakho!",
+            "Purab bati pachhim tani, daandi-kaanthi baasoon chhai.",
+            "Kaaphal paako Chait Baisaakh, sab jangal laal chhai."
+        ],
+        english_translation=(
+            "'The sweet berry has ripened, yet I have not tasted it!' sings the mountain cuckoo. "
+            "From east to west across high ridges and pine forests echoes the springtime call, "
+            "as the wild Himalayan bayberries turn bright red throughout the hills in Chait and Baisakh."
+        ),
+        cultural_context="Iconic Himalayan folklore ballad of the Kafal bird documented in Hem Pant's 'Ghughuti Basuti' (2022) and Dr. Trilochan Pandey (1977)."
     )
 ]
 
@@ -484,6 +551,66 @@ AUTHORS: Dict[str, KumaoniAuthor] = {
             "kumaoni": "कुमाऊँ की घाटियों म रची-बसी संवेदना संसार भर कणि अनूठी छ।",
             "roman": "Kumaun ki ghaatiyon ma rachi-basi samvedana sansaar bhar kani anuthi chha.",
             "meaning": "The deep sensibilities nurtured in the valleys of Kumaon are unique to the entire world."
+        }
+    ),
+    "tara_dutt_gairola": KumaoniAuthor(
+        name_kumaoni="तारा दत्त गैरोला",
+        name_english="Tara Dutt Gairola",
+        era="1883 – 1940",
+        significance="Pioneering folklorist, advocate, and researcher who collaborated with Rev. E. S. Oakley to record, translate, and preserve the narrative songs, ballads, and oral epics of Kumaon in 'Himalayan Folklore' (1935).",
+        famous_works=["Himalayan Folklore (1935)", "Central Himalayan Folk Songs", "Gadhwali Kavitavali"],
+        sample_quote={
+            "kumaoni": "हिमालयी लोक गाथाएं हमैरि प्राचीन वीरता और आत्मा को अनमोल कोष छन।",
+            "roman": "Himaalayi lok gaathaayein hamairi praacheen veerata aur aatma ko anmol kosh chhan.",
+            "meaning": "Himalayan folk ballads are the priceless treasury of our ancient valor and soul."
+        }
+    ),
+    "e_s_oakley": KumaoniAuthor(
+        name_kumaoni="रेवरेंड ई. एस. ओकले",
+        name_english="Rev. E. S. Oakley",
+        era="1865 – 1944",
+        significance="Eminent scholar, educator, and Principal of Ramsay College in Almora who worked closely with Pandit Ganga Datt Upreti to edit and introduce 'Proverbs & Folklore of Kumaun and Garhwal' (1894), and co-authored 'Himalayan Folklore' (1935).",
+        famous_works=["Proverbs & Folklore of Kumaun Introduction (1894)", "Holy Himalaya (1905)", "Himalayan Folklore (1935)"],
+        sample_quote={
+            "kumaoni": "कुमाऊँ की लोक कहावतें और गाथाएं इस पर्वतीय अंचल का सच्चा दर्पण छन।",
+            "roman": "Kumaun ki lok kahaavatein aur gaathaayein is parvatiya aanchal ka sachha darpan chhan.",
+            "meaning": "The proverbs and folk ballads of Kumaon are the true mirror of this Himalayan sanctuary."
+        }
+    ),
+    "hem_pant": KumaoniAuthor(
+        name_kumaoni="हेम पंत",
+        name_english="Hem Pant",
+        era="Contemporary",
+        significance="Dedicated cultural researcher, author, and folklorist whose milestone work 'Ghughuti Basuti' (2022) compiled the living tradition of Kumaoni children's songs, nursery rhymes (Balgeet), lullabies (Ninuri), and folk riddles (Aan-Bhveen).",
+        famous_works=["Ghughuti Basuti (2022)", "Uttarakhand Ke Paramparik Balgeet", "Kumaoni Lok Boli"],
+        sample_quote={
+            "kumaoni": "दूधबोली म रची-बसी बाल कविताएं नानी पीढ़ी म संस्कृति को बीज ब्वौन छन।",
+            "roman": "Doodhboli ma rachi-basi baal kavitaayein naani peedhi ma sanskriti ko beej bwaun chhan.",
+            "meaning": "Nursery songs rooted in the mother tongue sow the seeds of culture in the young generation."
+        }
+    ),
+    "puran_chandra_kandpal": KumaoniAuthor(
+        name_kumaoni="पूरन चन्द्र कांडपाल",
+        name_english="Puran Chandra Kandpal",
+        era="1953 – Present",
+        significance="Prolific modern Kumaoni author, grammarian, and poet credited with over 13 seminal books written directly in Kumaoni, including the landmark bilingual dictionary 'Pyaulipitaar' and grammar treatise 'Kumaoni Bhashak Byakaran'.",
+        famous_works=["Kumauni Bhashak Byakaran", "Pyaulipitaar (Dictionary)", "Ujyaav (General Knowledge)", "Muksyar", "Bunaid", "Indrainee", "Lagul", "Sanchi", "Chhiluk", "Batauuv"],
+        sample_quote={
+            "kumaoni": "हमरि भाषा हमरि पछ्याण छ, याँक शब्द-सम्पदा हमरो असली धन छ।",
+            "roman": "Hamari bhasha hamari pachhyaan chha, yaank shabd-sampada hamro asali dhan chha.",
+            "meaning": "Our mother tongue is our true identity; its verbal wealth is our authentic heritage."
+        }
+    ),
+    "sher_singh_bisht": KumaoniAuthor(
+        name_kumaoni="शेर सिंह बिष्ट 'अनपढ़'",
+        name_english="Sher Singh Bisht 'Anpadh'",
+        era="1933 – 2013",
+        significance="Celebrated Kumaoni satirical poet, folk philosopher, and people's voice whose stinging wit and humor championed social justice, rural dignity, and Kumaoni linguistic identity.",
+        famous_works=["Didi-Bainni", "Kumauni (Sahitya Akademi)", "Anpadh Kavitaavali", "Pahari Hasya Vyangya"],
+        sample_quote={
+            "kumaoni": "हँसी-ठठ्ठा म समाजक सच्चाई उघैण ही कविता को धर्म छ।",
+            "roman": "Hansi-thattha ma samaajak sachhaai ughain hee kavita ko dharm chha.",
+            "meaning": "To unveil the honest truth of society through laughter and wit is the sacred duty of poetry."
         }
     )
 }

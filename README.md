@@ -6,7 +6,7 @@
 [![ResearchGate](https://img.shields.io/badge/ResearchGate-Publications-00CCBB?style=for-the-badge&logo=researchgate&logoColor=white)](https://www.researchgate.net/profile/Akshat-Bisht-8)
 [![Amazon Author](https://img.shields.io/badge/Amazon-Author%20Page-FF9900?style=for-the-badge&logo=amazon&logoColor=white)](https://www.amazon.com/stores/Akshat-Singh-Bisht/author/B0D5TYDT28?ref=sr_ntt_srch_lnk_1&qid=1789906571&sr=8-1&shoppingPortalEnabled=true)
 [![GitHub](https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/infoakshatsinghbisht-eng)
-[![Lexicon Forms](https://img.shields.io/badge/Lexicon%20Forms-300%2C516%2B-success.svg?style=for-the-badge)](https://github.com/infoakshatsinghbisht-eng/kumaoni-language-library)
+[![Lexicon Forms](https://img.shields.io/badge/Lexicon%20Forms-423%2C279%2B-success.svg?style=for-the-badge)](https://github.com/infoakshatsinghbisht-eng/kumaoni-language-library)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
 
 A standard-library-style Python package for the **Kumaoni language** (कुमाऊँनी / Central Pahari). Designed to be as simple, fast, and comprehensive for Kumaoni as Python's built-in `math` library is for mathematics.
@@ -34,27 +34,43 @@ This library empowers developers to build **web applications, mobile apps, educa
    - Supports ordinals (1st `पैलो`, 2nd `दुसर`, 3rd `तेसर`...), customary fractions (`आधो`, `पाव`, `पौण`, `सवा`, `डेढ़`), and Devanagari numerals (`०१२३४५६७८९`).
 
 4. **100,000+ Words Morphological Paradigm Engine & Lemmatizer**
-   - Synthesizes and indexes **300,000+ unique authenticated Kumaoni word forms** across verbal paradigms (Present, Past, Future, Continuous, Imperatives, Causatives, Participles, Agentives), nominal declensions (Direct, Plural, Oblique, Case postpositions bound/spaced, Diminutives, Echo words), and adjectival agreements.
+   - Synthesizes and indexes **423,000+ unique authenticated Kumaoni word forms** across verbal paradigms (Present, Past, Future, Continuous, Imperatives, Causatives, Participles, Agentives), nominal declensions (Direct, Plural, Oblique, Case postpositions bound/spaced, Diminutives, Echo words), and adjectival agreements.
    - Sub-millisecond `kumaoni.lemmatize()` and `kumaoni.analyze()` for inflected surface forms.
    - Seamless dictionary lookups: querying inflected forms like `खान्छू`, `ग्यूँ`, `ईजा कणी`, or `घरबटि` resolves directly to their base lemmas and definitions.
 
-5. **Rich Lexicon & Dictionary (1,355+ Authenticated Base Lemmas)**
+5. **Rich Lexicon & Dictionary (2,004+ Authenticated Base Lemmas)**
    - Search across Kumaoni, English, and Hindi.
-   - Comprehensive vocabulary sourced from Grierson's *Linguistic Survey of India (Vol. IX, Part IV)*, Badri Datt Pande's *Kumaun ka Itihas (1937)*, Edwin T. Atkinson's *Himalayan Gazetteer*, Pt. Ganga Datt Upreti's *Hill Dialects of the Kumaun Division (1900)* & *Proverbs & Folklore of Kumaun (1894)*, Dr. Trilochan Pandey's *Kumaoni Bhasha Aur Sahitya (1977)* & *Kumaoni Lok-Sahitya ki Prushthbhoomi*, Dr. Gunanand Juyal's *Madhya Pahadi Bhasha (1967)*, and Hem Pant's *Ghughuti Basuti (2022)*.
-   - Categorized by historical governance & land tenure (`बूढ़ा`, `स्याणा`, `कामीन`, `थोकदार`, `थातवान`, `खायकर`, `सिरतान`, `गूठ`, `रौत`, `सिरती`, `बैकर`, `कटक`), shamanic & sacred rituals (`जागरिया`, `डांगरिया`, `थात`, `डौँर`, `हुड़का`, `आंछरी`, `मसाण`), alpine pastoralism & high valleys (`छानि`, `खर्क`, `बुग्याल`, `शौका`, `रंग-भंग`, `झूलाघाट`, `लाप्चा`, `हुणिया`, `पिरुल`, `लिसो`), seasonal dynamics & climate (`ह्यूंद`, `रूड़ि`, `चौमास`, `बशगाल`, `शरद`, `ब्वार`, `तुसार`, `कुइड़ो`), traditional cuisine, handicrafts & textiles (`थुलमा`, `चुटका`, `पंखी`, `दन`), and traditional measurements.
+   - Sourced from Grierson's *Linguistic Survey of India (Vol. IX, Part IV)*, Pt. Ganga Datt Upreti's *Proverbs & Folklore of Kumaun (1894)*, Badri Datt Pande's *Kumaun ka Itihas (1937)*, Dr. Trilochan Pandey's *Kumaoni Bhasha Aur Sahitya (1977 Appendix ग)*, Rev. E. S. Oakley & Tara Dutt Gairola's *Himalayan Folklore (1935)*, Hem Pant's *Ghughuti Basuti (2022)*, and Uttarakhand Open University's *Kumaoni Bhasha Sahitya (AECC-K-101)* textbook.
+   - Categorized by mountain hydrology & terrain (`उकालो`, `ओड्यार`, `करांइ`, `सिमार`, `बगड़`, `गधेरा`, `रोड`, `खाल`, `काँठ`), hill architecture & implements (`चाख`, `जांतर`, `उखल`, `मुसळ`, `पाथर`, `दथुड़ो`, `गागर`, `फुंगइ`, `छयो`, `लुकुड़`, `चुकती`), agriculture & flora (`पुंगरण`, `बाखड़`, `जुनाल`, `ध्वाघ`, `काकुनि`, `बकौल`, `कणिक`, `फिण`, `मौहट`, `चूक`, `किलमोड़ा`, `हिसोलू`, `अखोइ`, `आडू`, `तिमुल`, `दाड्मि`, `कुसम्यारु`, `गलगल`, `जमीर`, `मेहल`, `कौल कप्फू`, `बाँझ`, `देवदार`, `उतीस`, `चीड़`, `सुरई`, `खर्सू`, `पांगुर`, `भट्ट`, `गहत`, `राजमा`, `झंगोरा`, `मडुवा`, `भांग`, `जख्या`, `गन्द्रायणी`, `जम्बू`), sensation, anatomy & states (`खाप`, `रीस`, `कलिजो`, `खाज`, `कन्या`, `चिले`, `कीक`, `खुजे`, `बादुइ`, `पलो`, `घाम`), historical governance & land tenure (`बूढ़ा`, `स्याणा`, `कामीन`, `थोकदार`, `थातवान`, `खायकर`, `सिरतान`, `गूठ`, `रौत`), shamanic & sacred rituals (`जागरिया`, `डांगरिया`, `हुड़किया`, `हुड़का`, `बगंबर`, `थात`, `डौँर`, `आंछरी`, `मसाण`), and alpine pastoralism (`छानि`, `खर्क`, `बुग्याल`, `शौका`, `रंग-भंग`, `लाप्चा`, `हुणिया`).
+   - Sourced and enriched with core poetic terms from the *Kumaoni Digital Heritage Corpus* and complete song verses (`मैता`, `हियो`, `नराई`, `जुन्याली`, `दगड़िया`, `बाना`, `जोबन`, `फाग`, `चीर`, `दमुवां`, `अबीर`, `चुनर`, `छैला`, `सिलिंग`, `लिबोंग`, `पाती`, `झुरण`, `पीर`, `सुरति`, `कजला`, `मुखड़ी`, `बैरी`, `बण`, `छ्वोरी`, `पधान`, `झुमुका`, `नथुली`, `पौंछी`, `हंसुली`, `घस्यारी`, `रोपाई`, `कौतुक`, `झोड़ा`, `चाँचरी`, `छपेली`, `न्योली`, `हुड़को`, `बाँसुरी`, `मुरुलि`, `ककड़ी`, `लौंग`, `पिछौड़ा`, `बुराँश`, `फ्यूँली`).
    - Phonetic Latin transliteration and Devanagari script normalization.
 
-6. **Cultural Treasury (अखाण, आणा, लोकगीत, महागाथा & साहित्य)**
-   - **45+ Authentic Proverbs (*Akhaan*)**: Sourced from Pt. Ganga Datt Upreti's foundational compilation, Badri Datt Pande, Dr. Trilochan Pandey, and living hill tradition with literal, figurative, and parallel interpretations.
-   - **75+ Authentic Conversational & Folk Phrases**: Traditional greetings, blessings (`जीरये जागि रये`), lullabies, travel advice, and everyday idioms.
-   - **20+ Traditional Riddles (*Aan / Aana*)**: Engaging folk puzzles with hints and cultural context.
-   - **6 Monumental Folk Epics & Ballads**: *Malushahi-Rajula*, *Ajuva Bafaul ki Bhad*, *Golu Devta Jagar*, *Jiya Rani ki Gatha* (The Warrior Queen of Katyur), *Veer Balak Haru Singh Heet*, and *Amar Gopichand Yogi*.
-   - **6 Canonical Folk Poems & Songs**: *Bedu Pako Baro Masa*, *Malushahi Geet*, *Nyoli Lokgeet*, *Kalyug Varnan*, *Bajyaani Ka Dhur*, and *Ghughuti Basuti* (Traditional Lullaby & Nursery Rhymes).
-   - **15+ Canonical Authors & Scholars**: Profiles and canonical works for Badri Datt Pande (*Kumaun ka Itihas*), Gumani Pant, Gaurda, Krishna Pandey (*Kalyug Varnan*), Pt. Ganga Datt Upreti (*Proverbs & Folklore*, *Hill Dialects*), Dr. Trilochan Pandey (*Kumaoni Bhasha aur Uska Sahitya*), Dr. Gunanand Juyal (*Madhya Pahadi Bhasha*), Thakur Dewan Singh Bisht (*Deewani Vinod*), Chintamani Paliwal (*Kumaun ke Samrat*), Dr. Pramila Joshi (*Bajyaani Ka Dhur*), Girish Tiwari 'Girda', Heera Singh Rana, Kabootari Devi, Mohan Upreti, and Dr. Charu Chandra Pande.
-   - **Festivals & Almanac**: Traditional festivals (*Harela*, *Phool Dei*, *Ghughutiya*, *Olgia*, *Nanda Devi*, *Saatu-Aathu*, *Bhitauli*, *Khataduva*, *Bagwal*) and Kumaoni solar calendar months and seasons.
+6. **Folklore, Folk Songs & Classical Holi Corpus (20 Songs, 20 Holi Songs & 7 Digital Archives)**
+   - **20 Traditional & Recorded Folk Songs (`KSN-0001` to `KSN-0020`)**: Complete multi-stanza authentic lyrics, Devanagari verses, English translations, cultural context, and themes (*Bedu Pako Baro Masa*, *Ghughuti Na Basa*, *Kafal Pako Chait*, *Myar Shobhani Hosyaara*, *Teri Khuti Meri Salaam*, *Maathu Maathu Hitaili Meri Baana*, *Yo Baato Ka Jaanya*, *Jhan Diya Bojyoon Chhaana Bilori*, Gopal Babu Goswami classics: *Kaile Baaji Muruli*, *Haay Teri Rumaala*, *Chhooti Ge Nainitaal*, *O Bhina Kasak*, etc.).
+   - **20 Classical Kumaoni Holi Songs (`KHL-0001` to `KHL-0020`)**: Preserved across *Baithaki Holi*, *Khadi Holi*, and *Mahila Holi* mapped to classical Hindustani raags (*Khamaj*, *Kafi*, *Dhrupad/Dhamar*, *Desh/Sorath*, *Bhairavi*, *Pilu*, *Bihag*, *Yaman*, *Jhinjhoti*, *Kalyan*).
+   - **7 Active Digital Heritage Archives (`SRC-001` to `SRC-007`)**: Cataloguing primary repositories including *Kumauni Archives*, *Kumaoni Holi Archive*, *Kumauni.in*, *Uttarakhand Library Hub*, *Open Library*, *Google Books*, and *Creative Uttarakhand*.
 
-7. **Interactive Developer Playground & CLI**
-   - Built-in command line interface (`kumaoni translate`, `kumaoni lookup`, `kumaoni number`).
+7. **Local Deities of Kumaon (40 Supreme Gods & Goddesses / लोक देवी-देवता)**
+   - Dedicated programmatic registry `kumaoni.deities` with complete oral history, shrines, iconography, and invocation jagars across 5 categories:
+     - **Nyaya Devta (Gods of Justice)**: *Golu Devta* (Chitai, Ghorakhal, Chamarkhan), *Kotgari Devi* (Pankhu, Thal).
+     - **Kuldevi / Shakti (Mother Goddesses)**: *Nanda Devi & Sunanda Devi* (Almora, Nanda Kot), *Maa Barahi Devi* (Devidhura), *Maa Purnagiri Devi* (Tanakpur), *Kasar Devi* (Almora), *Jhula Devi* (Ranikhet), *Naina Devi* (Nainital), *Kot Bhramari* (Baijnath / Garur), *Dunagiri Devi* (Dwarahat), *Syahi Devi* (Shitlakhet).
+     - **Gram Devta & Kshetrapal (Territorial & Village Guardians)**: *Bhumia Devta* (Universal village hearth guardian), *Bholanath* (Almora), *Kailpal Devta*, *Saim Devta* & *Jhakar Saim*, *Chipla Kedar* (Dharchula alpine tarn), *Gabla Devta* (Johar & Darma passes), *Chhurmal Devta*, *Khandanath*, *Masan Devta*, *Ranbhoot*, *Bhairav Devta*.
+     - **Jagar Deities & Heroic Spirits**: *Ganganath* (Katarmal), *Kalbisht / Kaluwa* (Binsar), *Airy Devta*, *Chaumu Devta*, *Lakhia Bhoot* (Sor Hillyatra), *Jiya Rani* (Queen warrior of Ranibagh), *Haru Devta*, *Nagaraja & Panchnag* (Berinag, Sem Mukhem), *Ghatku Devta*, *Narsingh Devta*, *Ainchari* (Fairy nymphs), *Balchan & Dhannar*, *Malushahi & Rajula*.
+
+8. **Traditional Festivals & Historic Melas (40 Major Celebrations)**
+   - Full calendar details, rituals, regional significance, and search via `kumaoni.festivals.search(q)`:
+     - *Harela*, *Phool Dei*, *Ghughutiya / Uttarayani Mela*, *Olgia / Ghee Sankranti*, *Nanda Devi Mela*, *Khatarwa*, *Saatu-Aathu (Gaura-Mahesh)*, *Bagwal of Devidhura*, *Syalde-Bikhoti (Dwarahat)*, *Jageshwar Shravani Mela*, *Purnagiri Mela*, *Kainchi Dham Mela (15 June)*, *Kumaoni Baithaki & Khadi Holi*, *Hillyatra (Pithoragarh)*, *Chaitol*, *Somnath Mela (Masi)*, *Chhipla Jaat*, *Bagnath Shivratri Mela*, *Kailpal Mela*, *Nanda Raj Jaat*, *Kandali Festival (Chaudas 12-yr bloom)*, *Jauljibi Mela (Indo-Tibetan-Nepali confluence)*, *Thal Mela (Baisakhi)*, *Gananath Mela (Kartik Purnima fertility vigils)*, *Chaiti Mela (Kashipur)*, *Mostamanu Mela (Pithoragarh rain god)*, *Bhitauli (Chaitra sisters gift)*, *Janopunyu (Raksha Bandhan)*, *Vat Savitri*, *Basant Panchami*, *Kot Bhramari Mela*, *Chitai Golu Mela*, *Ganga Dussehra*, *Kumaoni Diwali Bhelo*, *Dronagiri Mela*, *Devidhura Ashtami*, *Ghantakarna Mela*, *Malushahi Mela*, *Berinag Nagpanchami*, *Rung Kirji & Gabla Puja*.
+
+9. **Cultural Treasury & Master Bibliography (अखाण, आणा, लोकगीत, महागाथा & ग्रन्थ-सूची)**
+   - **85+ Authentic Proverbs (*Akhaan*)**: From Pt. Ganga Datt Upreti (1894), UOU AECC-K-101 (2020), and living oral lore with literal, figurative, Hindi, and English equivalents.
+   - **157+ Authentic Idioms & Folk Phrases (*Muhavare & Batkoli*)**: From oral conversations and UOU syllabus Unit 5.
+   - **43+ Traditional Riddles (*Aan / Aana*)**: Folk puzzles with hints, cultural context, and solutions.
+   - **114+ Master Catalogued Books & Bibliography**: Programmatic query interface `kumaoni.bibliography`.
+   - **20+ Canonical Authors & Scholars**: Biographies and historical profiles.
+   - **8 Monumental Folk Epics & Ballads**: *Malushahi-Rajula*, *Ajuva Bafaul*, *Golu Devta*, *Jiya Rani*, *Veer Balak Haru Singh Heet*, *Amar Gopichand Yogi*, *Kalu Bhandari*, and *Ganganath*.
+
+10. **Interactive Developer Playground & CLI**
+   - Built-in command line interface (`kumaoni translate`, `kumaoni lookup`, `kumaoni number`, `kumaoni bibliography`).
    - Modern glassmorphism web playground running locally with zero dependencies.
 
 ---
@@ -263,6 +279,25 @@ print("Aana:", riddle["riddle"], "-> Answer:", riddle["answer_kumaoni"])
 # Traditional Kumaoni festival information
 harela = kumaoni.festivals.get("harela")
 print(harela.description)
+
+# Explore Traditional Folk Songs & Holi Music
+bedu_song = kumaoni.folklore.song("KSN-0001")
+print(bedu_song.title, "->", bedu_song.english_translation)
+
+# Classical Kumaoni Baithaki & Khadi Holi songs
+khamaj_holi = kumaoni.folklore.holi_songs(raag="Khamaj")
+for h in khamaj_holi:
+    print(f"[{h.id}] {h.title} ({h.form}, Raag {h.raag})")
+
+# Active Digital Heritage Archives
+archives = kumaoni.folklore.sources()
+print(f"Preserved archives: {len(archives)} repositories")
+
+# Local Kumaoni Deities & Shrines
+golu = kumaoni.deities.get("golu_devta")
+print(f"{golu.name_kumaoni}: {golu.title}")
+print(f"Primary Shrines: {', '.join(golu.primary_shrines)}")
+print(f"Jagar Invocation: {golu.invocation_or_jagar}")
 ```
 
 ---
@@ -318,13 +353,21 @@ All key functions are directly accessible via `import kumaoni`:
 | | `kumaoni.normalize(text)` | Normalizes Devanagari diacritics and nuktas. |
 | | `kumaoni.detect_script(text)` | Detects `'devanagari'`, `'latin'`, or `'mixed'`. |
 | | `kumaoni.tokenize(text)` / `syllables(text)`| Tokenizes words and splits phonetic syllables. |
-| **Culture & Literature** | `kumaoni.proverbs.all()` / `.random()` | 45+ Proverbs (*Akhaan*) with literal & cultural meanings. |
-| | `kumaoni.riddles.all()` / `.random()` | 20+ Traditional Riddles (*Aana*) with hints & answers. |
-| | `kumaoni.phrases.all()` / `.random()` | 75+ Conversational phrases, idioms & blessings. |
-| | `kumaoni.festivals.list()` / `.get(name)` | Festivals (*Harela*, *Phool Dei*, *Ghughutiya*, *Nanda Devi*). |
-| | `kumaoni.literature.epics()` / `.get_epic(id)`| 6 Folk Epics (*Malushahi-Rajula*, *Jiya Rani*, *Golu Devta*). |
+| **Culture & Literature** | `kumaoni.proverbs.all()` / `.random()` | 85+ Proverbs (*Akhaan*) with literal & cultural meanings. |
+| | `kumaoni.riddles.all()` / `.random()` | 43+ Traditional Riddles (*Aana*) with hints & answers. |
+| | `kumaoni.phrases.all()` / `.random()` | 157+ Conversational phrases, idioms (*Muhavare*) & blessings. |
+| | `kumaoni.bibliography.list(category=...)` | 114+ Master Catalogued Books (in Kumaoni, grammar, criticism). |
+| | `kumaoni.bibliography.stats()` / `.search(q)` | Summary statistics and keyword search across master corpus. |
+| | `kumaoni.folklore.songs()` / `.song(id)` | 20 Catalogued Folk & Recorded Songs with lyrics & English meanings. |
+| | `kumaoni.folklore.holi_songs()` / `.holi_song(id)` | 20 Classical Kumaoni Holi Songs (Baithaki, Khadi, Mahila) + Raags. |
+| | `kumaoni.folklore.sources()` / `.stats()` | 7 Digital Heritage Archives & corpus statistics. |
+| | `kumaoni.deities.list()` / `.get(name_or_id)` | 40 Supreme Local Deities (Golu Devta, Nanda Devi, Bholanath, Bhumia...). |
+| | `kumaoni.deities.search(q)` / `.stats()` | Search deities across 5 categories by shrine, title, legend. |
+| | `kumaoni.festivals.list()` / `.get(name)` | 40 Traditional Festivals & Melas (*Harela*, *Khatarwa*, *Bagwal*, *Hillyatra*...). |
+| | `kumaoni.festivals.search(q)` | Search festivals by district, lunar tithi, or keyword. |
+| | `kumaoni.literature.epics()` / `.get_epic(id)`| 8 Folk Epics (*Malushahi-Rajula*, *Jiya Rani*, *Kalu Bhandari*). |
 | | `kumaoni.literature.poems()` | Canonical Kumaoni poems & folk songs. |
-| | `kumaoni.literature.authors()` / `.get_author(id)` | Biographies of 15+ canonical scholars & poets. |
+| | `kumaoni.literature.authors()` / `.get_author(id)` | Biographies of 20+ canonical scholars & poets. |
 | | `kumaoni.get_months()` / `get_seasons()` | Kumaoni solar calendar months & 6 traditional seasons. |
 | | `kumaoni.get_current_season()` | Calculates active season for today's date. |
 
@@ -372,7 +415,7 @@ Open [http://localhost:8080](http://localhost:8080) in your browser.
 
 ```
 kumaoni/
-├── __init__.py           # Unified top-level namespace (kumaoni.translate, literature, etc.)
+├── __init__.py           # Unified top-level namespace (kumaoni.translate, folklore, literature, etc.)
 ├── constants.py          # Dialects, grammatical constants, solar calendar
 ├── phonetics.py          # Script transliteration, Devanagari normalizer
 ├── grammar/
@@ -384,7 +427,7 @@ kumaoni/
 │   └── converter.py      # Integer to words, ordinals, fractions, numerals
 ├── lexicon/
 │   ├── dictionary.py     # Fast search across Devanagari, English, and Hindi
-│   └── data/             # Curated JSON datasets (370+ words, phrases, Akhaan, Aana)
+│   └── data/             # Curated JSON datasets (1,681+ base lemmas, 300,516+ word forms)
 ├── translator/
 │   ├── engine.py         # Unified translation orchestrator
 │   ├── rule_based.py     # Rule-based linguistic transfer & dialogue patterns
@@ -393,7 +436,11 @@ kumaoni/
 ├── culture/
 │   ├── festivals.py      # Cultural documentation (Harela, Phooldei, etc.)
 │   ├── calendar.py       # Kumaoni solar months & seasons
-│   └── literature.py     # Folk Epics (Malushahi, Bafaul), Nyoli, Jhora, Authors
+│   ├── literature.py     # Folk Epics (Malushahi, Bafaul), Nyoli, Jhora, Authors
+│   ├── bibliography.py   # 114+ Catalogued Works (in Kumaoni, grammar, linguistics)
+│   ├── folklore.py       # 20 Folk Songs, 20 Holi Songs, 7 Digital Archives
+│   └── data/             # songs.json, holi_songs.json, digital_sources.json, books.json
+├── voice/                # Phonetic speech synthesis & audio generation
 ├── cli.py                # Command-line interface
 └── web/                  # Interactive developer playground
 ```

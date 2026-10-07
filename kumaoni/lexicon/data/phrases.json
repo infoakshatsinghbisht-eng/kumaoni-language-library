@@ -803,5 +803,306 @@
     "hindi": "हम अपनी भाषा को सहेजकर रखेंगे।",
     "english": "We will preserve and cherish our language.",
     "category": "culture"
+  },
+  {
+    "kumaoni": "ओली न्योली",
+    "roman": "Oli nyoli",
+    "english": "Extremely courteous, gentle, and respectful in demeanor.",
+    "hindi": "अत्यंत विनम्र और शिष्ट होना।",
+    "category": "idioms"
+  },
+  {
+    "kumaoni": "अकाशचाणि",
+    "roman": "Akaashchaani",
+    "english": "Gazing helplessly up at the sky; in a state of utter destitution and lack of recourse.",
+    "hindi": "आकाश ताकना / असहाय अवस्था में होना।",
+    "category": "idioms"
+  },
+  {
+    "kumaoni": "किरमोली पाँख जामण",
+    "roman": "Kirmoli paankh jaaman",
+    "english": "Ants growing wings; an omen that a conceited person's downfall is imminent.",
+    "hindi": "चींटी के पर निकलना / विनाश का संकेत होना।",
+    "category": "idioms"
+  },
+  {
+    "kumaoni": "खोरि मे खाइ खनण",
+    "roman": "Khori me khai khanan",
+    "english": "Digging a pit directly into one's own head; courting self-destruction with one's own hands.",
+    "hindi": "अपने सिर में गड्ढा खोदना / अपने हाथों अपनी हानि करना।",
+    "category": "idioms"
+  },
+  {
+    "kumaoni": "खोरि फूटण",
+    "roman": "Khori phootan",
+    "english": "Suffering a devastating fracture of the skull; sudden loss of good fortune or standing.",
+    "hindi": "सिर फूटना / अवनति या विपत्ति का आगमन।",
+    "category": "idioms"
+  },
+  {
+    "kumaoni": "गाइ बगौण",
+    "roman": "Gai bagaun",
+    "english": "Letting float down the mountain river; completely relinquishing or abandoning all attachment.",
+    "hindi": "नदी में बहा देना / मोह त्याग देना।",
+    "category": "idioms"
+  },
+  {
+    "kumaoni": "घ्यू की अध्याणि",
+    "roman": "Ghyu ki adhyaani",
+    "english": "Boiling pot full of pure clarified butter; living in grand luxury and feast.",
+    "hindi": "घी का अदहन चढ़ना / उत्तम और समृद्ध भोजन करना।",
+    "category": "idioms"
+  },
+  {
+    "kumaoni": "झट्योल जामण",
+    "roman": "Jhatyol jaaman",
+    "english": "Weeds and wild thickets overgrowing a deserted ancestral courtyard; utter desolation.",
+    "hindi": "उजड़ जाना / खंडहर बन जाना।",
+    "category": "idioms"
+  },
+  {
+    "kumaoni": "ढुंग में धरण",
+    "roman": "Dhung me dharan",
+    "english": "Leaving stranded upon a bare stone; abandoning someone without help or shelter.",
+    "hindi": "पत्थर पर छोड़ देना / बेसहारा कर देना।",
+    "category": "idioms"
+  },
+  {
+    "kumaoni": "तड़ि में तराण",
+    "roman": "Tadi me taraan",
+    "english": "Possessing robust physical stamina, endurance, and vigor in the limbs.",
+    "hindi": "शरीर में ताकत और ऊर्जा होना।",
+    "category": "idioms"
+  },
+  {
+    "kumaoni": "धार में को दिन",
+    "roman": "Dhaar me ko din",
+    "english": "The setting sun lingering on the mountain ridge; the twilight years of life.",
+    "hindi": "चोटी पर ढलता सूर्य / जीवन का अंतिम पड़ाव।",
+    "category": "idioms"
+  },
+  {
+    "kumaoni": "नटोरी मारण",
+    "roman": "Natori maaran",
+    "english": "Snapping knuckles or fingers in disdain; expressing sharp contempt or rejection.",
+    "hindi": "उंगलियों के पोरों से मारना / तिरस्कार प्रकट करना।",
+    "category": "idioms"
+  },
+  {
+    "kumaoni": "फसक मारण",
+    "roman": "Phasak maaran",
+    "english": "Boasting loudly; engaging in idle exaggerated brag and village gossip.",
+    "hindi": "डींग हांकना / लंबी-चौड़ी फेंकना।",
+    "category": "idioms"
+  },
+  {
+    "kumaoni": "बकौल फुलण",
+    "roman": "Bakaul phulan",
+    "english": "Lying uncultivated and barren; agricultural terraces falling into disuse.",
+    "hindi": "खेत का बंजर पड़ जाना।",
+    "category": "idioms"
+  },
+  {
+    "kumaoni": "मुख म्बाल हालण",
+    "roman": "Mukh mbaal haalan",
+    "english": "Throwing a net over someone's mouth; gagging or silencing someone forcibly.",
+    "hindi": "मुख पर जाल डालना / बोलने से रोकना।",
+    "category": "idioms"
+  },
+  {
+    "kumaoni": "हाइ खकोलण",
+    "roman": "Hai khakolan",
+    "english": "Washing one's ancestral bones; performing sacred ablutions in holy Himalayan confluences.",
+    "hindi": "हड्डी धोना / तीर्थ स्नान कर पाप मुक्त होना।",
+    "category": "idioms"
+  },
+  {
+    "kumaoni": "जीरये जागि रये!",
+    "roman": "Jeeraye jaagi raye!",
+    "english": "May you live long and remain vigilant and prosperous! (Traditional Kumaoni elder blessing).",
+    "hindi": "दीर्घायु हो और जागते रहो! (पारंपरिक आशीर्वाद)।",
+    "category": "blessings"
+  },
+  {
+    "kumaoni": "लागि रौ भाल दिन!",
+    "roman": "Laagi rau bhaal din!",
+    "english": "May auspicious and bright days shine upon you!",
+    "hindi": "तुम्हारे अच्छे दिन आएं!",
+    "category": "blessings"
+  },
+  {
+    "kumaoni": "हात मलन",
+    "roman": "haat malan",
+    "english": "to wring one's hands in bitter regret",
+    "hindi": "पछतावा करना / पश्चाताप में हाथ मलना",
+    "category": "idioms"
+  },
+  {
+    "kumaoni": "चुड़ा पैरन",
+    "roman": "chuda pairan",
+    "english": "to show cowardice / display unmanliness",
+    "hindi": "कायरता दिखाना / चूड़ियाँ पहनना",
+    "category": "idioms"
+  },
+  {
+    "kumaoni": "कान भरन",
+    "roman": "kaan bharan",
+    "english": "to poison someone's ears with malicious gossip",
+    "hindi": "चुगली करना / कान भरना",
+    "category": "idioms"
+  },
+  {
+    "kumaoni": "नाक राखन",
+    "roman": "naak raakhan",
+    "english": "to preserve prestige and family honour",
+    "hindi": "मान-मर्यादा या प्रतिष्ठा बचाना",
+    "category": "idioms"
+  },
+  {
+    "kumaoni": "ख्वारा में चडूंन",
+    "roman": "khwaara mein chadoon",
+    "english": "to pamper excessively / spoil by overindulgence",
+    "hindi": "सिर चढ़ाना / अत्यधिक लाड़-प्यार से बिगाड़ना",
+    "category": "idioms"
+  },
+  {
+    "kumaoni": "गांठा पाड़न",
+    "roman": "gaantha paadan",
+    "english": "to commit permanently to memory / knot in mind",
+    "hindi": "गाँठ बाँधना / हमेशा याद रखना",
+    "category": "idioms"
+  },
+  {
+    "kumaoni": "खाप में जान भरीन",
+    "roman": "khaap mein jaan bhareen",
+    "english": "to drool in greed / covet with watering mouth",
+    "hindi": "ललचाना / मुँह में पानी भर आना",
+    "category": "idioms"
+  },
+  {
+    "kumaoni": "टाङ कछरन",
+    "roman": "taang kachharan",
+    "english": "to concede defeat / throw in the towel",
+    "hindi": "हार मानना / पराजित होकर पीछे हटना",
+    "category": "idioms"
+  },
+  {
+    "kumaoni": "रीस को पुलो",
+    "roman": "rees ko pulo",
+    "english": "bundle of fury / extremely hot-tempered person",
+    "hindi": "अत्यधिक क्रोधी व्यक्ति",
+    "category": "idioms"
+  },
+  {
+    "kumaoni": "फसक उडूंन",
+    "roman": "phasak udoon",
+    "english": "to spread rumors / indulge in idle talk",
+    "hindi": "अफवाह उड़ाना / गप हांकना",
+    "category": "idioms"
+  },
+  {
+    "kumaoni": "खाड़ खंजन",
+    "roman": "khaad khanchan",
+    "english": "to inflict damage / sabotage someone's work",
+    "hindi": "क्षति पहुँचाना / काम में रोड़ा अटकाना",
+    "category": "idioms"
+  },
+  {
+    "kumaoni": "क्वीड़ करण",
+    "roman": "kweed karan",
+    "english": "women gathering together for intimate chat and gossip",
+    "hindi": "महिलाओं की आपसी अंतरंग गपशप",
+    "category": "idioms"
+  },
+  {
+    "kumaoni": "खुटा पकड़न",
+    "roman": "khuta pakadan",
+    "english": "to plead humbly / flatter someone in desperation",
+    "hindi": "खुशामद करना / पाँव पकड़ना",
+    "category": "idioms"
+  },
+  {
+    "kumaoni": "आंखा धेकून",
+    "roman": "aankha dhekoon",
+    "english": "to glare menacingly / intimidate with fierce eyes",
+    "hindi": "धमकाना / आँखें तरेरना",
+    "category": "idioms"
+  },
+  {
+    "kumaoni": "गाड़ बगूण",
+    "roman": "gaad bagoon",
+    "english": "to wash away in a river / squander everything completely",
+    "hindi": "नदी में बहा देना / सब कुछ बर्बाद करना",
+    "category": "idioms"
+  },
+  {
+    "kumaoni": "गोरख्याल हुण",
+    "roman": "gorkhyaal hoon",
+    "english": "to act tyrannical, ruthless, or oppressively cruel",
+    "hindi": "गोरखों की भांति अत्याचारी या निर्दयी होना",
+    "category": "idioms"
+  },
+  {
+    "kumaoni": "बिख झाणण",
+    "roman": "bikh jhaanan",
+    "english": "to vent bitter venomous fury upon someone",
+    "hindi": "विष झाड़ना / तीव्र क्रोध निकालना",
+    "category": "idioms"
+  },
+  {
+    "kumaoni": "पातल मुख पोछण",
+    "roman": "paatal mukh pochhan",
+    "english": "to wipe mouth with a leaf and pretend total innocence after wrongdoing",
+    "hindi": "अपराध करके अनजान बन जाना",
+    "category": "idioms"
+  },
+  {
+    "kumaoni": "जागर लगूण",
+    "roman": "jaagar lagoon",
+    "english": "to create a huge uproar / invoke spirits / stir great commotion",
+    "hindi": "बड़ी हलचल मचाना / आह्वान करना",
+    "category": "idioms"
+  },
+  {
+    "kumaoni": "अगासै चड़न",
+    "roman": "agaasai chadan",
+    "english": "to become inflated and conceited from false praise",
+    "hindi": "झूठी प्रशंसा से आसमान पर चढ़ना",
+    "category": "idioms"
+  },
+  {
+    "kumaoni": "गैली बात",
+    "roman": "gaili baat",
+    "english": "a confidential inside secret / hidden truth",
+    "hindi": "भेद की बात / गुप्त रहस्य",
+    "category": "idioms"
+  },
+  {
+    "kumaoni": "गांठ कोतरन",
+    "roman": "gaanth kotaran",
+    "english": "to pick pockets / secretly steal hidden savings",
+    "hindi": "जेब काटना / गुप्त धन चुराना",
+    "category": "idioms"
+  },
+  {
+    "kumaoni": "पाताळै की खबर ल्यूंन",
+    "roman": "paataalai ki khabar lyoon",
+    "english": "to bring news from far and wide / exceptionally well-informed",
+    "hindi": "दूर-दराज से समाचार लाना",
+    "category": "idioms"
+  },
+  {
+    "kumaoni": "पाणि का भौ",
+    "roman": "paani ka bhau",
+    "english": "dirt cheap / almost free of charge",
+    "hindi": "पानी के मोल / बेहद सस्ता",
+    "category": "idioms"
+  },
+  {
+    "kumaoni": "भदौ मैना को राँगो",
+    "roman": "bhadau maina ko raango",
+    "english": "extremely plump and overfed (like a buffalo in monsoon)",
+    "hindi": "अत्यधिक मोटा-ताजा व्यक्ति",
+    "category": "idioms"
   }
 ]

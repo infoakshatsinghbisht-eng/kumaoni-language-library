@@ -298,5 +298,203 @@
     "english_translation": "Walks all day, rests in a corner when tired at night (Shoe).",
     "hint": "",
     "cultural_context": "Traditional Kumaoni folk riddle (Aan/Aana)"
+  },
+  {
+    "riddle": "ठेकि में ठेकि, बीचे में बैठो पिरमू नेगी।",
+    "roman": "Theki me theki, beeche me baitho Pirmu Negi.",
+    "english_translation": "Vessel stacked upon vessel in segmented tiers, and sitting comfortably in the middle is master Pirmu Negi. What is it?",
+    "answer_kumaoni": "रिखु",
+    "answer_english": "Sugarcane (Rikhu)",
+    "answer_hindi": "गन्ना / ईख",
+    "hint": "Grows in tall segmented stalks with sweet pulp inside",
+    "cultural_context": "Traditional Kumaoni agricultural riddle recorded in Dr. Trilochan Pandey (1977)",
+    "id": 26
+  },
+  {
+    "riddle": "नान छना हरू छू, जवानी में लाल, बुड़ छना कालो भय, कर पंछी विचार।",
+    "roman": "Naan chhana haroo chhoon, javaani me laal, bud chhana kaalo bhay, kar panchhi vichaar.",
+    "english_translation": "Green in my tender infancy, radiant crimson in my sweet youth, and turning jet black in ripe old age — ponder this, winged bird! What am I?",
+    "answer_kumaoni": "काफल",
+    "answer_english": "Himalayan Bayberry (Kaaphal)",
+    "answer_hindi": "काफल (पहाड़ी फल)",
+    "hint": "Famous wild summer berry celebrated in Kumaoni folk poetry (Bedu Pako)",
+    "cultural_context": "Traditional Kumaoni nature riddle recorded in Dr. Trilochan Pandey (1977)",
+    "id": 27
+  },
+  {
+    "riddle": "खानू खानू सब कूनी, बीं हुणि धरौ क्वे नि कन।",
+    "roman": "Khaanoo khaanoo sab kooni, been huni dharau kwe ni kan.",
+    "english_translation": "Everyone clamors to taste and eat it every day, yet nobody ever tells the farmer to save it as seed for sowing. What is it?",
+    "answer_kumaoni": "लूण",
+    "answer_english": "Salt (Loon)",
+    "answer_hindi": "नमक",
+    "hint": "Essential cooking mineral that dissolves and cannot be planted",
+    "cultural_context": "Traditional Kumaoni domestic riddle recorded in Dr. Trilochan Pandey (1977)",
+    "id": 28
+  },
+  {
+    "riddle": "बारह बैणियाक एक्कै भाई।",
+    "roman": "Baarah bainiyaak ekkai bhaai.",
+    "english_translation": "Twelve sisters gathered in a tight circle sharing a single brother. What is it?",
+    "answer_kumaoni": "नारिङ",
+    "answer_english": "Himalayan Orange / Mandarin (Naaring)",
+    "answer_hindi": "नारंगी / संतरा",
+    "hint": "Juicy hill fruit composed of multiple segments joined to a central stalk",
+    "cultural_context": "Traditional Kumaoni orchard riddle recorded in Dr. Trilochan Pandey (1977)",
+    "id": 29
+  },
+  {
+    "riddle": "नान नान मिरगा दास, लुकूड़ पेरों सौ पचास।",
+    "roman": "Naan naan Mirga Daas, lukud peron sau pachaas.",
+    "english_translation": "Little master Mirga Daas, clad in fifty or a hundred layered garments. What is it?",
+    "answer_kumaoni": "प्याज",
+    "answer_english": "Onion (Pyaaj)",
+    "answer_hindi": "प्याज",
+    "hint": "Garden vegetable consisting of countless concentric papery layers",
+    "cultural_context": "Traditional Kumaoni household riddle recorded in Dr. Trilochan Pandey (1977)",
+    "id": 30
+  },
+  {
+    "riddle": "कालो बटु भितर पिङलो सुन, जो म्यार आण नि बताल ऊ हिरु डुन।",
+    "roman": "Kaalo batu bhitar pingalo sun, jo myaar aan ni bataal oo Hiru doon.",
+    "english_translation": "Golden yellow treasure concealed inside a black pouch; whoever fails to guess my riddle is Hiru the limping wanderer! What is it?",
+    "answer_kumaoni": "भट्ट",
+    "answer_english": "Himalayan Black Soybean (Bhatt)",
+    "answer_hindi": "भट्ट (पहाड़ी काली सोयाबीन)",
+    "hint": "Signature protein-rich Kumaoni pulse used in Dubke and Chudkani",
+    "cultural_context": "Traditional Kumaoni agricultural riddle recorded in Dr. Trilochan Pandey (1977)",
+    "id": 31
+  },
+  {
+    "riddle": "तू हिट मैं औनू।",
+    "roman": "Too hit main aunoo.",
+    "english_translation": "You march ahead on the trail, and I follow obediently right through your path. What are we?",
+    "answer_kumaoni": "स्यूँड़ धाग",
+    "answer_english": "Needle and Thread (Syoon-Dhaag)",
+    "answer_hindi": "सुई और धागा",
+    "hint": "Essential tailoring duo used across mountain households",
+    "cultural_context": "Traditional Kumaoni domestic riddle recorded in Dr. Trilochan Pandey (1977)",
+    "id": 32
+  },
+  {
+    "riddle": "बणहुँ जाणतक झर-झर रौ, घर हूँ ऊण बखत चुपड़ रौ।",
+    "roman": "Banhun jaantak jhar-jhar rau, ghar hoon oon bakhat chupad rau.",
+    "english_translation": "On the way out to the oak spring it is dry, empty, and light; on the trek back home it is dripping, heavy, and cool. What is it?",
+    "answer_kumaoni": "गागर",
+    "answer_english": "Water Vessel / Copper Pitcher (Gaagar)",
+    "answer_hindi": "गागर / पानी का घड़ा",
+    "hint": "Carried by hill women to fetch fresh natural spring water from the naula",
+    "cultural_context": "Traditional Kumaoni spring water riddle recorded in Dr. Trilochan Pandey (1977)",
+    "id": 33
+  },
+  {
+    "riddle": "एक चड़ि बुट्टेदार, जेका प्वाथ नौ हजार।",
+    "roman": "Ek chadi buttedaar, jeka pwaath nau hajaar.",
+    "english_translation": "An intricately speckled creature that bears nine thousand offspring beneath the waves. What is it?",
+    "answer_kumaoni": "माछ",
+    "answer_english": "Fish (Maachh)",
+    "answer_hindi": "मछली",
+    "hint": "Swims in crystal Himalayan mountain streams and lays thousands of eggs",
+    "cultural_context": "Traditional Kumaoni aquatic riddle recorded in Dr. Trilochan Pandey (1977)",
+    "id": 34
+  },
+  {
+    "riddle": "एक मैस सवे-ब्याल सरग लखै रौ।",
+    "roman": "Ek mais save-byaal sarag lakhai rau.",
+    "english_translation": "A silent fellow who sits patiently in the courtyard, staring steadfastly upward toward heaven both morning and night. What is it?",
+    "answer_kumaoni": "उखल",
+    "answer_english": "Stone Mortar (Ukhal)",
+    "answer_hindi": "ओखल / उखल",
+    "hint": "Hollowed granite stone set in the ground for pounding grain",
+    "cultural_context": "Traditional Kumaoni courtyard riddle recorded in Dr. Trilochan Pandey (1977)",
+    "id": 35
+  },
+  {
+    "riddle": "आहार वाह, पीठ में पुछड़ धर यो तमासा काहाँ?",
+    "roman": "Aahaar waah, peeth me puchhad dhar yo tamaasa kaahaan?",
+    "english_translation": "O marvel of marvels! A creature with its tail perched upon its back — where did you ever see such an odd spectacle?",
+    "answer_kumaoni": "तराजू",
+    "answer_english": "Scale / Balance Beam (Taraaju)",
+    "answer_hindi": "तराजू",
+    "hint": "Used by hill merchants with its suspension cord resting above the beam",
+    "cultural_context": "Traditional Kumaoni marketplace riddle recorded in Dr. Trilochan Pandey (1977)",
+    "id": 36
+  },
+  {
+    "riddle": "काली नथुली, सुकीली बिन्दी।",
+    "roman": "Kaali nathuli, sukeeli bindi.",
+    "english_translation": "A jet-black nose-ring adorned with a pristine white dot. What is it?",
+    "answer_kumaoni": "तवा रोटी",
+    "answer_english": "Baking Griddle & Bread (Tawa aur Roti)",
+    "answer_hindi": "तवा और रोटी",
+    "hint": "The black iron pan with white flour dough cooking over the flame",
+    "cultural_context": "Traditional Kumaoni hearth riddle recorded in Dr. Trilochan Pandey (1977)",
+    "id": 37
+  },
+  {
+    "id": 38,
+    "riddle": "थाई में डबल गिण कन सक, चपकन सिकड़ टोड कन सक।",
+    "roman": "Thaai mein dabal gin kan sak, chapkan sikad tod kan sak.",
+    "english_translation": "Silver coins piled high in a platter cannot be counted; a slender supple rod cannot be broken.",
+    "answer_kumaoni": "आकाशक तारा और साँप",
+    "answer_english": "Stars in the night sky and a mountain snake",
+    "answer_hindi": "आकाश के तारे व सांप",
+    "hint": "Gaze upward upon starry nights, and look along terrace stone boundaries.",
+    "cultural_context": "Traditional Aan recited beside the winter hearth (bhiner) across Kumaon."
+  },
+  {
+    "id": 39,
+    "riddle": "सफेद घ्वड़ पाणि पीहूँ जाणौ, लाल घ्वड़ पाणि पी बेर ऊणौ।",
+    "roman": "Safed ghwad paani peehoon jaanau, laal ghwad paani pee ber oonau.",
+    "english_translation": "A white horse gallops down to drink water; a red horse returns having drunk.",
+    "answer_kumaoni": "पूरी तलिण",
+    "answer_english": "Frying wheat dough pooris in a cauldron of boiling ghee/oil",
+    "answer_hindi": "कड़ाही में पूरी तलना",
+    "hint": "Festive culinary preparation during mountain marriages and pujas.",
+    "cultural_context": "Pahari riddle contrasting white rolled dough immersed in hot oil and emerging golden-red."
+  },
+  {
+    "id": 40,
+    "riddle": "ठेकक मैं ठेकक बीचम भै गो पिरमू नेगी।",
+    "roman": "Thekak main thekak beecham bhai go Pirmu Negi.",
+    "english_translation": "Container balanced atop container, and Pirmu Negi sits comfortably in between.",
+    "answer_kumaoni": "रिखु / गन्ना",
+    "answer_english": "Sugarcane stalk with its segmented wooden nodes",
+    "answer_hindi": "गन्ना (ईख की पोरियाँ)",
+    "hint": "Tall sweet segmented crop harvested in Himalayan foothills.",
+    "cultural_context": "Agricultural harvest riddle celebrating winter sugarcane crushing in valley flats."
+  },
+  {
+    "id": 41,
+    "riddle": "आलङ गड़ा दोष, पालङ गड़ा ओस, तेरर ईजा ऊंन तक मैं नहांकथन होस।",
+    "roman": "Aalang gada dosh, paalang gada os, terar eeja oon tak main nahaankathan hos.",
+    "english_translation": "Frost upon this mountain ridge, dew upon the far ridge; until your mother arrives, I have no vitality.",
+    "answer_kumaoni": "घाम / धूप",
+    "answer_english": "Winter sunshine dispelling the morning frost",
+    "answer_hindi": "पहाड़ की गुनगुनी धूप",
+    "hint": "The cherished golden warmth awaited each winter morning on hill slopes.",
+    "cultural_context": "High-altitude winter riddle celebrating the sun melting valley rime frost (palo)."
+  },
+  {
+    "id": 42,
+    "riddle": "खुटा काटि कभिङ धरर जांछ, अफ रुख जांछ।",
+    "roman": "Khuta kaati kabhing dharar jaanchh, af rukh jaanchh.",
+    "english_translation": "Its feet are separated and set against the stone wall; yet it halts right there.",
+    "answer_kumaoni": "पुल्या / जूता",
+    "answer_english": "Traditional mountain shoes / footwear",
+    "answer_hindi": "जूता / खड़ाऊँ",
+    "hint": "Left outside the threshold (dehali) of a Pahari home.",
+    "cultural_context": "Traditional domestic etiquette of never entering the home or kitchen wearing outdoor shoes."
+  },
+  {
+    "id": 43,
+    "riddle": "काठकक कठघोड़ी लुवाकक लगाम, बै में बैठ्यो कलुवा पधान।",
+    "roman": "Kaathakak kathaghodi luwaakak lagaam, bai mein baithyo Kaluwa padhaan.",
+    "english_translation": "A wooden mare with iron reins; upon her back sits Kaluwa the village headman.",
+    "answer_kumaoni": "हुक्का-चिलम",
+    "answer_english": "Traditional wooden hookah with earthen chilam",
+    "answer_hindi": "हुक्का-चिलम",
+    "hint": "Enjoyed during village panchayats on the paved courtyard (khalo).",
+    "cultural_context": "Symbol of village communion where elders gathered to discuss agricultural seasons."
   }
 ]

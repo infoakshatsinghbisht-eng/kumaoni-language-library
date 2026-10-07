@@ -9,7 +9,7 @@ if os.path.exists("README.md"):
 
 setup(
     name="kumaoni",
-    version="1.0.0",
+    version="1.1.0",
     author="Akshat Singh Bisht",
     author_email="infoakshatsinghbisht@gmail.com",
     maintainer="Akshat Singh Bisht",
@@ -30,6 +30,7 @@ setup(
     include_package_data=True,
     package_data={
         "kumaoni.lexicon": ["data/*.json"],
+        "kumaoni.culture": ["data/*.json"],
     },
     classifiers=[
         "Programming Language :: Python :: 3",

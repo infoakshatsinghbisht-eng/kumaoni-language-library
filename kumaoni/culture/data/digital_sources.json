@@ -1,0 +1,51 @@
+[
+  {
+    "id": "SRC-001",
+    "source": "Kumauni Archives",
+    "what_it_provides": "Books, articles, maps, audio recordings, manuscripts; primary preservation repository for Kumaoni heritage",
+    "url": "https://kumauniarchives.com/",
+    "preservation_status": "Active primary digital archive"
+  },
+  {
+    "id": "SRC-002",
+    "source": "Kumaoni Holi Archive",
+    "what_it_provides": "Audio, video and image documentation of Kumaoni Baithaki, Khadi and Mahila Holi traditions",
+    "url": "https://www.kumaoniholiarchive.org/",
+    "preservation_status": "Cultural audio-visual archive"
+  },
+  {
+    "id": "SRC-003",
+    "source": "Kumauni.in E-Books",
+    "what_it_provides": "Digitized Kumaoni books, poetry collections, classical literature and linguistic materials",
+    "url": "https://www.kumauni.in/p/e-books-relating-to-kumauni-language.html",
+    "preservation_status": "Digital literature repository"
+  },
+  {
+    "id": "SRC-004",
+    "source": "Uttarakhand Library Hub",
+    "what_it_provides": "Out-of-copyright digitized books on Kumaon folklore, history, music, and Himalayan customs",
+    "url": "https://uttarakhandhub.com/library",
+    "preservation_status": "Public domain digital library"
+  },
+  {
+    "id": "SRC-005",
+    "source": "Open Library — Kumaoni Folk Songs",
+    "what_it_provides": "Bibliographic discovery and catalogued volumes indexed under Kumaoni folk songs and oral traditions",
+    "url": "https://openlibrary.org/subjects/kumaoni_folk_songs",
+    "preservation_status": "Global bibliographic index"
+  },
+  {
+    "id": "SRC-006",
+    "source": "Google Books — Kumaun ke Lokgeet",
+    "what_it_provides": "1996, 197-page selected Kumaoni folk-song anthology with Hindi translations and cultural annotations",
+    "url": "https://books.google.com/books?id=-351AAAAIAAJ",
+    "preservation_status": "Digitized scholarly compilation"
+  },
+  {
+    "id": "SRC-007",
+    "source": "Creative Uttarakhand Publications",
+    "what_it_provides": "Regional-language preservation publications including Ghughuti Basuti and Nyauli Sankalan",
+    "url": "https://creativeuttarakhand.aipan.org/initiatives/publications/",
+    "preservation_status": "Living linguistic initiative"
+  }
+]

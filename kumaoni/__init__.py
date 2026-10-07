@@ -19,7 +19,7 @@ Quick Start:
 Word(kumaoni='ईजा', roman='ija', english='mother', hindi='माँ', pos='noun', category='kinship')
 """
 
-__version__ = "1.0.0"
+__version__ = "1.1.0"
 __author__ = "Akshat Singh Bisht"
 __email__ = "infoakshatsinghbisht@gmail.com"
 __maintainer__ = "Akshat Singh Bisht"
@@ -130,10 +130,19 @@ from kumaoni.culture import (
     Festival,
     get_festival,
     list_festivals,
+    search_festivals,
     get_months,
     get_seasons,
     get_days_of_week,
     get_current_season,
+    KumaoniBook,
+    BibliographyTreasury,
+    KumaoniSong,
+    KumaoniHoliSong,
+    DigitalArchiveSource,
+    FolkloreTreasury,
+    KumaoniDeity,
+    DeitiesTreasury,
 )
 
 
@@ -202,6 +211,9 @@ class _FestivalsFacade:
     def get(self, name):
         return get_festival(name)
 
+    def search(self, query):
+        return search_festivals(query)
+
 
 class _LiteratureFacade:
     def epics(self):
@@ -220,9 +232,136 @@ class _LiteratureFacade:
         from kumaoni.culture.literature import LiteratureTreasury
         return LiteratureTreasury.list_authors()
 
+    def list(self):
+        return self.authors()
+
+    def get(self, author_id):
+        return self.get_author(author_id)
+
     def get_author(self, author_id):
         from kumaoni.culture.literature import LiteratureTreasury
         return LiteratureTreasury.get_author(author_id)
+
+    def books(self, category=None, author=None, genre=None, query=None):
+        from kumaoni.culture.bibliography import BibliographyTreasury
+        return BibliographyTreasury.list_books(category=category, author=author, genre=genre, query=query)
+
+    def get_book(self, book_id):
+        from kumaoni.culture.bibliography import BibliographyTreasury
+        return BibliographyTreasury.get_book(book_id)
+
+    def bibliography(self, category=None, author=None, genre=None, query=None):
+        from kumaoni.culture.bibliography import BibliographyTreasury
+        return BibliographyTreasury.list_books(category=category, author=author, genre=genre, query=query)
+
+    def songs(self, genre=None, artist=None, corpus=None, query=None):
+        from kumaoni.culture.folklore import FolkloreTreasury
+        return FolkloreTreasury.list_songs(genre=genre, artist=artist, corpus=corpus, query=query)
+
+    def get_song(self, song_id):
+        from kumaoni.culture.folklore import FolkloreTreasury
+        return FolkloreTreasury.get_song(song_id)
+
+    def holi_songs(self, form=None, raag=None, query=None):
+        from kumaoni.culture.folklore import FolkloreTreasury
+        return FolkloreTreasury.list_holi_songs(form=form, raag=raag, query=query)
+
+    def get_holi_song(self, song_id):
+        from kumaoni.culture.folklore import FolkloreTreasury
+        return FolkloreTreasury.get_holi_song(song_id)
+
+
+class _BibliographyFacade:
+    def list(self, category=None, author=None, genre=None, query=None):
+        from kumaoni.culture.bibliography import BibliographyTreasury
+        return BibliographyTreasury.list_books(category=category, author=author, genre=genre, query=query)
+
+    def get(self, book_id):
+        from kumaoni.culture.bibliography import BibliographyTreasury
+        return BibliographyTreasury.get_book(book_id)
+
+    def search(self, query):
+        from kumaoni.culture.bibliography import BibliographyTreasury
+        return BibliographyTreasury.search(query)
+
+    def categories(self):
+        from kumaoni.culture.bibliography import BibliographyTreasury
+        return BibliographyTreasury.categories()
+
+    def stats(self):
+        from kumaoni.culture.bibliography import BibliographyTreasury
+        return BibliographyTreasury.stats()
+
+    def authors(self):
+        from kumaoni.culture.bibliography import BibliographyTreasury
+        return BibliographyTreasury.authors()
+
+
+class _FolkloreFacade:
+    def songs(self, genre=None, artist=None, corpus=None, query=None):
+        from kumaoni.culture.folklore import FolkloreTreasury
+        return FolkloreTreasury.list_songs(genre=genre, artist=artist, corpus=corpus, query=query)
+
+    def song(self, song_id):
+        from kumaoni.culture.folklore import FolkloreTreasury
+        return FolkloreTreasury.get_song(song_id)
+
+    def get_song(self, song_id):
+        from kumaoni.culture.folklore import FolkloreTreasury
+        return FolkloreTreasury.get_song(song_id)
+
+    def random_song(self):
+        from kumaoni.culture.folklore import FolkloreTreasury
+        return FolkloreTreasury.random_song()
+
+    def holi_songs(self, form=None, raag=None, query=None):
+        from kumaoni.culture.folklore import FolkloreTreasury
+        return FolkloreTreasury.list_holi_songs(form=form, raag=raag, query=query)
+
+    def holi_song(self, song_id):
+        from kumaoni.culture.folklore import FolkloreTreasury
+        return FolkloreTreasury.get_holi_song(song_id)
+
+    def get_holi_song(self, song_id):
+        from kumaoni.culture.folklore import FolkloreTreasury
+        return FolkloreTreasury.get_holi_song(song_id)
+
+    def random_holi_song(self):
+        from kumaoni.culture.folklore import FolkloreTreasury
+        return FolkloreTreasury.random_holi_song()
+
+    def sources(self):
+        from kumaoni.culture.folklore import FolkloreTreasury
+        return FolkloreTreasury.list_sources()
+
+    def get_source(self, source_id):
+        from kumaoni.culture.folklore import FolkloreTreasury
+        return FolkloreTreasury.get_source(source_id)
+
+    def stats(self):
+        from kumaoni.culture.folklore import FolkloreTreasury
+        return FolkloreTreasury.stats()
+
+
+class _DeitiesFacade:
+    def list(self, category=None):
+        from kumaoni.culture.deities import DeitiesTreasury
+        return DeitiesTreasury.list(category=category)
+
+    def all(self, category=None):
+        return self.list(category=category)
+
+    def get(self, name_or_id):
+        from kumaoni.culture.deities import DeitiesTreasury
+        return DeitiesTreasury.get(name_or_id)
+
+    def search(self, query):
+        from kumaoni.culture.deities import DeitiesTreasury
+        return DeitiesTreasury.search(query)
+
+    def stats(self):
+        from kumaoni.culture.deities import DeitiesTreasury
+        return DeitiesTreasury.stats()
 
 
 class _VoiceFacade:
@@ -242,6 +381,9 @@ riddles = _RiddlesFacade()
 phrases = _PhrasesFacade()
 festivals = _FestivalsFacade()
 literature = _LiteratureFacade()
+bibliography = _BibliographyFacade()
+folklore = _FolkloreFacade()
+deities = _DeitiesFacade()
 voice = _VoiceFacade()
 
 __all__ = [
@@ -322,7 +464,20 @@ __all__ = [
     "phrases",
     "festivals",
     "literature",
+    "bibliography",
+    "folklore",
+    "deities",
     "voice",
+    # Bibliography, Folklore & Deities
+    "KumaoniBook",
+    "BibliographyTreasury",
+    "KumaoniSong",
+    "KumaoniHoliSong",
+    "DigitalArchiveSource",
+    "FolkloreTreasury",
+    "KumaoniDeity",
+    "DeitiesTreasury",
+    "search_festivals",
 ]
 
 

@@ -34,7 +34,62 @@ class TestLexicon(unittest.TestCase):
 
     def test_lexicon_scale(self):
         lex = kumaoni.get_lexicon()
-        self.assertGreaterEqual(len(lex.words), 1000)
+        self.assertGreaterEqual(len(lex.words), 2000)
+
+    def test_extracted_words_lookup(self):
+        w_simaar = kumaoni.lookup("सिमार")
+        self.assertIsNotNone(w_simaar)
+        self.assertIn("wetland", w_simaar.english)
+
+        w_gadhera = kumaoni.lookup("गधेरा")
+        self.assertIsNotNone(w_gadhera)
+        self.assertIn("brook", w_gadhera.english)
+
+        w_ukhal = kumaoni.lookup("उखल")
+        self.assertIsNotNone(w_ukhal)
+        self.assertIn("mortar", w_ukhal.english)
+
+        # UOU AECC-K-101 additions
+        w_khaap = kumaoni.lookup("खाप")
+        self.assertIsNotNone(w_khaap)
+        self.assertIn("mouth", w_khaap.english)
+
+        w_rees = kumaoni.lookup("रीस")
+        self.assertIsNotNone(w_rees)
+        self.assertIn("anger", w_rees.english)
+
+        w_hudka = kumaoni.lookup("हुड़का")
+        self.assertIsNotNone(w_hudka)
+        self.assertIn("drum", w_hudka.english)
+
+        # Newly mined primary source lemmas
+        w_talaun = kumaoni.lookup("तलाऊँ")
+        self.assertIsNotNone(w_talaun)
+        self.assertIn("irrigated", w_talaun.english)
+
+        w_thulma = kumaoni.lookup("थुलमा")
+        self.assertIsNotNone(w_thulma)
+        self.assertIn("blanket", w_thulma.english)
+
+        w_bhumyal = kumaoni.lookup("भूम्याल")
+        self.assertIsNotNone(w_bhumyal)
+        self.assertIn("guardian", w_bhumyal.english)
+
+
+        # Proverbs scale
+        provs = kumaoni.proverbs.all()
+        self.assertGreaterEqual(len(provs), 80)
+
+        # Riddles scale
+        riddles = kumaoni.riddles.all()
+        self.assertGreaterEqual(len(riddles), 40)
+
+        # Phrases & idioms scale
+        phrases = kumaoni.phrases.all()
+        self.assertGreaterEqual(len(phrases), 150)
+        idiom = next((p for p in phrases if p.get("kumaoni") == "हात मलन"), None)
+        self.assertIsNotNone(idiom)
+        self.assertEqual(idiom.get("category"), "idioms")
 
 
 if __name__ == "__main__":

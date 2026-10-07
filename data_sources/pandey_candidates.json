@@ -1,0 +1,1847 @@
+[
+  {
+    "kumaoni": "खांखर",
+    "hindi": "कांच जैसा हिम का आवरण",
+    "category": "nature"
+  },
+  {
+    "kumaoni": "खाल",
+    "hindi": "कुछ मैला, छोटा जलकुड",
+    "category": "nature"
+  },
+  {
+    "kumaoni": "खाव",
+    "hindi": "कुछ मैला, छोटा जलकुड",
+    "category": "nature"
+  },
+  {
+    "kumaoni": "ग॒घे रा",
+    "hindi": "वरसाती नाला",
+    "category": "nature"
+  },
+  {
+    "kumaoni": "गघ्यौर",
+    "hindi": "वरसाती नाला",
+    "category": "nature"
+  },
+  {
+    "kumaoni": "गाड़",
+    "hindi": "बरसाती नदी",
+    "category": "nature"
+  },
+  {
+    "kumaoni": "छयड़",
+    "hindi": "; छोटा जल प्रपात, झरना",
+    "category": "nature"
+  },
+  {
+    "kumaoni": "छीड़ा",
+    "hindi": "; छोटा जल प्रपात, झरना",
+    "category": "nature"
+  },
+  {
+    "kumaoni": "डाव",
+    "hindi": "ओला",
+    "category": "nature"
+  },
+  {
+    "kumaoni": "डाल",
+    "hindi": "ओला",
+    "category": "nature"
+  },
+  {
+    "kumaoni": "नौला",
+    "hindi": "जलाशय, जलधार",
+    "category": "nature"
+  },
+  {
+    "kumaoni": "रेवाड़",
+    "hindi": "पथरीला रेतीला तट",
+    "category": "nature"
+  },
+  {
+    "kumaoni": "ल्वाडाँ",
+    "hindi": "नदी तट के पत्थर",
+    "category": "nature"
+  },
+  {
+    "kumaoni": "सिमार",
+    "hindi": "दल दल ।",
+    "category": "nature"
+  },
+  {
+    "kumaoni": "| सिमाड़",
+    "hindi": "दल दल ।",
+    "category": "nature"
+  },
+  {
+    "kumaoni": "अखोइ",
+    "hindi": "अखरोट",
+    "category": "nature"
+  },
+  {
+    "kumaoni": "आडू",
+    "hindi": "आडू (फल विशेष)",
+    "category": "nature"
+  },
+  {
+    "kumaoni": "क्याव",
+    "hindi": "= केला",
+    "category": "nature"
+  },
+  {
+    "kumaoni": "काफल",
+    "hindi": "काफल, गुठलीदार मीठा लाल फल,",
+    "category": "nature"
+  },
+  {
+    "kumaoni": "काफव",
+    "hindi": "काफल, गुठलीदार मीठा लाल फल,",
+    "category": "nature"
+  },
+  {
+    "kumaoni": "कुसम्यारु",
+    "hindi": "= खट्टी छोटी खुबानी",
+    "category": "nature"
+  },
+  {
+    "kumaoni": "गलगल",
+    "hindi": "बड़ा नींबू",
+    "category": "nature"
+  },
+  {
+    "kumaoni": "जमीर",
+    "hindi": "मोटे छिलके का खट्टा नींबू",
+    "category": "nature"
+  },
+  {
+    "kumaoni": "दाड्मि",
+    "hindi": "छोटा खट्टा अनार",
+    "category": "nature"
+  },
+  {
+    "kumaoni": "नारिड”",
+    "hindi": "नारंगी",
+    "category": "nature"
+  },
+  {
+    "kumaoni": "नाशपाती",
+    "hindi": "नाशपाती'",
+    "category": "nature"
+  },
+  {
+    "kumaoni": "तकपश्या",
+    "hindi": "नंमी वाली जगह",
+    "category": "food"
+  },
+  {
+    "kumaoni": "कात्ति न",
+    "hindi": "छोटा खेत",
+    "category": "food"
+  },
+  {
+    "kumaoni": "कू लौन",
+    "hindi": "नदी की घाटी में उपजाऊ जमीन",
+    "category": "food"
+  },
+  {
+    "kumaoni": "गजार",
+    "hindi": "खेत",
+    "category": "food"
+  },
+  {
+    "kumaoni": "गढास",
+    "hindi": "पशुओं के चारे के बोझ",
+    "category": "food"
+  },
+  {
+    "kumaoni": "गढव",
+    "hindi": "पशुओं के चारे के बोझ",
+    "category": "food"
+  },
+  {
+    "kumaoni": "ग्वाङ",
+    "hindi": "चरागाह, पशुशाला",
+    "category": "food"
+  },
+  {
+    "kumaoni": "गाँजो",
+    "hindi": "दलदली भूमि",
+    "category": "food"
+  },
+  {
+    "kumaoni": "-गूंठ",
+    "hindi": "देवापित भूमि",
+    "category": "food"
+  },
+  {
+    "kumaoni": "गूल",
+    "hindi": "= खेतों में पानी पहुंचने के लिये बनाई गई",
+    "category": "food"
+  },
+  {
+    "kumaoni": "चौंर तप्पड़",
+    "hindi": "अच्छी' चौरस भूमि",
+    "category": "food"
+  },
+  {
+    "kumaoni": "जॅवाडि",
+    "hindi": "= जौ कौ खेती वाली जमीन",
+    "category": "food"
+  },
+  {
+    "kumaoni": "झाँता",
+    "hindi": "- तराई की' बंजर वाली जमीन'",
+    "category": "food"
+  },
+  {
+    "kumaoni": "टानों",
+    "hindi": "खेत का एक हिस्सा",
+    "category": "food"
+  },
+  {
+    "kumaoni": "-टीर उखड़",
+    "hindi": "= बंजर खेत",
+    "category": "food"
+  },
+  {
+    "kumaoni": "तलांऊे",
+    "hindi": "तलहटी की जमीन जिस पर सिंचाई हो",
+    "category": "food"
+  },
+  {
+    "kumaoni": "तैलफाट",
+    "hindi": "धूप वाला भाग",
+    "category": "food"
+  },
+  {
+    "kumaoni": "थातवान",
+    "hindi": "भूमि का वास्तविक स्वामी",
+    "category": "food"
+  },
+  {
+    "kumaoni": "नजवाणी",
+    "hindi": "जहाँ खूब अनाज हो",
+    "category": "food"
+  },
+  {
+    "kumaoni": "पणखेत |",
+    "hindi": "पानी के निकट वाला खेत",
+    "category": "food"
+  },
+  {
+    "kumaoni": "पल्ला",
+    "hindi": "उधर का",
+    "category": "food"
+  },
+  {
+    "kumaoni": "पगारं",
+    "hindi": "खेत की दीवार",
+    "category": "food"
+  },
+  {
+    "kumaoni": "पराल",
+    "hindi": "पुआल",
+    "category": "food"
+  },
+  {
+    "kumaoni": "पुछड्‌ म्",
+    "hindi": "खेतका हिस्सा",
+    "category": "food"
+  },
+  {
+    "kumaoni": "बाँज",
+    "hindi": "बंजर खेत",
+    "category": "food"
+  },
+  {
+    "kumaoni": "बाडो",
+    "hindi": "= मकान के पास छोटा खेत",
+    "category": "food"
+  },
+  {
+    "kumaoni": "भिड",
+    "hindi": ": खेत को' दीवार",
+    "category": "food"
+  },
+  {
+    "kumaoni": "घ्",
+    "hindi": "खाद",
+    "category": "tools"
+  },
+  {
+    "kumaoni": "रिहाडा",
+    "hindi": "हल के दोनों भागों को जोड़ने वाला",
+    "category": "tools"
+  },
+  {
+    "kumaoni": "रोड",
+    "hindi": "= चूल्हा, जिस पर जाड़ों में आग तापते हैं",
+    "category": "tools"
+  },
+  {
+    "kumaoni": "सग्गड़",
+    "hindi": "लोहे या टिन का वना आग तापने का",
+    "category": "tools"
+  },
+  {
+    "kumaoni": "घाणा",
+    "hindi": "अनाज का ढेर",
+    "category": "tools"
+  },
+  {
+    "kumaoni": "तामी",
+    "hindi": "पाव भर पुराना माप॑",
+    "category": "tools"
+  },
+  {
+    "kumaoni": "नालो",
+    "hindi": "दो सेर के बराबर पुराना नाप",
+    "category": "tools"
+  },
+  {
+    "kumaoni": "पिङ",
+    "hindi": "लगभग तीस सेर वजन का माप",
+    "category": "tools"
+  },
+  {
+    "kumaoni": "बेत",
+    "hindi": "एक बालिश्त",
+    "category": "tools"
+  },
+  {
+    "kumaoni": "यक सगे",
+    "hindi": "= तिग_ = एक",
+    "category": "tools"
+  },
+  {
+    "kumaoni": "द्वि",
+    "hindi": "नी' घः नस्य = दो",
+    "category": "tools"
+  },
+  {
+    "kumaoni": "तिन",
+    "hindi": "खूड._ र सुस = तीन",
+    "category": "tools"
+  },
+  {
+    "kumaoni": "चार",
+    "hindi": "पारी = पी = चार",
+    "category": "tools"
+  },
+  {
+    "kumaoni": "छै न्त्तुरकौ न्न टुस्य्‌ः",
+    "hindi": "छ",
+    "category": "tools"
+  },
+  {
+    "kumaoni": "सांत ~ खात्त",
+    "hindi": "= नीस्य = सात /",
+    "category": "tools"
+  },
+  {
+    "kumaoni": "आठ",
+    "hindi": "अट ठ दम ज्यव = आठ",
+    "category": "tools"
+  },
+  {
+    "kumaoni": "नौ",
+    "hindi": "नौव = र ग्‌ई चौ |",
+    "category": "tools"
+  },
+  {
+    "kumaoni": "दस र दस",
+    "hindi": "ची = दस",
+    "category": "tools"
+  },
+  {
+    "kumaoni": "ग्यार",
+    "hindi": "ग्यारह",
+    "category": "tools"
+  },
+  {
+    "kumaoni": "बार म्",
+    "hindi": "बारह",
+    "category": "tools"
+  },
+  {
+    "kumaoni": "चौद हे",
+    "hindi": "नीदह",
+    "category": "tools"
+  },
+  {
+    "kumaoni": "पन्द्र",
+    "hindi": "पन्द्रह",
+    "category": "tools"
+  },
+  {
+    "kumaoni": "पन्नर",
+    "hindi": "पन्द्रह",
+    "category": "tools"
+  },
+  {
+    "kumaoni": "सोल",
+    "hindi": "सोलह",
+    "category": "tools"
+  },
+  {
+    "kumaoni": "सत्र +",
+    "hindi": "सत्त रह",
+    "category": "tools"
+  },
+  {
+    "kumaoni": "अठार",
+    "hindi": "भट्ठारह",
+    "category": "tools"
+  },
+  {
+    "kumaoni": "उन्नीस",
+    "hindi": ": उन्नीस",
+    "category": "tools"
+  },
+  {
+    "kumaoni": "बिसि",
+    "hindi": "वीस ।",
+    "category": "tools"
+  },
+  {
+    "kumaoni": "बाईस",
+    "hindi": "बाइस",
+    "category": "tools"
+  },
+  {
+    "kumaoni": "त्याईस",
+    "hindi": "तेइस'",
+    "category": "tools"
+  },
+  {
+    "kumaoni": "चौबीस",
+    "hindi": "चौबीस",
+    "category": "tools"
+  },
+  {
+    "kumaoni": "पच्चीस -",
+    "hindi": "पच्चीस... . ....",
+    "category": "tools"
+  },
+  {
+    "kumaoni": "उण चालीस",
+    "hindi": "उन्तालीस'",
+    "category": "tools"
+  },
+  {
+    "kumaoni": "चालीस",
+    "hindi": "चालीस'",
+    "category": "tools"
+  },
+  {
+    "kumaoni": "इक चालीस",
+    "hindi": "इक तालिस",
+    "category": "tools"
+  },
+  {
+    "kumaoni": "उण पचास",
+    "hindi": "उनचास",
+    "category": "tools"
+  },
+  {
+    "kumaoni": "उणासठ",
+    "hindi": "उनसठ",
+    "category": "tools"
+  },
+  {
+    "kumaoni": "उणत्तर",
+    "hindi": "उन्हत्तर",
+    "category": "tools"
+  },
+  {
+    "kumaoni": "उणांसि",
+    "hindi": "उन्य।सी'",
+    "category": "tools"
+  },
+  {
+    "kumaoni": "उण नब्बे",
+    "hindi": "नवासी 1",
+    "category": "tools"
+  },
+  {
+    "kumaoni": "दुण",
+    "hindi": "पगना",
+    "category": "tools"
+  },
+  {
+    "kumaoni": "तिण",
+    "hindi": "तिगूना",
+    "category": "tools"
+  },
+  {
+    "kumaoni": "तिगुण",
+    "hindi": "तिगूना",
+    "category": "tools"
+  },
+  {
+    "kumaoni": "चौगुण",
+    "hindi": "चौगूना",
+    "category": "tools"
+  },
+  {
+    "kumaoni": "पंचगुण",
+    "hindi": "पाँच गुना",
+    "category": "tools"
+  },
+  {
+    "kumaoni": "छ गुण",
+    "hindi": "छे गुना",
+    "category": "tools"
+  },
+  {
+    "kumaoni": "संतगुण",
+    "hindi": "सतगुना",
+    "category": "tools"
+  },
+  {
+    "kumaoni": "नोगुण",
+    "hindi": "नौगुना",
+    "category": "tools"
+  },
+  {
+    "kumaoni": "दसगुण",
+    "hindi": "दस गुनाः",
+    "category": "tools"
+  },
+  {
+    "kumaoni": "कर्‌याड़ी",
+    "hindi": "घर के पीछे का स्थान",
+    "category": "home"
+  },
+  {
+    "kumaoni": "कवाड",
+    "hindi": "कोना, घर का उपे क्षित अँधेरा भाग",
+    "category": "home"
+  },
+  {
+    "kumaoni": "कुयल",
+    "hindi": "वड़ा थेला, अनाज रखने के काम",
+    "category": "home"
+  },
+  {
+    "kumaoni": "कुडी",
+    "hindi": "घर्‌",
+    "category": "home"
+  },
+  {
+    "kumaoni": "खण्ड",
+    "hindi": "हिस्सा",
+    "category": "home"
+  },
+  {
+    "kumaoni": "खन्यार",
+    "hindi": "खण्डहरः",
+    "category": "home"
+  },
+  {
+    "kumaoni": "रमाला",
+    "hindi": "मृहल्ला",
+    "category": "home"
+  },
+  {
+    "kumaoni": "खूटकूण -",
+    "hindi": "= काठ की सीढ़ी, प्रायः मकान के भीतर",
+    "category": "home"
+  },
+  {
+    "kumaoni": "खोली",
+    "hindi": "मकानों की' कतार",
+    "category": "home"
+  },
+  {
+    "kumaoni": "गल्यार",
+    "hindi": "गाँव का रास्ता",
+    "category": "home"
+  },
+  {
+    "kumaoni": "गवाड़",
+    "hindi": "गाँव का रास्ता",
+    "category": "home"
+  },
+  {
+    "kumaoni": "गल्याट `",
+    "hindi": "गाँव का रास्ता",
+    "category": "home"
+  },
+  {
+    "kumaoni": "-गल्यू",
+    "hindi": "पशुओं को बाँबने की' रस्सी",
+    "category": "home"
+  },
+  {
+    "kumaoni": "गोठ",
+    "hindi": "गोशाला, निचली मंजिल",
+    "category": "home"
+  },
+  {
+    "kumaoni": "घट",
+    "hindi": "पनचवकी",
+    "category": "home"
+  },
+  {
+    "kumaoni": "घरोट",
+    "hindi": "पनचवकी",
+    "category": "home"
+  },
+  {
+    "kumaoni": "घोल",
+    "hindi": "चूल्हे का वह भाग जहाँ जले अंगारे,",
+    "category": "home"
+  },
+  {
+    "kumaoni": "चोख",
+    "hindi": "बैठक ः",
+    "category": "home"
+  },
+  {
+    "kumaoni": "छाना",
+    "hindi": "घास फूस की झोपड़ी जहाँ पशु बांघते हैं",
+    "category": "home"
+  },
+  {
+    "kumaoni": "छापरि",
+    "hindi": "छोटी डलिया, शोजो से बड़ी",
+    "category": "home"
+  },
+  {
+    "kumaoni": "छाण",
+    "hindi": "छत छवाना",
+    "category": "home"
+  },
+  {
+    "kumaoni": "जालो",
+    "hindi": "ताक",
+    "category": "home"
+  },
+  {
+    "kumaoni": "ज्यौड़",
+    "hindi": "सामान्य रस्सी",
+    "category": "home"
+  },
+  {
+    "kumaoni": "ड्वाका",
+    "hindi": "गहरी कंडी जो गोलाई में कम होतीं",
+    "category": "home"
+  },
+  {
+    "kumaoni": "तरकेप",
+    "hindi": "तंबू,मकान बताने के लिये प्रयुक्त",
+    "category": "home"
+  },
+  {
+    "kumaoni": "दार",
+    "hindi": "लकडी, बल्ली",
+    "category": "home"
+  },
+  {
+    "kumaoni": "पराल",
+    "hindi": "छत के भीतर लकड़ी की बनी सामान",
+    "category": "home"
+  },
+  {
+    "kumaoni": "पटांगण",
+    "hindi": "आँगन",
+    "category": "home"
+  },
+  {
+    "kumaoni": "पाख",
+    "hindi": "ढालू छत",
+    "category": "home"
+  },
+  {
+    "kumaoni": "बगस",
+    "hindi": "सन्दुक",
+    "category": "home"
+  },
+  {
+    "kumaoni": "बाखलि",
+    "hindi": "गाँव में मकानों की पंक्ति",
+    "category": "home"
+  },
+  {
+    "kumaoni": "भकार",
+    "hindi": "अनाज रखने का पात्र",
+    "category": "home"
+  },
+  {
+    "kumaoni": "म्वाव",
+    "hindi": "द्वार का चौखटा",
+    "category": "home"
+  },
+  {
+    "kumaoni": "मोरी",
+    "hindi": "रोशन दान",
+    "category": "home"
+  },
+  {
+    "kumaoni": "शोजो",
+    "hindi": "सबसे छोटी दोकरी",
+    "category": "home"
+  },
+  {
+    "kumaoni": "शाङव",
+    "hindi": "साँकल",
+    "category": "home"
+  },
+  {
+    "kumaoni": "आमा",
+    "hindi": "दादी",
+    "category": "kinship"
+  },
+  {
+    "kumaoni": "अन्वाल",
+    "hindi": "भेडो की देखभाल हेतु नियुक्त चाकर",
+    "category": "kinship"
+  },
+  {
+    "kumaoni": "अमरीचा",
+    "hindi": "भोटिया विश्वास के अनुसार आत्मा का",
+    "category": "kinship"
+  },
+  {
+    "kumaoni": "कठ बोज्यू",
+    "hindi": "= सौतेली माँ होते पर पिता के लिए",
+    "category": "kinship"
+  },
+  {
+    "kumaoni": "कठूवा",
+    "hindi": "अवध संतान",
+    "category": "kinship"
+  },
+  {
+    "kumaoni": "कजा",
+    "hindi": "विमाता, मौसी",
+    "category": "kinship"
+  },
+  {
+    "kumaoni": "केनी",
+    "hindi": "दास",
+    "category": "kinship"
+  },
+  {
+    "kumaoni": "गुसें",
+    "hindi": "स्वामी",
+    "category": "kinship"
+  },
+  {
+    "kumaoni": "गुस्याण",
+    "hindi": "घर की मालकिन",
+    "category": "kinship"
+  },
+  {
+    "kumaoni": "चेहड़ि",
+    "hindi": "लड्की'",
+    "category": "kinship"
+  },
+  {
+    "kumaoni": "जयाडजा",
+    "hindi": "ज्येष्ठ माँ, ताई",
+    "category": "kinship"
+  },
+  {
+    "kumaoni": "ज्याठ बौज्यू",
+    "hindi": "वड़े पिता, ताऊ",
+    "category": "kinship"
+  },
+  {
+    "kumaoni": "जवं",
+    "hindi": "दामाद",
+    "category": "kinship"
+  },
+  {
+    "kumaoni": "ज्यू",
+    "hindi": "आदर सुचक संबोधन",
+    "category": "kinship"
+  },
+  {
+    "kumaoni": "तरम",
+    "hindi": "मध्यस्थ व्यक्ति",
+    "category": "kinship"
+  },
+  {
+    "kumaoni": "दादु",
+    "hindi": "बडा भाई",
+    "category": "kinship"
+  },
+  {
+    "kumaoni": "देराणि",
+    "hindi": "देवरानी",
+    "category": "kinship"
+  },
+  {
+    "kumaoni": "नानज्यू",
+    "hindi": "पति कीं बडी बहिन",
+    "category": "kinship"
+  },
+  {
+    "kumaoni": "नानछिन",
+    "hindi": "बचपन",
+    "category": "kinship"
+  },
+  {
+    "kumaoni": "पोथा",
+    "hindi": "= वच्चा बच्ची",
+    "category": "kinship"
+  },
+  {
+    "kumaoni": "पोथी",
+    "hindi": "= वच्चा बच्ची",
+    "category": "kinship"
+  },
+  {
+    "kumaoni": "बड्बाज्यू",
+    "hindi": "दादा जी",
+    "category": "kinship"
+  },
+  {
+    "kumaoni": "ब्वारि",
+    "hindi": "बहु",
+    "category": "kinship"
+  },
+  {
+    "kumaoni": "ब्योली",
+    "hindi": "सद्य: विवाहिंता",
+    "category": "kinship"
+  },
+  {
+    "kumaoni": "ब्‌डां",
+    "hindi": "श्रीमान",
+    "category": "kinship"
+  },
+  {
+    "kumaoni": "बोडि",
+    "hindi": "बहु",
+    "category": "kinship"
+  },
+  {
+    "kumaoni": "बौउ",
+    "hindi": "बहु",
+    "category": "kinship"
+  },
+  {
+    "kumaoni": "वौराण",
+    "hindi": "बहु",
+    "category": "kinship"
+  },
+  {
+    "kumaoni": "बेग",
+    "hindi": "पुरुष",
+    "category": "kinship"
+  },
+  {
+    "kumaoni": "भिना",
+    "hindi": "जीजा?",
+    "category": "kinship"
+  },
+  {
+    "kumaoni": "मुर्री",
+    "hindi": "घरेलू काम काज के लिये नियूक्त नौकर",
+    "category": "kinship"
+  },
+  {
+    "kumaoni": "भाग",
+    "hindi": "= हिस्सा",
+    "category": "kinship"
+  },
+  {
+    "kumaoni": "मालकोट",
+    "hindi": "ननिहाल",
+    "category": "kinship"
+  },
+  {
+    "kumaoni": "मवास",
+    "hindi": "परिवार",
+    "category": "kinship"
+  },
+  {
+    "kumaoni": "मितुर",
+    "hindi": "मित्र, संबंधी'",
+    "category": "kinship"
+  },
+  {
+    "kumaoni": "में",
+    "hindi": "माता",
+    "category": "kinship"
+  },
+  {
+    "kumaoni": "मयेडि",
+    "hindi": "माता",
+    "category": "kinship"
+  },
+  {
+    "kumaoni": "मेत",
+    "hindi": "मायका",
+    "category": "kinship"
+  },
+  {
+    "kumaoni": "मैतिया",
+    "hindi": "मायके वाले",
+    "category": "kinship"
+  },
+  {
+    "kumaoni": "र्‌स्यार",
+    "hindi": "रसोइया",
+    "category": "kinship"
+  },
+  {
+    "kumaoni": "राठ",
+    "hindi": "घराना, कुळ",
+    "category": "kinship"
+  },
+  {
+    "kumaoni": "श्वार",
+    "hindi": "बिरादर",
+    "category": "kinship"
+  },
+  {
+    "kumaoni": "सौर",
+    "hindi": "ससुर",
+    "category": "kinship"
+  },
+  {
+    "kumaoni": "सौरास",
+    "hindi": "ससुराल ।",
+    "category": "kinship"
+  },
+  {
+    "kumaoni": "उगल",
+    "hindi": "पत्तीदार सब्जी",
+    "category": "food"
+  },
+  {
+    "kumaoni": "खाणो",
+    "hindi": "भोजन",
+    "category": "food"
+  },
+  {
+    "kumaoni": "खुस्याणि",
+    "hindi": "मिच",
+    "category": "food"
+  },
+  {
+    "kumaoni": "गदुवा",
+    "hindi": "= कद्व त",
+    "category": "food"
+  },
+  {
+    "kumaoni": "गास",
+    "hindi": "= ग्रास",
+    "category": "food"
+  },
+  {
+    "kumaoni": "-चूख",
+    "hindi": "खटाई, खट्टा",
+    "category": "food"
+  },
+  {
+    "kumaoni": "चाक्ती",
+    "hindi": "चावल को पीस कर, उबाल कर बनाया",
+    "category": "food"
+  },
+  {
+    "kumaoni": "जानदारु",
+    "hindi": "= कच्ची शराब",
+    "category": "food"
+  },
+  {
+    "kumaoni": "ज्या",
+    "hindi": "= नेमकोन चोय जिसमें घी छोड़ते हैं।",
+    "category": "food"
+  },
+  {
+    "kumaoni": "जील",
+    "hindi": "भेट्ट को पीस कर बनाया खाद्य पदाथा",
+    "category": "food"
+  },
+  {
+    "kumaoni": "झुडर",
+    "hindi": "ज्वार की तरह मोटा अन्न",
+    "category": "food"
+  },
+  {
+    "kumaoni": "झोइ -",
+    "hindi": ": कषी र",
+    "category": "food"
+  },
+  {
+    "kumaoni": "ठ्ठवाणि",
+    "hindi": "विभिन्न दालों को मिला कर पकाया",
+    "category": "food"
+  },
+  {
+    "kumaoni": "डुबुक",
+    "hindi": "दाल को पीस कर बनाया गया पदार्थ",
+    "category": "food"
+  },
+  {
+    "kumaoni": "तोरयां",
+    "hindi": "तरोई",
+    "category": "food"
+  },
+  {
+    "kumaoni": "तरुड",
+    "hindi": "केद विशेष",
+    "category": "food"
+  },
+  {
+    "kumaoni": "दइ",
+    "hindi": "दही",
+    "category": "food"
+  },
+  {
+    "kumaoni": "नौणि",
+    "hindi": "मक्खन",
+    "category": "food"
+  },
+  {
+    "kumaoni": "पयो",
+    "hindi": "कछ",
+    "category": "food"
+  },
+  {
+    "kumaoni": "पलयूं",
+    "hindi": "कछ",
+    "category": "food"
+  },
+  {
+    "kumaoni": "पिनालु",
+    "hindi": "बंडा",
+    "category": "food"
+  },
+  {
+    "kumaoni": "फाफर",
+    "hindi": "कोटू",
+    "category": "food"
+  },
+  {
+    "kumaoni": "फांण",
+    "hindi": "आटे को घोल कर बनाया गया पेय",
+    "category": "food"
+  },
+  {
+    "kumaoni": "फुपरि |",
+    "hindi": "एक स्वास्थ्यप्रद सब्जी, एक पौधे से",
+    "category": "food"
+  },
+  {
+    "kumaoni": "भुटूवा",
+    "hindi": "सूखा साग",
+    "category": "food"
+  },
+  {
+    "kumaoni": "टपकिया",
+    "hindi": "सूखा साग",
+    "category": "food"
+  },
+  {
+    "kumaoni": "मो",
+    "hindi": "शहद",
+    "category": "food"
+  },
+  {
+    "kumaoni": "लगड",
+    "hindi": "मीठी पूरी, पक्वान्न",
+    "category": "food"
+  },
+  {
+    "kumaoni": "सै",
+    "hindi": "दही में सूजी को भिगाकर बनाया",
+    "category": "food"
+  },
+  {
+    "kumaoni": "साय",
+    "hindi": "दही में सूजी को भिगाकर बनाया",
+    "category": "food"
+  },
+  {
+    "kumaoni": "उखव",
+    "hindi": "ओखल",
+    "category": "food"
+  },
+  {
+    "kumaoni": "कसिणि |",
+    "hindi": "कांसे या कसकुट का बना पांनी' पीने",
+    "category": "food"
+  },
+  {
+    "kumaoni": "कडे",
+    "hindi": "कुंडों वाळी कड़ाही `",
+    "category": "food"
+  },
+  {
+    "kumaoni": "कढ",
+    "hindi": "कुंडों वाळी कड़ाही `",
+    "category": "food"
+  },
+  {
+    "kumaoni": "क्‌ंभि",
+    "hindi": "तांबे की छोटी गगरी",
+    "category": "food"
+  },
+  {
+    "kumaoni": "खय",
+    "hindi": "जंङ, मोर्चा खाना",
+    "category": "food"
+  },
+  {
+    "kumaoni": "गडू वा",
+    "hindi": "= टोंटीदार ल्‌टिया",
+    "category": "food"
+  },
+  {
+    "kumaoni": "घंटी",
+    "hindi": "पानी पीने की पीतल की लुटिया",
+    "category": "food"
+  },
+  {
+    "kumaoni": "चासिणि",
+    "hindi": "बड़ी कड़ाही",
+    "category": "food"
+  },
+  {
+    "kumaoni": "जाम",
+    "hindi": "बिना कुंडों की छोटी कड़ाही",
+    "category": "food"
+  },
+  {
+    "kumaoni": "ज्‌ बरिया",
+    "hindi": "मोटे लोहे की गहरी कड़ाही",
+    "category": "food"
+  },
+  {
+    "kumaoni": "टिटरि",
+    "hindi": "फूटा बर्तन",
+    "category": "food"
+  },
+  {
+    "kumaoni": "| ठेकि",
+    "hindi": "काठ का गहरा बर्तन जिसमें प्रायः",
+    "category": "food"
+  },
+  {
+    "kumaoni": "डाइ",
+    "hindi": "करछूळ",
+    "category": "food"
+  },
+  {
+    "kumaoni": "डाव",
+    "hindi": "डिब्बा",
+    "category": "food"
+  },
+  {
+    "kumaoni": "ढक्कण",
+    "hindi": "डक्कन",
+    "category": "food"
+  },
+  {
+    "kumaoni": "यकुलि",
+    "hindi": "= थाली",
+    "category": "food"
+  },
+  {
+    "kumaoni": "जुड",
+    "hindi": "मूँछ",
+    "category": "anatomy"
+  },
+  {
+    "kumaoni": "ढ्यस",
+    "hindi": "= घक्का",
+    "category": "anatomy"
+  },
+  {
+    "kumaoni": "ढ्याङ",
+    "hindi": "कूल्हा",
+    "category": "anatomy"
+  },
+  {
+    "kumaoni": "तडि",
+    "hindi": "शरीर",
+    "category": "anatomy"
+  },
+  {
+    "kumaoni": "दंत पाटि",
+    "hindi": "= दंतावली",
+    "category": "anatomy"
+  },
+  {
+    "kumaoni": "नङ",
+    "hindi": "नाखून",
+    "category": "anatomy"
+  },
+  {
+    "kumaoni": "पौंठ",
+    "hindi": "कलाई",
+    "category": "anatomy"
+  },
+  {
+    "kumaoni": "पोंची",
+    "hindi": "कलाई",
+    "category": "anatomy"
+  },
+  {
+    "kumaoni": "भाँटा",
+    "hindi": "= पसलियाँ",
+    "category": "anatomy"
+  },
+  {
+    "kumaoni": "मुंड",
+    "hindi": "खोपड़ी'",
+    "category": "anatomy"
+  },
+  {
+    "kumaoni": "स्यून पाटि",
+    "hindi": "मांग",
+    "category": "anatomy"
+  },
+  {
+    "kumaoni": "सिङाण",
+    "hindi": "नाक का मेल",
+    "category": "anatomy"
+  },
+  {
+    "kumaoni": "हतग्‌लि",
+    "hindi": "हथेली ।",
+    "category": "anatomy"
+  },
+  {
+    "kumaoni": "अंख्यात",
+    "hindi": "आँख का रोग",
+    "category": "health"
+  },
+  {
+    "kumaoni": "अले बले",
+    "hindi": "अलाय बलाय, भूत प्रेत लगने से उत्पन्न",
+    "category": "health"
+  },
+  {
+    "kumaoni": "अघ कपल्या",
+    "hindi": "अर्घे कपाली",
+    "category": "health"
+  },
+  {
+    "kumaoni": "उलू र",
+    "hindi": "खांसी का दौर",
+    "category": "health"
+  },
+  {
+    "kumaoni": "उसाण",
+    "hindi": "सूजन",
+    "category": "health"
+  },
+  {
+    "kumaoni": "काण प",
+    "hindi": "= काना",
+    "category": "health"
+  },
+  {
+    "kumaoni": "काला",
+    "hindi": "बहरा",
+    "category": "health"
+  },
+  {
+    "kumaoni": "कामण",
+    "hindi": "= कॉपना",
+    "category": "health"
+  },
+  {
+    "kumaoni": "कु नीण",
+    "hindi": "दाँत खट्टे होता",
+    "category": "health"
+  },
+  {
+    "kumaoni": "खवै",
+    "hindi": "= वायु विकार से उत्पन्न जौड़ों और",
+    "category": "health"
+  },
+  {
+    "kumaoni": "खाजि",
+    "hindi": "अज्ञात कारण से रोग जन्य खुजली",
+    "category": "health"
+  },
+  {
+    "kumaoni": "गना",
+    "hindi": "गल घंट",
+    "category": "health"
+  },
+  {
+    "kumaoni": "धुन घिनाव",
+    "hindi": "= अशक्त घुटने",
+    "category": "health"
+  },
+  {
+    "kumaoni": "-चड़क",
+    "hindi": "टींस के साथ अचानक उठने वाला दर्द |",
+    "category": "health"
+  },
+  {
+    "kumaoni": "चरे",
+    "hindi": "कटो अंग पर पानी पड़ने से होने |",
+    "category": "health"
+  },
+  {
+    "kumaoni": "चरचरी",
+    "hindi": "कटो अंग पर पानी पड़ने से होने |",
+    "category": "health"
+  },
+  {
+    "kumaoni": "चिमड",
+    "hindi": "झूरियाँ पड़ा हुआ",
+    "category": "health"
+  },
+  {
+    "kumaoni": "चिलेलि",
+    "hindi": "अनाज की भूसी चिपकने पर होने",
+    "category": "health"
+  },
+  {
+    "kumaoni": "छ्यां",
+    "hindi": "छींक",
+    "category": "health"
+  },
+  {
+    "kumaoni": "-टुन्न",
+    "hindi": "बेहोशी की अवस्था |",
+    "category": "health"
+  },
+  {
+    "kumaoni": "-टोल्या",
+    "hindi": "बहरा ।",
+    "category": "health"
+  },
+  {
+    "kumaoni": "टौनि",
+    "hindi": "शीत से हाथ प रों में होने वाळा दद ;",
+    "category": "health"
+  },
+  {
+    "kumaoni": "देवाल",
+    "hindi": "दाँत का दद |",
+    "category": "health"
+  },
+  {
+    "kumaoni": "पटौ",
+    "hindi": "बहुत काम करने के बाद की |",
+    "category": "health"
+  },
+  {
+    "kumaoni": "पिल",
+    "hindi": "फोडा",
+    "category": "health"
+  },
+  {
+    "kumaoni": "बाटुइ",
+    "hindi": "हिचको",
+    "category": "health"
+  },
+  {
+    "kumaoni": "बौलार",
+    "hindi": "= पागलपन -",
+    "category": "health"
+  },
+  {
+    "kumaoni": "बौल्याट",
+    "hindi": "= पागलपन -",
+    "category": "health"
+  },
+  {
+    "kumaoni": "` मशि मशि",
+    "hindi": "पेट में रह रह कर होने वाला हल्का",
+    "category": "health"
+  },
+  {
+    "kumaoni": "मुना",
+    "hindi": "सिर दर्द",
+    "category": "health"
+  },
+  {
+    "kumaoni": "रिगाइ",
+    "hindi": "चक्कर आना",
+    "category": "health"
+  },
+  {
+    "kumaoni": "रिंग",
+    "hindi": "चक्कर आना",
+    "category": "health"
+  },
+  {
+    "kumaoni": "घागुल",
+    "hindi": "बच्चों के हाथ के चांदी के कड़े",
+    "category": "clothing"
+  },
+  {
+    "kumaoni": "नेवर",
+    "hindi": "= नूपुर",
+    "category": "clothing"
+  },
+  {
+    "kumaoni": "` नाग",
+    "hindi": "चांदी के कड़े",
+    "category": "clothing"
+  },
+  {
+    "kumaoni": "घौंचि",
+    "hindi": "कलाई में पहनी' जाने वाली' सोने चाँदी'",
+    "category": "clothing"
+  },
+  {
+    "kumaoni": "पिठार",
+    "hindi": "= छोटा श्रृ गार दान, रोली रखने का पात्र",
+    "category": "clothing"
+  },
+  {
+    "kumaoni": "फूल्लि",
+    "hindi": "नाक की लौंग",
+    "category": "clothing"
+  },
+  {
+    "kumaoni": "मुनडि",
+    "hindi": "अंगूठी",
+    "category": "clothing"
+  },
+  {
+    "kumaoni": "मुरकी",
+    "hindi": "चाँदी की बालियां",
+    "category": "clothing"
+  },
+  {
+    "kumaoni": "मेगशाल",
+    "hindi": "= मूंग के दानों की माला",
+    "category": "clothing"
+  },
+  {
+    "kumaoni": "वलन",
+    "hindi": "माला में पीले रग का पारदर्शी पत्थर",
+    "category": "clothing"
+  },
+  {
+    "kumaoni": "वलठड -",
+    "hindi": "चमड़े की डोरी में गूंथी हुई चांदी के",
+    "category": "clothing"
+  },
+  {
+    "kumaoni": "वुजन वाली",
+    "hindi": "सिर के अगले भाग से कानों तक दोनों",
+    "category": "clothing"
+  },
+  {
+    "kumaoni": "वोहरा",
+    "hindi": "= नाक का चौड़ा फूल",
+    "category": "clothing"
+  },
+  {
+    "kumaoni": "हथ कान",
+    "hindi": "आभूषण ।",
+    "category": "clothing"
+  },
+  {
+    "kumaoni": "आङ्मूनी लेना",
+    "hindi": "बलि का वकरा जब पानी से भीग कर",
+    "category": "culture"
+  },
+  {
+    "kumaoni": "आँचरी",
+    "hindi": "अप्सरा,प्रायः लाल वस्त्र पहनती' है",
+    "category": "culture"
+  },
+  {
+    "kumaoni": "आछरी-कींचरी",
+    "hindi": "= प्रियां",
+    "category": "culture"
+  },
+  {
+    "kumaoni": "ओतरण",
+    "hindi": "ग्राम देवता का किसी के शरीर पर",
+    "category": "culture"
+  },
+  {
+    "kumaoni": "औसाण",
+    "hindi": "ग्राम देवता का किसी के शरीर पर",
+    "category": "culture"
+  },
+  {
+    "kumaoni": "उच्यूण रना",
+    "hindi": "मनौती मानकर देवता के निमित्त कुछ",
+    "category": "culture"
+  },
+  {
+    "kumaoni": "एड़ी",
+    "hindi": "ग्राम देवता, सिर के ऊपर आँख",
+    "category": "culture"
+  },
+  {
+    "kumaoni": "कलविष्ट",
+    "hindi": "ग्राम देवता, मुरली बजाता है",
+    "category": "culture"
+  },
+  {
+    "kumaoni": "खबीस",
+    "hindi": "उग्र प्रकृति वाला श्मशान का भूत",
+    "category": "culture"
+  },
+  {
+    "kumaoni": "खिचडी फूंकना",
+    "hindi": "भूत प्रेत के शमन हेतु प्रयुक्त सामग्री",
+    "category": "culture"
+  },
+  {
+    "kumaoni": "घात डालना",
+    "hindi": ". किसी' के अनिष्ट हेतु मंदिर में संकल्प",
+    "category": "culture"
+  },
+  {
+    "kumaoni": "चौमू",
+    "hindi": "पशु रक्षक ग्राम देवता",
+    "category": "culture"
+  },
+  {
+    "kumaoni": "छव",
+    "hindi": "भूत प्रेत",
+    "category": "culture"
+  },
+  {
+    "kumaoni": "टोला",
+    "hindi": "वह प्रेतात्मा जो रात में टिमटिमाते",
+    "category": "culture"
+  },
+  {
+    "kumaoni": "दुवाला",
+    "hindi": "वह प्रेतात्मा जो रात में टिमटिमाते",
+    "category": "culture"
+  },
+  {
+    "kumaoni": "बधाण",
+    "hindi": "गायों का देवता, इसे बलि नहीं दी जाती",
+    "category": "culture"
+  },
+  {
+    "kumaoni": "बोकसाडी विद्या `",
+    "hindi": "बोकसा जाति द्वारा जादू टोता करना,",
+    "category": "culture"
+  },
+  {
+    "kumaoni": "भूम्याल",
+    "hindi": "भूमि रक्षक ग्राम देवता",
+    "category": "culture"
+  },
+  {
+    "kumaoni": "भूमिया",
+    "hindi": "भूमि रक्षक ग्राम देवता",
+    "category": "culture"
+  },
+  {
+    "kumaoni": "मसाण",
+    "hindi": "शमशान का भूत",
+    "category": "culture"
+  },
+  {
+    "kumaoni": "रूणियाँ",
+    "hindi": "पत्थर के घोड़े पर चह कर घूमने वाला",
+    "category": "culture"
+  },
+  {
+    "kumaoni": "वेद लगाना",
+    "hindi": "प्रेत बाघा निवारण हेतु छत पर डाँसी'",
+    "category": "culture"
+  },
+  {
+    "kumaoni": "-वैगरसँ",
+    "hindi": "मार्ग देवता",
+    "category": "culture"
+  },
+  {
+    "kumaoni": "सेम",
+    "hindi": "= सरळ स्वभाव का लोक देवता",
+    "category": "culture"
+  },
+  {
+    "kumaoni": "हुमड़",
+    "hindi": ". जो मर कर भूत बन जाए ।",
+    "category": "culture"
+  },
+  {
+    "kumaoni": "ग्रहजाग",
+    "hindi": "जनेऊ से पहले दिन शास को होने वाला",
+    "category": "culture"
+  },
+  {
+    "kumaoni": "` छट्टी चौक पुरण",
+    "hindi": "छठी का चौक पूरना `",
+    "category": "culture"
+  },
+  {
+    "kumaoni": "उयूंति पूजा ` ¬",
+    "hindi": "जीव मातृका पूजन",
+    "category": "culture"
+  },
+  {
+    "kumaoni": "डोइण",
+    "hindi": "निरथेक घूमना",
+    "category": "culture"
+  },
+  {
+    "kumaoni": "डोलीण",
+    "hindi": "निरथेक घूमना",
+    "category": "culture"
+  },
+  {
+    "kumaoni": "तीस",
+    "hindi": "प्यास",
+    "category": "culture"
+  },
+  {
+    "kumaoni": "तैल चिटूट",
+    "hindi": "= सुहावनी' घूप",
+    "category": "culture"
+  },
+  {
+    "kumaoni": "- थुपृड",
+    "hindi": "= किसी वस्तु का अव्यवस्थित ढेर",
+    "category": "culture"
+  },
+  {
+    "kumaoni": "दिक्ख",
+    "hindi": "उलझन",
+    "category": "culture"
+  },
+  {
+    "kumaoni": "दुछोण",
+    "hindi": "ताना",
+    "category": "culture"
+  },
+  {
+    "kumaoni": "दुछ्यूंण",
+    "hindi": "ताना",
+    "category": "culture"
+  },
+  {
+    "kumaoni": "-दण हुण",
+    "hindi": "= दयालु होना",
+    "category": "culture"
+  },
+  {
+    "kumaoni": "घोषो",
+    "hindi": "बडी कठिनाई से, जेसे तेसे",
+    "category": "culture"
+  },
+  {
+    "kumaoni": "-नरे",
+    "hindi": "मिलन की उत्कट भभिलाषा में प्रेमी",
+    "category": "culture"
+  },
+  {
+    "kumaoni": "नाठ",
+    "hindi": "शून्य कर देना",
+    "category": "culture"
+  },
+  {
+    "kumaoni": "निमिखिणि",
+    "hindi": "चलायमान",
+    "category": "culture"
+  },
+  {
+    "kumaoni": "पिरपिला",
+    "hindi": "बहुत दुबला",
+    "category": "culture"
+  },
+  {
+    "kumaoni": "फराड",
+    "hindi": "खूब फला हुआ",
+    "category": "culture"
+  },
+  {
+    "kumaoni": "-फदित",
+    "hindi": "फजीहत",
+    "category": "culture"
+  },
+  {
+    "kumaoni": "फाम",
+    "hindi": "याद, स्मरण",
+    "category": "culture"
+  },
+  {
+    "kumaoni": "फसक",
+    "hindi": "निराघार बात, गप्प, अतिरंजित वर्णन",
+    "category": "culture"
+  },
+  {
+    "kumaoni": "फौंस",
+    "hindi": "निराघार बात, गप्प, अतिरंजित वर्णन",
+    "category": "culture"
+  },
+  {
+    "kumaoni": "फिटकार",
+    "hindi": "= शाप'",
+    "category": "culture"
+  },
+  {
+    "kumaoni": "फेड़ ना",
+    "hindi": "निवारण करना",
+    "category": "culture"
+  },
+  {
+    "kumaoni": "वन्घार",
+    "hindi": "जलघारा जो बरसात में मकान से",
+    "category": "culture"
+  },
+  {
+    "kumaoni": "बिगलिया",
+    "hindi": "सलग हुआ, वियुक्त",
+    "category": "culture"
+  },
+  {
+    "kumaoni": "वोल्या",
+    "hindi": "प॒गलाया हुआ, श्रमिक मजदूर",
+    "category": "culture"
+  },
+  {
+    "kumaoni": "बतको",
+    "hindi": "हल्के ढंग की बातें",
+    "category": "culture"
+  },
+  {
+    "kumaoni": "भन्योल",
+    "hindi": "= भडंती",
+    "category": "culture"
+  },
+  {
+    "kumaoni": "भभरीण",
+    "hindi": "रास्ता भटकना",
+    "category": "culture"
+  },
+  {
+    "kumaoni": "अलक -म्‌ लकी वेर",
+    "hindi": "चिकनी चुपड़ी बौत करके",
+    "category": "culture"
+  },
+  {
+    "kumaoni": "राफ",
+    "hindi": "दूर से आग की लपट लगने की अनुभूति",
+    "category": "culture"
+  },
+  {
+    "kumaoni": "रुङ ट्ड",
+    "hindi": "रोनी सूरत",
+    "category": "culture"
+  },
+  {
+    "kumaoni": "लेण",
+    "hindi": "दुघारु गाय, भैस",
+    "category": "culture"
+  },
+  {
+    "kumaoni": "शिरि",
+    "hindi": "दृढ़ निश्चय",
+    "category": "culture"
+  },
+  {
+    "kumaoni": "सइैनि",
+    "hindi": "सडे हुए पदार्थ की गंघ",
+    "category": "culture"
+  },
+  {
+    "kumaoni": "सांगु डि",
+    "hindi": "संकरा",
+    "category": "culture"
+  },
+  {
+    "kumaoni": "सांडडि “",
+    "hindi": "संकरा",
+    "category": "culture"
+  },
+  {
+    "kumaoni": "हुलार",
+    "hindi": "उतार",
+    "category": "culture"
+  },
+  {
+    "kumaoni": "हाँसी",
+    "hindi": "खुश मिजाज, जिन्दादिल ।",
+    "category": "culture"
+  },
+  {
+    "kumaoni": "अधिन्यारि",
+    "hindi": "कघे पर ढोए जाने वाले भार का",
+    "category": "culture"
+  },
+  {
+    "kumaoni": "उपाड्ना",
+    "hindi": "ऊपर की ओर झटके से खींच कर",
+    "category": "culture"
+  },
+  {
+    "kumaoni": "उच्येडि खाण |",
+    "hindi": "बहुत परेशान करना",
+    "category": "culture"
+  },
+  {
+    "kumaoni": "` उताण",
+    "hindi": "= पर फेला कर पीठ के बल लेटना।",
+    "category": "culture"
+  },
+  {
+    "kumaoni": "उघारण",
+    "hindi": "तोडना गिराना",
+    "category": "culture"
+  },
+  {
+    "kumaoni": "कहड़ाना",
+    "hindi": "= कोवे की कडक इ",
+    "category": "culture"
+  },
+  {
+    "kumaoni": "केकड योल",
+    "hindi": "अपनी ही बात पर अड़े रहना",
+    "category": "culture"
+  },
+  {
+    "kumaoni": "खकोलण",
+    "hindi": "केवल पानी से बर्तेन या कपड़े धोना",
+    "category": "culture"
+  },
+  {
+    "kumaoni": "खितीण",
+    "hindi": "गिर जाना",
+    "category": "culture"
+  },
+  {
+    "kumaoni": "खिरोलण",
+    "hindi": "फुरेदना",
+    "category": "culture"
+  },
+  {
+    "kumaoni": "खडण",
+    "hindi": "खोदना",
+    "category": "culture"
+  },
+  {
+    "kumaoni": "खनण",
+    "hindi": "खोदना",
+    "category": "culture"
+  },
+  {
+    "kumaoni": "गच्छ्यूण",
+    "hindi": "गूथना",
+    "category": "culture"
+  },
+  {
+    "kumaoni": "गु जीण गोजीण",
+    "hindi": "लड़ना",
+    "category": "culture"
+  },
+  {
+    "kumaoni": "गोठयंण “",
+    "hindi": "गोठ में बन्द करना",
+    "category": "culture"
+  },
+  {
+    "kumaoni": "गिजूण",
+    "hindi": "= मुंह बनाकर चिह्ना",
+    "category": "culture"
+  }
+]
