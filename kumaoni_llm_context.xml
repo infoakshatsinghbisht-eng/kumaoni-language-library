@@ -208,11 +208,11 @@ epic = kumaoni.literature.get_epic("malushahi")
                 </facade>
                 <facade name="kumaoni.flora">
                     <methods>list(category=None), get(id), search(query), stats()</methods>
-                    <description>43 sacred Himalayan trees, oaks, alpine flowers, and medicinal herbs (Banjh, Buransh, Brahmakamal, Deodar, Panya, Jatamansi, Kafal).</description>
+                    <description>71 sacred Himalayan trees, oaks, alpine flowers, and medicinal herbs (Banjh, Buransh, Brahmakamal, Deodar, Panya, Utees, Semal, Bhaang, Sisoon, Gaderi).</description>
                 </facade>
                 <facade name="kumaoni.rituals">
                     <methods>list(category=None), get(id), search(query), stats()</methods>
-                    <description>43 temple implements, sacred markings, hawan vessels, and votive items (Pithyan, Akshat, Rot, Ghant, Hawankund, Hurka, Naula).</description>
+                    <description>69 temple implements, sacred markings, hawan vessels, and votive items (Pithyan, Akshat, Rot, Ghant, Deewa, Baati, Kapoor, Pattal, Jantar, Nath, Dhaar).</description>
                 </facade>
                 <facade name="kumaoni.folklore">
                     <methods>songs(), song(id), holi_songs(), holi_song(id), sources(), stats()</methods>

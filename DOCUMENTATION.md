@@ -54,7 +54,7 @@ kumaoni/
 ├── constants.py          # Enums (Tense, Gender, Dialect), calendar constants
 ├── phonetics.py          # Devanagari <-> Latin transliteration & normalizer
 ├── numbers/              # Integer to words, customary fractions, ordinals, numerals
-├── lexicon/              # 1,355+ lemmas, 300,500+ full-form corpus, Akhaan, Aana
+├── lexicon/              # 2,380+ lemmas, 515,744+ full-form corpus, Akhaan, Aana
 │   ├── dictionary.py     # Lexicon search & lookup
 │   ├── morphology.py     # FullFormCorpus & Morphological Analyzer
 │   └── data/             # Curated JSON databases (words, proverbs, phrases, riddles)
@@ -515,7 +515,7 @@ for f in incense_flora:
 
 # 5. Registry statistics
 print(kumaoni.flora.stats())
-# {'total_plants': 43, 'categories': {'Sacred & Ritual Tree': 11, 'Alpine Flower & Sacred Herb': 9, ...}}
+# {'total_plants': 71, 'categories': {'Sacred & Ritual Tree': 12, 'Alpine Flower & Sacred Herb': 11, 'Medicinal & Aromatic Flora': 11, 'Wild Mountain Fruit & Shrub': 20, 'Himalayan Forest Tree': 5, 'Sacred Grass & Agricultural Flora': 12}}
 ```
 
 #### 5f. Temple Implements & Sacred Ritual Objects (`kumaoni.rituals`)
@@ -529,7 +529,7 @@ print(f"Material: {pithyan.traditional_material}")
 print(f"Sacred Purpose: {pithyan.sacred_purpose}")
 print(f"Cultural Context: {pithyan.cultural_context}")
 
-# 2. Filter by ritual category ('Sacred Mark & Thread', 'Vessel & Offering Implement', 'Hawan & Fire Sacrifice', 'Temple Insignia & Votive Offering', 'Jagar & Oracle Implement', 'Sacred Water & Sanctum Feature')
+# 2. Filter by ritual category ('Sacred Mark & Thread', 'Vessel & Offering Implement', 'Hawan & Fire Sacrifice', 'Temple Insignia & Votive Offering', 'Jagar & Oracle Implement', 'Sacred Water & Sanctum Feature', 'Sacred Attire & Ornaments')
 hawan_items = kumaoni.rituals.list(category="Hawan")
 for item in hawan_items:
     print(f"{item.name_kumaoni} ({item.name_roman}) -> {item.sacred_purpose}")
@@ -548,7 +548,7 @@ print(f"Jagar rhythm: {hurka.name_kumaoni} and {kansi.name_kumaoni}")
 
 # 5. Ritual registry statistics
 print(kumaoni.rituals.stats())
-# {'total_ritual_items': 43, 'categories': {'Sacred Mark & Thread': 7, 'Vessel & Offering Implement': 9, ...}}
+# {'total_ritual_items': 69, 'categories': {'Sacred Mark & Thread': 10, 'Vessel & Offering Implement': 16, 'Hawan & Fire Sacrifice': 7, 'Temple Insignia & Votive Offering': 12, 'Jagar & Oracle Implement': 7, 'Sacred Attire & Ornaments': 8, 'Sacred Water & Sanctum Feature': 9}}
 ```
 
 #### 6. Traditional Folk Songs, Kumaoni Holi Music & Digital Archives (`kumaoni.folklore`)

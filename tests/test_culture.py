@@ -198,7 +198,7 @@ class TestCulture(unittest.TestCase):
     def test_flora(self):
         """Test Kumaoni ethnobotanical flora and sacred trees module."""
         plants = kumaoni.flora.list()
-        self.assertGreaterEqual(len(plants), 40)
+        self.assertGreaterEqual(len(plants), 70)
 
         # Banjh (Oak)
         banjh = kumaoni.flora.get("banjh")
@@ -223,22 +223,47 @@ class TestCulture(unittest.TestCase):
         panya = kumaoni.flora.get("panya")
         self.assertIsNotNone(panya)
 
+        # Newly added flora: Utees, Semal, Bhaang, Sisoon, Maalu, Gaderi, Linguda
+        utees = kumaoni.flora.get("utees")
+        self.assertIsNotNone(utees)
+        self.assertEqual(utees.scientific_name, "Alnus nepalensis")
+
+        semal = kumaoni.flora.get("semal")
+        self.assertIsNotNone(semal)
+        self.assertIn("सेमल", semal.name_kumaoni)
+
+        bhaang = kumaoni.flora.get("bhaang")
+        self.assertIsNotNone(bhaang)
+        self.assertIn("भांग", bhaang.name_kumaoni)
+
+        sisoon = kumaoni.flora.get("sisoon")
+        self.assertIsNotNone(sisoon)
+        self.assertIn("सिसूण", sisoon.name_kumaoni)
+
+        maalu = kumaoni.flora.get("maalu")
+        self.assertIsNotNone(maalu)
+        self.assertIn("माळू", maalu.name_kumaoni)
+
+        gaderi = kumaoni.flora.get("gaderi")
+        self.assertIsNotNone(gaderi)
+        self.assertIn("गड़ेरी", gaderi.name_kumaoni)
+
         # Category filter
         sacred_trees = kumaoni.flora.list(category="Sacred & Ritual Tree")
-        self.assertGreaterEqual(len(sacred_trees), 5)
+        self.assertGreaterEqual(len(sacred_trees), 10)
 
         # Search
         oak_search = kumaoni.flora.search("Oak")
         self.assertGreaterEqual(len(oak_search), 1)
 
         stats = kumaoni.flora.stats()
-        self.assertGreaterEqual(stats["total_plants"], 40)
+        self.assertGreaterEqual(stats["total_plants"], 70)
         self.assertGreaterEqual(len(stats["categories"]), 5)
 
     def test_rituals(self):
         """Test Kumaoni temple implements, vessels, and ritual objects module."""
         items = kumaoni.rituals.list()
-        self.assertGreaterEqual(len(items), 40)
+        self.assertGreaterEqual(len(items), 65)
 
         # Pithyan (Sacred tilak)
         pithyan = kumaoni.rituals.get("pithyan")
@@ -263,6 +288,35 @@ class TestCulture(unittest.TestCase):
         samidha = kumaoni.rituals.get("samidha")
         self.assertIsNotNone(samidha)
 
+        # Newly added temple items: Deewa, Baati, Kapoor, Pattal, Dona, Jantar, Nath, Dhaar
+        deewa = kumaoni.rituals.get("deewa")
+        self.assertIsNotNone(deewa)
+        self.assertIn("दीवा", deewa.name_kumaoni)
+
+        baati = kumaoni.rituals.get("baati")
+        self.assertIsNotNone(baati)
+
+        kapoor = kumaoni.rituals.get("kapoor")
+        self.assertIsNotNone(kapoor)
+
+        pattal = kumaoni.rituals.get("pattal")
+        self.assertIsNotNone(pattal)
+        self.assertIn("पत्तल", pattal.name_kumaoni)
+
+        dona = kumaoni.rituals.get("dona")
+        self.assertIsNotNone(dona)
+
+        jantar = kumaoni.rituals.get("jantar")
+        self.assertIsNotNone(jantar)
+
+        nath = kumaoni.rituals.get("nath")
+        self.assertIsNotNone(nath)
+        self.assertIn("नथ", nath.name_kumaoni)
+
+        dhaar = kumaoni.rituals.get("dhaar")
+        self.assertIsNotNone(dhaar)
+        self.assertIn("धार", dhaar.name_kumaoni)
+
         # Jagar implements: Hurka, Kansi ki Thali
         hurka = kumaoni.rituals.get("hurka")
         self.assertIsNotNone(hurka)
@@ -271,14 +325,14 @@ class TestCulture(unittest.TestCase):
 
         # Category filter
         vessels = kumaoni.rituals.list(category="Vessel")
-        self.assertGreaterEqual(len(vessels), 5)
+        self.assertGreaterEqual(len(vessels), 10)
 
         # Search
         justice_search = kumaoni.rituals.search("Chitai")
         self.assertGreaterEqual(len(justice_search), 2)
 
         stats = kumaoni.rituals.stats()
-        self.assertGreaterEqual(stats["total_ritual_items"], 40)
+        self.assertGreaterEqual(stats["total_ritual_items"], 65)
         self.assertGreaterEqual(len(stats["categories"]), 5)
 
     def test_calendar_and_seasons(self):
