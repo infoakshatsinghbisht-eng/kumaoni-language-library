@@ -19,7 +19,7 @@ Quick Start:
 Word(kumaoni='ईजा', roman='ija', english='mother', hindi='माँ', pos='noun', category='kinship')
 """
 
-__version__ = "1.1.0"
+__version__ = "1.2.0"
 __author__ = "Akshat Singh Bisht"
 __email__ = "infoakshatsinghbisht@gmail.com"
 __maintainer__ = "Akshat Singh Bisht"

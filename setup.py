@@ -9,12 +9,12 @@ if os.path.exists("README.md"):
 
 setup(
     name="kumaoni",
-    version="1.1.0",
+    version="1.2.0",
     author="Akshat Singh Bisht",
     author_email="infoakshatsinghbisht@gmail.com",
     maintainer="Akshat Singh Bisht",
     maintainer_email="infoakshatsinghbisht@gmail.com",
-    description="Kumaoni (कुमाऊँनी) Language Standard Library: 300,516+ Inflections, Voice AI, Speech Translation, and Himalayan Culture",
+    description="Kumaoni (कुमाऊँनी) Language Standard Library: 515,000+ Inflections, Voice AI, Sacred Flora & Temples, and Universal Translation",
     long_description=long_desc,
     long_description_content_type="text/markdown",
     url="https://github.com/infoakshatsinghbisht-eng/kumaoni-language-library",
